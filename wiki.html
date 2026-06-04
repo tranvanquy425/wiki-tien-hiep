@@ -414,6 +414,25 @@
   .char-modal h2{font-size:19px;}
   .char-modal .cm-head{margin-right:30px;}
 }
+
+/* ===== PATCH chống tràn viền + rớt chữ dọc (thẻ ngoài + modal) ===== */
+.char-modal{overflow:hidden;}
+.char-modal .cm-head{flex-wrap:wrap;}
+.char-modal .cm-tag{max-width:100%;white-space:normal !important;word-break:break-word;}
+.char-modal h2{word-break:normal;overflow-wrap:anywhere;}
+/* Thẻ ngoài: nhãn .tag dài KHÔNG được bóp tên xuống dọc */
+.char-card, .featured-char, .faction, .realm{overflow:hidden;}
+.char-card .tag, .featured-char .tag{white-space:normal;max-width:100%;display:inline-block;
+  overflow-wrap:break-word;word-break:break-word;}
+.char-card h3, .char-card h4, .featured-char h3, .faction h3, .realm h3{
+  overflow-wrap:break-word;word-break:normal;min-width:0;}
+/* Header thẻ nhân vật: cho phép tên + tag xuống hàng thay vì ép hẹp */
+.char-card .char-head, .char-card .card-head, .char-card .top{flex-wrap:wrap;min-width:0;}
+
+/* tên thẻ luôn 1 dòng riêng, nhãn xuống dưới (chống rớt dọc triệt để) */
+.char-head{align-items:flex-start !important;}
+.char-head h4{flex:1 1 100%;min-width:0;white-space:normal;}
+.char-head .tag{flex:0 0 auto;}
 </style>
 </head>
 <body>
