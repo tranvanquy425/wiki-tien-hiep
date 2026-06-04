@@ -3,8 +3,13 @@ name: Đồng bộ Wiki từ Drive
 # Workflow TỰ kéo dữ liệu wiki mới từ Apps Script (Google Drive) rồi commit vào repo.
 # Cloudflare Pages thấy commit -> tự deploy.
 #
-# QUAN TRỌNG: workflow KHÔNG đụng vào series_registry.json (file đó do người quản trị
-# giữ, chứa tiến độ chương). Workflow chỉ cập nhật data/<slug>.json — phần nội dung hay đổi.
+# Workflow cập nhật:
+#   - data/<slug>.json       (nội dung wiki từng bộ — phần hay đổi)
+#   - series_registry.json   (danh sách bộ + tiến độ wikiToiChuong — lấy từ ?action=list)
+#
+# series_registry.json: lấy slug/ten/tienDo... từ ?action=list, nhưng GIỮ LẠI các field ID
+# (wikiFolderId, readerJsonId, pdfFileId) từ bản registry cũ trong repo (khớp theo slug),
+# vì ?action=list không trả các ID đó. Chỉ ghi đè khi list hợp lệ (có mảng "series" không rỗng).
 
 on:
   schedule:
@@ -49,7 +54,60 @@ jobs:
           if [ -f data/tien-nghich.json ]; then
             cp data/tien-nghich.json wiki_data.json
           fi
-          echo "== Xong =="
+          echo "== Xong dữ liệu wiki =="
+
+      - name: Tạo script cập nhật registry
+        run: |
+          cat > update_registry.py <<'PY'
+          import json, sys, os
+
+          # 1) Đọc danh sách mới từ ?action=list (đã tải vào registry_remote.tmp)
+          try:
+              remote = json.load(open('registry_remote.tmp', encoding='utf-8'))
+          except Exception as e:
+              print("  !! list tra ve khong phai JSON hop le:", e)
+              sys.exit(1)
+          series = remote.get('series')
+          if not isinstance(series, list) or len(series) == 0:
+              print("  !! list thieu mang 'series' hop le - bo qua")
+              sys.exit(1)
+
+          # 2) Đọc registry cũ trong repo (nếu có) để giữ lại các field ID
+          old_by_slug = {}
+          if os.path.exists('series_registry.json'):
+              try:
+                  old = json.load(open('series_registry.json', encoding='utf-8'))
+                  for s in old.get('series', []):
+                      if s.get('slug'):
+                          old_by_slug[s['slug']] = s
+              except Exception as e:
+                  print("  (registry cu khong doc duoc, bo qua merge ID):", e)
+
+          # 3) Merge: ưu tiên dữ liệu mới; bổ sung ID từ bản cũ nếu list không có
+          KEEP = ('wikiFolderId', 'readerJsonId', 'pdfFileId')
+          for s in series:
+              old = old_by_slug.get(s.get('slug'), {})
+              for k in KEEP:
+                  if not s.get(k) and old.get(k):
+                      s[k] = old[k]
+
+          json.dump({'series': series}, open('series_registry.json', 'w', encoding='utf-8'),
+                    ensure_ascii=False, indent=2)
+          print("  OK: series_registry.json da cap nhat (%d bo)" % len(series))
+          PY
+          echo "Đã tạo update_registry.py"
+
+      - name: Cập nhật series_registry.json (tiến độ chương) từ ?action=list
+        run: |
+          echo "  Kéo ?action=list -> registry..."
+          curl -sSL "${WIKI_SYNC_URL}?action=list" -o registry_remote.tmp || true
+          if python3 update_registry.py; then
+            echo "  registry cập nhật xong"
+          else
+            echo "  !! Giữ nguyên series_registry.json cũ"
+          fi
+          rm -f registry_remote.tmp update_registry.py
+          echo "== Xong registry =="
 
       - name: Commit nếu có thay đổi
         run: |
@@ -60,7 +118,7 @@ jobs:
             exit 0
           fi
           git add -A
-          git commit -m "Tự đồng bộ wiki từ Drive ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git commit -m "Tự đồng bộ wiki + registry từ Drive ($(date -u '+%Y-%m-%d %H:%M UTC'))"
           # Thử push, nếu bị từ chối thì rebase lên bản mới nhất rồi push lại (tối đa 5 lần)
           for i in 1 2 3 4 5; do
             if git push origin HEAD:main; then
