@@ -459,6 +459,24 @@
 .gs-item .gs-snip mark{background:rgba(212,175,110,.28);color:var(--cream,#e8dcc2);padding:0 2px;border-radius:2px;}
 .gs-empty{text-align:center;color:var(--cream-faint,#9a8c74);font-style:italic;padding:10px;}
 @media(max-width:520px){.gsearch-results,.gsearch-wrap,.gsearch-hint{max-width:100%;}}
+
+/* ===== Volume cards (cốt truyện mặc định theo Quyển) ===== */
+.volume-wrap{display:flex;flex-direction:column;gap:16px;margin-bottom:8px;}
+.volume-card{background:var(--ink-elev,#1f1813);border:1px solid rgba(212,175,110,.3);
+  border-radius:14px;padding:22px 22px 18px;cursor:pointer;transition:border-color .15s,transform .1s;}
+.volume-card:hover{border-color:var(--gold,#d4af6e);transform:translateY(-2px);}
+.volume-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:10px;}
+.volume-label{font-family:var(--mono,monospace);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold,#d4af6e);}
+.volume-range{color:var(--cream-faint,#9a8c74);}
+.volume-title{margin:4px 0 0;font-family:var(--serif-display,serif);font-size:21px;color:var(--gold-bright,#e8c98a);line-height:1.3;}
+.volume-count{flex:0 0 auto;font-family:var(--mono,monospace);font-size:11px;letter-spacing:1px;color:var(--cream-faint,#9a8c74);
+  border:1px solid rgba(212,175,110,.3);border-radius:6px;padding:4px 9px;}
+.volume-summary{font-size:14.5px;line-height:1.75;color:var(--cream,#e8dcc2);margin:0 0 12px;overflow-wrap:break-word;}
+.volume-ms{margin:0 0 14px;padding-left:20px;display:flex;flex-direction:column;gap:4px;}
+.volume-ms li{font-size:13px;line-height:1.55;color:var(--cream-faint,#b3a584);}
+.volume-cta{font-family:var(--serif-display,serif);font-size:13.5px;color:var(--gold,#d4af6e);
+  border-top:1px solid rgba(212,175,110,.18);padding-top:11px;}
+@media(max-width:520px){.volume-card{padding:18px 16px 15px;}.volume-title{font-size:18px;}}
 </style>
 </head>
 <body>
@@ -969,9 +987,30 @@ function renderCotTruyen() {
   rEl.innerHTML = '<option value="all">Toàn bộ chương đã ghi</option>' +
     d.ranges.map(r => `<option value="${r.value}">${r.label}</option>`).join('');
 
-  // Build list
-  document.getElementById('cotTruyenList').innerHTML =
-    d.chapters.map(c => `
+  // Build VOLUME cards (mặc định hiển thị — tóm tắt theo Quyển)
+  let volHtml = '';
+  if (VOLUME_LIST && VOLUME_LIST.length) {
+    volHtml = VOLUME_LIST.map(v => {
+      const cnt = d.chapters.filter(c => c.quyen === v.value).length;
+      const ms = (v.milestones||[]).map(m => `<li>${m}</li>`).join('');
+      return `
+      <div class="volume-card" onclick="(function(){var s=document.getElementById('cotTruyenFilter'); if(s){s.value='${v.value}'; s.dispatchEvent(new Event('change',{bubbles:true}));} window.scrollTo({top:0,behavior:'smooth'});})()">
+        <div class="volume-head">
+          <div>
+            <div class="volume-label">${v.label} · <span class="volume-range">${v.range}</span></div>
+            <h3 class="volume-title">${v.title||''}</h3>
+          </div>
+          <div class="volume-count">${cnt} mục</div>
+        </div>
+        <p class="volume-summary">${v.summary||''}</p>
+        ${ms ? `<ul class="volume-ms">${ms}</ul>` : ''}
+        <div class="volume-cta">Xem chi tiết từng chương →</div>
+      </div>`;
+    }).join('');
+  }
+
+  // Build CHAPTER cards (ẩn mặc định; hiện khi đã chọn Quyển/đợt hoặc tìm kiếm)
+  const chapHtml = d.chapters.map(c => `
       <div class="chapter-card searchable" data-quyen="${c.quyen}" data-range="${c.range}">
         <div class="num">${c.num}</div>
         <h3>${c.title}</h3>
@@ -980,6 +1019,34 @@ function renderCotTruyen() {
     `<div class="chapter-card placeholder">
       <div class="placeholder-text"><strong>Chương ${WIKI_DATA.meta.lastChapter + 1}+</strong><br>Đang cập nhật...<br><span style="font-size:11px;">${WIKI_DATA.meta.progressNote}</span></div>
     </div>`;
+
+  document.getElementById('cotTruyenList').innerHTML =
+    `<div class="volume-wrap" data-volume-wrap>${volHtml}</div>` + chapHtml;
+
+  // Đồng bộ trạng thái hiển thị ban đầu (mặc định: chỉ Quyển)
+  if (typeof syncCotTruyenMode === 'function') syncCotTruyenMode();
+}
+
+// Quyết định hiển thị: mặc định (chưa lọc) -> chỉ Quyển; đã lọc/tìm -> chỉ chương
+function syncCotTruyenMode() {
+  const view = document.querySelector('[data-view="cot-truyen"]');
+  if (!view) return;
+  const qSel = document.getElementById('cotTruyenFilter');
+  const rSel = document.getElementById('cotTruyenRangeFilter');
+  const search = view.querySelector('[data-search-input]');
+  const isDefault = (!qSel || qSel.value === 'all') && (!rSel || rSel.value === 'all') &&
+                    (!search || search.value.trim().length < 2);
+  const volWrap = view.querySelector('[data-volume-wrap]');
+  if (volWrap) volWrap.style.display = isDefault ? '' : 'none';
+  view.querySelectorAll('.chapter-card').forEach(c => {
+    c.style.display = isDefault ? 'none' : '';
+  });
+  // cập nhật bộ đếm "Hiển thị: N mục"
+  const rc = view.querySelector('[data-result-count]');
+  if (rc) {
+    if (isDefault) rc.textContent = (VOLUME_LIST ? VOLUME_LIST.length : 0) + ' quyển';
+    // khi đã lọc, hàm lọc gốc sẽ tự cập nhật số
+  }
 }
 
 function renderNhanVat() {
@@ -1236,6 +1303,7 @@ function showView(name) {
     const search = view.querySelector('[data-search-input]');
     if (search && search.value) { search.value = ''; runSearchFor(view); }
   }
+  if (name === 'cot-truyen' && typeof syncCotTruyenMode === 'function') syncCotTruyenMode();
   // Init reader khi lần đầu vào tab Đọc truyện
   if (name === 'doc-truyen' && typeof readerState !== 'undefined' && readerState.chapters.length === 0) {
     initReader();
@@ -1331,6 +1399,10 @@ function runSearchFor(view) {
   }
   if (resultCount) resultCount.textContent = visibleCount;
   if (noResults) noResults.classList.toggle('show', visibleCount === 0);
+  // Cốt truyện: mặc định hiện theo Quyển, có lọc/tìm thì hiện chương
+  if (view && view.dataset && view.dataset.view === 'cot-truyen' && typeof syncCotTruyenMode === 'function') {
+    syncCotTruyenMode();
+  }
 }
 
 document.querySelectorAll('[data-search-input]').forEach(input => {
@@ -1654,16 +1726,19 @@ let CHAR_DETAIL = {};   // normName -> char {name, detail:[{label,text}], ...}
 let CHAR_LIST = [];     // danh sách nhân vật để render thẻ (ưu tiên hơn Apps Script)
 let REALM_DETAIL = {}, ARTIFACT_DETAIL = {}, FACTION_DETAIL = {};
 let REALM_LIST = [], ARTIFACT_LIST = [], FACTION_LIST = [];
+let VOLUME_LIST = [];
 function _normCharName(s){ return (s||'').toLowerCase().replace(/[()\[\]]/g,'').replace(/\s+/g,' ').trim(); }
 async function _fetchJSON(path){
   try { const r = await fetch(path + '?v=' + Date.now(), { cache:'no-store' }); if(!r.ok) return null; return await r.json(); }
   catch(e){ return null; }
 }
 async function loadCharDetail() {
-  const [cj, rj, aj, fj] = await Promise.all([
+  const [cj, rj, aj, fj, vj] = await Promise.all([
     _fetchJSON('data/characters.json'), _fetchJSON('data/realms.json'),
-    _fetchJSON('data/artifacts.json'), _fetchJSON('data/factions.json')
+    _fetchJSON('data/artifacts.json'), _fetchJSON('data/factions.json'),
+    _fetchJSON('data/volumes.json')
   ]);
+  if (vj && Array.isArray(vj.volumes)) { VOLUME_LIST = vj.volumes; }
   if (cj && Array.isArray(cj.chars)) {
     CHAR_LIST = cj.chars;
     CHAR_DETAIL = {}; cj.chars.forEach(c => { CHAR_DETAIL[_normCharName(c.name)] = c; });
