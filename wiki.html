@@ -433,6 +433,32 @@
 .char-head{align-items:flex-start !important;}
 .char-head h4{flex:1 1 100%;min-width:0;white-space:normal;}
 .char-head .tag{flex:0 0 auto;}
+
+/* ===== Global search (trang chủ) ===== */
+.global-search-section{padding-top:6px;}
+.gsearch-wrap{position:relative;max-width:680px;margin:0 auto;}
+.gsearch-input{width:100%;box-sizing:border-box;padding:14px 44px 14px 18px;font-size:15px;
+  background:var(--ink-elev,#1f1813);color:var(--cream,#e8dcc2);
+  border:1px solid rgba(212,175,110,.35);border-radius:12px;font-family:inherit;outline:none;}
+.gsearch-input:focus{border-color:var(--gold,#d4af6e);}
+.gsearch-input::placeholder{color:var(--cream-faint,#9a8c74);opacity:.75;}
+.gsearch-clear{position:absolute;top:50%;right:12px;transform:translateY(-50%);background:none;border:none;
+  color:var(--gold,#d4af6e);font-size:24px;line-height:1;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .15s;}
+.gsearch-clear.show{opacity:.8;pointer-events:auto;}
+.gsearch-hint{max-width:680px;margin:8px auto 0;font-size:12.5px;color:var(--cream-faint,#9a8c74);text-align:center;opacity:.8;}
+.gsearch-results{max-width:680px;margin:14px auto 0;display:flex;flex-direction:column;gap:8px;}
+.gs-item{background:var(--ink-elev,#1f1813);border:1px solid var(--border-soft,rgba(212,175,110,.18));
+  border-radius:10px;padding:12px 14px;cursor:pointer;transition:border-color .15s,transform .1s;}
+.gs-item:hover{border-color:var(--gold-dim,rgba(212,175,110,.5));transform:translateY(-1px);}
+.gs-item .gs-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.gs-item .gs-kind{font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;border-radius:4px;
+  border:1px solid rgba(212,175,110,.4);color:var(--gold,#d4af6e);flex:0 0 auto;}
+.gs-item .gs-name{font-family:var(--serif-display,serif);font-size:16px;color:var(--gold-bright,#e8c98a);min-width:0;}
+.gs-item .gs-snip{margin:6px 0 0;font-size:13px;line-height:1.6;color:var(--cream-faint,#b3a584);
+  overflow-wrap:break-word;}
+.gs-item .gs-snip mark{background:rgba(212,175,110,.28);color:var(--cream,#e8dcc2);padding:0 2px;border-radius:2px;}
+.gs-empty{text-align:center;color:var(--cream-faint,#9a8c74);font-style:italic;padding:10px;}
+@media(max-width:520px){.gsearch-results,.gsearch-wrap,.gsearch-hint{max-width:100%;}}
 </style>
 </head>
 <body>
@@ -467,6 +493,15 @@
       <span class="dot"></span><span id="progressText">WIKI ĐANG XÂY DỰNG · ĐANG TẢI...</span>
     </div>
   </header>
+  <section class="entry-section global-search-section">
+    <div class="gsearch-wrap">
+      <input type="text" id="globalSearchInput" class="gsearch-input" autocomplete="off"
+        placeholder="Tìm nhanh: nhân vật, cảnh giới, pháp bảo, thế lực... (vd: Vương Lâm Tu Ma hải)">
+      <button class="gsearch-clear" id="globalSearchClear" aria-label="Xoá">×</button>
+    </div>
+    <div class="gsearch-hint" id="globalSearchHint">Gõ nhiều từ khoá để lọc theo giai đoạn — vd "Vương Lâm Tu Ma hải", "Kết Đan", "Đấu Tà phái".</div>
+    <div class="gsearch-results" id="globalSearchResults"></div>
+  </section>
   <section class="entry-section">
     <div id="homeSponsorCard"></div>
     <h2 class="entry-section-title">Khám phá theo chủ đề</h2>
@@ -1669,6 +1704,105 @@ function closeCharDetail() {
 }
 document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeCharDetail(); });
 
+// ===== GLOBAL SEARCH (tìm thông minh nhiều từ khoá, client-side) =====
+function _gsStrip(s){ return (s||'').toString().toLowerCase()
+  .normalize('NFD').replace(/[\u0300-\u036f]/g,'')  // bỏ dấu tiếng Việt
+  .replace(/đ/g,'d').replace(/[^a-z0-9\s]/g,' ').replace(/\s+/g,' ').trim(); }
+let GS_INDEX = null;
+function buildSearchIndex(){
+  const idx = [];
+  const push = (kind, kindLabel, opener, obj) => {
+    const parts = [obj.name];
+    (obj.detail||[]).forEach(d => { parts.push(d.label); parts.push(d.text); });
+    if (obj.blurb) parts.push(obj.blurb);
+    if (obj.role) parts.push(obj.role);
+    if (obj.tag) parts.push(obj.tag);
+    if (obj.typeLabel) parts.push(obj.typeLabel);
+    if (obj.cn) parts.push(obj.cn);
+    idx.push({ kind, kindLabel, opener, name:obj.name,
+      nameNorm:_gsStrip(obj.name), hay:_gsStrip(parts.join('  ')),
+      raw: parts.join('  '), obj });
+  };
+  (CHAR_LIST||[]).forEach(o => push('char','Nhân vật','openCharDetail',o));
+  (REALM_LIST||[]).forEach(o => push('realm','Cảnh giới','openRealmDetail',o));
+  (ARTIFACT_LIST||[]).forEach(o => push('artifact','Pháp bảo','openArtifactDetail',o));
+  (FACTION_LIST||[]).forEach(o => push('faction','Thế lực','openFactionDetail',o));
+  GS_INDEX = idx;
+}
+function _gsSnippet(raw, termsNorm, origTerms){
+  // tách câu an toàn (không dùng lookbehind cho tương thích trình duyệt)
+  const sentences = raw.replace(/([\.\!\?…;])\s+/g,'$1\u0001').split(/\u0001|\s{2,}/).filter(s=>s.trim().length>4);
+  let best='', bestScore=-1;
+  for(const s of sentences){
+    const sn=_gsStrip(s); let sc=0;
+    termsNorm.forEach(t=>{ if(t && sn.includes(t)) sc++; });
+    if(sc>bestScore){ bestScore=sc; best=s; }
+  }
+  best=(best||raw).trim();
+  if(best.length>200) best=best.slice(0,200)+'…';
+  let safe=best.replace(/</g,'&lt;');
+  // bôi vàng theo TỪ GỐC người dùng gõ (có dấu)
+  (origTerms||[]).forEach(t=>{
+    const tt=(t||'').trim(); if(tt.length<2) return;
+    try{
+      const re=new RegExp('('+tt.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig');
+      safe=safe.replace(re,'<mark>$1</mark>');
+    }catch(e){}
+  });
+  return safe;
+}
+function runGlobalSearch(q){
+  const box = document.getElementById('globalSearchResults');
+  const hint = document.getElementById('globalSearchHint');
+  const clearBtn = document.getElementById('globalSearchClear');
+  if(!box) return;
+  const query = (q||'').trim();
+  if(clearBtn) clearBtn.classList.toggle('show', query.length>0);
+  if(!query){ box.innerHTML=''; if(hint) hint.style.display=''; return; }
+  if(hint) hint.style.display='none';
+  if(!GS_INDEX) buildSearchIndex();
+  const terms = _gsStrip(query).split(' ').filter(Boolean);
+  if(!terms.length){ box.innerHTML=''; return; }
+  const scored = [];
+  for(const it of GS_INDEX){
+    let score=0, matchedAll=true;
+    for(const t of terms){
+      const inName = it.nameNorm.includes(t);
+      const inHay = it.hay.includes(t);
+      if(inName) score+=10;
+      else if(inHay) score+=3;
+      else matchedAll=false;
+      // đếm số lần xuất hiện (thưởng nhẹ)
+      if(inHay){ const c=it.hay.split(t).length-1; score+=Math.min(c,5)*0.4; }
+    }
+    if(matchedAll && score>0){
+      // thưởng nếu tên khớp trọn 1 từ khoá (ưu tiên hồ sơ chính)
+      scored.push({it, score});
+    }
+  }
+  scored.sort((a,b)=> b.score-a.score || a.it.name.length-b.it.name.length);
+  const top = scored.slice(0,30);
+  if(!top.length){ box.innerHTML='<div class="gs-empty">Không tìm thấy kết quả cho "'+query.replace(/</g,'&lt;')+'". Thử ít từ khoá hơn.</div>'; return; }
+  const origTerms = query.split(/\s+/).filter(Boolean);
+  box.innerHTML = top.map(({it})=>{
+    const snip=_gsSnippet(it.raw, terms, origTerms);
+    const nm = it.name.replace(/'/g,"\\'").replace(/</g,'&lt;');
+    return '<div class="gs-item" onclick="'+it.opener+'(\''+nm+'\')">'+
+      '<div class="gs-row"><span class="gs-kind">'+it.kindLabel+'</span>'+
+      '<span class="gs-name">'+it.name.replace(/</g,'&lt;')+'</span></div>'+
+      '<p class="gs-snip">'+snip+'</p></div>';
+  }).join('');
+}
+function initGlobalSearch(){
+  const inp=document.getElementById('globalSearchInput');
+  const clr=document.getElementById('globalSearchClear');
+  if(!inp) return;
+  buildSearchIndex();
+  let t=null;
+  inp.addEventListener('input', ()=>{ clearTimeout(t); t=setTimeout(()=>runGlobalSearch(inp.value),120); });
+  if(clr) clr.addEventListener('click', ()=>{ inp.value=''; runGlobalSearch(''); inp.focus(); });
+}
+
 async function initWiki() {
   applySeriesIdentity(); // điền hero/footer theo default trước, cập nhật lại sau khi có data
 
@@ -1686,6 +1820,7 @@ async function initWiki() {
           await loadCharDetail();
           applySeriesIdentity();
           renderAll();
+          initGlobalSearch();
           hashChanged();
           return; // Xong — không gọi Apps Script
         }
@@ -1707,6 +1842,7 @@ async function initWiki() {
   await loadCharDetail();
   applySeriesIdentity();
   renderAll();
+  initGlobalSearch();
   hashChanged();
 }
 
