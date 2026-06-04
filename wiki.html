@@ -919,7 +919,20 @@ function renderCotTruyen() {
 }
 
 function renderNhanVat() {
-  const d = WIKI_DATA.nhanVat;
+  let d = WIKI_DATA.nhanVat;
+  // Ưu tiên dữ liệu chi tiết (characters.json) — sạch, không trùng, không lẫn metadata
+  if (CHAR_LIST && CHAR_LIST.length) {
+    const feats = CHAR_LIST.filter(c => c.roleFilter === 'main').map(c => ({
+      name:c.name, portrait:c.portrait||c.name.charAt(0), role:c.role||'Nhân vật chính',
+      desc:c.blurb||'', keypoints:[], affiliation:c.affiliation||'chinh', roleFilter:c.roleFilter||'main'
+    }));
+    const others = CHAR_LIST.filter(c => c.roleFilter !== 'main').map(c => ({
+      name:c.name, role:c.role||'Nhân vật phụ', blurb:c.blurb||'',
+      tag:c.tag||'', tagClass:c.tagClass||'tag-neutral',
+      affiliation:c.affiliation||'khac', roleFilter:c.roleFilter||'neutral'
+    }));
+    d = { featured:feats, chars:others, affiliations:(WIKI_DATA.nhanVat&&WIKI_DATA.nhanVat.affiliations)||[{value:'all',label:'Tất cả môn phái'}] };
+  }
   const total = d.featured.length + d.chars.length;
   document.getElementById('nhanVatMeta').innerHTML =
     `Hiện có: <strong>${total} nhân vật</strong> · Ch.1–${WIKI_DATA.meta.lastChapter}`;
@@ -959,7 +972,7 @@ function renderTheLuc() {
   document.getElementById('theLucMeta').innerHTML =
     `Hiện có: <strong>${d.length} thế lực</strong>`;
   document.getElementById('theLucList').innerHTML = d.map(f => `
-    <div class="faction searchable" data-type="${f.type}">
+    <div class="faction searchable char-clickable" data-type="${f.type}" onclick="openFactionDetail('${(f.name||'').replace(/'/g,"\\'")}')">
       <div class="name-cn">${f.nameCn}</div>
       <h3>${f.name}</h3>
       <div class="type">${f.typeLabel}</div>
@@ -974,7 +987,7 @@ function renderCanhGioi() {
     `Hiện biết: <strong>${d.realms.length} cảnh giới</strong> · ${known} đã rõ, ${d.realms.length - known} chưa rõ`;
   document.getElementById('canhGioiNote').textContent = d.note;
   document.getElementById('canhGioiList').innerHTML = d.realms.map(r => `
-    <div class="realm ${r.status} searchable" data-status="${r.status}">
+    <div class="realm ${r.status} searchable char-clickable" data-status="${r.status}" onclick="openRealmDetail('${(r.name||'').replace(/'/g,"\\'")}')">
       <div class="realm-num">${r.num}</div>
       <div class="realm-body">
         <h3>${r.name} <span class="cn">${r.cn}</span></h3>
@@ -985,14 +998,21 @@ function renderCanhGioi() {
 }
 
 function renderPhapBao() {
-  const d = WIKI_DATA.phapBao;
+  let d = WIKI_DATA.phapBao;
+  if (ARTIFACT_LIST && ARTIFACT_LIST.length) {
+    const items = ARTIFACT_LIST.map(a => ({ name:a.name, category:a.category||'baovat',
+      categoryLabel:a.categoryLabel||'Mục', desc:a.blurb||'' }));
+    const feat = d && d.featured ? d.featured : { name:items[0]?items[0].name:'—', english:'', category:'baovat',
+      desc:items[0]?items[0].desc:'', left:{title:'',items:[]}, right:{title:'',items:[]} };
+    d = { featured:feat, items:items };
+  }
   const total = d.items.length + 1;
   document.getElementById('phapBaoMeta').innerHTML =
     `Hiện có: <strong>${total} mục</strong> · Cập nhật Ch.1–${WIKI_DATA.meta.lastChapter}`;
 
   const f = d.featured;
   let html = `
-    <div class="featured-artifact searchable" data-category="${f.category}">
+    <div class="featured-artifact searchable char-clickable" data-category="${f.category}" onclick="openArtifactDetail('${(f.name||'').replace(/'/g,"\\'")}')">
       <h3>${f.name}</h3>
       <p class="english">${f.english}</p>
       <p style="color:var(--cream);font-size:15.5px;line-height:1.7;">${f.desc}</p>
@@ -1003,7 +1023,7 @@ function renderPhapBao() {
     </div>
     <div class="artifact-grid">` +
     d.items.map(item => `
-      <div class="artifact-card searchable" data-category="${item.category}">
+      <div class="artifact-card searchable char-clickable" data-category="${item.category}" onclick="openArtifactDetail('${(item.name||'').replace(/'/g,"\\'")}')">
         <h4>${item.name}</h4>
         <div class="category">${item.categoryLabel}</div>
         <p class="desc">${item.desc}</p>
@@ -1546,40 +1566,54 @@ function applyWikiData(data) {
   }
 }
 
-// === CHI TIẾT NHÂN VẬT (đọc data/characters.json) ===
-let CHAR_DETAIL = {};   // normName -> char object {name, detail:[{label,text}], ...}
+// === DỮ LIỆU CHI TIẾT (đọc data/*.json) ===
+let CHAR_DETAIL = {};   // normName -> char {name, detail:[{label,text}], ...}
+let CHAR_LIST = [];     // danh sách nhân vật để render thẻ (ưu tiên hơn Apps Script)
+let REALM_DETAIL = {}, ARTIFACT_DETAIL = {}, FACTION_DETAIL = {};
+let REALM_LIST = [], ARTIFACT_LIST = [], FACTION_LIST = [];
 function _normCharName(s){ return (s||'').toLowerCase().replace(/[()\[\]]/g,'').replace(/\s+/g,' ').trim(); }
+async function _fetchJSON(path){
+  try { const r = await fetch(path + '?v=' + Date.now(), { cache:'no-store' }); if(!r.ok) return null; return await r.json(); }
+  catch(e){ return null; }
+}
 async function loadCharDetail() {
-  try {
-    const r = await fetch('data/characters.json?v=' + Date.now(), { cache: 'no-store' });
-    if (!r.ok) return;
-    const j = await r.json();
-    if (!j || !Array.isArray(j.chars)) return;
-    CHAR_DETAIL = {};
-    j.chars.forEach(c => { CHAR_DETAIL[_normCharName(c.name)] = c; });
-  } catch (e) { /* không có file chi tiết — bỏ qua, vẫn hiện thẻ tóm tắt */ }
-}
-function openCharDetail(name) {
-  const c = CHAR_DETAIL[_normCharName(name)];
-  const backdrop = document.getElementById('charModal');
-  const bodyEl = document.getElementById('charModalBody');
-  if (!backdrop || !bodyEl) return;
-  if (!c) {
-    bodyEl.innerHTML = '<h2>' + name + '</h2><p class="cm-empty">Chưa có hồ sơ chi tiết cho nhân vật này.</p>';
-  } else {
-    const tagHtml = c.tag ? '<span class="cm-tag ' + (c.tagClass||'') + '">' + c.tag + '</span>' : '';
-    const roleHtml = c.role ? '<div class="cm-role">' + c.role + '</div>' : '';
-    const secHtml = (c.detail||[]).map(d =>
-      '<div class="cm-sec"><h4>' + d.label + '</h4><p>' + (d.text||'').replace(/</g,'&lt;') + '</p></div>'
-    ).join('');
-    bodyEl.innerHTML =
-      '<div class="cm-head"><div class="cm-portrait">' + (c.portrait||c.name.charAt(0)) + '</div>' +
-      '<div><h2>' + c.name + '</h2>' + roleHtml + tagHtml + '</div></div>' +
-      (secHtml || '<p class="cm-empty">Chưa có nội dung chi tiết.</p>');
+  const [cj, rj, aj, fj] = await Promise.all([
+    _fetchJSON('data/characters.json'), _fetchJSON('data/realms.json'),
+    _fetchJSON('data/artifacts.json'), _fetchJSON('data/factions.json')
+  ]);
+  if (cj && Array.isArray(cj.chars)) {
+    CHAR_LIST = cj.chars;
+    CHAR_DETAIL = {}; cj.chars.forEach(c => { CHAR_DETAIL[_normCharName(c.name)] = c; });
   }
-  backdrop.classList.add('open');
-  document.body.style.overflow = 'hidden';
+  if (rj && Array.isArray(rj.realms)) {
+    REALM_LIST = rj.realms; REALM_DETAIL = {}; rj.realms.forEach(r => REALM_DETAIL[_normCharName(r.name)] = r);
+  }
+  if (aj && Array.isArray(aj.artifacts)) {
+    ARTIFACT_LIST = aj.artifacts; ARTIFACT_DETAIL = {}; aj.artifacts.forEach(a => ARTIFACT_DETAIL[_normCharName(a.name)] = a);
+  }
+  if (fj && Array.isArray(fj.factions)) {
+    FACTION_LIST = fj.factions; FACTION_DETAIL = {}; fj.factions.forEach(f => FACTION_DETAIL[_normCharName(f.name)] = f);
+  }
 }
+// Mở modal chi tiết dùng chung cho mọi loại (nhân vật/cảnh giới/pháp bảo/thế lực)
+function _openDetailObj(c, fallbackName){
+  const backdrop=document.getElementById('charModal'), bodyEl=document.getElementById('charModalBody');
+  if(!backdrop||!bodyEl) return;
+  if(!c){ bodyEl.innerHTML='<h2>'+(fallbackName||'')+'</h2><p class="cm-empty">Chưa có hồ sơ chi tiết.</p>'; }
+  else{
+    const tag=c.tag?('<span class="cm-tag '+(c.tagClass||'')+'">'+c.tag+'</span>'):'';
+    const sub=c.role||c.typeLabel||(c.cn?('<span style=\'opacity:.7\'>'+c.cn+'</span>'):'')||'';
+    const portrait=c.portrait||c.cn||(c.name||'?').charAt(0);
+    const secs=(c.detail||[]).map(d=>'<div class="cm-sec"><h4>'+d.label+'</h4><p>'+(d.text||'').replace(/</g,'&lt;')+'</p></div>').join('');
+    bodyEl.innerHTML='<div class="cm-head"><div class="cm-portrait">'+portrait+'</div><div><h2>'+(c.name||'')+'</h2>'+
+      (sub?('<div class="cm-role">'+sub+'</div>'):'')+tag+'</div></div>'+(secs||'<p class="cm-empty">Chưa có nội dung chi tiết.</p>');
+  }
+  backdrop.classList.add('open'); document.body.style.overflow='hidden';
+}
+function openCharDetail(name){ _openDetailObj(CHAR_DETAIL[_normCharName(name)], name); }
+function openRealmDetail(name){ _openDetailObj(REALM_DETAIL[_normCharName(name)], name); }
+function openArtifactDetail(name){ _openDetailObj(ARTIFACT_DETAIL[_normCharName(name)], name); }
+function openFactionDetail(name){ _openDetailObj(FACTION_DETAIL[_normCharName(name)], name); }
 function closeCharDetail() {
   const b = document.getElementById('charModal');
   if (b) b.classList.remove('open');
