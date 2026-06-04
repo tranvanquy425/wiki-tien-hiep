@@ -1,18 +1,23 @@
 name: Đồng bộ Wiki từ Drive
 
-# Workflow này TỰ kéo dữ liệu wiki mới từ Apps Script (Google Drive)
-# rồi commit vào repo. Cloudflare Pages thấy commit -> tự deploy. Hết kéo-thả tay.
+# Workflow TỰ kéo dữ liệu wiki mới từ Apps Script (Google Drive) rồi commit vào repo.
+# Cloudflare Pages thấy commit -> tự deploy.
+#
+# QUAN TRỌNG: workflow KHÔNG đụng vào series_registry.json (file đó do người quản trị
+# giữ, chứa tiến độ chương). Workflow chỉ cập nhật data/<slug>.json — phần nội dung hay đổi.
 
 on:
-  # 1) Chạy theo lịch: mỗi 6 tiếng (giờ UTC). Đổi cron nếu muốn.
   schedule:
-    - cron: "0 */6 * * *"
-  # 2) Bấm tay nút "Run workflow" trên tab Actions của GitHub (chạy ngay khi vừa làm xong chương).
-  workflow_dispatch:
+    - cron: "0 */6 * * *"      # tự chạy mỗi 6 tiếng (UTC)
+  workflow_dispatch:            # cho phép bấm tay "Run workflow"
 
-# Cho phép workflow ghi (commit) vào repo
 permissions:
   contents: write
+
+env:
+  WIKI_SYNC_URL: "https://script.google.com/macros/s/AKfycbyzXMt5JHBTVeJLvBICosy9gvHeUwjZf0UwYHHKWcvNNtf-OGCs_vvpphT6ORVH04qW/exec"
+  # Danh sách slug các bộ (cách nhau bởi dấu cách). Thêm bộ mới -> thêm slug vào đây.
+  SLUGS: "tien-nghich"
 
 jobs:
   sync:
@@ -21,70 +26,30 @@ jobs:
       - name: Lấy code repo
         uses: actions/checkout@v4
 
-      - name: Kéo dữ liệu mới từ Apps Script
-        env:
-          # URL Apps Script Wiki Sync (giữ nguyên sau mỗi New version). Đổi tại đây nếu deploy mới.
-          WIKI_SYNC_URL: "https://script.google.com/macros/s/AKfycbyzXMt5JHBTVeJLvBICosy9gvHeUwjZf0UwYHHKWcvNNtf-OGCs_vvpphT6ORVH04qW/exec"
+      - name: Kéo dữ liệu wiki từng bộ
         run: |
           set -e
-          echo "== Bắt đầu đồng bộ =="
-
-          # B1: clear cache server cho từng bộ (để Apps Script sinh JSON mới nhất)
-          # B2: tải registry động (?action=list) -> ghi đè series_registry.json
-          # B3: với mỗi slug trong registry, tải ?action=download -> data/<slug>.json
-
           mkdir -p data
-
-          echo "-- Tải registry (action=list) --"
-          # action=list trả mảng bộ; lưu tạm
-          curl -sSL "${WIKI_SYNC_URL}?action=list" -o _list_raw.json
-          echo "Nội dung list (200 ký tự đầu):"
-          head -c 200 _list_raw.json; echo
-
-          # Apps Script có thể trả {"series":[...]} hoặc trả thẳng [...]; chuẩn hóa về series_registry.json
-          python3 - <<'PY'
-          import json, sys
-          raw = open("_list_raw.json", encoding="utf-8").read().strip()
-          data = json.loads(raw)
-          # Chuẩn hóa: luôn có khóa "series"
-          if isinstance(data, list):
-              out = {"series": data}
-          elif isinstance(data, dict) and "series" in data:
-              out = data
-          elif isinstance(data, dict):
-              # phòng trường hợp trả về dạng khác có khóa lạ
-              out = {"series": data.get("data", data.get("list", []))}
-          else:
-              print("Định dạng list lạ, dừng để tránh ghi hỏng", file=sys.stderr); sys.exit(1)
-          with open("series_registry.json","w",encoding="utf-8") as f:
-              json.dump(out, f, ensure_ascii=False, indent=2)
-          slugs = [s.get("slug") for s in out["series"] if s.get("slug")]
-          open("_slugs.txt","w",encoding="utf-8").write("\n".join(slugs))
-          print("Các slug:", slugs)
-          PY
-
-          echo "-- Tải dữ liệu wiki từng bộ --"
-          while IFS= read -r slug; do
-            [ -z "$slug" ] && continue
-            echo "  • clearCache: $slug"
+          for slug in $SLUGS; do
+            echo "== Bộ: $slug =="
+            echo "  clearCache..."
             curl -sSL "${WIKI_SYNC_URL}?action=clearCache&series=${slug}" -o /dev/null || true
-            echo "  • download:   $slug -> data/${slug}.json"
-            curl -sSL "${WIKI_SYNC_URL}?action=download&series=${slug}" -o "data/${slug}.json"
-            # Kiểm tra file tải về có phải JSON hợp lệ không (tránh ghi đè bằng trang lỗi/login)
-            if ! python3 -c "import json,sys; json.load(open('data/${slug}.json',encoding='utf-8'))" 2>/dev/null; then
-              echo "    !! data/${slug}.json KHÔNG phải JSON hợp lệ — KHÔI PHỤC bản cũ, bỏ qua bộ này"
-              git checkout -- "data/${slug}.json" 2>/dev/null || rm -f "data/${slug}.json"
+            echo "  download -> data/${slug}.json"
+            curl -sSL "${WIKI_SYNC_URL}?action=download&series=${slug}" -o "data/${slug}.json.tmp"
+            # Chỉ ghi đè nếu file tải về là JSON hợp lệ (tránh ghi đè bằng trang lỗi/login)
+            if python3 -c "import json; json.load(open('data/${slug}.json.tmp',encoding='utf-8'))" 2>/dev/null; then
+              mv "data/${slug}.json.tmp" "data/${slug}.json"
+              echo "  OK: data/${slug}.json đã cập nhật"
+            else
+              echo "  !! Tải về KHÔNG phải JSON hợp lệ — giữ bản cũ, bỏ qua"
+              rm -f "data/${slug}.json.tmp"
             fi
-          done < _slugs.txt
-
+          done
           # Bản fallback cho tien-nghich (wiki.html thử thêm wiki_data.json ở gốc)
           if [ -f data/tien-nghich.json ]; then
             cp data/tien-nghich.json wiki_data.json
           fi
-
-          # Dọn file tạm
-          rm -f _list_raw.json _slugs.txt
-          echo "== Đồng bộ xong =="
+          echo "== Xong =="
 
       - name: Commit nếu có thay đổi
         run: |
@@ -96,5 +61,5 @@ jobs:
             git add -A
             git commit -m "Tự đồng bộ wiki từ Drive ($(date -u '+%Y-%m-%d %H:%M UTC'))"
             git push
-            echo "Đã push thay đổi -> Cloudflare Pages sẽ tự deploy."
+            echo "Đã push -> Cloudflare Pages sẽ tự deploy."
           fi
