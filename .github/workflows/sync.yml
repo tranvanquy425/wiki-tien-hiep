@@ -60,6 +60,8 @@ jobs:
           else
             git add -A
             git commit -m "Tự đồng bộ wiki từ Drive ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-            git push
+            # Đồng bộ với remote trước khi push (tránh lỗi 'fetch first' khi repo có commit mới)
+            git pull --rebase origin main || true
+            git push origin main
             echo "Đã push -> Cloudflare Pages sẽ tự deploy."
           fi
