@@ -57,11 +57,19 @@ jobs:
           git config user.email "wiki-sync-bot@users.noreply.github.com"
           if git diff --quiet; then
             echo "Không có thay đổi — bỏ qua commit."
-          else
-            git add -A
-            git commit -m "Tự đồng bộ wiki từ Drive ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-            # Đồng bộ với remote trước khi push (tránh lỗi 'fetch first' khi repo có commit mới)
-            git pull --rebase origin main || true
-            git push origin main
-            echo "Đã push -> Cloudflare Pages sẽ tự deploy."
+            exit 0
           fi
+          git add -A
+          git commit -m "Tự đồng bộ wiki từ Drive ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          # Thử push, nếu bị từ chối thì rebase lên bản mới nhất rồi push lại (tối đa 5 lần)
+          for i in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Đã push -> Cloudflare Pages sẽ tự deploy."
+              exit 0
+            fi
+            echo "Push bị từ chối (lần $i) — đồng bộ với remote rồi thử lại..."
+            git fetch origin main
+            git rebase origin/main || git rebase --abort
+          done
+          echo "Không push được sau 5 lần thử."
+          exit 1
