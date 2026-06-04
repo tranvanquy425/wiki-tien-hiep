@@ -1160,7 +1160,7 @@ function renderPhapBao() {
     `Hiện có: <strong>${total} mục</strong> · Cập nhật Ch.1–${WIKI_DATA.meta.lastChapter}`;
 
   const f = d.featured;
-  let html = !f ? '<div class="artifact-grid">' : `
+  const featuredHtml = f ? `
     <div class="featured-artifact searchable char-clickable" data-category="${f.category}" onclick="openArtifactDetail('${(f.name||'').replace(/'/g,"\\'")}')">
       <h3>${f.name}</h3>
       <p class="english">${f.english}</p>
@@ -1169,15 +1169,14 @@ function renderPhapBao() {
         <div><h4>${f.left.title}</h4><ul>${f.left.items.map(i => `<li>${i}</li>`).join('')}</ul></div>
         <div><h4>${f.right.title}</h4><ul>${f.right.items.map(i => `<li>${i}</li>`).join('')}</ul></div>
       </div>
-    </div>
-    <div class="artifact-grid">` +
-    d.items.map(item => `
+    </div>` : '';
+  const cardsHtml = d.items.map(item => `
       <div class="artifact-card searchable char-clickable" data-category="${item.category}" onclick="openArtifactDetail('${(item.name||'').replace(/'/g,"\\'")}')">
         <h4>${item.name}</h4>
         <div class="category">${item.categoryLabel}</div>
         <p class="desc">${item.desc}</p>
-      </div>`).join('') +
-    '</div>';
+      </div>`).join('');
+  const html = featuredHtml + '<div class="artifact-grid">' + cardsHtml + '</div>';
 
   document.getElementById('phapBaoList').innerHTML = html;
 }
