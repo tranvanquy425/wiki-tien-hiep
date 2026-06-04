@@ -1,3 +1,17 @@
 {
-  "series": []
+  "series": [
+    {
+      "slug": "tien-nghich",
+      "ten": "Tiên Nghịch",
+      "tenCn": "仙逆",
+      "tacGia": "Nhĩ Căn",
+      "hot": true,
+      "danhMuc": "Tu tiên",
+      "bia": "仙",
+      "tienDo": { "wikiToiChuong": 120, "tongChuong": 1976 },
+      "wikiFolderId": "1elKhIQaUT6PamQuP3J6G0sIjE8MNpINE",
+      "readerJsonId": "14ZSLHLsgzEJYZ-cpcChePE2ijToS3bP2",
+      "pdfFileId": ""
+    }
+  ]
 }
