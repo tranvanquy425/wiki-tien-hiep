@@ -8,7 +8,10 @@
       "hot": true,
       "danhMuc": "Tu tiên",
       "bia": "仙",
-      "tienDo": { "wikiToiChuong": 120, "tongChuong": 1976 },
+      "tienDo": {
+        "wikiToiChuong": 140,
+        "tongChuong": 1976
+      },
       "wikiFolderId": "1elKhIQaUT6PamQuP3J6G0sIjE8MNpINE",
       "readerJsonId": "14ZSLHLsgzEJYZ-cpcChePE2ijToS3bP2",
       "pdfFileId": ""
