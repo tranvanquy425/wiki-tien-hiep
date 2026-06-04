@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-06-04",
+  "volumes": [
+    {
+      "value": "q01",
+      "label": "Quyển 1",
+      "range": "Ch.1 – 100",
+      "title": "Phàm nhân khởi đầu & Bi kịch mất mát",
+      "summary": "Vương Lâm — một thiếu niên thôn quê tư chất tu tiên cực kém (tên mụ Thiết Trụ) — nhờ Tứ thúc nhường suất mà vào Hằng Nhạc phái. Bằng Nghịch Thiên châu (Mộng Cảnh gia tốc thời gian) và tâm cơ hơn người, hắn bù đắp thiên phú, âm thầm vượt lên: thắng tỷ thí Hằng Nhạc–Huyền Đạo, đánh bại Chu Bằng, về quê biến Chu Bằng thành khôi lỗi. Rời gia đình, hắn bước vào con đường tàn khốc hơn: giết người Đoạt Cơ lên Trúc Cơ, khai mở Cực cảnh, nhập ma đạo Thi Âm tông và đoạt xá. Đỉnh điểm bi kịch: gia tộc bị Đằng Hóa Nguyên (Đằng gia) tàn sát, Vương Lâm báo thù bất thành rồi 'bỏ mạng' cuối Ch.100 — trước khi được Tư Đồ Nam cứu một cách bí ẩn. Quyển 1 đặt nền cho mối thù truyền kiếp với Đằng gia và động lực xuyên suốt: sức mạnh để bảo vệ người thân.",
+      "milestones": [
+        "Vào Hằng Nhạc phái nhờ Nghịch Thiên châu",
+        "Đoạt Cơ lên Trúc Cơ, khai mở Cực cảnh",
+        "Nhập ma đạo, đoạt xá Thi Âm tông",
+        "Gia tộc bị Đằng gia diệt — 'bỏ mạng' cuối Ch.100"
+      ]
+    },
+    {
+      "value": "q02",
+      "label": "Quyển 2",
+      "range": "Ch.101 – 140 (đang cập nhật)",
+      "title": "Tái sinh nơi Vực Ngoại & Con đường Ma đạo",
+      "summary": "Vương Lâm tỉnh lại dưới dạng thôn hồn trong vết nứt Vực Ngoại, đoạt xá thân Mã Lương (đệ tử Chiến Thần Điện, Hỏa Phần quốc) và tu lại từ đầu ở một quốc gia xa lạ — nhưng lần này mang theo Cực cảnh thần thức (giết người vô hình bằng một chữ 'Tử') và lựa chọn dấn sâu vào ma đạo. Đợt Ch.121-140 là arc Tu Ma hải: hắn săn người đoạt Thiên Ly đan, thôn phệ Kim Đan, chạy vào Tu Ma hải cứu Lý Mộ Uyển và lập động phủ, rồi KẾT ĐAN THÀNH CÔNG (Ch.127) cùng kho vũ khí mới. Hắn lập uy diệt Đấu Tà phái, thảm sát Nam Đấu thành, nắm phái qua chưởng giáo bù nhìn; chia tay Lý Mộ Uyển; cuối cùng bị Bát Cực Ma Quân (Hóa Thần kỳ) ép vào giao ước dẫn tới một 'địa phương bí ẩn' sắp mở. Mục tiêu kết đan đã đạt; báo thù Đằng gia và con đường Kết Anh trở thành động lực kéo sang arc sau.",
+      "milestones": [
+        "Đoạt xá thân Mã Lương, khai mở Cực cảnh thần thức",
+        "Cứu Lý Mộ Uyển, vào Tu Ma hải lập động phủ",
+        "KẾT ĐAN THÀNH CÔNG (Ch.127)",
+        "Diệt Đấu Tà phái, lập uy Tu Ma hải",
+        "Giao ước với Bát Cực Ma Quân (Hóa Thần kỳ)"
+      ]
+    }
+  ]
+}
