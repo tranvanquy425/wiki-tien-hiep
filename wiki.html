@@ -1149,19 +1149,18 @@ function renderCanhGioi() {
 
 function renderPhapBao() {
   let d = WIKI_DATA.phapBao;
+  let useList = false;
   if (ARTIFACT_LIST && ARTIFACT_LIST.length) {
-    const items = ARTIFACT_LIST.map(a => ({ name:a.name, category:a.category||'baovat',
-      categoryLabel:a.categoryLabel||'Mục', desc:a.blurb||'' }));
-    const feat = d && d.featured ? d.featured : { name:items[0]?items[0].name:'—', english:'', category:'baovat',
-      desc:items[0]?items[0].desc:'', left:{title:'',items:[]}, right:{title:'',items:[]} };
-    d = { featured:feat, items:items };
+    useList = true;
+    d = { featured:null, items: ARTIFACT_LIST.map(a => ({ name:a.name, category:a.category||'baovat',
+      categoryLabel:a.categoryLabel||'Mục', desc:a.blurb||'' })) };
   }
-  const total = d.items.length + 1;
+  const total = d.items.length + (useList ? 0 : 1);
   document.getElementById('phapBaoMeta').innerHTML =
     `Hiện có: <strong>${total} mục</strong> · Cập nhật Ch.1–${WIKI_DATA.meta.lastChapter}`;
 
   const f = d.featured;
-  let html = `
+  let html = !f ? '<div class="artifact-grid">' : `
     <div class="featured-artifact searchable char-clickable" data-category="${f.category}" onclick="openArtifactDetail('${(f.name||'').replace(/'/g,"\\'")}')">
       <h3>${f.name}</h3>
       <p class="english">${f.english}</p>
