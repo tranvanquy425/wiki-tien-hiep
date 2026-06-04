@@ -1,0 +1,201 @@
+{
+  "updatedAt": "2026-06-04",
+  "count": 15,
+  "artifacts": [
+    {
+      "name": "Thôn phệ Kim Đan / Thông Phệ đại pháp",
+      "category": "congphap",
+      "categoryLabel": "Công pháp",
+      "status": "known",
+      "blurb": "Công pháp Tà Ma Tông cho phép hấp thu một thành linh lực của Kim Đan (qua đánh bại Kết Đan kỳ) → đẩy tu vi vọt lên. Vương Lâm dùng để lên Giả Đan cảnh giới",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Công pháp Tà Ma Tông cho phép hấp thu một thành linh lực của Kim Đan (qua đánh bại Kết Đan kỳ) → đẩy tu vi vọt lên. Vương Lâm dùng để lên Giả Đan cảnh giới (Ch.122). (Đại Tự Tại Tu La thuật hấp thu được hai thành nhưng Vương Lâm chưa tu chính.)"
+        }
+      ]
+    },
+    {
+      "name": "Luyện khí thuật Chiến Thần Điện (Điều - Dung - Hợp)",
+      "category": "congphap",
+      "categoryLabel": "Công pháp",
+      "status": "known",
+      "blurb": "Ba bước Điều - Dung - Hợp. Vương Lâm thử thất bại ở Ch.118 nhưng đến Ch.127 đã thành thạo — phá vô số thú cốt cốt hải để luyện Phiên Ưng lô và Thủy tinh phi",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Ba bước Điều - Dung - Hợp. Vương Lâm thử thất bại ở Ch.118 nhưng đến Ch.127 đã thành thạo — phá vô số thú cốt cốt hải để luyện Phiên Ưng lô và Thủy tinh phi kiếm."
+        }
+      ]
+    },
+    {
+      "name": "Vạn Ma Bách Nhật Tru Sát Lệnh",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "known",
+      "blurb": "Lệnh bài thượng cổ. Cơ chế: kẻ giết người mở lệnh sẽ bị truy sát 100 ngày (trên đầu hiện chữ đỏ máu \"Tru/Diệt\" làm dấu); ai giết được kẻ bị truy trong 100 n",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Lệnh bài thượng cổ. Cơ chế: kẻ giết người mở lệnh sẽ bị truy sát 100 ngày (trên đầu hiện chữ đỏ máu \"Tru/Diệt\" làm dấu); ai giết được kẻ bị truy trong 100 ngày sẽ đoạt toàn bộ tu vi kẻ mở lệnh qua \"tu đan\". Nếu sống qua 100 ngày, chữ chuyển xám trắng và người bị truy đoạt được tu vi kẻ mở lệnh. Tiễn Khôn dùng để dọa Vương Lâm; Vương Lâm vẫn giết hắn rồi trốn 100 ngày trong Mộng Cảnh."
+        }
+      ]
+    },
+    {
+      "name": "Tu đan",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "known",
+      "blurb": "Kết tinh tổng tu vi của kẻ mở Tru Sát Lệnh, hình thành sau khi người bị truy sống qua 100 ngày (Ch.138). Vương Lâm cất tu đan của Tiễn Khôn để dùng khi Kết",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Kết tinh tổng tu vi của kẻ mở Tru Sát Lệnh, hình thành sau khi người bị truy sống qua 100 ngày (Ch.138). Vương Lâm cất tu đan của Tiễn Khôn để dùng khi Kết Anh."
+        }
+      ]
+    },
+    {
+      "name": "Thiên Ly đan",
+      "category": "dandung",
+      "categoryLabel": "Đan dược",
+      "status": "known",
+      "blurb": "Đan tăng tỷ lệ kết đan thành công. Động cơ cốt lõi của Vương Lâm trong tuyến Tuyên Vũ quốc (Ch.121). Lý Mộ Uyển luyện được (lần hai dùng Ma Huyết đằng thành",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Đan tăng tỷ lệ kết đan thành công. Động cơ cốt lõi của Vương Lâm trong tuyến Tuyên Vũ quốc (Ch.121). Lý Mộ Uyển luyện được (lần hai dùng Ma Huyết đằng thành công) — viên đan trực tiếp giúp Vương Lâm kết đan giữa vòng vây (Ch.127)."
+        }
+      ]
+    },
+    {
+      "name": "Lập Anh đan",
+      "category": "dandung",
+      "categoryLabel": "Đan dược",
+      "status": "known",
+      "blurb": "Đan cực hiếm tăng tỷ lệ Kết Anh (Kết Đan → Nguyên Anh). Bát Cực Ma Quân dùng làm mồi nhử trong giao ước (Ch.140).",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Đan cực hiếm tăng tỷ lệ Kết Anh (Kết Đan → Nguyên Anh). Bát Cực Ma Quân dùng làm mồi nhử trong giao ước (Ch.140)."
+        }
+      ]
+    },
+    {
+      "name": "Anh Biến đan",
+      "category": "dandung",
+      "categoryLabel": "Đan dược",
+      "status": "known",
+      "blurb": "Đan truyền thuyết liên quan tới Anh Biến kỳ, nằm trong số kho báu ở \"địa phương kia\" mà Bát Cực Ma Quân nhắc (Ch.140).",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Đan truyền thuyết liên quan tới Anh Biến kỳ, nằm trong số kho báu ở \"địa phương kia\" mà Bát Cực Ma Quân nhắc (Ch.140)."
+        }
+      ]
+    },
+    {
+      "name": "Thủy tinh phi kiếm",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "known",
+      "blurb": "Dung 35 phi kiếm với kiếm linh cũ (hắc kiếm từng uống máu Đằng Lệ) → phi kiếm thuấn di, sắc bén ngang/hơn pháp bảo Nguyên Anh (Ch.127).",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Dung 35 phi kiếm với kiếm linh cũ (hắc kiếm từng uống máu Đằng Lệ) → phi kiếm thuấn di, sắc bén ngang/hơn pháp bảo Nguyên Anh (Ch.127)."
+        }
+      ]
+    },
+    {
+      "name": "Long cân (pháp bảo)",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "known",
+      "blurb": "Chế từ giao cân giao long; dùng chứa ma đầu và trói/kéo xác địch (\"áo choàng xác người\", Ch.127-131).",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Chế từ giao cân giao long; dùng chứa ma đầu và trói/kéo xác địch (\"áo choàng xác người\", Ch.127-131)."
+        }
+      ]
+    },
+    {
+      "name": "Cuộn tranh phong ấn linh thú",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "known",
+      "blurb": "Họa trục bí ẩn không hạ được thần thức; bên trong phong ấn một linh thú (đôi mắt tam giác tà dị, tiếng rít như giao long). Vương Lâm chưa mở (Ch.134) — hạt",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Họa trục bí ẩn không hạ được thần thức; bên trong phong ấn một linh thú (đôi mắt tam giác tà dị, tiếng rít như giao long). Vương Lâm chưa mở (Ch.134) — hạt giống."
+        }
+      ]
+    },
+    {
+      "name": "Vỏ kiếm cổ (cấp Hóa Thần) — manh mối",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "unknown",
+      "blurb": "Suy luận từ cơ chế túi trữ vật bị bóp nát thì đồ bên trong vẫn còn: vỏ kiếm cổ mà Đằng Hóa Nguyên từng bóp túi nhưng không phá được vẫn còn ở đâu đó (Ch.134",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Suy luận từ cơ chế túi trữ vật bị bóp nát thì đồ bên trong vẫn còn: vỏ kiếm cổ mà Đằng Hóa Nguyên từng bóp túi nhưng không phá được vẫn còn ở đâu đó (Ch.134). Hạt giống lớn."
+        }
+      ]
+    },
+    {
+      "name": "Hơn 100 Kim Đan (chờ tế luyện)",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "known",
+      "blurb": "Chiến lợi phẩm từ Đấu Tà phái; không nuốt sống (gây loạn ngũ hành) mà cất chờ phương pháp tế luyện theo ngũ hành (Ch.134).",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Chiến lợi phẩm từ Đấu Tà phái; không nuốt sống (gây loạn ngũ hành) mà cất chờ phương pháp tế luyện theo ngũ hành (Ch.134)."
+        }
+      ]
+    },
+    {
+      "name": "Thổ Hành Chu",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "known",
+      "blurb": "Pháp bảo di chuyển trong lòng đất của Bát Cực Ma Quân (mượn), dùng truy đuổi Vương Lâm dưới đất (Ch.136, 139).",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Pháp bảo di chuyển trong lòng đất của Bát Cực Ma Quân (mượn), dùng truy đuổi Vương Lâm dưới đất (Ch.136, 139)."
+        }
+      ]
+    },
+    {
+      "name": "Ngọc phù cấp Nguyên Anh (Dương Sâm tặng) — đã dùng",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "known",
+      "blurb": "Chứa một kích uy lực Nguyên Anh; Vương Lâm dùng đỡ một kích của Bát Cực Ma Quân (Ch.139) — hạt giống Ch.120 đã giải.",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Chứa một kích uy lực Nguyên Anh; Vương Lâm dùng đỡ một kích của Bát Cực Ma Quân (Ch.139) — hạt giống Ch.120 đã giải."
+        }
+      ]
+    },
+    {
+      "name": "Thần Đạo thuật",
+      "category": "tienthuat",
+      "categoryLabel": "Tiên thuật",
+      "status": "known",
+      "blurb": "Thuật của Chiến Thần Điện (Hoắc Hồng Phi tinh thông). Bản nguyên thủy tăng tỷ lệ Kết Anh, chỉ có ở tứ cấp tu chân quốc; bản Mã Lương biết là bản nhái. Mục t",
+      "detail": [
+        {
+          "label": "Mô tả",
+          "text": "Thuật của Chiến Thần Điện (Hoắc Hồng Phi tinh thông). Bản nguyên thủy tăng tỷ lệ Kết Anh, chỉ có ở tứ cấp tu chân quốc; bản Mã Lương biết là bản nhái. Mục tiêu Vương Lâm cuối đợt: mượn xem bản gốc qua Thủy Kính môn (Ch.138, 140)."
+        }
+      ]
+    }
+  ]
+}
