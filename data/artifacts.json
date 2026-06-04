@@ -1,7 +1,40 @@
 {
   "updatedAt": "2026-06-04",
-  "count": 15,
+  "count": 16,
   "artifacts": [
+    {
+      "name": "Nghịch Thiên châu (Thần Bí Hạt Châu)",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo / Bảo vật",
+      "status": "known",
+      "blurb": "Bảo vật then chốt của Vương Lâm — hạt châu xám khắc đám mây, chứa Mộng Cảnh không gian gia tốc thời gian (~10:1) và thực thể cố vấn Tư Đồ Nam. Là gốc rễ mọi kỳ tích của Vương Lâm và là thứ Cự Ma tộc truy lùng.",
+      "detail": [
+        {
+          "label": "Nguồn gốc / hình dạng",
+          "text": "Hạt châu màu xám khắc đám mây trắng, Vương Lâm nhặt được trong xác phi điểu ở phong nhãn (Ch.8). Ban đầu chỉ biết dùng để tiết sương chữa thương và ngâm nước tạo linh khí (số mây trên châu tự tăng 5 → 9 → 10). Thực chất là một pháp bảo cấp cực cao (Cự Ma tộc treo thưởng tầm Anh Biến), tên thật là Nghịch Thiên châu."
+        },
+        {
+          "label": "Mộng Cảnh không gian",
+          "text": "Khi đủ 10 mây, châu mở ra Mộng Cảnh không gian — một thế giới riêng có tỷ lệ thời gian nhanh gấp ~10 lần bên ngoài (2 tháng thực ≈ 1 năm tu trong mộng). Mỗi ngày vào được khoảng 3 lần, mỗi lần ~50 giờ. Đây là 'bí mật lớn nhất' giúp Vương Lâm bù đắp tư chất kém: tu luyện, luyện đan, né truy sát (100 ngày Tru Sát Lệnh), trốn Bát Cực Ma Quân đều nhờ không gian này."
+        },
+        {
+          "label": "Ngũ Hành thuộc tính",
+          "text": "Châu hấp thu thuộc tính ngũ hành để mạnh lên. Tới Ch.140 đã viên mãn Thủy + Mộc + Hỏa; còn thiếu Kim và Thổ để hoàn thành Ngũ Hành — một mạch truyện dài đang treo."
+        },
+        {
+          "label": "Tư Đồ Nam & hồn cha mẹ",
+          "text": "Sau Ch.100, Nguyên Anh Tư Đồ Nam (ân nhân cứu Vương Lâm) bọc hồn phách cha mẹ hắn vào Nguyên Anh rồi ngủ sâu bên trong Mộng Cảnh. Vương Lâm thề đạt Anh Biến kỳ sẽ tìm thân thể đưa Tư Đồ Nam ra và lo cho cha mẹ."
+        },
+        {
+          "label": "Tỏa 'quang ban' nhập cơ thể",
+          "text": "Châu từng tỏa 'quang ban' (vệt sáng) cổ quái nhập vào cơ thể Vương Lâm (Ch.8, 22-24, 38) — tác dụng đầy đủ chưa rõ, là một foreshadowing."
+        },
+        {
+          "label": "Vai trò / hiện trạng",
+          "text": "Pháp bảo định mệnh, gắn với Vương Lâm từ đầu truyện và là động lực bị Cự Ma tộc (ngũ cấp Vực Ngoại) truy lùng. Vẫn theo Vương Lâm xuyên suốt; mục tiêu hoàn thiện Ngũ Hành và giải cứu Tư Đồ Nam là hai mạch treo lớn."
+        }
+      ]
+    },
     {
       "name": "Thôn phệ Kim Đan / Thông Phệ đại pháp",
       "category": "congphap",
