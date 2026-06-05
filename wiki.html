@@ -1790,16 +1790,82 @@ async function loadCharDetail() {
   }
 }
 // Mở modal chi tiết dùng chung cho mọi loại (nhân vật/cảnh giới/pháp bảo/thế lực)
+// Chuyển text (\n → xuống dòng, "- " đầu dòng → bullet) thành HTML an toàn
+function _safeText(t) {
+  if (!t) return '';
+  const lines = t.split('\n');
+  const bullets = lines.filter(l => l.trimStart().startsWith('- '));
+  if (bullets.length > 0 && bullets.length >= lines.filter(l=>l.trim()).length * 0.5) {
+    // phần lớn là bullet → dùng <ul>
+    return '<ul>' + lines.map(l => {
+      const s = l.trimStart();
+      return s.startsWith('- ') ? '<li>' + _esc(s.slice(2)) + '</li>' : (s ? '<li>' + _esc(s) + '</li>' : '');
+    }).filter(Boolean).join('') + '</ul>';
+  }
+  return lines.map(l => _esc(l)).join('<br>');
+}
+function _esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+// Render mảng detail (hỗ trợ cả phẳng cũ lẫn 2-tầng mới: group/phase/popup)
+function _renderDetailSecs(detail, openPopupFn) {
+  if (!detail || !detail.length) return '';
+  const hasGroup = detail.some(d => d.group);
+  if (!hasGroup) {
+    // render phẳng (data cũ — tương thích ngược)
+    return detail.map(d =>
+      '<div class="cm-sec"><h4>' + _esc(d.label) + '</h4><p>' + _safeText(d.text) + '</p></div>'
+    ).join('');
+  }
+  // render theo group
+  const groups = [], seen = new Map();
+  detail.forEach(d => {
+    const g = d.group || '__flat__';
+    if (!seen.has(g)) { seen.set(g, []); groups.push(g); }
+    seen.get(g).push(d);
+  });
+  return groups.map(g => {
+    const items = seen.get(g);
+    if (g === '__flat__') {
+      return items.map(d => '<div class="cm-sec"><h4>' + _esc(d.label) + '</h4><p>' + _safeText(d.text) + '</p></div>').join('');
+    }
+    const isPopup = items.some(d => d.popup);
+    const title = '<div class="cm-group-title">' + _esc(g) + '</div>';
+    const inner = _renderPhaseItems(items);
+    if (isPopup && openPopupFn) {
+      return '<div class="cm-group">' + title +
+        '<button class="cm-popup-btn" onclick="' + openPopupFn + '(' + JSON.stringify(g) + ',' + JSON.stringify(items) + ')">Xem chi tiết ' + _esc(g) + ' →</button></div>';
+    }
+    return '<div class="cm-group">' + title + inner + '</div>';
+  }).join('');
+}
+function _renderPhaseItems(items) {
+  const hasPhase = items.some(d => d.phase);
+  if (!hasPhase) {
+    return items.map(d => '<div class="cm-sec"><h4>' + _esc(d.label) + '</h4><p>' + _safeText(d.text) + '</p></div>').join('');
+  }
+  const phases = [], seenP = new Map();
+  items.forEach(d => {
+    const p = d.phase || '__';
+    if (!seenP.has(p)) { seenP.set(p, []); phases.push(p); }
+    seenP.get(p).push(d);
+  });
+  return phases.map(p => {
+    const ph = seenP.get(p);
+    const phHead = p !== '__' ? '<div class="cm-phase">' + _esc(p) + '</div>' : '';
+    return phHead + ph.map(d => '<div class="cm-sec"><h4>' + _esc(d.label) + '</h4><p>' + _safeText(d.text) + '</p></div>').join('');
+  }).join('');
+}
+
 function _openDetailObj(c, fallbackName){
   const backdrop=document.getElementById('charModal'), bodyEl=document.getElementById('charModalBody');
   if(!backdrop||!bodyEl) return;
-  if(!c){ bodyEl.innerHTML='<h2>'+(fallbackName||'')+'</h2><p class="cm-empty">Chưa có hồ sơ chi tiết.</p>'; }
+  if(!c){ bodyEl.innerHTML='<h2>'+_esc(fallbackName||'')+'</h2><p class="cm-empty">Chưa có hồ sơ chi tiết.</p>'; }
   else{
-    const tag=c.tag?('<span class="cm-tag '+(c.tagClass||'')+'">'+c.tag+'</span>'):'';
-    const sub=c.role||c.typeLabel||(c.cn?('<span style=\'opacity:.7\'>'+c.cn+'</span>'):'')||'';
+    const tag=c.tag?('<span class="cm-tag '+(c.tagClass||'')+'">'+_esc(c.tag)+'</span>'):'';
+    const sub=c.role||c.typeLabel||(c.cn?('<span style="opacity:.7">'+_esc(c.cn)+'</span>'):'')||'';
     const portrait=c.portrait||c.cn||(c.name||'?').charAt(0);
-    const secs=(c.detail||[]).map(d=>'<div class="cm-sec"><h4>'+d.label+'</h4><p>'+(d.text||'').replace(/</g,'&lt;')+'</p></div>').join('');
-    bodyEl.innerHTML='<div class="cm-head"><div class="cm-portrait">'+portrait+'</div><div><h2>'+(c.name||'')+'</h2>'+
+    const secs=_renderDetailSecs(c.detail, '_openPopup');
+    bodyEl.innerHTML='<div class="cm-head"><div class="cm-portrait">'+_esc(portrait)+'</div><div><h2>'+_esc(c.name||'')+'</h2>'+
       (sub?('<div class="cm-role">'+sub+'</div>'):'')+tag+'</div></div>'+(secs||'<p class="cm-empty">Chưa có nội dung chi tiết.</p>');
   }
   backdrop.classList.add('open'); document.body.style.overflow='hidden';
@@ -1813,7 +1879,19 @@ function closeCharDetail() {
   if (b) b.classList.remove('open');
   document.body.style.overflow = '';
 }
-document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeCharDetail(); });
+document.addEventListener('keydown', function(e){ if(e.key==='Escape'){ closeCharDetail2(); closeCharDetail(); } });
+
+function closeCharDetail2() {
+  const b=document.getElementById('charModal2'); if(b) b.classList.remove('open');
+  if(!document.getElementById('charModal').classList.contains('open')) document.body.style.overflow='';
+}
+// Mo popup con (modal long) cho 1 group co popup:true
+function _openPopup(groupName, items) {
+  const b=document.getElementById('charModal2'), body=document.getElementById('charModal2Body');
+  if(!b||!body) return;
+  body.innerHTML='<h2 style="margin:0 30px 16px 0;font-size:18px;">'+_esc(groupName)+'</h2>'+_renderPhaseItems(items);
+  b.classList.add('open');
+}
 
 // ===== GLOBAL SEARCH (tìm thông minh nhiều từ khoá, client-side) =====
 function _gsStrip(s){ return (s||'').toString().toLowerCase()
