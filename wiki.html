@@ -973,6 +973,18 @@ function renderEntryGrid() {
     </a>`).join('');
 }
 
+// Tu dong dong cac the inline (strong/em/b/i) bi thieu the dong trong chuoi data,
+// tranh 1 summary loi (vd <strong> khong dong) keo sap toan bo chapter-card phia sau.
+function balanceTags(str) {
+  if (!str) return '';
+  ['strong','em','b','i'].forEach(function(t){
+    var open = (str.match(new RegExp('<'+t+'>','gi'))||[]).length;
+    var close = (str.match(new RegExp('</'+t+'>','gi'))||[]).length;
+    for (var k=0; k<open-close; k++) str += '</'+t+'>';
+  });
+  return str;
+}
+
 function renderCotTruyen() {
   const d = WIKI_DATA.cotTruyen;
   document.getElementById('cotTruyenMeta').innerHTML =
@@ -1009,19 +1021,25 @@ function renderCotTruyen() {
     }).join('');
   }
 
-  // Build CHAPTER cards (ẩn mặc định; hiện khi đã chọn Quyển/đợt hoặc tìm kiếm)
-  const chapHtml = d.chapters.map(c => `
-      <div class="chapter-card searchable" data-quyen="${c.quyen}" data-range="${c.range}">
-        <div class="num">${c.num}</div>
-        <h3>${c.title}</h3>
-        <div class="summary">${c.summary}</div>
-      </div>`).join('') +
-    `<div class="chapter-card placeholder">
-      <div class="placeholder-text"><strong>Chương ${WIKI_DATA.meta.lastChapter + 1}+</strong><br>Đang cập nhật...<br><span style="font-size:11px;">${WIKI_DATA.meta.progressNote}</span></div>
-    </div>`;
-
-  document.getElementById('cotTruyenList').innerHTML =
-    `<div class="volume-wrap" data-volume-wrap>${volHtml}</div>` + chapHtml;
+  // Build CHAPTER cards — tao TUNG card bang createElement de mot summary loi HTML
+  // (vd <strong> khong dong) KHONG keo sap cac card khac (loi tran innerHTML).
+  const listEl = document.getElementById('cotTruyenList');
+  listEl.innerHTML = `<div class="volume-wrap" data-volume-wrap>${volHtml}</div>`;
+  d.chapters.forEach(c => {
+    const card = document.createElement('div');
+    card.className = 'chapter-card searchable';
+    card.setAttribute('data-quyen', c.quyen);
+    card.setAttribute('data-range', c.range);
+    const numEl = document.createElement('div'); numEl.className = 'num'; numEl.textContent = c.num;
+    const h3 = document.createElement('h3'); h3.innerHTML = balanceTags(c.title);
+    const sumEl = document.createElement('div'); sumEl.className = 'summary'; sumEl.innerHTML = balanceTags(c.summary);
+    card.appendChild(numEl); card.appendChild(h3); card.appendChild(sumEl);
+    listEl.appendChild(card);
+  });
+  const ph = document.createElement('div');
+  ph.className = 'chapter-card placeholder';
+  ph.innerHTML = `<div class="placeholder-text"><strong>Chương ${WIKI_DATA.meta.lastChapter + 1}+</strong><br>Đang cập nhật...<br><span style="font-size:11px;">${WIKI_DATA.meta.progressNote}</span></div>`;
+  listEl.appendChild(ph);
 
   // Đồng bộ trạng thái hiển thị ban đầu (mặc định: chỉ Quyển)
   if (typeof syncCotTruyenMode === 'function') syncCotTruyenMode();
