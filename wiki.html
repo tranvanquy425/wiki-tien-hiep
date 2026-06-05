@@ -745,6 +745,14 @@
   </div>
 </div>
 
+<!-- Modal con: popup chi tiet group (vi du Thuc luc, Quan he...) -->
+<div class="char-modal-backdrop" id="charModal2" onclick="if(event.target===this)closeCharDetail2()">
+  <div class="char-modal">
+    <button class="char-modal-close" aria-label="Đóng" onclick="closeCharDetail2()">×</button>
+    <div id="charModal2Body"></div>
+  </div>
+</div>
+
 <!-- FEEDBACK MODAL -->
 <div class="modal-backdrop" id="feedbackModal" role="dialog" aria-labelledby="feedbackTitle">
   <div class="modal">
@@ -1837,7 +1845,7 @@ function _renderDetailSecs(detail, openPopupFn) {
       window.__popupCache = window.__popupCache || {};
       window.__popupCache[cacheKey] = {groupName: g, items: items};
       return '<div class="cm-group">' + title +
-        '<button class="cm-popup-btn" onclick="_openPopup(' + JSON.stringify(cacheKey) + ')">Xem chi tiết ' + _esc(g) + ' →</button></div>';
+        '<button class="cm-popup-btn" onclick="_openPopup(\'' + cacheKey + '\')">Xem chi tiết ' + _esc(g) + ' →</button></div>';
     }
     return '<div class="cm-group">' + title + inner + '</div>';
   }).join('');
