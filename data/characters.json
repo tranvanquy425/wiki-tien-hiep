@@ -1,47 +1,7 @@
 {
   "updatedAt": "2026-06-05",
-  "count": 95,
+  "count": 86,
   "chars": [
-    {
-      "name": "Chuyển biến tổng quát",
-      "role": "Nhân vật",
-      "affiliation": "",
-      "roleFilter": "neutral",
-      "tag": "",
-      "tagClass": "tag-other",
-      "blurb": "",
-      "detail": [
-        {
-          "label": "Ch.1-100 (Quyển 1 — Triệu quốc)",
-          "text": "Phàm nhân → ký danh ẩn nấp → thảm kịch mất gia đình → Kết Đan bất thành → mở Cực cảnh → báo thù bất thành → \"bỏ mạng\"."
-        },
-        {
-          "label": "Ch.101-120 (mở Quyển 2 — Vực Ngoại/Hỏa Phần quốc)",
-          "text": "Tỉnh lại làm thôn hồn → đoạt xá Mã Lương → tái tu luyện → chủ động nhập ma đạo."
-        },
-        {
-          "label": "Ch.121-140 (arc Tu Ma hải & Kết Đan)",
-          "text": "Kết Đan thành công (Ch.127) → lập uy diệt Đấu Tà phái → chia tay Lý Mộ Uyển → giao ước với Hóa Thần."
-        },
-        {
-          "label": "Ch.141-160 (arc Cổ Thần chi địa)",
-          "text": "Vào thi thể Cổ Thần → thoát ly đội Hóa Thần → một mình vượt cửa 1-2 mất 13 năm → Kết Đan trung kỳ + cao thủ cấm chế + người lĩnh ngộ Cổ Thần → vào cửa 3. Chuyển biến lớn: từ \"ma tu ma đạo\" thêm tuyến \"truyền nhân cấm chế Cổ Thần\" — sức mạnh đa dạng hơn."
-        },
-        {
-          "label": "Mục tiêu hiện tại (Ch.161+)",
-          "text": "(1) Tìm Mặc Gian thạch ở thức hải Cổ Thần; (2) Lấy Anh Biến đan; (3) Tránh Cổ Đế + Lục Dục (đang ở cửa 3 trước); (4) Dài hạn: Kết Anh → về Triệu quốc huyết tẩy Đằng gia."
-        },
-        {
-          "label": "Cập nhật tới",
-          "text": "Ch.160 (arc Cổ Thần chi địa / Toái Tinh Loạn)"
-        },
-        {
-          "label": "File liên quan đợt này",
-          "text": "`Cot_truyen/Q02_Ch141-160.md`, `Nhan_vat/Co_Than_chi_dia_nhan_vat_Ch141-160.md`"
-        }
-      ],
-      "portrait": ""
-    },
     {
       "name": "Cổ Thần Đồ Ti",
       "role": "Trung lập",
@@ -259,28 +219,6 @@
       "portrait": ""
     },
     {
-      "name": "Mốc thời gian Ch.141-160",
-      "role": "Nhân vật",
-      "affiliation": "",
-      "roleFilter": "neutral",
-      "tag": "",
-      "tagClass": "tag-other",
-      "blurb": "",
-      "detail": [],
-      "portrait": ""
-    },
-    {
-      "name": "Quan hệ chính",
-      "role": "Nhân vật",
-      "affiliation": "",
-      "roleFilter": "neutral",
-      "tag": "",
-      "tagClass": "tag-other",
-      "blurb": "- **Tư Đồ Nam**: ân nhân, ngủ sâu trong Mộng Cảnh. Vương Lâm thề đạt Anh Biến kỳ sẽ đưa ra.",
-      "detail": [],
-      "portrait": ""
-    },
-    {
       "name": "Triệu Truyện Lương",
       "role": "Phản diện",
       "affiliation": "thiamtong",
@@ -312,22 +250,6 @@
         {
           "label": "Hiện trạng",
           "text": "Rút về, tiếp tục chịu áp lực từ thượng tông Thiên Cương quốc."
-        }
-      ],
-      "portrait": ""
-    },
-    {
-      "name": "Tu vi & sở hữu",
-      "role": "Nhân vật",
-      "affiliation": "",
-      "roleFilter": "neutral",
-      "tag": "",
-      "tagClass": "tag-other",
-      "blurb": "- **Tu vi**: Phàm → Ngưng Khí → Trúc Cơ → **Kết Đan (Ch.127)** → **Kết Đan trung kỳ (Ch.157**, sau 7 năm học cấm chế Cấm Sơn). Ngoại hình: **tóc bạc t",
-      "detail": [
-        {
-          "label": "Công pháp/thuật",
-          "text": "Đại Tự Tại Tu La thuật, Ngụy Thổ Độn thuật, Thông Phệ đại pháp, Luyện Khí thuật Chiến Thần điện, Hoàng Tuyền Thăng Khiếu Quyết, Nghịch Lưu thuật (mở Thủy Kính môn), vòng tròn tàn ảnh / cấm chế thuật (tự phát triển đợt này)."
         }
       ],
       "portrait": ""
@@ -459,26 +381,6 @@
         {
           "label": "Vai trò trần thuật",
           "text": "Cho thấy \"Mã Lương\" có quá khứ tình cảm mà Vương Lâm thừa hưởng qua vỏ bọc; cầu nối tới Phượng Loan."
-        }
-      ],
-      "portrait": ""
-    },
-    {
-      "name": "Ghi chú thống nhất tên",
-      "role": "Nhân vật",
-      "affiliation": "",
-      "roleFilter": "neutral",
-      "tag": "",
-      "tagClass": "tag-other",
-      "blurb": "- **Lý Mộ Uyển (李慕婉)** — văn bản gốc có chỗ ghi nhầm Lý Mộc Uyển / Lý Mộng Uyển / Lý Mộc Quyên.",
-      "detail": [
-        {
-          "label": "Đợt",
-          "text": "Ch.121-140 (arc Tu Ma hải & Kết Đan)"
-        },
-        {
-          "label": "Hai yêu cầu đặc biệt đợt này",
-          "text": "(1) quan hệ nhân vật chi tiết → mỗi hồ sơ có dòng \"Quan hệ với Vương Lâm\"; (2) tiểu sử mở rộng gần đầy đủ → viết theo 8 mục."
         }
       ],
       "portrait": ""
@@ -844,17 +746,6 @@
       "portrait": ""
     },
     {
-      "name": "Ghi chú liên kết",
-      "role": "Nhân vật",
-      "affiliation": "khac",
-      "roleFilter": "neutral",
-      "tag": "",
-      "tagClass": "tag-khac",
-      "blurb": "- **Chiến Thần Điện** và **Hỏa Phần quốc** (tam cấp tu chân quốc): xem hồ sơ thế lực ở Phiên 3.",
-      "detail": [],
-      "portrait": ""
-    },
-    {
       "name": "Hoắc Hồng Phi",
       "role": "Nhân vật",
       "affiliation": "khac",
@@ -987,17 +878,6 @@
       "portrait": ""
     },
     {
-      "name": "Các Nguyên Anh lão tổ Triệu quốc",
-      "role": "Trung lập",
-      "affiliation": "khac",
-      "roleFilter": "neutral",
-      "tag": "NGUYÊN ANH KỲ CÁC MÔN PHÁI",
-      "tagClass": "tag-khac",
-      "blurb": "- **Phác Nam Tử** (Huyền Đạo, đã có hồ sơ Ch.41-60): Nguyên Anh trung kỳ đỉnh, mạnh nhất Triệu quốc; được Lâm Dịch hứa thu làm **đệ tử ký danh** nếu l",
-      "detail": [],
-      "portrait": ""
-    },
-    {
       "name": "Khải Minh đạo nhân",
       "role": "Trung lập",
       "affiliation": "khac",
@@ -1126,17 +1006,6 @@
       "tag": "LÃO TỔ THI ÂM TÔNG · CHỈ CÒN NGUYÊN ANH",
       "tagClass": "tag-khac",
       "blurb": "Một trong các lão tổ **Thi Âm tông**. 300 năm trước tới thành đổ nát đột phá Nguyên Anh thất bại, thi khôi của lão nhân lúc đó phản bội. Lão phải để *",
-      "detail": [],
-      "portrait": ""
-    },
-    {
-      "name": "Nhân vật Huyền Đạo tái xuất",
-      "role": "Trung lập",
-      "affiliation": "huyendao",
-      "roleFilter": "neutral",
-      "tag": "ĐỆ TỬ HUYỀN ĐẠO TÔNG",
-      "tagClass": "tag-huyendao",
-      "blurb": "- **Lịch Hải**: tam sư huynh, Ngưng Khí tầng 12.",
       "detail": [],
       "portrait": ""
     },
@@ -1311,34 +1180,6 @@
         {
           "label": "Vai trò trần thuật",
           "text": "Người phát hiện bản chất tà công; tiếng nói chấp nhận thực tại tàn khốc."
-        }
-      ],
-      "portrait": ""
-    },
-    {
-      "name": "Lão phụ nhân họ Vương",
-      "role": "Đồng minh",
-      "affiliation": "hangnhac",
-      "roleFilter": "friend",
-      "tag": "TỔ SƯ KẾT ĐAN HẰNG NHẠC (NỮ)",
-      "tagClass": "tag-hangnhac",
-      "blurb": "Sư tổ Kết Đan kỳ còn lại của Hằng Nhạc phái, nhiều nếp nhăn, thần sắc âm trầm.",
-      "detail": [
-        {
-          "label": "Xuất thân",
-          "text": "Sư tổ Kết Đan kỳ còn lại của Hằng Nhạc phái, nhiều nếp nhăn, thần sắc âm trầm."
-        },
-        {
-          "label": "Tu vi",
-          "text": "Kết Đan kỳ."
-        },
-        {
-          "label": "Quan hệ với Vương Lâm",
-          "text": "Trưởng bối nghiêm khắc, lo cho an nguy của hắn."
-        },
-        {
-          "label": "Vai trò trần thuật",
-          "text": "Cùng Lưu Văn Cử giữ ngọn lửa phục hưng Hằng Nhạc — neo số phận môn phái cho các đợt sau."
         }
       ],
       "portrait": ""
