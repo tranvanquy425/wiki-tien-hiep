@@ -1832,8 +1832,12 @@ function _renderDetailSecs(detail, openPopupFn) {
     const title = '<div class="cm-group-title">' + _esc(g) + '</div>';
     const inner = _renderPhaseItems(items);
     if (isPopup && openPopupFn) {
+      // Luu items vao cache (tranh JSON.stringify trong onclick attribute lam vo HTML)
+      const cacheKey = 'popup_' + Date.now() + '_' + Math.random().toString(36).slice(2);
+      window.__popupCache = window.__popupCache || {};
+      window.__popupCache[cacheKey] = {groupName: g, items: items};
       return '<div class="cm-group">' + title +
-        '<button class="cm-popup-btn" onclick="' + openPopupFn + '(' + JSON.stringify(g) + ',' + JSON.stringify(items) + ')">Xem chi tiết ' + _esc(g) + ' →</button></div>';
+        '<button class="cm-popup-btn" onclick="_openPopup(' + JSON.stringify(cacheKey) + ')">Xem chi tiết ' + _esc(g) + ' →</button></div>';
     }
     return '<div class="cm-group">' + title + inner + '</div>';
   }).join('');
@@ -1886,10 +1890,12 @@ function closeCharDetail2() {
   if(!document.getElementById('charModal').classList.contains('open')) document.body.style.overflow='';
 }
 // Mo popup con (modal long) cho 1 group co popup:true
-function _openPopup(groupName, items) {
+function _openPopup(cacheKey) {
   const b=document.getElementById('charModal2'), body=document.getElementById('charModal2Body');
   if(!b||!body) return;
-  body.innerHTML='<h2 style="margin:0 30px 16px 0;font-size:18px;">'+_esc(groupName)+'</h2>'+_renderPhaseItems(items);
+  const cached = (window.__popupCache||{})[cacheKey];
+  if(!cached) return;
+  body.innerHTML='<h2 style="margin:0 30px 16px 0;font-size:18px;">'+_esc(cached.groupName)+'</h2>'+_renderPhaseItems(cached.items);
   b.classList.add('open');
 }
 
