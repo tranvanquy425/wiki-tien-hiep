@@ -973,6 +973,25 @@ function renderEntryGrid() {
     </a>`).join('');
 }
 
+// Lọc dropdown "đợt chương" theo Quyển đang chọn: chỉ hiện range thuộc quyển đó.
+// Range nào chứa chương thuộc quyển q thì thuộc q (suy từ chapters).
+function rebuildRangeOptions(quyenVal) {
+  const rEl = document.getElementById('cotTruyenRangeFilter');
+  if (!rEl) return;
+  const d = WIKI_DATA.cotTruyen;
+  const prev = rEl.value;
+  // tap range hop le cho quyen dang chon
+  let allow = null;
+  if (quyenVal && quyenVal !== 'all') {
+    allow = new Set(d.chapters.filter(c => c.quyen === quyenVal).map(c => c.range));
+  }
+  const ranges = allow ? d.ranges.filter(r => allow.has(r.value)) : d.ranges;
+  rEl.innerHTML = '<option value="all">Toàn bộ chương đã ghi</option>' +
+    ranges.map(r => `<option value="${r.value}">${r.label}</option>`).join('');
+  // giữ lựa chọn cũ nếu vẫn hợp lệ, nếu không thì về 'all'
+  rEl.value = (prev !== 'all' && ranges.some(r => r.value === prev)) ? prev : 'all';
+}
+
 // Tu dong dong cac the inline (strong/em/b/i) bi thieu the dong trong chuoi data,
 // tranh 1 summary loi (vd <strong> khong dong) keo sap toan bo chapter-card phia sau.
 function balanceTags(str) {
@@ -995,9 +1014,7 @@ function renderCotTruyen() {
   qEl.innerHTML = '<option value="all">Tất cả quyển</option>' +
     d.quyen.map(q => `<option value="${q.value}"${q.disabled ? ' disabled' : ''}>${q.label}</option>`).join('');
 
-  const rEl = document.getElementById('cotTruyenRangeFilter');
-  rEl.innerHTML = '<option value="all">Toàn bộ chương đã ghi</option>' +
-    d.ranges.map(r => `<option value="${r.value}">${r.label}</option>`).join('');
+  rebuildRangeOptions(document.getElementById('cotTruyenFilter').value || 'all');
 
   // Build VOLUME cards (mặc định hiển thị — tóm tắt theo Quyển)
   let volHtml = '';
@@ -1455,6 +1472,10 @@ document.addEventListener('keydown', e => {
 // filter selects — use event delegation since selects may be added after load
 document.addEventListener('change', e => {
   if (e.target.matches('[data-filter-select]')) {
+    // Khi đổi Quyển ở trang Cốt truyện: lọc lại danh sách "đợt chương" theo quyển đó
+    if (e.target.id === 'cotTruyenFilter') {
+      rebuildRangeOptions(e.target.value);
+    }
     runSearchFor(e.target.closest('.view'));
   }
 });
