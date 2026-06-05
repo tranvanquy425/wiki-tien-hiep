@@ -1,7 +1,32 @@
 {
   "updatedAt": "2026-06-05",
-  "count": 84,
+  "count": 85,
   "artifacts": [
+    {
+      "name": "Nghịch Thiên châu (Thần Bí Hạt Châu)",
+      "category": "baovat",
+      "categoryLabel": "Pháp bảo",
+      "status": "known",
+      "blurb": "Thạch châu xám khắc đám mây trắng, Vương Lâm nhặt trong xác phi điểu ở phong nhãn. Tiết sương chữa thương; ngâm nước tạo linh khí; số mây tự tăng 5→9→10 khi Vương Lâm đột phá. Khi đủ 10 mây, mở ra Mộng Cảnh không gian gia tốc (20 ngày trong = 1 ngày ngoài) + cố vấn Tư Đồ Nam.",
+      "detail": [
+        {
+          "label": "Nguồn gốc",
+          "text": "Nhặt được trong xác phi điểu khổng lồ ở phong nhãn Triệu quốc. Lai lịch bí ẩn — pháp bảo của Cự Ma tộc được gọi là 'Thần Bí Hạt Châu'."
+        },
+        {
+          "label": "Công dụng",
+          "text": "Tiết sương chữa thương nặng (Ch.5); ngâm nước tạo linh khí nồng đậm (Ch.12); số mây tự tăng theo tu vi Vương Lâm (5→9→10). Khi đủ 10 mây: mở ra **Mộng Cảnh không gian gia tốc** (20 ngày trong = 1 ngày ngoài) với thực thể cố vấn **Tư Đồ Nam** bên trong. Về sau: trốn hồng giao long 10 ngày (Ch.148), giấu thân trước Đóa Mục (suýt bị nhìn xuyên — Ch.166), né khí lãng linh khí hơn 10 lần trong cơ thể Cổ Thần (Ch.164-165)."
+        },
+        {
+          "label": "Đặc tính đặc biệt",
+          "text": "Là pháp bảo duy nhất ngăn được thần thức bên ngoài nhìn thấy bên trong (trừ Đóa Mục suýt xuyên được — Ch.166). Có thể chứa người/vật sống bên trong. Vẫn thiếu Kim + Thổ để hoàn chỉnh Ngũ Hành."
+        },
+        {
+          "label": "Mốc quan trọng",
+          "text": "Ch.5 (nhặt được), Ch.12 (mở Mộng Cảnh), Ch.148 (trốn giao long), Ch.164-166 (dùng trong cơ thể Cổ Thần)."
+        }
+      ]
+    },
     {
       "name": "Thôn phệ Kim Đan / Thông Phệ đại pháp",
       "category": "congphap",
