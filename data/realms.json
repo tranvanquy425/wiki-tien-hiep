@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-04",
-  "count": 12,
+  "updatedAt": "2026-06-05",
+  "count": 11,
   "realms": [
     {
       "name": "Ngưng Khí",
       "cn": "凝氣",
       "status": "known",
-      "blurb": "15 tầng. Tầng 1 tự thành; tầng 2-15 cần khẩu quyết riêng. Tầng 3 của Vương Lâm đặc biệt: không có giới hạn linh khí. Viên mãn tầng 15 là đại viên mãn, bước đệm",
+      "blurb": "15 tầng. Tầng 1 tự thành; tầng 2-15 cần khẩu quyết riêng. Tầng 3 của Vương Lâm đặc biệt: không có giới hạn linh khí. Viên mãn tầng 15 là đại viên mãn, bước đệm lên Trúc Cơ.",
       "detail": [
         {
           "label": "Mô tả",
@@ -18,11 +18,11 @@
       "name": "Trúc Cơ",
       "cn": "築基",
       "status": "known",
-      "blurb": "Lực lượng trung kiên các thế lực. Phân sơ/trung/hậu kỳ; hậu kỳ đại viên mãn (Giả Đan cảnh giới) là đỉnh. Vương Lâm: Trúc Cơ (Ch.73) → trung kỳ (Ch.93) → \"bỏ mạn",
+      "blurb": "Lực lượng trung kiên các thế lực. Phân sơ/trung/hậu kỳ; hậu kỳ đại viên mãn (Giả Đan cảnh giới) là đỉnh. Vương Lâm: Trúc Cơ (Ch.73) → trung kỳ (Ch.93) → \"bỏ mạng\" Ch.100 → khôi phục trung kỳ trên thân",
       "detail": [
         {
           "label": "Mô tả",
-          "text": "Lực lượng trung kiên các thế lực. Phân sơ/trung/hậu kỳ; hậu kỳ đại viên mãn (Giả Đan cảnh giới) là đỉnh. Vương Lâm: Trúc Cơ (Ch.73) → trung kỳ (Ch.93) → \"bỏ mạng\" Ch.100 → khôi phục trung kỳ trên thân Mã Lương (Ch.113) → Trúc Cơ hậu kỳ đại viên mãn / Giả Đan cảnh giới (Ch.122)."
+          "text": "Lực lượng trung kiên các thế lực. Phân sơ/trung/hậu kỳ; hậu kỳ đại viên mãn (Giả Đan cảnh giới) là đỉnh. Vương Lâm: Trúc Cơ (Ch.73) → trung kỳ (Ch.93) → \"bỏ mạng\" Ch.100 → khôi phục trung kỳ trên thân Mã Lương (Ch.113) → **Trúc Cơ hậu kỳ đại viên mãn / Giả Đan cảnh giới** (Ch.122)."
         }
       ]
     },
@@ -30,11 +30,11 @@
       "name": "Giả Đan cảnh giới",
       "cn": "假丹",
       "status": "known",
-      "blurb": "Bổ sung Ch.122. Không phải một đại cảnh giới riêng mà là đỉnh của Trúc Cơ hậu kỳ đại viên mãn — tu sĩ mô phỏng được \"giả đan\" gần giống Kim Đan nhưng ch",
+      "blurb": "**Bổ sung Ch.122.** Không phải một đại cảnh giới riêng mà là **đỉnh của Trúc Cơ hậu kỳ đại viên mãn** — tu sĩ mô phỏng được \"giả đan\" gần giống Kim Đan nhưng chưa phải Kết Đan thật. Vương Lâm đạt cảnh",
       "detail": [
         {
-          "label": "Bổ sung Ch.122.",
-          "text": "Không phải một đại cảnh giới riêng mà là đỉnh của Trúc Cơ hậu kỳ đại viên mãn — tu sĩ mô phỏng được \"giả đan\" gần giống Kim Đan nhưng chưa phải Kết Đan thật. Vương Lâm đạt cảnh giới này nhờ thôn phệ Kim Đan (hấp thu một thành linh lực của Kim Đan sơ kỳ qua Thông Phệ đại pháp). Là bước đệm cuối trước khi chính thức Kết Đan."
+          "label": "Mô tả",
+          "text": "**Bổ sung Ch.122.** Không phải một đại cảnh giới riêng mà là **đỉnh của Trúc Cơ hậu kỳ đại viên mãn** — tu sĩ mô phỏng được \"giả đan\" gần giống Kim Đan nhưng chưa phải Kết Đan thật. Vương Lâm đạt cảnh giới này nhờ **thôn phệ Kim Đan** (hấp thu một thành linh lực của Kim Đan sơ kỳ qua Thông Phệ đại pháp). Là bước đệm cuối trước khi chính thức Kết Đan."
         }
       ]
     },
@@ -42,11 +42,11 @@
       "name": "Kết Đan",
       "cn": "結丹",
       "status": "known",
-      "blurb": "Cao thủ. Hoàn thành 9 tầng Hoàng Tuyền thăng khiếu quyết có thể trực tiếp đột phá Kết Đan. Phân sơ/trung/hậu kỳ. Vương Lâm KẾT ĐAN THÀNH CÔNG ở Ch.127 (xem",
+      "blurb": "Cao thủ. Hoàn thành 9 tầng Hoàng Tuyền thăng khiếu quyết có thể trực tiếp đột phá Kết Đan. Phân sơ/trung/hậu kỳ. **Vương Lâm KẾT ĐAN THÀNH CÔNG ở Ch.127** (xem mục Hoàng Tuyền chi cảnh + tam đan hợp n",
       "detail": [
         {
           "label": "Mô tả",
-          "text": "Cao thủ. Hoàn thành 9 tầng Hoàng Tuyền thăng khiếu quyết có thể trực tiếp đột phá Kết Đan. Phân sơ/trung/hậu kỳ. Vương Lâm KẾT ĐAN THÀNH CÔNG ở Ch.127 (xem mục Hoàng Tuyền chi cảnh + tam đan hợp nhất), tự xưng \"đệ nhất nhân dưới Nguyên Anh kỳ\". Phần lớn đối thủ arc Tu Ma hải (Tiễn Khôn, Giải Đông Lai, Thượng Quan Mặc) ở cảnh giới Kết Đan."
+          "text": "Cao thủ. Hoàn thành 9 tầng Hoàng Tuyền thăng khiếu quyết có thể trực tiếp đột phá Kết Đan. Phân sơ/trung/hậu kỳ. **Vương Lâm KẾT ĐAN THÀNH CÔNG ở Ch.127** (xem mục Hoàng Tuyền chi cảnh + tam đan hợp nhất), tự xưng **\"đệ nhất nhân dưới Nguyên Anh kỳ\"**. Phần lớn đối thủ arc Tu Ma hải (Tiễn Khôn, Giải Đông Lai, Thượng Quan Mặc) ở cảnh giới Kết Đan."
         }
       ]
     },
@@ -54,11 +54,11 @@
       "name": "Nguyên Anh",
       "cn": "元嬰",
       "status": "known",
-      "blurb": "Lão tổ các tông môn. Có thể để Nguyên Anh ly thể tồn tại độc lập khi thân thể hỏng. Phân sơ/trung/hậu kỳ. Pháp bảo đặc trưng: huyết võng (vô hiệu hóa thuấn",
+      "blurb": "Lão tổ các tông môn. Có thể để Nguyên Anh ly thể tồn tại độc lập khi thân thể hỏng. Phân sơ/trung/hậu kỳ. Pháp bảo đặc trưng: **huyết võng** (vô hiệu hóa thuấn di trong phạm vi). Ở Hỏa Phần quốc: Phượ",
       "detail": [
         {
           "label": "Mô tả",
-          "text": "Lão tổ các tông môn. Có thể để Nguyên Anh ly thể tồn tại độc lập khi thân thể hỏng. Phân sơ/trung/hậu kỳ. Pháp bảo đặc trưng: huyết võng (vô hiệu hóa thuấn di trong phạm vi). Ở Hỏa Phần quốc: Phượng Loan (sơ kỳ), Dương Sâm (trung kỳ đỉnh phong), Chu Cẩn, Tống lão; Trâu Bân (lão tổ Chiến Thần Điện, từng du ngoạn Tu Ma hải ở Nguyên Anh sơ kỳ — Ch.137). Quá trình lên Nguyên Anh gọi là Kết Anh."
+          "text": "Lão tổ các tông môn. Có thể để Nguyên Anh ly thể tồn tại độc lập khi thân thể hỏng. Phân sơ/trung/hậu kỳ. Pháp bảo đặc trưng: **huyết võng** (vô hiệu hóa thuấn di trong phạm vi). Ở Hỏa Phần quốc: Phượng Loan (sơ kỳ), Dương Sâm (trung kỳ đỉnh phong), Chu Cẩn, Tống lão; **Trâu Bân** (lão tổ Chiến Thần Điện, từng du ngoạn Tu Ma hải ở Nguyên Anh sơ kỳ — Ch.137). Quá trình lên Nguyên Anh gọi là **Kết Anh**."
         }
       ]
     },
@@ -66,11 +66,11 @@
       "name": "Kết Anh (mục tiêu)",
       "cn": "結嬰",
       "status": "known",
-      "blurb": "Bổ sung Ch.138-140. Bước đột phá từ Kết Đan lên Nguyên Anh. Sau khi kết đan, Hoàng Tuyền quyết của Vương Lâm đã cực hạn, không đủ đưa hắn lên Nguyên Anh; hắ",
+      "blurb": "**Bổ sung Ch.138-140.** Bước đột phá từ Kết Đan lên Nguyên Anh. Sau khi kết đan, Hoàng Tuyền quyết của Vương Lâm đã cực hạn, không đủ đưa hắn lên Nguyên Anh; hắn cần **ngoại lực** — nhắm tới **Thần Đạ",
       "detail": [
         {
-          "label": "Bổ sung Ch.138-140.",
-          "text": "Bước đột phá từ Kết Đan lên Nguyên Anh. Sau khi kết đan, Hoàng Tuyền quyết của Vương Lâm đã cực hạn, không đủ đưa hắn lên Nguyên Anh; hắn cần ngoại lực — nhắm tới Thần Đạo thuật nguyên thủy (tăng tỷ lệ Kết Anh) và Lập Anh đan (xem mục đan dược). Đây là động lực kéo Vương Lâm vào giao ước với Bát Cực Ma Quân."
+          "label": "Mô tả",
+          "text": "**Bổ sung Ch.138-140.** Bước đột phá từ Kết Đan lên Nguyên Anh. Sau khi kết đan, Hoàng Tuyền quyết của Vương Lâm đã cực hạn, không đủ đưa hắn lên Nguyên Anh; hắn cần **ngoại lực** — nhắm tới **Thần Đạo thuật nguyên thủy** (tăng tỷ lệ Kết Anh) và **Lập Anh đan** (xem mục đan dược). Đây là động lực kéo Vương Lâm vào giao ước với Bát Cực Ma Quân."
         }
       ]
     },
@@ -78,11 +78,11 @@
       "name": "Hóa Thần",
       "cn": "化神",
       "status": "known",
-      "blurb": "Cảnh giới cao (= tứ cấp tu chân quốc). Đột phá Hóa Thần đòi hỏi linh lực dung hợp thiên địa, tạo tuần hoàn — nên linh lực Cực cảnh (đơn nhất, cực đoan) KHÔNG th",
+      "blurb": "Cảnh giới cao (= tứ cấp tu chân quốc). Đột phá Hóa Thần đòi hỏi linh lực dung hợp thiên địa, tạo tuần hoàn — nên linh lực Cực cảnh (đơn nhất, cực đoan) KHÔNG thể tiến Hóa Thần. **Bát Cực Ma Quân** (1 ",
       "detail": [
         {
           "label": "Mô tả",
-          "text": "Cảnh giới cao (= tứ cấp tu chân quốc). Đột phá Hóa Thần đòi hỏi linh lực dung hợp thiên địa, tạo tuần hoàn — nên linh lực Cực cảnh (đơn nhất, cực đoan) KHÔNG thể tiến Hóa Thần. Bát Cực Ma Quân (1 trong 7 thành chủ Thất Mai chi địa) được nghi đã đạt Hóa Thần kỳ (Ch.137) — đối thủ tầm Hóa Thần đầu tiên Vương Lâm chạm trán trực diện ở Quyển 2."
+          "text": "Cảnh giới cao (= tứ cấp tu chân quốc). Đột phá Hóa Thần đòi hỏi linh lực dung hợp thiên địa, tạo tuần hoàn — nên linh lực Cực cảnh (đơn nhất, cực đoan) KHÔNG thể tiến Hóa Thần. **Bát Cực Ma Quân** (1 trong 7 thành chủ Thất Mai chi địa) được nghi đã đạt Hóa Thần kỳ (Ch.137) — đối thủ tầm Hóa Thần đầu tiên Vương Lâm chạm trán trực diện ở Quyển 2."
         }
       ]
     },
@@ -90,11 +90,11 @@
       "name": "Anh Biến",
       "cn": "嬰變",
       "status": "known",
-      "blurb": "Cảnh giới trên Hóa Thần (= ngũ cấp tu chân quốc). Pháp bảo/đan \"Anh Biến cấp\" là phần thưởng Cự Ma tộc treo cho Nghịch Thiên châu. Anh Biến đan (truyền thuy",
+      "blurb": "Cự Ma tộc (ngũ) → Thanh Long quốc (tứ) → **Triệu quốc & Hỏa Phần quốc (tam cấp)**.",
       "detail": [
         {
-          "label": "Mô tả",
-          "text": "Cảnh giới trên Hóa Thần (= ngũ cấp tu chân quốc). Pháp bảo/đan \"Anh Biến cấp\" là phần thưởng Cự Ma tộc treo cho Nghịch Thiên châu. Anh Biến đan (truyền thuyết) được Bát Cực Ma Quân nhắc tới như một trong các kho báu ở \"địa phương kia\" (Ch.140). Vương Lâm thề đạt Anh Biến kỳ sẽ tìm thân thể đưa Tư Đồ Nam ra (Ch.133)."
+          "label": "Bậc cụ thể",
+          "text": "Cự Ma tộc (ngũ) → Thanh Long quốc (tứ) → **Triệu quốc & Hỏa Phần quốc (tam cấp)**."
         }
       ]
     },
@@ -102,11 +102,11 @@
       "name": "Cực cảnh",
       "cn": "極境",
       "status": "known",
-      "blurb": "Một trong ba cảnh giới linh lực thượng cổ (Cực / Đạo / Thủy). Đỉnh cao công kích, đồng cấp vô địch. Khuyết trí mạng: thuộc tính linh lực chỉ đi MỘT con đường, k",
+      "blurb": "Một trong ba cảnh giới linh lực thượng cổ (Cực / Đạo / Thủy). Đỉnh cao công kích, đồng cấp vô địch. Khuyết trí mạng: thuộc tính linh lực chỉ đi MỘT con đường, không dung hợp → không thể đột phá Hóa Th",
       "detail": [
         {
           "label": "Mô tả",
-          "text": "Một trong ba cảnh giới linh lực thượng cổ (Cực / Đạo / Thủy). Đỉnh cao công kích, đồng cấp vô địch. Khuyết trí mạng: thuộc tính linh lực chỉ đi MỘT con đường, không dung hợp → không thể đột phá Hóa Thần; bị coi như ma đạo. Cực cảnh (linh lực) — Q1: linh lực = tơ tằm thâm lam, đóng băng & đổi kết cấu vạn vật (\"băng điêu\"); còn gọi Cực Âm linh lực / Lam Băng Thiểm."
+          "text": "Một trong ba cảnh giới linh lực thượng cổ (Cực / Đạo / Thủy). Đỉnh cao công kích, đồng cấp vô địch. Khuyết trí mạng: thuộc tính linh lực chỉ đi MỘT con đường, không dung hợp → không thể đột phá Hóa Thần; bị coi như ma đạo.\n- **Cực cảnh (linh lực)** — Q1: linh lực = tơ tằm thâm lam, đóng băng & đổi kết cấu vạn vật (\"băng điêu\"); còn gọi Cực Âm linh lực / Lam Băng Thiểm."
         }
       ]
     },
@@ -114,35 +114,23 @@
       "name": "Cực cảnh thần thức",
       "cn": "極境神識",
       "status": "known",
-      "blurb": "Khai mở Ch.108: Cực cảnh ở lĩnh vực thần thức/linh hồn. Biểu hiện: tia cực thức màu đỏ trong thức hải (đại dương vàng phủ sương mù xám); giết người vô hình",
+      "blurb": "giết Tiễn Khôn, làm vỡ ngọc phù Thượng Quan Mặc, ép Giải Đông Lai... đều bằng một chữ \"Tử\".\n- **Hiểu nhầm chiến lược (quan trọng)**: cả Tu Ma hải lẫn Bát Cực Ma Quân tin đây là **Tử Chú thuật** thượng",
       "detail": [
         {
-          "label": "Mô tả",
-          "text": "Khai mở Ch.108: Cực cảnh ở lĩnh vực thần thức/linh hồn. Biểu hiện: tia cực thức màu đỏ trong thức hải (đại dương vàng phủ sương mù xám); giết người vô hình bằng một chữ \"Tử\"/\"Diệt\". Vũ khí chủ lực arc Tu Ma hải: giết Tiễn Khôn, làm vỡ ngọc phù Thượng Quan Mặc, ép Giải Đông Lai... đều bằng một chữ \"Tử\". Hiểu nhầm chiến lược (quan trọng): cả Tu Ma hải lẫn Bát Cực Ma Quân tin đây là Tử Chú thuật thượng cổ. Vương Lâm cố ý không đính chính, lợi dụng hiểu nhầm để uy hiếp. Đây là \"bom hẹn giờ\" cho arc sau. Khắc tinh đầu tiên: Bát Trảo thần thức của Bát Cực Ma Quân hút được cả chữ \"Tử\" (Ch.139)."
-        }
-      ]
-    },
-    {
-      "name": "Đạo cảnh / Thủy cảnh",
-      "cn": "",
-      "status": "unknown",
-      "blurb": "Hai cảnh giới linh lực thượng cổ còn lại, chưa rõ chi tiết.",
-      "detail": [
-        {
-          "label": "Mô tả",
-          "text": "Hai cảnh giới linh lực thượng cổ còn lại, chưa rõ chi tiết."
+          "label": "Vũ khí chủ lực arc Tu Ma hải",
+          "text": "giết Tiễn Khôn, làm vỡ ngọc phù Thượng Quan Mặc, ép Giải Đông Lai... đều bằng một chữ \"Tử\".\n- **Hiểu nhầm chiến lược (quan trọng)**: cả Tu Ma hải lẫn Bát Cực Ma Quân tin đây là **Tử Chú thuật** thượng cổ. Vương Lâm **cố ý không đính chính**, lợi dụng hiểu nhầm để uy hiếp. Đây là \"bom hẹn giờ\" cho arc sau.\n- **Khắc tinh đầu tiên**: **Bát Trảo thần thức** của Bát Cực Ma Quân hút được cả chữ \"Tử\" (Ch.139)."
         }
       ]
     },
     {
       "name": "Tử Chú thuật",
       "cn": "詛咒/死咒術",
-      "status": "known",
-      "blurb": "Bổ sung Ch.124. Thần thông thượng cổ độc ác bậc nhất theo lời Lý Mộ Uyển: chỉ cần nói \"Tử\" là đối phương chết; tu luyện bằng tam khí âm/tử/sát cùng cửu",
+      "status": "known (qua lời nhân vật)",
+      "blurb": "**Bổ sung Ch.124.** Thần thông thượng cổ độc ác bậc nhất theo lời Lý Mộ Uyển: chỉ cần nói \"Tử\" là đối phương chết; tu luyện bằng **tam khí âm/tử/sát** cùng cửu tử nhất sinh. Trong truyện, **không nhân",
       "detail": [
         {
-          "label": "Bổ sung Ch.124.",
-          "text": "Thần thông thượng cổ độc ác bậc nhất theo lời Lý Mộ Uyển: chỉ cần nói \"Tử\" là đối phương chết; tu luyện bằng tam khí âm/tử/sát cùng cửu tử nhất sinh. Trong truyện, không nhân vật nào thật sự thấy Vương Lâm dùng Tử Chú thuật — họ nhận nhầm Cực cảnh thần thức là Tử Chú thuật. Cần theo dõi khi nào hiểu nhầm này lộ ra."
+          "label": "Mô tả",
+          "text": "**Bổ sung Ch.124.** Thần thông thượng cổ độc ác bậc nhất theo lời Lý Mộ Uyển: chỉ cần nói \"Tử\" là đối phương chết; tu luyện bằng **tam khí âm/tử/sát** cùng cửu tử nhất sinh. Trong truyện, **không nhân vật nào thật sự thấy Vương Lâm dùng Tử Chú thuật** — họ nhận nhầm Cực cảnh thần thức là Tử Chú thuật. Cần theo dõi khi nào hiểu nhầm này lộ ra.\n\n## HOÀNG TUYỀN: CHI CẢNH, BĂNG DIỄM, TAM ĐAN HỢP NHẤT (Ch.127)"
         }
       ]
     }
