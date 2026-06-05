@@ -1026,8 +1026,9 @@ function renderCotTruyen() {
   // Đồng bộ trạng thái hiển thị ban đầu (mặc định: chỉ Quyển)
   if (typeof syncCotTruyenMode === 'function') syncCotTruyenMode();
 }
-
-// Quyết định hiển thị: mặc định (chưa lọc) -> chỉ Quyển; đã lọc/tìm -> chỉ chương
+// Quyết định hiển thị: mặc định (chưa lọc) -> chỉ Quyển; đã lọc/tìm -> chỉ chương khớp.
+// SỬA: không dùng inline style.display cho chapter-card (nó đè class .hide của bộ lọc,
+// khiến lọc Quyển/đợt bị sai/trống). Chỉ điều khiển volume-wrap; ẩn/hiện chương bằng class .hide.
 function syncCotTruyenMode() {
   const view = document.querySelector('[data-view="cot-truyen"]');
   if (!view) return;
@@ -1038,14 +1039,12 @@ function syncCotTruyenMode() {
                     (!search || search.value.trim().length < 2);
   const volWrap = view.querySelector('[data-volume-wrap]');
   if (volWrap) volWrap.style.display = isDefault ? '' : 'none';
-  view.querySelectorAll('.chapter-card').forEach(c => {
-    c.style.display = isDefault ? 'none' : '';
-  });
-  // cập nhật bộ đếm "Hiển thị: N mục"
-  const rc = view.querySelector('[data-result-count]');
-  if (rc) {
-    if (isDefault) rc.textContent = (VOLUME_LIST ? VOLUME_LIST.length : 0) + ' quyển';
-    // khi đã lọc, hàm lọc gốc sẽ tự cập nhật số
+  if (isDefault) {
+    view.querySelectorAll('.chapter-card').forEach(c => { c.style.display = ''; c.classList.add('hide'); });
+    const rc = view.querySelector('[data-result-count]');
+    if (rc) rc.textContent = (VOLUME_LIST ? VOLUME_LIST.length : 0) + ' quyển';
+  } else {
+    view.querySelectorAll('.chapter-card').forEach(c => { c.style.display = ''; });
   }
 }
 
