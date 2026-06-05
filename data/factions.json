@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05",
-  "count": 23,
+  "count": 25,
   "factions": [
     {
       "name": "Tu Ma hải",
@@ -267,6 +267,56 @@
         {
           "label": "Xuất hiện",
           "text": "Ch.143 — Uông Thanh Việt gia nhập đội vào Cổ Thần chi địa."
+        }
+      ]
+    },
+    {
+      "name": "Thiên Cương quốc",
+      "cn": "天罡國",
+      "type": "quoc",
+      "typeLabel": "Quốc gia",
+      "blurb": "Tứ cấp tu chân quốc; thượng tông Thi Âm tông đặt tại đây; từng lấy bản nguyên thủy Thần Đạo thuật của Chiến Thần Điện.",
+      "detail": [
+        {
+          "label": "Cấp bậc",
+          "text": "Tứ cấp tu chân quốc"
+        },
+        {
+          "label": "Vai trò",
+          "text": "Thượng tông Thi Âm tông Hỏa Phần quốc đặt trụ sở; Thiên Cương Tông là môn phái gốc (Hứa Lập Quốc xuất thân từ đây)."
+        },
+        {
+          "label": "Liên hệ quan trọng",
+          "text": "Đã lấy bản Thần Đạo thuật nguyên thủy của Chiến Thần Điện (Ch.141). Đang truy sát Mã Lương/Vương Lâm qua Thi Âm tông."
+        },
+        {
+          "label": "Xuất hiện",
+          "text": "Ch.141-143 — thượng tông Thi Âm tông ép Triệu Truyện Lương truy kẻ đoạt xá Hứa Lập Quốc."
+        }
+      ]
+    },
+    {
+      "name": "Cổ Thần chi địa",
+      "cn": "古神之地",
+      "type": "khac",
+      "typeLabel": "Địa điểm bí ẩn",
+      "blurb": "Không gian thần bí trong quang quyển đen tại Toái Tinh Loạn; chứa thi thể Cổ Thần Đồ Ti đang ngủ; gồm 4+1 cửa liên hoàn.",
+      "detail": [
+        {
+          "label": "Vị trí",
+          "text": "Bên trong quang quyển đen tại Toái Tinh Loạn, cực bắc Tu Ma nội hải."
+        },
+        {
+          "label": "Cấu trúc",
+          "text": "Cửa 1: thông đạo cự xà + 5 thế giới ngũ hành (Hành Kim/Mộc/Thủy/Hỏa/Thổ). Cửa 1.5: Bất Quy lộ. Cửa 2: Cấm Sơn (13 năm). Cửa 3: Tịch Diệt giới (khe không gian). Cửa 4: thi thể Cổ Thần (chưa tới)."
+        },
+        {
+          "label": "Bí mật chính",
+          "text": "Thi thể Cổ Thần Đồ Ti chứa Anh Biến đan trong kinh mạch + Mặc Gian thạch trong thức hải. Cấm Sơn có phần thưởng Cấm Phiên cho người lĩnh ngộ."
+        },
+        {
+          "label": "Xuất hiện",
+          "text": "Ch.145-160 — Vương Lâm + đội 7 người Hóa Thần vào tìm Anh Biến đan."
         }
       ]
     }
