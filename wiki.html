@@ -2069,10 +2069,10 @@ function _renderCharHero(c){
 
   /* === ROUTE detail[] → 5 tabs === */
   const K5={
-    kinhlich:['mốc','arc','kinh lịch','lịch sử','hành trình','sự kiện','ch.','giai đoạn','phát triển','quá trình'],
-    nhanmach:['quan hệ','đạo lữ','gia đình','kẻ thù','bạn bè','ân nhân','đối thủ','nhân mạch','liên kết','tình cảm'],
-    tuvi    :['tu vi','cảnh giới','công pháp','pháp bảo','ý cảnh','thiên phú','sở trường','lực chiến','thần thông','đột phá','thực lực'],
-    tuiddo  :['túi đồ','vật phẩm','đan dược','bảo vật','thiên tài','kho','sở hữu','trang bị','linh thạch']
+    kinhlich:['mốc','arc','kinh lịch','lịch sử','hành trình','sự kiện','ch.'],
+    nhanmach:['quan hệ','đạo lữ','gia đình','kẻ thù','bạn bè','ân nhân','đối thủ','nhân mạch'],
+    tuvi    :['tu vi','cảnh giới','công pháp','pháp bảo','ý cảnh','thiên phú','sở trường','lực chiến'],
+    tuiddo  :['túi đồ','vật phẩm','đan dược','bảo vật','thiên tài','kho','sở hữu','trang bị']
   };
   function _t5(lbl){
     const l=(lbl||'').toLowerCase();
@@ -2084,32 +2084,74 @@ function _renderCharHero(c){
   (c.detail||[]).forEach(d=>{tm[d.tab||_t5(d.label||d.group||'')].push(d);});
 
   /* === TAB 1: TIỂU SỬ === */
-  /* Luôn có 4 ô cơ bản từ hero data, không cần W3 thêm field */
+  /* === TAB 1: TIỂU SỬ — Smart bio grid, tự trích xuất data từ detail[] ===
+   Design ĐỒNG BỘ cho mọi nhân vật: luôn hiện đủ ô, blurb ngắn, không section dài */
+  function _firstSent(text, n){
+    if(!text) return '';
+    var t=(text||'').replace(/^[\s\-\*•·]+/,'').trim();
+    var parts=t.split(/(?<=[.!?。\n])\s+/);
+    if(parts.length<=1) parts=t.split(/[.!?。\n]+/).filter(Boolean);
+    return parts.slice(0,n||1).join('. ').replace(/\.+$/,'')+'.';
+  }
+  function _detailKw(detail){
+    return function(){
+      var kws=Array.from(arguments);
+      return (detail||[]).find(function(d){
+        var l=(d.label||'').toLowerCase();
+        return kws.some(function(k){return l.includes(k);});
+      });
+    };
+  }
+  var _dk=_detailKw(c.detail);
+  /* Ô cơ bản — luôn có */
   const bioRows=[];
   if(cleanName) bioRows.push(['Họ tên',_esc(cleanName)]);
   if(cnRaw)     bioRows.push(['Hán tự / Bí danh',_esc(cnRaw)]);
   if(roleLabel) bioRows.push(['Vai trò',_esc(roleLabel)]);
   if(pheLabel)  bioRows.push(['Phe / Môn phái',_esc(pheLabel)]);
-  /* Structured fields — W3 bổ sung vào JSON → hiện ngay thêm ô */
-  if(c.gender)       bioRows.push(['Giới tính',_esc(c.gender)]);
-  if(c.origin)       bioRows.push(['Xuất thân',_esc(c.origin)]);
-  if(c.realm)        bioRows.push(['Cảnh giới',_esc(c.realm)]);
+  /* Giới tính */
+  var gv=c.gender||'';
+  if(gv) bioRows.push(['Giới tính',_esc(gv)]);
+  /* Xuất thân — structured hoặc trích từ "thân phận/xuất thân" */
+  var ov=c.origin||_firstSent(((_dk('thân phận','xuất thân','lai lịch','nguồn gốc'))||{}).text,1);
+  if(ov) bioRows.push(['Xuất thân',_esc(ov)]);
+  /* Cảnh giới — structured hoặc trích từ "tu vi/cảnh giới" */
+  var rv=c.realm||_firstSent(((_dk('tu vi','cảnh giới','giai đoạn kết','tổng quan tu'))||{}).text,1);
+  if(rv) bioRows.push(['Cảnh giới',_esc(rv)]);
+  /* Lần đầu xuất hiện */
   if(c.firstChapter) bioRows.push(['Lần đầu xuất hiện','Ch.'+_esc(String(c.firstChapter))]);
-  if(c.appearance)   bioRows.push(['Ngoại hình',_esc(c.appearance)]);
-  const wideSet=new Set(['Ngoại hình','Tính cách','Chuyên môn','Vai trò']);
+  /* Tính cách — structured tags hoặc trích đoạn */
   const pTags=(c.personality||[]).map(p=>'<span class="cm2-bio-tag">'+_esc(p)+'</span>').join('');
+  if(pTags){
+    bioRows.push(['Tính cách',pTags]);
+  } else {
+    var tcSec=_dk('tính cách','cốt cách','bản chất','cá tính','tính người');
+    var tcTxt=tcSec?_firstSent(tcSec.text,2):'';
+    if(tcTxt) bioRows.push(['Tính cách',_esc(tcTxt)]);
+  }
+  /* Chuyên môn — structured tags hoặc trích đoạn */
   const sTags=(c.specialties||[]).map(s=>'<span class="cm2-bio-tag">'+_esc(s)+'</span>').join('');
-  if(pTags) bioRows.push(['Tính cách',pTags]);
-  if(sTags) bioRows.push(['Chuyên môn',sTags]);
-  const bioGrid='<div class="cm2-bio-grid">'+bioRows.map(([k,v])=>
-    '<div class="cm2-bio-cell'+(wideSet.has(k)?' cm2-bio-wide':'')+'">'+
-    '<div class="cm2-bio-k">'+_esc(k)+'</div><div class="cm2-bio-v">'+v+'</div></div>'
-  ).join('')+'</div>';
-  /* Blurb chỉ hiện khi W3 chưa có structured fields */
-  const hasStructured=!!(c.gender||c.origin||c.realm);
-  const shortBlurb=(!hasStructured&&c.blurb)
-    ?'<div class="cm2-blurb" style="margin-top:12px">'+_safeText(c.blurb)+'</div>':'';
-  const t1=bioGrid+shortBlurb+(_renderDetailSecs(tm.tieusuu,'_openPopup',c.blurb)||'');
+  if(sTags){
+    bioRows.push(['Chuyên môn',sTags]);
+  } else {
+    var cmSec=_dk('chuyên môn','sở trường','năng lực đặc','kỹ năng');
+    var cmTxt=cmSec?_firstSent(cmSec.text,1):'';
+    if(cmTxt) bioRows.push(['Chuyên môn',_esc(cmTxt)]);
+  }
+  /* Ngoại hình */
+  if(c.appearance) bioRows.push(['Ngoại hình',_esc(c.appearance)]);
+  const wideSet=new Set(['Ngoại hình','Tính cách','Chuyên môn','Vai trò']);
+  const bioGrid='<div class="cm2-bio-grid">'+bioRows.map(function(r){
+    return '<div class="cm2-bio-cell'+(wideSet.has(r[0])?' cm2-bio-wide':'')+'">'+
+      '<div class="cm2-bio-k">'+_esc(r[0])+'</div>'+
+      '<div class="cm2-bio-v">'+r[1]+'</div></div>';
+  }).join('')+'</div>';
+  /* Blurb tóm tắt — tối đa 2 câu, làm sạch ký tự đầu */
+  var blurbClean=(c.blurb||'').replace(/^[\s\-\*•·]+/,'').trim();
+  var blurbShort=_firstSent(blurbClean,2);
+  var shortBlurb=blurbShort?'<div class="cm2-blurb" style="margin-top:12px">'+_safeText(blurbShort)+'</div>':'';
+  /* Tab 1 chỉ có grid + blurb ngắn — KHÔNG render detail sections */
+  const t1=bioGrid+shortBlurb;
 
   /* === TAB 2: KINH LỊCH NHÂN SINH === */
   let t2='';
