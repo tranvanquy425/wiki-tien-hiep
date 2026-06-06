@@ -645,6 +645,14 @@
 .cm2-bs-dung{background:rgba(155,35,53,.18);color:#fca5a5;border:1px solid rgba(155,35,53,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:700;}
 .cm2-bag-desc{font-size:12px;color:#a8a090;line-height:1.5;}
 .cm2-bag-eff{font-size:11px;color:rgba(212,175,110,.55);margin-top:2px;font-style:italic;}
+/* ── Cultivation (Tu vi — mốc đột phá) ── */
+.cm2-cult-wrap{display:flex;flex-direction:column;gap:8px;margin-top:4px;}
+.cm2-cult-item{padding:10px 13px;border-radius:9px;background:rgba(255,255,255,.04);border:1px solid rgba(212,175,110,.12);}
+.cm2-cult-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;}
+.cm2-cult-realm{font-size:14px;font-weight:700;color:#f0d89a;font-family:'Noto Serif Display',serif;}
+.cm2-cult-ch{font-size:10px;font-weight:700;color:#d4af6e;letter-spacing:.5px;background:rgba(212,175,110,.1);padding:2px 8px;border-radius:10px;border:1px solid rgba(212,175,110,.2);}
+.cm2-cult-loc{font-size:11.5px;color:#a8a090;margin-bottom:3px;}
+.cm2-cult-gained{font-size:12px;color:rgba(212,175,110,.7);font-style:italic;line-height:1.55;}
 </style>
 </head>
 <body>
@@ -1969,6 +1977,7 @@ async function loadCharDetail() {
 // Chuyển text (\n → xuống dòng, "- " đầu dòng → bullet) thành HTML an toàn
 function _safeText(t) {
   if (!t) return '';
+  t = _stripPath(t);
   const lines = t.split('\n');
   const bullets = lines.filter(l => l.trimStart().startsWith('- '));
   if (bullets.length > 0 && bullets.length >= lines.filter(l=>l.trim()).length * 0.5) {
@@ -1981,6 +1990,13 @@ function _safeText(t) {
   return lines.map(l => _esc(l)).join('<br>');
 }
 function _esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function _stripPath(s){
+  // Strip internal file paths/identifiers from display strings
+  if(!s)return '';
+  return s.replace(/(Cot_truyen|He_thong|The_luc|Nhan_vat|TONGHOP|NHAP_?)\/?[^\s<>"'\]*/gi,'')
+          .replace(/\w+[\w-]*\.md/g,'')
+          .replace(/\s{2,}/g,' ').trim();
+}
 
 // Render mảng detail (hỗ trợ cả phẳng cũ lẫn 2-tầng mới: group/phase/popup)
 function _renderDetailSecs(detail, openPopupFn, skipText) {
@@ -2069,10 +2085,10 @@ function _renderCharHero(c){
 
   /* === ROUTE detail[] → 5 tabs === */
   const K5={
-    kinhlich:['mốc','arc','kinh lịch','lịch sử','hành trình','sự kiện','ch.'],
-    nhanmach:['quan hệ','đạo lữ','gia đình','kẻ thù','bạn bè','ân nhân','đối thủ','nhân mạch'],
-    tuvi    :['tu vi','cảnh giới','công pháp','pháp bảo','ý cảnh','thiên phú','sở trường','lực chiến'],
-    tuiddo  :['túi đồ','vật phẩm','đan dược','bảo vật','thiên tài','kho','sở hữu','trang bị']
+    kinhlich:['mốc','arc','kinh lịch','lịch sử','hành trình','sự kiện','ch.','giai đoạn','phát triển','quá trình'],
+    nhanmach:['quan hệ','đạo lữ','gia đình','kẻ thù','bạn bè','ân nhân','đối thủ','nhân mạch','liên kết','tình cảm'],
+    tuvi    :['tu vi','cảnh giới','công pháp','pháp bảo','ý cảnh','thiên phú','sở trường','lực chiến','thần thông','đột phá','thực lực'],
+    tuiddo  :['túi đồ','vật phẩm','đan dược','bảo vật','thiên tài','kho','sở hữu','trang bị','linh thạch']
   };
   function _t5(lbl){
     const l=(lbl||'').toLowerCase();
@@ -2156,7 +2172,7 @@ function _renderCharHero(c){
   /* === TAB 2: KINH LỊCH NHÂN SINH === */
   let t2='';
   if(c.timeline&&c.timeline.length){
-    t2='<div class="cm2-timeline">'+c.timeline.map(t=>
+    t2='<div class="cm2-timeline">'+[...c.timeline].sort((a,b)=>Number(a.chapter||0)-Number(b.chapter||0)).map(t=>
       '<div class="cm2-tl-item'+(t.major?' cm2-tl-major':'')+'">'+
       '<div class="cm2-tl-dot"></div>'+
       (t.arc?'<div class="cm2-tl-arc">'+_esc(t.arc)+'</div>':'')+
@@ -2186,15 +2202,32 @@ function _renderCharHero(c){
   }else{t3=_renderDetailSecs(tm.nhanmach,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>relations[]</code> hoặc section label chứa "quan hệ/đạo lữ/gia đình".</p>';}
 
   /* === TAB 4: TU VI & LỰC CHIẾN === */
-  const t4=_renderDetailSecs(tm.tuvi,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung section label chứa "tu vi/công pháp/pháp bảo/ý cảnh".</p>';
+  /* cultivation[] — structured mốc đột phá; fallback detail[] */
+  let t4='';
+  if(c.cultivation&&c.cultivation.length){
+    const cvSorted=[...c.cultivation].sort((a,b)=>Number(a.chapter||0)-Number(b.chapter||0));
+    t4='<div class="cm2-cult-wrap">'+cvSorted.map(cv=>
+      '<div class="cm2-cult-item">'+
+        '<div class="cm2-cult-top">'+
+          '<span class="cm2-cult-realm">'+_esc(cv.realm||'')+'</span>'+
+          (cv.chapter?'<span class="cm2-cult-ch">Ch.'+_esc(String(cv.chapter))+'</span>':'')+
+        '</div>'+
+        (cv.location?'<div class="cm2-cult-loc">📍 '+_esc(cv.location)+'</div>':'')+
+        (cv.gained?'<div class="cm2-cult-gained">✦ '+_safeText(cv.gained)+'</div>':'')+
+      '</div>'
+    ).join('')+'</div>';
+  }else{
+    t4=_renderDetailSecs(tm.tuvi,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>cultivation[]</code> hoặc section label chứa “tu vi/công pháp/pháp bảo”.</p>';
+  }
 
   /* === TAB 5: TÚI ĐỒ === */
   let t5='';
   if(c.inventory&&c.inventory.length){
     const CICON={baovat:'🔮',dandung:'💊',vatpham:'📦',thientai:'🌿'};
-    const SCL={con:'cm2-bs-con',mat:'cm2-bs-mat',dalung:'cm2-bs-dung',datang:'cm2-bs-dung'};
-    const SLB={con:'Còn',mat:'Đã mất',dalung:'Đã dùng',datang:'Đã tặng'};
-    t5=c.inventory.map(it=>
+    const SCL={con:'cm2-bs-con',mat:'cm2-bs-mat',dalung:'cm2-bs-dung',datang:'cm2-bs-dung',donghop:'cm2-bs-dung',bicuop:'cm2-bs-mat'};
+    const SLB={con:'Còn',mat:'Đã mất',dalung:'Đã dùng',datang:'Đã tặng',donghop:'Dung hợp',bicuop:'Bị cướp'};
+    const invSorted=[...c.inventory].sort((a,b)=>Number(a.chapter||0)-Number(b.chapter||0));
+    t5=invSorted.map(it=>
       '<div class="cm2-bag-item'+(it.status&&it.status!=='con'?' cm2-bag-faded':'')+'">'+
       '<div class="cm2-bag-icon">'+(CICON[it.cat]||'📦')+'</div>'+
       '<div style="flex:1"><div class="cm2-bag-name">'+_esc(it.name||'')+'</div>'+
