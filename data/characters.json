@@ -1,6 +1,6 @@
 {
  "updatedAt": "2026-06-06",
- "count": 123,
+ "count": 121,
  "chars": [
   {
    "name": "Vương Lâm (王琳)",
@@ -1726,34 +1726,6 @@
    "portrait": "T"
   },
   {
-   "name": "Ma đầu (cập nhật từ Ch.112)",
-   "role": "foe",
-   "affiliation": "hangnhac",
-   "roleFilter": "foe",
-   "tag": "CÔNG CỤ THÔN HỒN / ẨN HỌA NỘI BỘ",
-   "tagClass": "tag-foe",
-   "blurb": "Vốn từ nguyên thần Hứa Lập Quốc, bị Vương Lâm ép thôn phệ dã thú biến thành ma đầu (hào quang ám hồng), giam trong thiết phiến.",
-   "detail": [
-    {
-     "label": "Xuất thân / thân phận",
-     "text": "Vốn từ nguyên thần Hứa Lập Quốc, bị Vương Lâm ép thôn phệ dã thú biến thành ma đầu (hào quang ám hồng), giam trong thiết phiến."
-    },
-    {
-     "label": "Mốc đời theo chương (đợt này)",
-     "text": "Làm công cụ thôn hồn, cắn nuốt linh hồn/thần thức địch trên chiến trường và khi thảm sát Nam Đấu thành (Ch.122, 131); xen vai \"bạn diễn hài\" với những lần định liều mạng bất thành trong lúc Vương Lâm kết đan (Ch.127); **bị lộ đã kết đan và đã khôi phục trí nhớ nhưng cố giấu** → bị ép nhả 43 hồn phách và bị siết chặt hơn (Ch.134)."
-    },
-    {
-     "label": "Quan hệ với Vương Lâm",
-     "text": "Nô bộc bất đắc dĩ và \"thiên địch\". Ma đầu khao khát tự do/khôi phục Nguyên Anh để nuốt ngược Vương Lâm, nhưng mỗi lần định phản đều bị thần thức hắn giấu sẵn khống chế. Vì Vương Lâm là thôn hồn nên uy áp thôn hồn chính là thiên địch của ma đầu — cơ chế khống chế cốt lõi."
-    },
-    {
-     "label": "Vai trò trần thuật",
-     "text": "Vũ khí đắc lực kiêm ẩn họa phản chủ về sau; cũng là điểm xả hơi hài hước giữa các cao trào.\n\n---"
-    }
-   ],
-   "portrait": "M"
-  },
-  {
    "name": "Cổ Đế — Cổ Lam (古帝 / 古藍)",
    "role": "foe",
    "affiliation": "khac",
@@ -2058,38 +2030,6 @@
    "portrait": "C"
   },
   {
-   "name": "Ma đầu thứ hai (đệ nhị ma đầu)",
-   "role": "friend",
-   "affiliation": "chinh",
-   "roleFilter": "friend",
-   "tag": "CÔNG CỤ THÔN HỒN / MA ĐẦU TIỂU THÚ",
-   "tagClass": "tag-friend",
-   "blurb": "Thực thể Vương Lâm **tự chế** từ thần thức tiểu thú Hành Thổ chi địa (Ch.151). Tiểu thú là loại sinh vật thần thức tự dung hợp tự nhiên; VL dùng Cực cảnh ép 1 thần thức tiểu thú dung hợp hàng trăm hồn",
-   "detail": [
-    {
-     "label": "Xuất thân",
-     "text": "Thực thể Vương Lâm **tự chế** từ thần thức tiểu thú Hành Thổ chi địa (Ch.151). Tiểu thú là loại sinh vật thần thức tự dung hợp tự nhiên; VL dùng Cực cảnh ép 1 thần thức tiểu thú dung hợp hàng trăm hồn phách từ hồn kỳ. Vì VL là thôn hồn, Ma đầu hắc tạo ra đều mang đặc tính du hồn."
-    },
-    {
-     "label": "Đặc điểm",
-     "text": "Công kích **sóng âm** (từ cơ thể tiểu thú); có thể chỉ huy/chiếm quyền cơn lốc tiểu thú; dung hợp đồng loại; linh trí mạnh hơn Hứa Lập Quốc ban đầu. VL gài thần thức cấm chế khống chế (không cho dung hợp thêm quá nhiều tránh phản phệ)."
-    },
-    {
-     "label": "Mốc đời đợt này",
-     "text": "- Ch.151-152: Ra đời từ thần thức tiểu thú; dùng để chiếm quyền cơn lốc, chặn sóng âm địch.\n- Ch.153-154: Then chốt trong kế đoạt bảo Mạnh Đà Tử: điều 40+ cơn lốc theo VL, khóa trong vòng sáng ngọc giản Thanh Long, đưa qua cửa 2. Hứa Lập Quốc ghen tị thấy rõ.\n- Ch.160: Vào cửa 3 (Tịch Diệt giới), \"như cá gặp nước\" — trực giác nhận ra VL như \"quân vương\" của loại sinh vật thần thức."
-    },
-    {
-     "label": "Quan hệ với Vương Lâm",
-     "text": "Công cụ + nô bộc; không phản kháng như Hứa Lập Quốc (bị khống chế cứng từ đầu). Cảm nhận uy áp thôn hồn của VL."
-    },
-    {
-     "label": "Vai trò trần thuật",
-     "text": "Vũ khí thứ hai (sau Hứa Lập Quốc) cho thấy VL ngày càng mạnh hơn về mảng thôn hồn/du hồn; tạo bộ đôi Ma đầu hài hước với Hứa Lập Quốc.\n\n---"
-    }
-   ],
-   "portrait": "M"
-  },
-  {
    "name": "Đoan Mộc Cực / Bát Cực Ma Quân",
    "role": "neutral",
    "affiliation": "khac",
@@ -2106,25 +2046,37 @@
    "portrait": "C"
   },
   {
-   "name": "Hứa Lập Quốc (Ma đầu thứ nhất)",
+   "name": "Hứa Lập Quốc (許立國)",
    "role": "friend",
    "affiliation": "chinh",
    "roleFilter": "friend",
-   "tag": "CẬP NHẬT · THUỘC HẠ",
+   "tag": "HỨA LẬP QUỐC (許立國)",
    "tagClass": "tag-friend",
-   "blurb": "*(bổ sung mốc Ch.141-160)*\n\n- Dò đường mọi cửa (thả vào lốc xoáy/hồ/cửa 3 thăm dò).\n- Ghen tị Ma đầu thứ hai ra mặt, tự nhủ \"phải cạnh tranh\" nhưng thực ra không làm được gì.\n- Ch.160: Chứng kiến VL *",
+   "blurb": "Ma đầu thứ NHẤT của Vương Lâm. Vốn là tu sĩ Nguyên Anh kỳ Thiên Cương Tông (tứ cấp tu chân quốc), về sau chỉ còn nguyên thần ký trong một thi khô của Thi Âm Tông.\nBị Vương Lâm bắt nguyên thần, ép thôn phệ dã thú để chế thành ma đầu (hào quang ám hồng), giam trong thiết phiến (Ch.111-112) — chính là \"vật liệu\" đầu tiên cho kỹ năng tự chế ma đầu của Vương Lâm.",
    "detail": [
     {
-     "label": "Cập nhật",
-     "text": "Theo VL, được giao do thám Khâu Tứ Bình (học lỏm cách phi hành biến hóa); đoạt hồn Trình Linh & Công Tôn Đồng; tính hài hước, mê chuyện ướt át dù đã thành ma đầu không huyết nhục. Bị VL nhốt thạch thất khi VL tu phân thân; sau được để lại cùng đệ nhị ma đầu bảo vệ Lý Mộ Uyển."
+     "label": "Thân phận",
+     "text": "Ma đầu thứ NHẤT của Vương Lâm. Vốn là tu sĩ Nguyên Anh kỳ Thiên Cương Tông (tứ cấp tu chân quốc), về sau chỉ còn nguyên thần ký trong một thi khô của Thi Âm Tông."
     },
     {
-     "label": "Mô tả",
-     "text": "*(bổ sung mốc Ch.141-160)*\n\n- Dò đường mọi cửa (thả vào lốc xoáy/hồ/cửa 3 thăm dò).\n- Ghen tị Ma đầu thứ hai ra mặt, tự nhủ \"phải cạnh tranh\" nhưng thực ra không làm được gì.\n- Ch.160: Chứng kiến VL **nuốt sống du hồn** ở cửa 3 → khiếp sợ tột độ (\"vuốt da cọp\"), **từ bỏ vĩnh viễn ý định phản chủ**. Nhận ra: VL không chỉ uy áp thần thức — mà thực chất là thiên địch tuyệt đối.\n\n---"
+     "label": "Nguồn gốc",
+     "text": "Bị Vương Lâm bắt nguyên thần, ép thôn phệ dã thú để chế thành ma đầu (hào quang ám hồng), giam trong thiết phiến (Ch.111-112) — chính là \"vật liệu\" đầu tiên cho kỹ năng tự chế ma đầu của Vương Lâm."
     },
     {
-     "label": "Mô tả",
-     "text": "Vốn tu sĩ **Nguyên Anh kỳ Thiên Cương Tông** (tứ cấp), nay chỉ còn **nguyên thần** ký trong một thi khô của Thi Âm Tông. Bị Vương Lâm bắt nguyên thần, ép thôn phệ dã thú để **chế thành ma đầu** (Ch.111-112) — vật liệu cho kỹ năng \"tự chế ma đầu\".\n\n---"
+     "label": "Tính cách",
+     "text": "Hài hước, nhiều mồm, mê chuyện ướt át dù đã thành ma đầu không huyết nhục; là điểm xả hơi hài hước giữa các cao trào. Ban đầu nuôi mộng phản chủ."
+    },
+    {
+     "label": "Hành trình (một mạch theo thời gian)",
+     "text": "- *Tu Ma hải (Ch.121-140)*: Làm công cụ thôn hồn, cắn nuốt linh hồn/thần thức địch trên chiến trường và khi thảm sát Nam Đấu thành (Ch.122, 131). Khao khát tự do, từng bí mật kết đan + khôi phục trí nhớ để mưu nuốt ngược Vương Lâm, nhưng bị lộ → bị ép nhả 43 hồn phách và siết chặt khống chế hơn (Ch.134).\n- *Cổ Thần chi địa (Ch.141-160)*: Được dùng dò đường mọi cửa (thả vào lốc xoáy/hồ/cửa thăm dò). Ghen tị khi đệ nhị ma đầu ra đời. Ch.160: chứng kiến Vương Lâm nuốt sống du hồn ở cửa 3 → khiếp sợ tột độ, TỪ BỎ VĨNH VIỄN ý định phản chủ (nhận ra Vương Lâm là thiên địch tuyệt đối của ma đầu, không chỉ uy áp thần thức).\n- *Vân Thiên tông (Ch.181-200)*: Theo Vương Lâm, được giao do thám Khâu Tứ Bình (học lỏm cách phi hành biến hóa), đoạt hồn Trình Linh & Công Tôn Đồng. Bị nhốt thạch thất khi Vương Lâm tu phân thân; sau được để lại cùng đệ nhị ma đầu bảo vệ Lý Mộ Uyển."
+    },
+    {
+     "label": "Quan hệ với Vương Lâm",
+     "text": "Ban đầu là nô bộc bất đắc dĩ kiêm \"thiên địch\" (mưu phản), về sau quy phục hoàn toàn. Cơ chế khống chế cốt lõi: vì Vương Lâm tu thôn hồn nên uy áp thôn hồn chính là khắc tinh tuyệt đối của ma đầu."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "Ma đầu đầu tiên — cột mốc mở ra mảng \"tự chế ma đầu / đội quân ma đầu\" của Vương Lâm; vũ khí đắc lực kiêm điểm hài hước. (Một trong 4 ma đầu hiện có: Hứa Lập Quốc, đệ nhị ma đầu, ma đầu linh viên, Đằng Cửu.)"
     }
    ],
    "portrait": "H"
@@ -3334,13 +3286,33 @@
    "role": "friend",
    "affiliation": "chinh",
    "roleFilter": "friend",
-   "tag": "CẬP NHẬT · THUỘC HẠ",
+   "tag": "ĐỆ NHỊ MA ĐẦU (TIỂU THÚ)",
    "tagClass": "tag-friend",
-   "blurb": "Nuốt thần thức + kim đan **Vân Phi** (Ch.182, khiến nàng chết); hung tính mạnh, có thể phân thân trăm con + công kích thần thức hóa sét; tuyệt đối trung thành VL (sẵn sàng cảm tử). Cùng Hứa Lập Quốc đ",
+   "blurb": "Ma đầu thứ HAI của Vương Lâm, do hắn tự chế (khác Hứa Lập Quốc là ma đầu thứ nhất).\nVương Lâm dùng Cực cảnh ép một thần thức tiểu thú Hành Thổ chi địa dung hợp hàng trăm hồn phách từ hồn kỳ (Ch.151). Tiểu thú là loài sinh vật thần thức tự dung hợp tự nhiên; vì Vương Lâm tu thôn hồn nên ma đầu hắn tạo ra đều mang đặc tính du hồn.",
    "detail": [
     {
-     "label": "Cập nhật",
-     "text": "Nuốt thần thức + kim đan **Vân Phi** (Ch.182, khiến nàng chết); hung tính mạnh, có thể phân thân trăm con + công kích thần thức hóa sét; tuyệt đối trung thành VL (sẵn sàng cảm tử). Cùng Hứa Lập Quốc được để lại bảo vệ Lý Mộ Uyển."
+     "label": "Thân phận",
+     "text": "Ma đầu thứ HAI của Vương Lâm, do hắn tự chế (khác Hứa Lập Quốc là ma đầu thứ nhất)."
+    },
+    {
+     "label": "Nguồn gốc",
+     "text": "Vương Lâm dùng Cực cảnh ép một thần thức tiểu thú Hành Thổ chi địa dung hợp hàng trăm hồn phách từ hồn kỳ (Ch.151). Tiểu thú là loài sinh vật thần thức tự dung hợp tự nhiên; vì Vương Lâm tu thôn hồn nên ma đầu hắn tạo ra đều mang đặc tính du hồn."
+    },
+    {
+     "label": "Đặc điểm",
+     "text": "Công kích bằng sóng âm; chỉ huy/chiếm quyền cơn lốc tiểu thú; dung hợp đồng loại; phân thân hàng trăm con; sau này công kích thần thức hóa sét. Linh trí mạnh hơn Hứa Lập Quốc ban đầu nhưng bị Vương Lâm gài cấm chế khống chế cứng từ đầu (không cho dung hợp quá nhiều tránh phản phệ) — nên không phản kháng như Hứa Lập Quốc."
+    },
+    {
+     "label": "Hành trình (một mạch theo thời gian)",
+     "text": "- *Cổ Thần chi địa (Ch.151-160)*: Ra đời từ thần thức tiểu thú; chiếm quyền cơn lốc, chặn sóng âm địch. Then chốt trong kế đoạt bảo Mạnh Đà Tử — điều 40+ cơn lốc theo Vương Lâm, khóa trong vòng sáng ngọc giản Thanh Long, đưa qua cửa 2 (Ch.153-154). Vào cửa 3 (Tịch Diệt giới) \"như cá gặp nước\", trực giác nhận Vương Lâm như quân vương của loài sinh vật thần thức.\n- *Vân Thiên tông (Ch.181-200)*: Nuốt thần thức + kim đan Vân Phi (Ch.182, khiến nàng chết); hung tính mạnh, tuyệt đối trung thành (sẵn sàng cảm tử). Cùng Hứa Lập Quốc được để lại bảo vệ Lý Mộ Uyển."
+    },
+    {
+     "label": "Quan hệ với Vương Lâm",
+     "text": "Công cụ + nô bộc trung thành, không phản kháng. Cảm nhận uy áp thôn hồn của Vương Lâm."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "Vũ khí thứ hai sau Hứa Lập Quốc — cho thấy Vương Lâm ngày càng mạnh về mảng thôn hồn/du hồn; tạo bộ đôi ma đầu hài hước với Hứa Lập Quốc."
     }
    ],
    "portrait": "Đ"
