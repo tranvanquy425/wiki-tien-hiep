@@ -1366,73 +1366,33 @@
    "role": "friend",
    "affiliation": "vanthientong",
    "roleFilter": "friend",
-   "tag": "LÒ LUYỆN ĐAN / TÌNH MỘT CHIỀU",
+   "tag": "LÝ MỘ UYỂN (李慕婉)",
    "tagClass": "tag-friend",
-   "blurb": "Đạo lữ chính thức của Vương Lâm; ngũ phẩm luyện đan sư Vân Thiên tông (1 trong 3 ngũ phẩm đan sư của tông).\nĐược Vương Lâm công khai đón đi (\"Đến đây!\") ngay trước mặt toàn Vân Thiên tông, sau khi hắn giết vị hôn phu bị ép gả Tôn Trấn Vĩ. Tình cảm hai người chính thức xác lập. Trước đó (Ch.196-200) chính nàng giám định đan lô + dùng Thất Long đỉnh giúp Vương Lâm Kết Anh.",
+   "blurb": "Nữ tu xuất thân Lạc Hà môn (Hỏa Phần quốc), em gái Lý Kỳ Khánh; thiên tài luyện đan và trận pháp. Sau hơn 200 năm, nay là một trong 3 ngũ phẩm luyện đan sư của Vân Thiên tông (khách khanh) — và là đạo lữ chính thức của Vương Lâm.\nBan đầu Trúc Cơ trung kỳ, yếu về chiến đấu nhưng đỉnh cao về luyện đan + trận pháp (thông gần như mọi đan phương Lạc Hà môn lẫn nhiều cổ phương: Thiên Ly đan, Hoàng Linh đan, Tị Độc đan...; trận Cửu Ly thi cốt / Cửu Ly Giao Long cải biến từ Đấu Long trận). Sau 200 năm tu luyện đã lên ngũ phẩm đan sư, tự chế được Thất Long đỉnh.",
    "detail": [
     {
-     "label": "Xuất thân / thân phận",
-     "text": "Nữ tu Lạc Hà môn (Hỏa Phần quốc), em gái của Lý Kỳ Khánh. Là thiên tài luyện đan và trận pháp, được trưởng bối Lạc Hà môn yêu mến; nhiều người theo đuổi nhưng nàng chưa từng động lòng (Ch.130)."
+     "label": "Thân phận",
+     "text": "Nữ tu xuất thân Lạc Hà môn (Hỏa Phần quốc), em gái Lý Kỳ Khánh; thiên tài luyện đan và trận pháp. Sau hơn 200 năm, nay là một trong 3 ngũ phẩm luyện đan sư của Vân Thiên tông (khách khanh) — và là đạo lữ chính thức của Vương Lâm."
     },
     {
-     "label": "Tu vi",
-     "text": "Trúc Cơ trung kỳ. Không mạnh về chiến đấu, sở trường là luyện đan và trận pháp."
+     "label": "Tu vi & sở trường",
+     "text": "Ban đầu Trúc Cơ trung kỳ, yếu về chiến đấu nhưng đỉnh cao về luyện đan + trận pháp (thông gần như mọi đan phương Lạc Hà môn lẫn nhiều cổ phương: Thiên Ly đan, Hoàng Linh đan, Tị Độc đan...; trận Cửu Ly thi cốt / Cửu Ly Giao Long cải biến từ Đấu Long trận). Sau 200 năm tu luyện đã lên ngũ phẩm đan sư, tự chế được Thất Long đỉnh."
     },
     {
      "label": "Tính cách",
-     "text": "Thông minh và tự thị thông minh hơn người — nên ban đầu khinh thường Vương Lâm (từ lần thoáng gặp Ch.113). Nhu nhược trong chiến đấu nhưng kiên cường trong nghề; nhạy cảm, dễ tổn thương, và trọng ân nghĩa."
+     "text": "Thông minh và tự thị thông minh, kiên cường trong nghề nhưng nhạy cảm, dễ tổn thương và trọng ân nghĩa. Ban đầu khinh thường Vương Lâm, về sau một lòng si tình."
     },
     {
-     "label": "Mốc đời theo chương",
-     "text": "Gặp Vương Lâm lần đầu (thoáng qua) ở Ch.113 → bị một Kết Đan trung kỳ Song Tu môn truy bức vì viên Thiên Ly đan bán thành phẩm → **được Vương Lâm cứu** (Ch.123), giao bản mệnh tinh huyết, lập Cửu Ly thi cốt trận → sống cùng Vương Lâm ở Tu Ma hải khoảng ba–bốn năm, luyện vô số đan dược và nâng cấp trận thành Cửu Ly Giao Long trận (Ch.124-126) → chứng kiến hắn kết đan và thảm sát (Ch.127-131) → khắc 18.974 ngọc giản tặng trận pháp, chịu giảm thọ ~5 năm (Ch.135) → **được đưa về Lạc Hà môn / Hỏa Phần minh, chia tay** (Ch.137)."
-    },
-    {
-     "label": "Quan hệ chính",
-     "text": "Anh trai Lý Kỳ Khánh; sư môn Lạc Hà môn (thuộc Hỏa Phần minh); tình cảm một chiều với Vương Lâm."
-    },
-    {
-     "label": "Pháp bảo / sở trường",
-     "text": "Luyện đan (gần như mọi đan phương Lạc Hà môn cùng nhiều cổ phương — Thiên Ly đan, Hoàng Linh đan, Tị Độc đan…), trận pháp (Cửu Ly thi cốt/giao long trận, cải biến từ Đấu Long trận). Đan lô tùy thân (nhị phẩm), sau được Vương Lâm tặng Bách Thú Linh lô (ngũ phẩm); nội giáp da giao long."
-    },
-    {
-     "label": "Kết cục / hiện trạng",
-     "text": "Còn sống, đã về Hỏa Phần minh, được thần thức Vương Lâm lưu lại bảo hộ."
+     "label": "Hành trình (một mạch theo thời gian)",
+     "text": "- *Hỏa Phần quốc / Tu Ma hải (Ch.113-137)*: Gặp Vương Lâm thoáng qua (Ch.113), rồi bị tu sĩ Song Tu môn truy bức vì viên Thiên Ly đan → được Vương Lâm cứu (Ch.123), giao bản mệnh tinh huyết lập trận. Sống cùng hắn ở Tu Ma hải 3-4 năm, luyện vô số đan dược và nâng cấp trận (Ch.124-126), chứng kiến hắn kết đan + thảm sát (Ch.127-131), khắc 18.974 ngọc giản tặng trận pháp dù chịu giảm thọ ~5 năm (Ch.135). Cuối cùng được đưa về Lạc Hà môn / Hỏa Phần minh, chia tay (Ch.137) — tặng kèm ngọc giản phòng ngự Thanh Long.\n- *Vắng mặt nhưng \"hồi báo\" (Ch.141-160)*: Lời nàng dặn \"dịch tủy giao long tăng tỷ lệ Kết Anh\" được Vương Lâm thực hiện (chui miệng cự xà lấy dịch tủy, Ch.147-148). Ngọc giản Thanh Long nàng tặng cứu mạng hắn 2 lần — vượt vùng sinh vật giống khe không gian (Ch.149) và khóa 40 cơn lốc (Ch.154), ngọc giản nứt một vết.\n- *Tái xuất tại Vân Thiên tông (Ch.181-200)*: Hơn 200 năm sau, nàng đã là ngũ phẩm đan sư Vân Thiên tông, bị tông ép sắp kết đạo lữ song tu với Tôn Trấn Vĩ (Ch.195). Nhận ra Vương Lâm qua cái đan lô (bộ da giao long năm xưa) — \"Vương đại ca, 200 năm nay huynh đi đâu?\". Nàng giúp hắn Kết Anh: cung cấp đan dược tích lũy 200 năm (Kỷ Tả đan...), giám định + mở phong ấn đan lô Kỳ Hoàng Môn ở Tàng Kinh Các, dùng Thất Long đỉnh (sát thủ tối hậu nàng tự chế để uy hiếp tông) cộng hưởng Đoạt Thiên đỉnh giải phong ấn.\n- *Đoàn tụ (Ch.201)*: Sau khi Vương Lâm xuất quan giết Tôn Trấn Vĩ và khuất phục Vân Thiên tông, hắn công khai đón nàng đi (\"Đến đây!\") ngay trước mặt toàn tông. Tình cảm hai người chính thức xác lập."
     },
     {
      "label": "Quan hệ với Vương Lâm",
-     "text": "Tuyến quan hệ trọng tâm của đợt. Diễn biến từ \"con tin được cứu\" → \"công cụ luyện đan (lò luyện đan di động)\" → \"người đồng hành nhiều năm\" → \"tình cảm một chiều\". Vương Lâm tiếp cận nàng thực dụng tuyệt đối: cứu vì nghe \"Thiên Ly đan\", giữ vì nàng giỏi luyện đan, xem nàng là phương tiện kết đan — nhưng giữ chữ tín và một lằn ranh đạo đức (không cưỡng bức dù nàng nhiều lần tưởng sẽ bị làm lô đỉnh; khi chia tay thì trả tự do, tặng đan lô, lưu thần thức bảo hộ). Về phía nàng: sợ hãi và khinh thường lúc đầu → kinh hãi thực lực → cảm phục, rung động → chua xót vì tình một chiều (\"với hắn ta chỉ là lò luyện đan\", \"hắn chưa từng hỏi tên ta\"). Câu \"ta đưa ngươi đi giết người\" khắc sâu trong nàng."
+     "text": "Tuyến tình cảm xuyên suốt từ \"con tin được cứu\" → \"lò luyện đan di động\" → \"người đồng hành\" → tình một chiều chua xót (\"với hắn ta chỉ là lò luyện đan\") → cố nhân tái ngộ → đạo lữ. Vương Lâm vốn đối với nàng thực dụng tuyệt đối nhưng luôn giữ chữ tín và một lằn ranh đạo đức (không cưỡng bức, trả tự do, lưu thần thức bảo hộ khi chia tay; để lại 2 ma đầu bảo vệ nàng ở Vân Thiên tông). Hắn có \"tia nhu tình hiếm thấy\" với nàng nhưng từng kìm nén vì huyết hải thâm cừu, sợ liên lụy — đến Ch.201 mới dứt khoát đón nàng."
     },
     {
      "label": "Vai trò trần thuật",
-     "text": "Nữ chính phụ của arc Tu Ma hải; tấm gương soi chiếu sự vô tình của Vương Lâm sau khi nhập ma đạo và mở Cực cảnh, đồng thời cho thấy hắn vẫn giữ một lằn ranh — một nhân vật xám, không phải ác thuần.\n\n---"
-    },
-    {
-     "label": "Mô tả",
-     "text": "*(bổ sung hồi báo — không xuất hiện trực tiếp)*\n\n- Lời dặn \"dịch tủy giao long tăng tỷ lệ Kết Anh\" (Ch.123) → VL liều chui vào miệng cự xà lấy dịch tủy (Ch.147-148). **Lời dặn đã được VL thực hiện.**\n- Ngọc giản phòng ngự Thanh Long nàng tặng lúc chia tay (Ch.137) → **cứu mạng VL 2 lần**: vượt vùng sinh vật giống khe không gian (Ch.149) và khóa 40 cơn lốc (Ch.154). Ngọc giản nứt 1 vết, chưa hỏng hoàn toàn.\n- Ý nghĩa: Tình cảm một chiều của Lý Mộ Uyển tiếp tục \"hồi báo\" VL dù nàng vắng mặt — di sản nàng để lại cứu mạng hắn khi nguy cấp nhất.\n\n---"
-    },
-    {
-     "label": "Cập nhật (TÁI XUẤT sau 200 năm)",
-     "text": "Nay là **1 trong 3 ngũ phẩm luyện đan sư** của Vân Thiên tông (khách khanh). Bị tông ép sắp **kết đạo lữ song tu với Tôn Trấn Vĩ** (Ch.195).\n**Nhận ra Vương Lâm** qua cái đan lô (bộ da giao long năm xưa) — \"Vương đại ca, 200 năm nay huynh đi đâu?\"."
-    },
-    {
-     "label": "Giúp VL Kết Anh",
-     "text": "cung cấp đan dược tích lũy 200 năm (Kỷ Tả đan...); giám định + tìm cách mở phong ấn đan lô Kỳ Hoàng Môn ở Tàng Kinh Các; dùng **Thất Long đỉnh** (nàng tự chế làm \"sát thủ tối hậu\" uy hiếp tông) cộng hưởng Đoạt Thiên đỉnh để giải phong ấn."
-    },
-    {
-     "label": "Tình cảm",
-     "text": "Vẫn sâu đậm; Vương Lâm có \"tia nhu tình hiếm thấy\" nhưng kìm nén vì huyết hải thâm cừu, sợ liên lụy nàng. VL để 2 ma đầu lại bảo vệ nàng."
-    },
-    {
-     "label": "Thân phận",
-     "text": "Đạo lữ chính thức của Vương Lâm; ngũ phẩm luyện đan sư Vân Thiên tông (1 trong 3 ngũ phẩm đan sư của tông)."
-    },
-    {
-     "label": "Vai trò trong arc",
-     "text": "Được Vương Lâm công khai đón đi (\"Đến đây!\") ngay trước mặt toàn Vân Thiên tông, sau khi hắn giết vị hôn phu bị ép gả Tôn Trấn Vĩ. Tình cảm hai người chính thức xác lập. Trước đó (Ch.196-200) chính nàng giám định đan lô + dùng Thất Long đỉnh giúp Vương Lâm Kết Anh."
-    },
-    {
-     "label": "Quan hệ",
-     "text": "Cố nhân từ thời Hỏa Phần quốc; nhận ra Vương Lâm qua bộ da giao long năm xưa."
+     "text": "Nữ chính phụ; tấm gương soi chiếu sự vô tình của Vương Lâm sau khi nhập ma đạo, đồng thời cho thấy hắn vẫn giữ một lằn ranh nhân tính — nhân vật xám, không ác thuần. Di sản tình cảm của nàng (lời dặn, ngọc giản) nhiều lần cứu mạng hắn lúc nguy cấp nhất."
     }
    ],
    "portrait": "L"
