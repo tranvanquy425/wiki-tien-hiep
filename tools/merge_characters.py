@@ -71,3 +71,52 @@ def find_dup_groups(chars):
     g = defaultdict(list)
     for c in chars: g[norm_key(c["name"])].append(c["name"])
     return {k: v for k, v in g.items() if len(v) > 1}
+
+
+# ============ FACTION DEDUP (W3, 2026-06-06) ============
+# Gộp thế lực trùng: các mục "— CẬP NHẬT" / "(cập nhật)" gộp vào thế lực gốc,
+# KHÔNG tạo card thứ 2. Dùng ở bước parse The_luc -> factions.json.
+
+def fac_key(name):
+    s = name
+    s = re.sub(r'[（(][^（）()]*[）)]', '', s)
+    s = re.sub(r'(?i)\s*[—–-]\s*cập nhật.*$', '', s)
+    s = re.sub(r'(?i)\s*\(cập nhật[^)]*\)', '', s)
+    s = re.sub(r'(?i)\bcập nhật\b', '', s)
+    return re.sub(r'\s+', ' ', s).strip().lower()
+
+def merge_factions(facs):
+    order, bucket = [], defaultdict(list)
+    for f in facs:
+        k = fac_key(f["name"])
+        if k not in bucket: order.append(k)
+        bucket[k].append(f)
+    out = []
+    for k in order:
+        items = bucket[k]
+        if len(items) == 1:
+            out.append(items[0]); continue
+        canon = max(items, key=lambda x: len(x.get("detail", [])))
+        seen, det = set(), []
+        for it in [canon] + [x for x in items if x is not canon]:
+            for d in it.get("detail", []):
+                sg = (d.get("label", "").strip(), d.get("text", "").strip())
+                if sg in seen: continue
+                seen.add(sg); det.append(d)
+        o = dict(canon)
+        o["name"] = re.sub(r'(?i)\s*[—–-]\s*cập nhật.*$', '', canon["name"]).strip()
+        o["name"] = re.sub(r'(?i)\s*\(cập nhật[^)]*\)', '', o["name"]).strip()
+        o["detail"] = det
+        for x in items:
+            if x.get("type"): o["type"] = x["type"]; break
+        for x in items:
+            if x.get("typeLabel"): o["typeLabel"] = x["typeLabel"]; break
+        for x in items:
+            if x.get("blurb"): o["blurb"] = x["blurb"]; break
+        out.append(o)
+    return out
+
+def find_fac_dup_groups(facs):
+    g = defaultdict(list)
+    for f in facs: g[fac_key(f["name"])].append(f["name"])
+    return {k: v for k, v in g.items() if len(v) > 1}
