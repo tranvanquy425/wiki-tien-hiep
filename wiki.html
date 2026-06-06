@@ -477,6 +477,57 @@
 .volume-cta{font-family:var(--serif-display,serif);font-size:13.5px;color:var(--gold,#d4af6e);
   border-top:1px solid rgba(212,175,110,.18);padding-top:11px;}
 @media(max-width:520px){.volume-card{padding:18px 16px 15px;}.volume-title{font-size:18px;}}
+
+/* ═══════════════════════════════════
+   Hero Card UI v2 — W1-WEB #2 — 2026-06-06
+   4 type: char / art / fac / realm
+═══════════════════════════════════ */
+.cm2-hero{display:flex;align-items:stretch;gap:0;min-height:90px;
+  border-radius:12px 12px 0 0;overflow:hidden;}
+.cm2-hero-char {background:linear-gradient(135deg,#1a1a2e 0%,#2c2c4a 100%);}
+.cm2-hero-art  {background:linear-gradient(135deg,#7a3f0a 0%,#c9601a 100%);}
+.cm2-hero-fac  {background:linear-gradient(135deg,#1a3a5c 0%,#2c5f8a 100%);}
+.cm2-hero-realm{background:linear-gradient(135deg,#1a3a1a 0%,#2d6a4f 100%);}
+.cm2-portrait{width:82px;flex-shrink:0;display:flex;align-items:center;
+  justify-content:center;font-size:34px;
+  background:rgba(255,255,255,.08);border-right:1px solid rgba(255,255,255,.1);}
+.cm2-art-icon{width:74px;flex-shrink:0;display:flex;align-items:center;
+  justify-content:center;font-size:40px;
+  background:rgba(255,255,255,.1);border-right:1px solid rgba(255,255,255,.1);}
+.cm2-hero-info{flex:1;padding:16px 16px 14px;}
+.cm2-name{font-size:19px;font-weight:700;color:#f0d89a;
+  line-height:1.25;margin-bottom:3px;overflow-wrap:break-word;}
+.cm2-cn{font-size:12px;color:rgba(255,255,255,.48);margin-bottom:8px;line-height:1.4;}
+.cm2-role-badge,.cm2-cat-badge,.cm2-type-badge{
+  display:inline-block;font-size:11px;font-weight:700;padding:3px 12px;
+  border-radius:20px;margin-bottom:7px;}
+.cm2-role-main  {background:rgba(201,168,76,.2);color:#f0d89a;border:1px solid rgba(201,168,76,.4);}
+.cm2-role-foe   {background:rgba(155,35,53,.28);color:#fca5a5;border:1px solid rgba(155,35,53,.45);}
+.cm2-role-friend{background:rgba(45,106,79,.28);color:#6ee7b7;border:1px solid rgba(45,106,79,.45);}
+.cm2-role-neutral{background:rgba(107,114,128,.22);color:#d1d5db;border:1px solid rgba(107,114,128,.4);}
+.cm2-cat-badge{background:rgba(255,255,255,.15);color:rgba(255,255,255,.9);}
+.cm2-type-badge{background:rgba(255,255,255,.12);color:rgba(255,255,255,.85);margin-top:4px;}
+.cm2-pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px;}
+.cm2-pill{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);
+  border-radius:20px;padding:2px 10px;font-size:11px;color:rgba(255,255,255,.72);}
+.cm2-body{padding:16px 20px 8px;}
+.cm2-blurb{font-size:13.5px;line-height:1.75;background:#1e1a14;border-radius:8px;
+  padding:12px 14px;margin-bottom:16px;color:var(--cream,#e8dcc2);
+  border-left:3px solid rgba(201,168,76,.65);}
+.cm2-blurb-art  {border-left-color:#d4761a;background:#1c1208;}
+.cm2-blurb-fac  {border-left-color:#3a7ab5;background:#0c1820;}
+.cm2-blurb-realm{border-left-color:#3a8a5f;background:#0c1c0f;}
+.cm2-status-known{display:inline-block;background:rgba(45,106,79,.25);color:#6ee7b7;
+  border:1px solid rgba(45,106,79,.4);padding:3px 12px;border-radius:20px;
+  font-size:11px;font-weight:700;margin-bottom:12px;}
+.cm2-status-unknown{display:inline-block;background:rgba(107,114,128,.2);color:#9ca3af;
+  border:1px solid rgba(107,114,128,.35);padding:3px 12px;border-radius:20px;
+  font-size:11px;font-weight:700;margin-bottom:12px;}
+@media(max-width:520px){
+  .cm2-portrait,.cm2-art-icon{width:60px;font-size:28px;}
+  .cm2-name{font-size:16px;}
+  .cm2-body{padding:12px 14px 6px;}
+}
 </style>
 </head>
 <body>
@@ -1868,20 +1919,83 @@ function _renderPhaseItems(items) {
   }).join('');
 }
 
+
+/* ── Hero Card renderers v2 (2026-06-06) ── */
+function _cmRoleLabel(r){return{main:'✦ Nhân vật chính',foe:'✦ Phản diện',friend:'✦ Đồng hành',neutral:'✦ Trung lập'}[r]||r||'';}
+function _cmPheLabel(a){return{chinh:'Chính phái',hangnhac:'Hằng Nhạc tông',huyendao:'Huyền Đạo tông',thiamtong:'Thê Âm tông',hohang:'Hồ Hành Môn',vanthientong:'Vạn Thiên tông',khac:'Độc lập / Khác'}[a]||a||'';}
+function _cmCatIcon(c){return{baovat:'🔮',bua:'📜',congphap:'📖',dandung:'💊',khanang:'⚡',tienthuat:'✨',vatpham:'📦'}[c]||'⚔️';}
+function _cmCatLabel(c){return{baovat:'Bảo vật',bua:'Bùa chú',congphap:'Công pháp',dandung:'Đan dược',khanang:'Kỹ năng',tienthuat:'Tiên thuật',vatpham:'Vật phẩm'}[c]||c||'';}
+
+function _renderCharHero(c){
+  const roleLabel=_cmRoleLabel(c.role);
+  const roleClass={main:'cm2-role-main',foe:'cm2-role-foe',friend:'cm2-role-friend',neutral:'cm2-role-neutral'}[c.role]||'cm2-role-neutral';
+  const cn=c.cn?'<div class="cm2-cn">'+_esc(c.cn)+'</div>':'';
+  const badge=roleLabel?'<div class="cm2-role-badge '+roleClass+'">'+_esc(roleLabel)+'</div>':'';
+  const pills=[_cmPheLabel(c.affiliation),c.tag].filter(Boolean)
+    .map(p=>'<span class="cm2-pill">'+_esc(p)+'</span>').join('');
+  const blurb=c.blurb?'<div class="cm2-blurb">'+_safeText(c.blurb)+'</div>':'';
+  const secs=_renderDetailSecs(c.detail,'_openPopup');
+  return '<div class="cm2-hero cm2-hero-char">'+
+    '<div class="cm2-portrait">'+_esc((c.name||'?').charAt(0))+'</div>'+
+    '<div class="cm2-hero-info">'+
+      '<div class="cm2-name">'+_esc(c.name||'')+'</div>'+cn+badge+
+      (pills?'<div class="cm2-pills">'+pills+'</div>':'')+
+    '</div></div>'+
+    '<div class="cm2-body">'+blurb+(secs||'<p class="cm-empty">Chưa có nội dung chi tiết.</p>')+'</div>';
+}
+
+function _renderArtHero(a){
+  const icon=_cmCatIcon(a.category), catLbl=_cmCatLabel(a.category);
+  const status=a.status==='known'?'<span class="cm2-status-known">✓ Đã xác nhận</span>':'<span class="cm2-status-unknown">? Chưa rõ</span>';
+  const blurb=a.blurb?'<div class="cm2-blurb cm2-blurb-art">'+_safeText(a.blurb)+'</div>':'';
+  const secs=_renderDetailSecs(a.detail,'_openPopup');
+  return '<div class="cm2-hero cm2-hero-art">'+
+    '<div class="cm2-art-icon">'+icon+'</div>'+
+    '<div class="cm2-hero-info">'+
+      '<div class="cm2-name">'+_esc(a.name||'')+'</div>'+
+      '<div class="cm2-cat-badge">'+_esc(catLbl)+'</div>'+
+    '</div></div>'+
+    '<div class="cm2-body">'+status+blurb+(secs||'<p class="cm-empty">Chưa có nội dung chi tiết.</p>')+'</div>';
+}
+
+function _renderFacHero(f){
+  const cn=f.cn?'<div class="cm2-cn">'+_esc(f.cn)+'</div>':'';
+  const typeLbl=f.typeLabel||f.type||'';
+  const blurb=f.blurb?'<div class="cm2-blurb cm2-blurb-fac">'+_safeText(f.blurb)+'</div>':'';
+  const secs=_renderDetailSecs(f.detail,'_openPopup');
+  return '<div class="cm2-hero cm2-hero-fac">'+
+    '<div class="cm2-hero-info" style="padding:20px 20px 16px">'+
+      '<div class="cm2-name">'+_esc(f.name||'')+'</div>'+cn+
+      (typeLbl?'<div class="cm2-type-badge">🏯 '+_esc(typeLbl)+'</div>':'')+
+    '</div></div>'+
+    '<div class="cm2-body">'+blurb+(secs||'<p class="cm-empty">Chưa có nội dung chi tiết.</p>')+'</div>';
+}
+
+function _renderRealmHero(r){
+  const cn=r.cn?'<div class="cm2-cn">'+_esc(r.cn)+'</div>':'';
+  const status=r.status==='known'?'<span class="cm2-status-known">✓ Đã xác nhận</span>':'<span class="cm2-status-unknown">? Chưa rõ</span>';
+  const blurb=r.blurb?'<div class="cm2-blurb cm2-blurb-realm">'+_safeText(r.blurb)+'</div>':'';
+  const secs=_renderDetailSecs(r.detail,'_openPopup');
+  return '<div class="cm2-hero cm2-hero-realm">'+
+    '<div class="cm2-hero-info" style="padding:20px 20px 16px">'+
+      '<div class="cm2-name">'+_esc(r.name||'')+'</div>'+cn+
+    '</div></div>'+
+    '<div class="cm2-body">'+status+blurb+(secs||'<p class="cm-empty">Chưa có nội dung chi tiết.</p>')+'</div>';
+}
+
 function _openDetailObj(c, fallbackName){
   const backdrop=document.getElementById('charModal'), bodyEl=document.getElementById('charModalBody');
   if(!backdrop||!bodyEl) return;
   if(!c){ bodyEl.innerHTML='<h2>'+_esc(fallbackName||'')+'</h2><p class="cm-empty">Chưa có hồ sơ chi tiết.</p>'; }
   else{
-    const tag=c.tag?('<span class="cm-tag '+(c.tagClass||'')+'">'+_esc(c.tag)+'</span>'):'';
-    const sub=c.role||c.typeLabel||(c.cn?('<span style="opacity:.7">'+_esc(c.cn)+'</span>'):'')||'';
-    const portrait=c.portrait||c.cn||(c.name||'?').charAt(0);
-    const secs=_renderDetailSecs(c.detail, '_openPopup');
-    bodyEl.innerHTML='<div class="cm-head"><div class="cm-portrait">'+_esc(portrait)+'</div><div><h2>'+_esc(c.name||'')+'</h2>'+
-      (sub?('<div class="cm-role">'+sub+'</div>'):'')+tag+'</div></div>'+(secs||'<p class="cm-empty">Chưa có nội dung chi tiết.</p>');
+    if(c.category) bodyEl.innerHTML=_renderArtHero(c);
+    else if(c.type&&c.typeLabel) bodyEl.innerHTML=_renderFacHero(c);
+    else if(c.role) bodyEl.innerHTML=_renderCharHero(c);
+    else bodyEl.innerHTML=_renderRealmHero(c);
   }
   backdrop.classList.add('open'); document.body.style.overflow='hidden';
 }
+
 function openCharDetail(name){ _openDetailObj(CHAR_DETAIL[_normCharName(name)], name); }
 function openRealmDetail(name){ _openDetailObj(REALM_DETAIL[_normCharName(name)], name); }
 function openArtifactDetail(name){ _openDetailObj(ARTIFACT_DETAIL[_normCharName(name)], name); }
