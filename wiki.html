@@ -591,6 +591,60 @@
 .cm2-rel-ally    {background:rgba(8,60,100,.25);color:#7dd3fc;border:1px solid rgba(14,90,140,.4);}
 .cm2-rel-gift    {background:rgba(45,106,79,.2);color:#86efac;border:1px solid rgba(45,106,79,.35);}
 .cm2-rel-tech    {background:rgba(100,50,180,.25);color:#c4a0f0;border:1px solid rgba(100,50,180,.4);}
+
+/* ── Bio grid (Tiểu sử) ── */
+.cm2-bio-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px;}
+.cm2-bio-cell{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:9px 12px;}
+.cm2-bio-wide{grid-column:1/-1;}
+.cm2-bio-k{font-size:10px;color:rgba(212,175,110,.6);text-transform:uppercase;letter-spacing:.7px;margin-bottom:3px;}
+.cm2-bio-v{font-size:13px;font-weight:500;color:#e8dcc2;line-height:1.5;}
+.cm2-bio-tag{display:inline-block;background:rgba(212,175,110,.1);border:1px solid rgba(212,175,110,.2);
+  border-radius:4px;padding:1px 8px;font-size:11px;color:#d4af6e;margin:2px 2px 0 0;}
+/* ── Timeline (Kinh lịch) ── */
+.cm2-timeline{position:relative;padding-left:26px;margin-top:4px;}
+.cm2-timeline::before{content:'';position:absolute;left:8px;top:6px;bottom:6px;width:2px;
+  background:linear-gradient(to bottom,rgba(212,175,110,.5),rgba(212,175,110,.06));}
+.cm2-tl-item{position:relative;margin-bottom:16px;}
+.cm2-tl-dot{position:absolute;left:-22px;top:4px;width:10px;height:10px;border-radius:50%;
+  border:2px solid #d4af6e;background:#1c1812;}
+.cm2-tl-major .cm2-tl-dot{background:#d4af6e;width:12px;height:12px;left:-23px;top:3px;}
+.cm2-tl-arc{display:inline-block;font-size:10px;font-weight:700;padding:1px 8px;border-radius:10px;
+  background:rgba(212,175,110,.1);color:rgba(212,175,110,.7);border:1px solid rgba(212,175,110,.2);margin-bottom:4px;}
+.cm2-tl-ch{font-size:10px;font-weight:700;color:#d4af6e;letter-spacing:.5px;margin-bottom:3px;}
+.cm2-tl-event{font-size:12.5px;font-weight:600;color:#e8dcc2;margin-bottom:3px;line-height:1.4;}
+.cm2-tl-desc{font-size:12px;color:#a8a090;line-height:1.65;}
+/* ── Relations (Nhân mạch) ── */
+.cm2-rel-group{margin-bottom:14px;}
+.cm2-rel-gtitle{font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;
+  color:rgba(212,175,110,.55);margin-bottom:8px;display:flex;align-items:center;gap:6px;}
+.cm2-rel-gtitle::after{content:'';flex:1;height:1px;background:rgba(255,255,255,.06);}
+.cm2-rel-item{display:flex;align-items:flex-start;gap:10px;padding:8px 10px;border-radius:8px;
+  background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);margin-bottom:6px;}
+.cm2-rel-av{width:32px;height:32px;border-radius:8px;flex-shrink:0;display:flex;
+  align-items:center;justify-content:center;font-size:15px;background:rgba(255,255,255,.07);}
+.cm2-rel-name{font-size:13px;font-weight:600;color:#e8dcc2;margin-bottom:2px;}
+.cm2-rel-badge-t{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;
+  border-radius:10px;margin-right:4px;margin-bottom:3px;}
+.cm2-rt-dao{background:rgba(45,106,79,.2);color:#6ee7b7;border:1px solid rgba(45,106,79,.3);}
+.cm2-rt-gia{background:rgba(212,175,110,.12);color:#d4af6e;border:1px solid rgba(212,175,110,.25);}
+.cm2-rt-thu{background:rgba(155,35,53,.2);color:#fca5a5;border:1px solid rgba(155,35,53,.3);}
+.cm2-rt-an {background:rgba(100,50,180,.2);color:#c4a0f0;border:1px solid rgba(100,50,180,.3);}
+.cm2-rt-ban{background:rgba(14,90,140,.2);color:#7dd3fc;border:1px solid rgba(14,90,140,.3);}
+.cm2-rel-desc{font-size:11.5px;color:#a8a090;line-height:1.5;}
+/* ── Inventory (Túi đồ) ── */
+.cm2-bag-item{display:flex;align-items:flex-start;gap:10px;padding:9px 11px;border-radius:8px;
+  border:1px solid rgba(255,255,255,.07);margin-bottom:7px;background:rgba(255,255,255,.03);}
+.cm2-bag-faded{opacity:.42;}
+.cm2-bag-icon{width:34px;height:34px;border-radius:7px;flex-shrink:0;font-size:18px;
+  display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.07);}
+.cm2-bag-name{font-size:13px;font-weight:600;color:#e8dcc2;margin-bottom:2px;}
+.cm2-bag-meta{display:flex;gap:5px;align-items:center;flex-wrap:wrap;margin-bottom:3px;}
+.cm2-bag-cat{font-size:10px;color:rgba(212,175,110,.6);font-weight:600;}
+.cm2-bs-con {background:rgba(45,106,79,.2);color:#6ee7b7;border:1px solid rgba(45,106,79,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:700;}
+.cm2-bs-mat {background:rgba(107,114,128,.15);color:#9ca3af;border:1px solid rgba(107,114,128,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:700;}
+.cm2-bs-dung{background:rgba(155,35,53,.18);color:#fca5a5;border:1px solid rgba(155,35,53,.3);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:700;}
+.cm2-bag-desc{font-size:12px;color:#a8a090;line-height:1.5;}
+.cm2-bag-eff{font-size:11px;color:rgba(212,175,110,.55);margin-top:2px;font-style:italic;}
 </style>
 </head>
 <body>
@@ -1997,6 +2051,7 @@ function _cmCatIcon(c){return{baovat:'🔮',bua:'📜',congphap:'📖',dandung:'
 function _cmCatLabel(c){return{baovat:'Bảo vật',bua:'Bùa chú',congphap:'Công pháp',dandung:'Đan dược',khanang:'Kỹ năng',tienthuat:'Tiên thuật',vatpham:'Vật phẩm'}[c]||c||'';}
 
 function _renderCharHero(c){
+  /* === HERO HEADER === */
   const roleLabel=_cmRoleLabel(c.role);
   const roleClass={main:'cm2-role-main',foe:'cm2-role-foe',friend:'cm2-role-friend',neutral:'cm2-role-neutral'}[c.role]||'cm2-role-neutral';
   const cnRaw=c.cn||(c.name||'').match(/\(([^)]*[\u4e00-\u9fff][^)]*)\)/)?.[1]||'';
@@ -2005,40 +2060,122 @@ function _renderCharHero(c){
   const badge=roleLabel?'<div class="cm2-role-badge '+roleClass+'">'+_esc(roleLabel)+'</div>':'';
   const pheLabel=_cmPheLabel(c.affiliation);
   const pills=pheLabel?'<span class="cm2-pill">🏯 '+_esc(pheLabel)+'</span>':'';
-  const blurb=c.blurb?'<div class="cm2-blurb">'+_safeText(c.blurb)+'</div>':'';
-  /* Phân nhóm detail vào 3 tab theo keyword nhãn */
-  const TAB_KEYS={
-    phattrien:['tu vi','cảnh giới','sở trường','phát triển','arc','giai đoạn','chiến tích','hành trình','thực lực'],
-    quanhe:['quan hệ','đồng hành','kẻ thù','đối thủ','gia đình','sư phụ','đệ tử','liên minh','tình cảm','bạn bè','thân thiết']
-  };
-  function _tabOf(lbl){
-    const l=(lbl||'').toLowerCase();
-    if(TAB_KEYS.quanhe.some(k=>l.includes(k))) return 'quanhe';
-    if(TAB_KEYS.phattrien.some(k=>l.includes(k))) return 'phattrien';
-    return 'tieusuu';
-  }
-  const tabMap={tieusuu:[],phattrien:[],quanhe:[]};
-  (c.detail||[]).forEach(d=>{
-    const t=d.tab||_tabOf(d.label||d.group||'');
-    tabMap[t].push(d);
-  });
-  const TABS=[{k:'tieusuu',l:'Tiểu sử'},{k:'phattrien',l:'Phát triển'},{k:'quanhe',l:'Quan hệ'}];
-  const tabNav='<div class="cm2-tabnav">'+
-    TABS.map((t,i)=>'<div class="cm2-tabn'+(i===0?' cm2-tabn-act':'')+
-      '" onclick="cm2Tab(this,\'cm2p_'+t.k+'\')">'+t.l+'</div>').join('')+
-    '</div>';
-  const tabPanels=TABS.map((t,i)=>{
-    const secs=_renderDetailSecs(tabMap[t.k],'_openPopup',c.blurb);
-    const body=secs||(i===0?'':'<p class="cm-empty">Chưa có dữ liệu.</p>');
-    return '<div class="cm2-tabp" id="cm2p_'+t.k+'"'+(i>0?' style="display:none"':'')+'>'+body+'</div>';
-  }).join('');
-  return '<div class="cm2-hero cm2-hero-char">'+
+  const heroHtml='<div class="cm2-hero cm2-hero-char">'+
     '<div class="cm2-portrait">'+_esc((cleanName||'?').charAt(0))+'</div>'+
     '<div class="cm2-hero-info">'+
       '<div class="cm2-name">'+_esc(cleanName)+'</div>'+cn+badge+
       (pills?'<div class="cm2-pills">'+pills+'</div>':'')+
-    '</div></div>'+
-    '<div class="cm2-body">'+blurb+tabNav+tabPanels+'</div>';
+    '</div></div>';
+
+  /* === ROUTE detail[] → 5 tabs === */
+  const K5={
+    kinhlich:['mốc','arc','kinh lịch','lịch sử','hành trình','sự kiện','ch.'],
+    nhanmach:['quan hệ','đạo lữ','gia đình','kẻ thù','bạn bè','ân nhân','đối thủ','nhân mạch'],
+    tuvi    :['tu vi','cảnh giới','công pháp','pháp bảo','ý cảnh','thiên phú','sở trường','lực chiến'],
+    tuiddo  :['túi đồ','vật phẩm','đan dược','bảo vật','thiên tài','kho','sở hữu','trang bị']
+  };
+  function _t5(lbl){
+    const l=(lbl||'').toLowerCase();
+    const tabs=Object.keys(K5);
+    for(let i=0;i<tabs.length;i++){if(K5[tabs[i]].some(k=>l.includes(k)))return tabs[i];}
+    return 'tieusuu';
+  }
+  const tm={tieusuu:[],kinhlich:[],nhanmach:[],tuvi:[],tuiddo:[]};
+  (c.detail||[]).forEach(d=>{tm[d.tab||_t5(d.label||d.group||'')].push(d);});
+
+  /* === TAB 1: TIỂU SỬ === */
+  const blurb=c.blurb?'<div class="cm2-blurb">'+_safeText(c.blurb)+'</div>':'';
+  const bioRows=[
+    c.gender      ?['Giới tính'         ,_esc(c.gender)]:null,
+    c.origin      ?['Xuất thân'          ,_esc(c.origin)]:null,
+    pheLabel      ?['Phe / Môn phái'    ,_esc(pheLabel)]:null,
+    c.realm       ?['Cảnh giới'          ,_esc(c.realm)]:null,
+    c.firstChapter?['Lần đầu xuất hiện' ,'Ch.'+_esc(String(c.firstChapter))]:null,
+    c.appearance  ?['Ngoại hình'         ,_esc(c.appearance)]:null,
+  ].filter(Boolean);
+  const wideRows=new Set(['Ngoại hình']);
+  const pTags=(c.personality||[]).map(p=>'<span class="cm2-bio-tag">'+_esc(p)+'</span>').join('');
+  const sTags=(c.specialties||[]).map(s=>'<span class="cm2-bio-tag">'+_esc(s)+'</span>').join('');
+  if(pTags) bioRows.push(['Tính cách',pTags]);
+  if(sTags) bioRows.push(['Chuyên môn',sTags]);
+  const bioGrid=bioRows.length?
+    '<div class="cm2-bio-grid">'+bioRows.map(([k,v])=>
+      '<div class="cm2-bio-cell'+(wideRows.has(k)||k==='Tính cách'||k==='Chuyên môn'?' cm2-bio-wide':'')+'">'+
+      '<div class="cm2-bio-k">'+_esc(k)+'</div><div class="cm2-bio-v">'+v+'</div></div>'
+    ).join('')+'</div>':'';
+  const t1=blurb+bioGrid+(_renderDetailSecs(tm.tieusuu,'_openPopup',c.blurb)||'');
+
+  /* === TAB 2: KINH LỊCH NHÂN SINH === */
+  let t2='';
+  if(c.timeline&&c.timeline.length){
+    t2='<div class="cm2-timeline">'+c.timeline.map(t=>
+      '<div class="cm2-tl-item'+(t.major?' cm2-tl-major':'')+'">'+
+      '<div class="cm2-tl-dot"></div>'+
+      (t.arc?'<div class="cm2-tl-arc">'+_esc(t.arc)+'</div>':'')+
+      (t.chapter?'<div class="cm2-tl-ch">'+_esc(t.chapter)+'</div>':'')+
+      (t.event?'<div class="cm2-tl-event">'+_esc(t.event)+'</div>':'')+
+      (t.desc?'<div class="cm2-tl-desc">'+_safeText(t.desc)+'</div>':'')+
+      '</div>').join('')+'</div>';
+  }else{t2=_renderDetailSecs(tm.kinhlich,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>timeline[]</code> hoặc section label chứa "mốc/arc/lịch sử".</p>';}
+
+  /* === TAB 3: QUAN HỆ NHÂN MẠCH === */
+  let t3='';
+  if(c.relations&&c.relations.length){
+    const RGRP={daolu:'💞 Đạo lữ',giađình:'👨‍👩‍👧 Gia đình',banhuu:'🤝 Bằng hữu',anthan:'🙏 Ân nhân',dottu:'⚔️ Đối thủ',kethu:'💀 Kẻ thù'};
+    const RCL={daolu:'cm2-rt-dao',giađình:'cm2-rt-gia',banhuu:'cm2-rt-ban',anthan:'cm2-rt-an',dottu:'cm2-rt-thu',kethu:'cm2-rt-thu'};
+    const rm={};
+    c.relations.forEach(r=>{if(!rm[r.type])rm[r.type]=[];rm[r.type].push(r);});
+    t3=Object.keys(RGRP).filter(k=>rm[k]&&rm[k].length).map(k=>
+      '<div class="cm2-rel-group"><div class="cm2-rel-gtitle">'+RGRP[k]+'</div>'+
+      rm[k].map(r=>
+        '<div class="cm2-rel-item"><div class="cm2-rel-av">👤</div><div>'+
+        '<div class="cm2-rel-name">'+_esc(r.name||'')+'</div>'+
+        '<span class="cm2-rel-badge-t '+(RCL[k]||'cm2-rt-ban')+'">'+RGRP[k].split(' ').slice(1).join(' ')+'</span>'+
+        (r.desc?'<div class="cm2-rel-desc">'+_safeText(r.desc)+'</div>':'')+
+        '</div></div>'
+      ).join('')+'</div>'
+    ).join('')||'<p class="cm-empty">Chưa có dữ liệu.</p>';
+  }else{t3=_renderDetailSecs(tm.nhanmach,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>relations[]</code> hoặc section label chứa "quan hệ/đạo lữ/gia đình".</p>';}
+
+  /* === TAB 4: TU VI & LỰC CHIẾN === */
+  const t4=_renderDetailSecs(tm.tuvi,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung section label chứa "tu vi/công pháp/pháp bảo/ý cảnh".</p>';
+
+  /* === TAB 5: TÚI ĐỒ === */
+  let t5='';
+  if(c.inventory&&c.inventory.length){
+    const CICON={baovat:'🔮',dandung:'💊',vatpham:'📦',thientai:'🌿'};
+    const SCL={con:'cm2-bs-con',mat:'cm2-bs-mat',dalung:'cm2-bs-dung',datang:'cm2-bs-dung'};
+    const SLB={con:'Còn',mat:'Đã mất',dalung:'Đã dùng',datang:'Đã tặng'};
+    t5=c.inventory.map(it=>
+      '<div class="cm2-bag-item'+(it.status&&it.status!=='con'?' cm2-bag-faded':'')+'">'+
+      '<div class="cm2-bag-icon">'+(CICON[it.cat]||'📦')+'</div>'+
+      '<div style="flex:1"><div class="cm2-bag-name">'+_esc(it.name||'')+'</div>'+
+      '<div class="cm2-bag-meta">'+
+        (it.cat?'<span class="cm2-bag-cat">'+_esc(it.cat)+'</span>':'')+
+        (it.status?'<span class="'+(SCL[it.status]||'cm2-bs-mat')+'">'+_esc(SLB[it.status]||it.status)+'</span>':'')+
+      '</div>'+
+      (it.desc?'<div class="cm2-bag-desc">'+_safeText(it.desc)+'</div>':'')+
+      (it.effect?'<div class="cm2-bag-eff">⟡ '+_safeText(it.effect)+'</div>':'')+
+      '</div></div>'
+    ).join('');
+  }else{t5=_renderDetailSecs(tm.tuiddo,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>inventory[]</code> hoặc section label chứa "túi đồ/bảo vật/đan dược".</p>';}
+
+  /* === BUILD TABS === */
+  const TABS5=[
+    {k:'tieusuu', l:'📋 Tiểu sử',     c:t1},
+    {k:'kinhlich',l:'⏳ Kinh lịch',    c:t2},
+    {k:'nhanmach',l:'🕸️ Nhân mạch',   c:t3},
+    {k:'tuvi',    l:'⚡ Tu vi',         c:t4},
+    {k:'tuiddo',  l:'🎒 Túi đồ',       c:t5},
+  ];
+  const tnav='<div class="cm2-tabnav">'+
+    TABS5.map((t,i)=>'<div class="cm2-tabn'+(i===0?' cm2-tabn-act':'')+
+      '" onclick="cm2Tab(this,\'cm2pc_'+t.k+'\')">'+t.l+'</div>').join('')+'</div>';
+  const tpanels=TABS5.map((t,i)=>
+    '<div class="cm2-tabp" id="cm2pc_'+t.k+'"'+(i>0?' style="display:none"':'')+'>'+
+    (t.c||'<p class="cm-empty">Chưa có dữ liệu.</p>')+'</div>'
+  ).join('');
+  return heroHtml+'<div class="cm2-body">'+tnav+tpanels+'</div>';
 }
 
 function _renderArtHero(a){
