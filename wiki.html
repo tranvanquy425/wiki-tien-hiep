@@ -594,10 +594,10 @@
 
 /* ── Bio grid (Tiểu sử) ── */
 .cm2-bio-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px;}
-.cm2-bio-cell{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:9px 12px;}
+.cm2-bio-cell{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:9px 12px;min-width:0;overflow:hidden;}
 .cm2-bio-wide{grid-column:1/-1;}
-.cm2-bio-k{font-size:10px;color:rgba(212,175,110,.6);text-transform:uppercase;letter-spacing:.7px;margin-bottom:3px;}
-.cm2-bio-v{font-size:13px;font-weight:500;color:#e8dcc2;line-height:1.5;}
+.cm2-bio-k{font-size:10px;color:rgba(212,175,110,.6);text-transform:uppercase;letter-spacing:.7px;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.cm2-bio-v{font-size:13px;font-weight:500;color:#e8dcc2;line-height:1.5;overflow-wrap:break-word;word-break:normal;}
 .cm2-bio-tag{display:inline-block;background:rgba(212,175,110,.1);border:1px solid rgba(212,175,110,.2);
   border-radius:4px;padding:1px 8px;font-size:11px;color:#d4af6e;margin:2px 2px 0 0;}
 /* ── Timeline (Kinh lịch) ── */
@@ -2084,32 +2084,26 @@ function _renderCharHero(c){
   (c.detail||[]).forEach(d=>{tm[d.tab||_t5(d.label||d.group||'')].push(d);});
 
   /* === TAB 1: TIỂU SỬ === */
-  /* Ô cơ bản luôn có từ hero data (không cần W3 thêm field) */
-  const bioRows=[];
-  if(cleanName) bioRows.push(['Họ tên',_esc(cleanName)]);
-  if(cnRaw)     bioRows.push(['Hán tự / Bí danh',_esc(cnRaw)]);
-  if(roleLabel) bioRows.push(['Vai trò',_esc(roleLabel)]);
-  if(pheLabel)  bioRows.push(['Phe / Môn phái',_esc(pheLabel)]);
-  /* Structured fields — W3 thêm vào JSON → hiện ngay */
-  if(c.gender)       bioRows.push(['Giới tính',_esc(c.gender)]);
-  if(c.origin)       bioRows.push(['Xuất thân',_esc(c.origin)]);
-  if(c.realm)        bioRows.push(['Cảnh giới',_esc(c.realm)]);
-  if(c.firstChapter) bioRows.push(['Lần đầu xuất hiện','Ch.'+_esc(String(c.firstChapter))]);
-  if(c.appearance)   bioRows.push(['Ngoại hình',_esc(c.appearance)]);
-  const wideSet=new Set(['Ngoại hình','Tính cách','Chuyên môn','Vai trò']);
+  const blurb=c.blurb?'<div class="cm2-blurb">'+_safeText(c.blurb)+'</div>':'';
+  const bioRows=[
+    c.gender      ?['Giới tính'         ,_esc(c.gender)]:null,
+    c.origin      ?['Xuất thân'          ,_esc(c.origin)]:null,
+    pheLabel      ?['Phe / Môn phái'    ,_esc(pheLabel)]:null,
+    c.realm       ?['Cảnh giới'          ,_esc(c.realm)]:null,
+    c.firstChapter?['Lần đầu xuất hiện' ,'Ch.'+_esc(String(c.firstChapter))]:null,
+    c.appearance  ?['Ngoại hình'         ,_esc(c.appearance)]:null,
+  ].filter(Boolean);
+  const wideRows=new Set(['Ngoại hình']);
   const pTags=(c.personality||[]).map(p=>'<span class="cm2-bio-tag">'+_esc(p)+'</span>').join('');
   const sTags=(c.specialties||[]).map(s=>'<span class="cm2-bio-tag">'+_esc(s)+'</span>').join('');
   if(pTags) bioRows.push(['Tính cách',pTags]);
   if(sTags) bioRows.push(['Chuyên môn',sTags]);
-  const bioGrid='<div class="cm2-bio-grid">'+bioRows.map(([k,v])=>
-    '<div class="cm2-bio-cell'+(wideSet.has(k)?' cm2-bio-wide':'')+'">'+
-    '<div class="cm2-bio-k">'+_esc(k)+'</div><div class="cm2-bio-v">'+v+'</div></div>'
-  ).join('')+'</div>';
-  /* Blurb tóm tắt — chỉ hiện khi chưa có structured fields (W3 chưa bổ sung) */
-  const hasStructured=!!(c.gender||c.origin||c.realm);
-  const shortBlurb=(!hasStructured&&c.blurb)
-    ?'<div class="cm2-blurb" style="margin-top:12px">'+_safeText(c.blurb)+'</div>':'';
-  const t1=bioGrid+shortBlurb+(_renderDetailSecs(tm.tieusuu,'_openPopup',c.blurb)||'');
+  const bioGrid=bioRows.length?
+    '<div class="cm2-bio-grid">'+bioRows.map(([k,v])=>
+      '<div class="cm2-bio-cell'+(wideRows.has(k)||k==='Tính cách'||k==='Chuyên môn'?' cm2-bio-wide':'')+'">'+
+      '<div class="cm2-bio-k">'+_esc(k)+'</div><div class="cm2-bio-v">'+v+'</div></div>'
+    ).join('')+'</div>':'';
+  const t1=blurb+bioGrid+(_renderDetailSecs(tm.tieusuu,'_openPopup',c.blurb)||'');
 
   /* === TAB 2: KINH LỊCH NHÂN SINH === */
   let t2='';
