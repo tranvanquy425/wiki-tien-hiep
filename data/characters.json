@@ -1,6 +1,6 @@
 {
  "updatedAt": "2026-06-06",
- "count": 115,
+ "count": 112,
  "chars": [
   {
    "name": "Vương Lâm (王琳)",
@@ -1094,9 +1094,9 @@
   },
   {
    "name": "Tư Đồ Nam (司徒南)",
-   "role": "dongminh",
-   "affiliation": "trunglap",
-   "roleFilter": "dongminh",
+   "role": "friend",
+   "affiliation": "khac",
+   "roleFilter": "friend",
    "tag": "HỒN TRONG NGHỊCH THIÊN CHÂU · CỐ VẤN MA ĐẠO",
    "tagClass": "tag-friend",
    "blurb": "Một thực thể (tàn hồn / Nguyên Anh) cư ngụ trong **Nghịch Thiên châu**, xuất thân **quốc gia ma đạo** (tu chân quốc cấp cao). Là cố vấn/sư phụ ngầm xuyên suốt đợt: bày Đoạt Cơ Đại Pháp, Huyết Luyện th",
@@ -1726,9 +1726,9 @@
   },
   {
    "name": "Chu Tử Hồng (朱紫紅)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "CON GÁI PHƯỢNG LOAN / TÌNH CŨ MÃ LƯƠNG",
    "tagClass": "tag-neutral",
    "blurb": "Đệ tử của Phượng Loan, được Vương Lâm cứu rồi thu làm nô tài (Ch.105-106). Chính mối liên hệ sư đồ này khiến Phượng Loan tìm tới Vương Lâm.\n\n---",
@@ -1915,46 +1915,6 @@
     }
    ],
    "portrait": "M"
-  },
-  {
-   "name": "Cập nhật hồ sơ cũ (nối tiếp)",
-   "role": "neutral",
-   "affiliation": "khac",
-   "roleFilter": "neutral",
-   "tag": "TRUNG LẬP",
-   "tagClass": "tag-neutral",
-   "blurb": "**Dương Sâm** (`phe:khac | vaitro:friend`): Đạo lữ Phượng Loan. **Ngọc phù cấp Nguyên Anh hắn tặng ở Ch.120 đã được Vương Lâm dùng đỡ một kích của Bát Cực Ma Quân (Ch.139)** — hạt giống Ch.101-120 đã ",
-   "detail": [
-    {
-     "label": "Mô tả",
-     "text": "**Dương Sâm** (`phe:khac | vaitro:friend`): Đạo lữ Phượng Loan. **Ngọc phù cấp Nguyên Anh hắn tặng ở Ch.120 đã được Vương Lâm dùng đỡ một kích của Bát Cực Ma Quân (Ch.139)** — hạt giống Ch.101-120 đã giải. Lo sợ trước Bát Cực Ma Quân (Ch.137).\n\n**Chu Cẩn** (`phe:neutral | vaitro:neutral` — **CẦN XÁC MINH**): Đợt này xuất hiện như văn sĩ bên Phượng Loan, gặng hỏi và nghi ngờ thân phận Vương Lâm (Ch.122). Mâu thuẫn với file Ch.101-120 (ghi Chu Cẩn là cường giả Nguyên Anh uy hiếp Vương Lâm ở Ch.120). Tạm phân vai cố vấn/giám sát bên Phượng Loan; **cần xác minh** quan hệ với Phượng Loan và mức độ thù địch ở các đợt sau.\n\n**Dương Hùng & Lâm Đào** (`phe:hangnhac | vaitro:friend`): Nô tài của Vương Lâm; đợt này tái xuất làm liên lạc — gọi Chu Tử Hồng, chép bản đồ (Ch.122-123).\n\n**Lý Kỳ Khánh** (`phe:khac | vaitro:neutral`): Anh trai Lý Mộ Uyển (Lạc Hà môn); được nhắc qua lời nàng (Ch.124, 130), chưa xuất hiện trực tiếp trong đợt này.\n\n---"
-    }
-   ],
-   "portrait": "C"
-  },
-  {
-   "name": "Ghi chú thống nhất tên (lỗi nguồn)",
-   "role": "neutral",
-   "affiliation": "khac",
-   "roleFilter": "neutral",
-   "tag": "TRUNG LẬP",
-   "tagClass": "tag-neutral",
-   "blurb": "- **Lý Mộ Uyển (李慕婉)** — văn bản gốc có chỗ ghi nhầm Lý Mộc Uyển / Lý Mộng Uyển / Lý Mộc Quyên.\n- **Vạn Ma Bách Nhật Tru Sát Lệnh** — văn bản gốc có chỗ ghi \"Vạn Ma Bách Lý Tru Sát lệnh\"; thống nhất t",
-   "detail": [
-    {
-     "label": "Mô tả",
-     "text": "- **Lý Mộ Uyển (李慕婉)** — văn bản gốc có chỗ ghi nhầm Lý Mộc Uyển / Lý Mộng Uyển / Lý Mộc Quyên.\n- **Vạn Ma Bách Nhật Tru Sát Lệnh** — văn bản gốc có chỗ ghi \"Vạn Ma Bách Lý Tru Sát lệnh\"; thống nhất theo \"100 ngày\".\n- Lời Phượng Loan \"Mã Lương đã kết đan trước khi đoạt xá\" (Ch.140) chỉ là **suy đoán của nàng**, không phải dữ kiện — không chép thành sự thật.\n\n---"
-    },
-    {
-     "label": "Đợt",
-     "text": "Ch.121-140 (arc Tu Ma hải & Kết Đan)"
-    },
-    {
-     "label": "Hai yêu cầu đặc biệt đợt này",
-     "text": "(1) quan hệ nhân vật chi tiết → mỗi hồ sơ có dòng \"Quan hệ với Vương Lâm\"; (2) tiểu sử mở rộng gần đầy đủ → viết theo 8 mục."
-    }
-   ],
-   "portrait": "G"
   },
   {
    "name": "Cổ Đế — Cổ Lam (古帝 / 古藍)",
@@ -2293,7 +2253,7 @@
    "portrait": "M"
   },
   {
-   "name": "Cập nhật: Đoan Mộc Cực / Bát Cực Ma Quân",
+   "name": "Đoan Mộc Cực / Bát Cực Ma Quân",
    "role": "neutral",
    "affiliation": "khac",
    "roleFilter": "neutral",
@@ -2310,9 +2270,9 @@
   },
   {
    "name": "Hứa Lập Quốc (Ma đầu thứ nhất)",
-   "role": "dongminh",
+   "role": "friend",
    "affiliation": "chinh",
-   "roleFilter": "dongminh",
+   "roleFilter": "friend",
    "tag": "CẬP NHẬT · THUỘC HẠ",
    "tagClass": "tag-friend",
    "blurb": "*(bổ sung mốc Ch.141-160)*\n\n- Dò đường mọi cửa (thả vào lốc xoáy/hồ/cửa 3 thăm dò).\n- Ghen tị Ma đầu thứ hai ra mặt, tự nhủ \"phải cạnh tranh\" nhưng thực ra không làm được gì.\n- Ch.160: Chứng kiến VL *",
@@ -2334,9 +2294,9 @@
   },
   {
    "name": "Mã Lương (馬良)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "THÂN ĐOẠT XÁ",
    "tagClass": "tag-neutral",
    "blurb": "Đệ tử Chiến Thần Điện, Hỏa Phần quốc; tính **nhát gan**, mê tiểu sư muội (Từ Tư). Ở Vực Ngoại đuổi theo \"hạt châu tự bay\" (Nghịch Thiên châu) thì bị vết nứt không gian nuốt, sau bị Hứa Hạo & Cát Dương",
@@ -2350,9 +2310,9 @@
   },
   {
    "name": "Phượng Loan (鳳鸞)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "ÂN NHÂN / SƯ PHỤ KÝ DANH",
    "tagClass": "tag-neutral",
    "blurb": "**Nguyên Anh sơ kỳ**, sư phụ của Chu Tử Hồng. Ban đầu tìm Vương Lâm (thân Mã Lương) đòi trả bản mệnh tinh huyết của đệ tử, hứa bỏ qua chuyện đoạt xá (Ch.113). Đến Ch.120 **nhận Vương Lâm làm đệ tử ký ",
@@ -2366,9 +2326,9 @@
   },
   {
    "name": "Dương Sâm (楊森)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "ÂN NHÂN",
    "tagClass": "tag-neutral",
    "blurb": "**Nguyên Anh trung kỳ đỉnh phong**, đạo lữ của Phượng Loan, một trong các cường giả tứ đại tông phái. Tặng Vương Lâm **một ngọc phù cấp Nguyên Anh** (Ch.120) — bảo mệnh quý giá cho nhân vật chính bước",
@@ -2382,9 +2342,9 @@
   },
   {
    "name": "Từ Tư (徐絲)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "KẺ THÙ QUYỂN 2",
    "tagClass": "tag-neutral",
    "blurb": "Vốn là **hôn ước cũ của Mã Lương** (tiểu sư muội hắn từng mê). Cảm nhận sự khác lạ ở \"Mã Lương\" sau khi hắn trở về, nhiều lần tìm cách giết, dùng **hắc châm xóa thần thức** Vương Lâm (Ch.119). Bị Vươn",
@@ -2398,9 +2358,9 @@
   },
   {
    "name": "Hoắc Hồng Phi (霍鴻飛)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "TRƯỞNG LÃO CHIẾN THẦN ĐIỆN",
    "tagClass": "tag-neutral",
    "blurb": "Trưởng lão Chiến Thần Điện, tinh thông **Thần đạo thuật**. Tiếp nhận \"Mã Lương\" khi hắn truyền tống về Hỏa Phần quốc (Ch.108); được Vương Lâm ném lại túi trữ vật rồi bỏ đi (Ch.109). Nhân vật chức năng",
@@ -2414,9 +2374,9 @@
   },
   {
    "name": "Lâm Đào (林濤)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "NÔ TÀI / THUỘC HẠ",
    "tagClass": "tag-neutral",
    "blurb": "Đệ tử Hỏa Phần quốc được Vương Lâm cứu ở Vực Ngoại; **tự nguyện làm nô tài, dâng bản mệnh tinh huyết** (Ch.105). Về sau chép bản đồ cho Vương Lâm, bị Phượng Loan bắt (Ch.119). Thuộc hạ trung thành đầu",
@@ -2430,9 +2390,9 @@
   },
   {
    "name": "Dương Hùng (楊雄)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "NÔ TÀI / THUỘC HẠ",
    "tagClass": "tag-neutral",
    "blurb": "Đệ tử Hỏa Phần quốc được cứu, thành nô tài (Ch.106). Từng nói dối giúp Vương Lâm (viện cớ đan dược giữ dung nhan) để che giấu khí lạnh linh hồn của hắn (Ch.108).\n\n---",
@@ -2446,9 +2406,9 @@
   },
   {
    "name": "Hứa Hạo (許浩)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "SÁT THỦ VỰC NGOẠI",
    "tagClass": "tag-neutral",
    "blurb": "Đại đệ tử thứ 6 của Linh Vũ Tông (Cự Lộc Quốc). Cùng Cát Dương giết Mã Lương để đoạt thần thức (vật quý nhất Vực Ngoại). Bị du hồn do Vương Lâm thao túng cắn chết (Ch.107).\n\n---",
@@ -2462,9 +2422,9 @@
   },
   {
    "name": "Cát Dương (葛陽)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "SÁT THỦ VỰC NGOẠI",
    "tagClass": "tag-neutral",
    "blurb": "Sát thủ **Trúc Cơ hậu kỳ**, đồng bọn Hứa Hạo. Cùng kết cục bị du hồn cắn chết, túi trữ vật rơi vào tay Vương Lâm. *(Lưu ý đối chiếu: tên dùng thống nhất \"Cát Dương\", không dùng \"Cát Đằng\".)*\n\n---",
@@ -2478,9 +2438,9 @@
   },
   {
    "name": "Tôn Hữu Tài (孫有財)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "KẺ THÙ / TÀ MA TÔNG",
    "tagClass": "tag-neutral",
    "blurb": "Tu sĩ **Trúc Cơ hậu kỳ** của Tà Ma Tông. Theo dõi Vương Lâm định gài hắn làm khôi lỗi, gọi tứ sư huynh trợ giúp (Ch.114). Sau khi tứ sư huynh bị giết, ngỡ Vương Lâm là Hóa Thần kỳ, độn thổ chạy trốn r",
@@ -2494,9 +2454,9 @@
   },
   {
    "name": "Tứ sư huynh (Tà Ma Tông)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "KẺ THÙ / TÀ MA TÔNG",
    "tagClass": "tag-neutral",
    "blurb": "Hắc y trung niên, giả đan, tu **Đại Tự Tại Tu La thuật**. Được Tôn Hữu Tài gọi tới; bị Vương Lâm giết bằng một câu \"Diệt\" (Ch.115). Nhân vật cho thấy uy lực Cực cảnh thần thức của Vương Lâm.\n\n---",
@@ -2510,9 +2470,9 @@
   },
   {
    "name": "Chu Cẩn (朱瑾)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "KẺ THÙ / NGUYÊN ANH",
    "tagClass": "tag-neutral",
    "blurb": "Cường giả **Nguyên Anh** uy hiếp Vương Lâm ở Ch.120, khiến Phượng Loan phải nhận hắn làm đệ tử ký danh để giải vây. Đối thủ tiềm tàng phía thế lực Hỏa Phần.\n\n---",
@@ -2526,9 +2486,9 @@
   },
   {
    "name": "Tống lão (宋老)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "NGUYÊN ANH / TỨ ĐẠI TÔNG PHÁI",
    "tagClass": "tag-neutral",
    "blurb": "Một trong các cường giả Nguyên Anh dự cuộc họp tứ đại tông phái bàn về Hỏa Linh Thú đại biến và kế thiên di (Ch.118). Nhân vật bối cảnh thế lực.\n\n---",
@@ -2542,9 +2502,9 @@
   },
   {
    "name": "Lý Kỳ Khánh & Lý Mộ Uyển (Lạc Hà Môn)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "LẠC HÀ MÔN",
    "tagClass": "tag-neutral",
    "blurb": "Hai tu sĩ Lạc Hà Môn Vương Lâm gặp ở Ch.113. Lạc Hà Môn về sau là một trong bốn thành viên **Hỏa Phần minh** (Ch.120). **Thanh Huyền** (Lạc Hà Môn) là người dẫn đại quân thiên di (Ch.119). Cụm nhân vậ",
@@ -2555,22 +2515,6 @@
     }
    ],
    "portrait": "L"
-  },
-  {
-   "name": "Ghi chú liên kết",
-   "role": "neutral",
-   "affiliation": "khac",
-   "roleFilter": "neutral",
-   "tag": "TRUNG LẬP",
-   "tagClass": "tag-neutral",
-   "blurb": "- **Chiến Thần Điện** và **Hỏa Phần quốc** (tam cấp tu chân quốc): xem hồ sơ thế lực ở Phiên 3.\n- **Hỏa Linh Thú / Cự Ma tộc / pháp tắc giới luật**: xem phần hệ thống & thế lực ở Phiên 3.\n- Mọi nhân v",
-   "detail": [
-    {
-     "label": "Mô tả",
-     "text": "- **Chiến Thần Điện** và **Hỏa Phần quốc** (tam cấp tu chân quốc): xem hồ sơ thế lực ở Phiên 3.\n- **Hỏa Linh Thú / Cự Ma tộc / pháp tắc giới luật**: xem phần hệ thống & thế lực ở Phiên 3.\n- Mọi nhân vật trên thuộc bối cảnh Vực Ngoại/Hỏa Phần quốc, **phe:khac** so với tuyến Triệu quốc của Quyển 1."
-    }
-   ],
-   "portrait": "G"
   },
   {
    "name": "Thác Sâm — Cổ Ma Đồ Ti (拓森 / 古魔屠絲)",
@@ -2738,9 +2682,9 @@
   },
   {
    "name": "Mặc Vân Phi (墨雲菲)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "DI ĐỒ KỲ HOÀNG MÔN · THUỘC HẠ BỊ VƯƠNG LÂM KHỐNG CHẾ",
    "tagClass": "tag-neutral",
    "blurb": "Di đồ (truyền nhân sót lại) của **Kỳ Hoàng Môn** — môn phái luyện đan rất nổi danh ở Tu Ma hải năm xưa, sau bị \"một cổ lực lượng thần bí phá hủy trong một đêm\". Vân Phi cơ duyên xảo hợp thoát kiếp, cầ",
@@ -2994,9 +2938,9 @@
   },
   {
    "name": "Lữ Tung (吕嵩)",
-   "role": "dongminh",
+   "role": "friend",
    "affiliation": "hangnhac",
-   "roleFilter": "dongminh",
+   "roleFilter": "friend",
    "tag": "NGŨ SƯ HUYNH · ĐỆ NHẤT THIÊN TÀI TRĂM NĂM",
    "tagClass": "tag-friend",
    "blurb": "Ngũ sư huynh, được xưng \"đệ nhất thiên tài trăm năm mới gặp\" của Hằng Nhạc; hai mươi năm trước từng dự giao lưu.",
@@ -3222,9 +3166,9 @@
   },
   {
    "name": "Trương Đức Khôn (张德坤)",
-   "role": "dongminh",
+   "role": "friend",
    "affiliation": "hangnhac",
-   "roleFilter": "dongminh",
+   "roleFilter": "friend",
    "tag": "ĐỆ TỬ NÒNG CỐT · HIỀM KHÍCH CŨ VỚI LỮ TUNG",
    "tagClass": "tag-friend",
    "blurb": "Đệ tử nòng cốt Hằng Nhạc, tầng 6 Ngưng Khí; có hiềm khích cũ với Lữ Tung (thua trong tỷ chọn đệ tử nòng cốt, ước hẹn 10 năm tái đấu).",
@@ -3250,9 +3194,9 @@
   },
   {
    "name": "Hoàng Đại Sơn (黄大山)",
-   "role": "dongminh",
+   "role": "friend",
    "affiliation": "hangnhac",
-   "roleFilter": "dongminh",
+   "roleFilter": "friend",
    "tag": "ĐỆ TỬ NÒNG CỐT (MẬP)",
    "tagClass": "tag-friend",
    "blurb": "Đệ tử Hằng Nhạc dáng mập, Vương Lâm từng gặp ở ngoài Kiếm Linh các.",
@@ -3311,7 +3255,7 @@
   {
    "name": "Khâu Tứ Bình",
    "role": "foe",
-   "affiliation": "trunglap",
+   "affiliation": "khac",
    "roleFilter": "foe",
    "tag": "ĐỐI THỦ TẠM THỜI",
    "tagClass": "tag-foe",
@@ -3346,9 +3290,9 @@
   },
   {
    "name": "Chu Lâm",
-   "role": "dongminh",
+   "role": "friend",
    "affiliation": "vanthientong",
-   "roleFilter": "dongminh",
+   "roleFilter": "friend",
    "tag": "SƯ PHỤ (phân thân VL)",
    "tagClass": "tag-friend",
    "blurb": "Đệ tử Nội tông Vân Thiên tông, Kết Đan sơ kỳ, chuyên luyện đan (không trọng tu vi). Tính tình chân thành, hào phóng hiếm có.",
@@ -3402,9 +3346,9 @@
   },
   {
    "name": "Âu Dương Tử",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "vanthientong",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "NGŨ PHẨM ĐAN SƯ",
    "tagClass": "tag-neutral",
    "blurb": "Đại đệ tử thứ nhất Nội tông Vân Thiên tông; ngũ phẩm đan sư (1 trong 3); tu vi Nguyên Anh sơ kỳ (cố ý không tiến vì dồn hết cho luyện đan). Có **U Minh nhãn** (nhờ ăn U Minh đan thành công — 1/10 cơ h",
@@ -3454,9 +3398,9 @@
   },
   {
    "name": "Huynh muội bái sư (gặp phân thân VL)",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "TÁN TU SỞ QUỐC",
    "tagClass": "tag-neutral",
    "blurb": "Thiếu nữ tuổi đôi mươi, xinh đẹp (\"hoa nhường nguyệt thẹn\"), tính tinh nghịch, lắm lời; thích Kiếm Khí tông nhưng bị anh ép bái Vân Thiên tông cho an toàn. Ghẹo phân thân VL dọc đường nhưng bị hắn thờ",
@@ -3478,9 +3422,9 @@
   },
   {
    "name": "Tôn Phàm",
-   "role": "phu",
+   "role": "neutral",
    "affiliation": "khac",
-   "roleFilter": "phu",
+   "roleFilter": "neutral",
    "tag": "KẺ SỐNG SÓT",
    "tagClass": "tag-neutral",
    "blurb": "Tu sĩ Trúc Cơ kỳ. Bị 2 dị thú (cỡ Kết Đan hậu kỳ) truy giết giữa cơn loạn hậu-thiên-kiếp.",
@@ -3502,9 +3446,9 @@
   },
   {
    "name": "Đệ nhị ma đầu (tiểu thú)",
-   "role": "dongminh",
+   "role": "friend",
    "affiliation": "chinh",
-   "roleFilter": "dongminh",
+   "roleFilter": "friend",
    "tag": "CẬP NHẬT · THUỘC HẠ",
    "tagClass": "tag-friend",
    "blurb": "Nuốt thần thức + kim đan **Vân Phi** (Ch.182, khiến nàng chết); hung tính mạnh, có thể phân thân trăm con + công kích thần thức hóa sét; tuyệt đối trung thành VL (sẵn sàng cảm tử). Cùng Hứa Lập Quốc đ",
