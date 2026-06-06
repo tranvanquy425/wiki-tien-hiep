@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T16:57:15Z",
+  "updatedAt": "2026-06-06T16:59:31Z",
   "count": 135,
   "chars": [
     {
@@ -1276,7 +1276,7 @@
     },
     {
       "name": "Cao Khải Minh (Khải Minh đạo nhân · 高啟明) — tổ sư Phiêu Miểu Tông, kẻ thiên toán",
-      "role": "Cao Khải Minh (Khải Minh đạo nhân · 高啟明) — tổ sư Phiêu Miểu Tông, kẻ thiên toán",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "Cao Khải Minh (Khải Minh đạo nhân · 高啟明) — tổ sư Phiêu Miểu Tông, kẻ thiên toán",
       "tag": "PHIÊU MIỂU TÔNG",
@@ -3521,7 +3521,7 @@
     },
     {
       "name": "Nạp Đa (納多) — vị \"đạo hữu\" liên tinh cầu",
-      "role": "Nạp Đa (納多) — vị \"đạo hữu\" liên tinh cầu",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "friend",
       "tag": "NGŨ HÀNH TINH",
@@ -3557,7 +3557,7 @@
     },
     {
       "name": "Lão nhân thần bí — cao thủ Anh Biến giả ăn mày",
-      "role": "Lão nhân thần bí — cao thủ Anh Biến giả ăn mày",
+      "role": "friend",
       "affiliation": "khac",
       "roleFilter": "friend",
       "tag": "CAO THỦ ẨN DANH",
@@ -3589,7 +3589,7 @@
     },
     {
       "name": "Chu Võ Thái (朱武泰) — tu sĩ tai to, đối thủ cạnh tranh Hóa Thần",
-      "role": "Chu Võ Thái (朱武泰) — tu sĩ tai to, đối thủ cạnh tranh Hóa Thần",
+      "role": "foe",
       "affiliation": "khac",
       "roleFilter": "foe",
       "tag": "ĐỐI THỦ HÓA THẦN",
@@ -3621,7 +3621,7 @@
     },
     {
       "name": "Tiểu đạo sĩ \"Phúc nhi\" (福兒) — đệ tử Chu Võ Thái, định mệnh bi kịch",
-      "role": "Tiểu đạo sĩ \"Phúc nhi\" (福兒) — đệ tử Chu Võ Thái, định mệnh bi kịch",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "foe",
       "tag": "ĐỆ TỬ CHU VÕ THÁI",
@@ -3649,7 +3649,7 @@
     },
     {
       "name": "Trung niên văn sĩ — Hóa Thần \"tuyệt tình ý cảnh\" (Bạch Vân tông)",
-      "role": "Trung niên văn sĩ — Hóa Thần \"tuyệt tình ý cảnh\" (Bạch Vân tông)",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "neutral",
       "tag": "BẠCH VÂN TÔNG",
@@ -3665,7 +3665,7 @@
     },
     {
       "name": "Lão bà — Hóa Thần \"an nhàn ý cảnh\" (Bạch Vân tông)",
-      "role": "Lão bà — Hóa Thần \"an nhàn ý cảnh\" (Bạch Vân tông)",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "neutral",
       "tag": "BẠCH VÂN TÔNG",
@@ -3681,7 +3681,7 @@
     },
     {
       "name": "Lão giả thanh sam — Hóa Thần \"tuế nguyệt ý cảnh\" (Bạch Vân tông)",
-      "role": "Lão giả thanh sam — Hóa Thần \"tuế nguyệt ý cảnh\" (Bạch Vân tông)",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "neutral",
       "tag": "BẠCH VÂN TÔNG",
@@ -3697,7 +3697,7 @@
     },
     {
       "name": "Đại Ngưu (大牛) — thiếu niên phàm, tri kỷ Hóa phàm của Vương Lâm",
-      "role": "Đại Ngưu (大牛) — thiếu niên phàm, tri kỷ Hóa phàm của Vương Lâm",
+      "role": "friend",
       "affiliation": "khac",
       "roleFilter": "friend",
       "tag": "PHÀM NHÂN",
@@ -3721,7 +3721,7 @@
     },
     {
       "name": "Từ Đào (徐濤) — thân tín Nam Vương thế tử, môi giới tượng (phàm-tu nhỏ)",
-      "role": "Từ Đào (徐濤) — thân tín Nam Vương thế tử, môi giới tượng (phàm-tu nhỏ)",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "neutral",
       "tag": "NAM VƯƠNG PHỦ",
@@ -3737,7 +3737,7 @@
     },
     {
       "name": "Nam Vương thế tử / Thái tử + Nam Vương — vương thất tứ cấp quốc (phàm-tu nhỏ)",
-      "role": "Nam Vương thế tử / Thái tử + Nam Vương — vương thất tứ cấp quốc (phàm-tu nhỏ)",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "neutral",
       "tag": "NAM VƯƠNG PHỦ",
@@ -3753,7 +3753,7 @@
     },
     {
       "name": "Thiên Vận Tử — lão đạo Thiên Vận tinh",
-      "role": "Thiên Vận Tử — lão đạo Thiên Vận tinh",
+      "role": "friend",
       "affiliation": "khac",
       "roleFilter": "friend",
       "tag": "THIÊN VẬN TINH",
@@ -3777,7 +3777,7 @@
     },
     {
       "name": "Hồng Điệp (Hồng Diệp) — thiên tiên ngũ linh thể Tuyết Vực",
-      "role": "Hồng Điệp (Hồng Diệp) — thiên tiên ngũ linh thể Tuyết Vực",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "foe",
       "tag": "TUYẾT VỰC · CHU TƯỚC QUỐC",
@@ -3805,7 +3805,7 @@
     },
     {
       "name": "Thủ Đồ — sư tỷ thế thân Hồng Điệp",
-      "role": "Thủ Đồ — sư tỷ thế thân Hồng Điệp",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "neutral",
       "tag": "TUYẾT VỰC",
@@ -3833,7 +3833,7 @@
     },
     {
       "name": "Âu Chí — đại diện Chu Tước quốc, hấp thu thiên kiếp",
-      "role": "Âu Chí — đại diện Chu Tước quốc, hấp thu thiên kiếp",
+      "role": "foe",
       "affiliation": "khac",
       "roleFilter": "foe",
       "tag": "CHU TƯỚC QUỐC",
@@ -3857,7 +3857,7 @@
     },
     {
       "name": "Chú Vân — Đại trưởng lão Hắc Hồn Phái",
-      "role": "Chú Vân — Đại trưởng lão Hắc Hồn Phái",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "neutral",
       "tag": "HẮC HỒN PHÁI · LIÊN MINH TỨ PHÁI",
@@ -3885,7 +3885,7 @@
     },
     {
       "name": "Mặc Trí — kỳ nhân Vong cảnh",
-      "role": "Mặc Trí — kỳ nhân Vong cảnh",
+      "role": "friend",
       "affiliation": "khac",
       "roleFilter": "friend",
       "tag": "KỲ NHÂN",
@@ -3909,7 +3909,7 @@
     },
     {
       "name": "Trần Hoan — thiếu môn chủ Thủy Mặc Môn",
-      "role": "Trần Hoan — thiếu môn chủ Thủy Mặc Môn",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "neutral",
       "tag": "THỦY MẶC MÔN",
@@ -3933,7 +3933,7 @@
     },
     {
       "name": "Lão nhân Hóa Thần hậu kỳ Thủy Mặc Môn (sư phụ Trần Hoan)",
-      "role": "Lão nhân Hóa Thần hậu kỳ Thủy Mặc Môn (sư phụ Trần Hoan)",
+      "role": "neutral",
       "affiliation": "khac",
       "roleFilter": "friend",
       "tag": "THỦY MẶC MÔN",
@@ -3957,7 +3957,7 @@
     },
     {
       "name": "Sứ giả Chu Tước quốc (quái mình rắn thân người)",
-      "role": "Sứ giả Chu Tước quốc (quái mình rắn thân người)",
+      "role": "foe",
       "affiliation": "khac",
       "roleFilter": "foe",
       "tag": "CHU TƯỚC QUỐC",
