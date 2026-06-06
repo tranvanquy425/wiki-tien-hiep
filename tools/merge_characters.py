@@ -160,3 +160,70 @@ def clean_realm_status(status):
     # field status chỉ nhận known|unknown; giải thích để trong blurb/detail
     s = (status or "known").strip().lower()
     return "unknown" if s.startswith("unknown") else "known"
+
+
+# ============ GENERIC ENTITY DEDUP (W3, 2026-06-06 — task TẬN GỐC W2) ============
+# Dùng CHUNG cho artifacts/realms/factions (và characters phụ trợ). Khóa LOWERCASE,
+# bỏ Hán/(..), bỏ hậu tố "— ...", bỏ "(cập nhật...)"/"cập nhật", bỏ "· ...".
+# Mục tiêu: pipeline lượt sau KHÔNG tái sinh pháp bảo/cảnh giới/thế lực trùng
+# (vd "Mặc Gian thạch" vs "Mặc gian thạch" — khác hoa thường vẫn gộp nhờ lowercase).
+
+def entity_key(name):
+    s = name
+    s = re.sub(r'[（(][^（）()]*[）)]', '', s)
+    s = re.sub(r'(?i)\s*[—–-]\s*cập nhật.*$', '', s)
+    s = re.sub(r'(?i)\s*\(cập nhật[^)]*\)', '', s)
+    s = re.sub(r'(?i)\bcập nhật\b', '', s)
+    s = re.sub(r'·.*$', '', s)
+    return re.sub(r'\s+', ' ', s).strip().lower()
+
+def _clean_entity_name(name):
+    s = re.sub(r'(?i)\s*[—–-]\s*cập nhật.*$', '', name)
+    s = re.sub(r'(?i)\s*\(cập nhật[^)]*\)', '', s)
+    s = re.sub(r'(?i)\s*·\s*\(?cập nhật[^)]*\)?', '', s)
+    return re.sub(r'\s+', ' ', s).strip()
+
+# các field "đặc tính" cần giữ giá trị KHÔNG rỗng/không mặc định khi gộp
+_PREFER_FIELDS = ("type", "typeLabel", "category", "categoryLabel", "cn", "status", "blurb")
+
+def merge_entities(items, keep_fields=_PREFER_FIELDS):
+    """Gộp list dict có 'name' + (tùy chọn) 'detail'. Giữ thứ tự xuất hiện đầu;
+    canonical = bản nhiều detail nhất; gộp detail (khử trùng theo label+text);
+    với mỗi field trong keep_fields, lấy giá trị non-empty đầu tiên."""
+    order, bucket = [], defaultdict(list)
+    for it in items:
+        k = entity_key(it.get("name", ""))
+        if k not in bucket: order.append(k)
+        bucket[k].append(it)
+    out = []
+    for k in order:
+        grp = bucket[k]
+        if len(grp) == 1:
+            o = dict(grp[0]); o["name"] = _clean_entity_name(o["name"]); out.append(o); continue
+        canon = max(grp, key=lambda x: len(x.get("detail", [])))
+        seen, det = set(), []
+        for it in [canon] + [x for x in grp if x is not canon]:
+            for d in it.get("detail", []):
+                sg = (d.get("label", "").strip(), d.get("text", "").strip())
+                if sg in seen: continue
+                seen.add(sg); det.append(d)
+        o = dict(canon)
+        o["name"] = _clean_entity_name(canon["name"])
+        if "detail" in canon or det: o["detail"] = det
+        for f in keep_fields:
+            val = next((x[f] for x in grp if x.get(f) not in (None, "", "khac", "neutral")), None)
+            if val is not None: o[f] = val
+        out.append(o)
+    return out
+
+def find_entity_dups(items):
+    g = defaultdict(list)
+    for it in items: g[entity_key(it.get("name", ""))].append(it.get("name", ""))
+    return {k: v for k, v in g.items() if len(v) > 1}
+
+# Wrapper tiện dụng cho pipeline (gọi ở bước parse -> JSON):
+def merge_artifacts(items): return merge_entities(items)
+def merge_realms(items):    return merge_entities(items)
+# merge_factions() đã có ở trên; merge_characters() giữ riêng (có _completeness role/aff).
+# KHUYẾN NGHỊ pipeline: characters -> merge_characters(); artifacts -> merge_artifacts();
+#   realms -> merge_realms(); factions -> merge_factions(). Tất cả khóa đều lowercase.
