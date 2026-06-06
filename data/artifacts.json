@@ -1,6 +1,6 @@
 {
  "updatedAt": "2026-06-06",
- "count": 108,
+ "count": 107,
  "artifacts": [
   {
    "name": "Nghịch Thiên châu (Thần Bí Hạt Châu)",
@@ -162,19 +162,6 @@
     {
      "label": "Mô tả",
      "text": "Họa trục bí ẩn không hạ được thần thức; bên trong **phong ấn một linh thú** (đôi mắt tam giác tà dị, tiếng rít như giao long). Vương Lâm chưa mở (Ch.134) — hạt giống."
-    }
-   ]
-  },
-  {
-   "name": "Vỏ kiếm cổ (cấp Hóa Thần) — manh mối",
-   "category": "baovat",
-   "categoryLabel": "Pháp bảo",
-   "status": "unknown",
-   "blurb": "Suy luận từ cơ chế **túi trữ vật bị bóp nát thì đồ bên trong vẫn còn**: vỏ kiếm cổ mà Đằng Hóa Nguyên từng bóp túi nhưng không phá được vẫn còn ở đâu đó (Ch.134",
-   "detail": [
-    {
-     "label": "Mô tả",
-     "text": "Suy luận từ cơ chế **túi trữ vật bị bóp nát thì đồ bên trong vẫn còn**: vỏ kiếm cổ mà Đằng Hóa Nguyên từng bóp túi nhưng không phá được vẫn còn ở đâu đó (Ch.134). Hạt giống lớn."
     }
    ]
   },
@@ -1647,19 +1634,23 @@
    "category": "baovat",
    "categoryLabel": "Bảo vật",
    "status": "known",
-   "blurb": "nhặt ở bí thị Liên Mặc thành (Ch.208); một bản khác trong túi trữ vật Cổ Đế (Ch.220, chữ \"Lam\"). Khác vỏ kiếm cũ của VL (không hơi lạnh, ký hiệu khác).",
+   "blurb": "Loạt vỏ kiếm cổ kính bí ẩn, ký hiệu cộng hưởng — ẩn chứa bí mật lớn xuyên suốt truyện. Vương Lâm hiện giữ 2 vỏ kiếm giống nhau (vỏ cũ của hắn + vỏ từ túi Cổ Đế), phong ấn sát khí kinh khủng.",
    "detail": [
     {
-     "label": "Nguồn gốc",
-     "text": "nhặt ở bí thị Liên Mặc thành (Ch.208); một bản khác trong túi trữ vật Cổ Đế (Ch.220, chữ \"Lam\"). Khác vỏ kiếm cũ của VL (không hơi lạnh, ký hiệu khác)."
+     "label": "Nguồn gốc (một mạch)",
+     "text": "- Vỏ kiếm CŨ của Vương Lâm: có hơi lạnh (tế luyện bằng hàn đan), ký hiệu một đóa hoa bị vỡ; từng bị Đằng Hóa Nguyên bóp túi trữ vật mà KHÔNG phá được (Ch.134) → suy ra vẫn còn tồn tại (cơ chế túi trữ vật bị bóp nát thì đồ bên trong vẫn còn).\n- Vỏ kiếm THẦN BÍ mới: nhặt ở bí thị Liên Mặc thành (Ch.208) — không có hơi lạnh, ký hiệu khác vỏ cũ.\n- Vỏ kiếm trong túi trữ vật CỔ ĐẾ (Ch.220, chữ \"Lam\"): lại rất giống vỏ cũ, chỉ khác ký hiệu."
     },
     {
      "label": "Công dụng/cơ chế",
-     "text": "phong ấn một luồng sát khí kinh khủng — đâm phi kiếm vào 4/5 thì sát khí rò ra làm phi kiếm vỡ vụn + xé đất mấy trăm trượng. Tạo kiếm khí lớn đánh Đằng Nhất. Hai vỏ kiếm khi cùng xuất hiện thì ký hiệu cộng hưởng lóe sáng → ẩn bí mật lớn."
+     "text": "Phong ấn một luồng sát khí kinh khủng — đâm phi kiếm vào ~4/5 thì sát khí rò ra làm phi kiếm vỡ vụn + xé đất mấy trăm trượng. Vỏ kiếm cũ còn có thần thông nâng uy lực phi kiếm (cắm 1/5 vs 4/5 chênh lệch lớn). Vương Lâm dùng tạo kiếm khí lớn đánh Đằng Nhất (Ch.219)."
+    },
+    {
+     "label": "Bí mật (foreshadow)",
+     "text": "Khi vỏ kiếm cũ + vỏ kiếm túi Cổ Đế cùng xuất hiện, ký hiệu trên cả hai LÓE SÁNG (cộng hưởng) → Vương Lâm cảm nhận ẩn chứa bí mật to lớn (chưa giải, gieo cho arc sau)."
     },
     {
      "label": "Mốc chương",
-     "text": "Ch.208, 220."
+     "text": "Ch.134 (manh mối vỏ cũ), Ch.208 (vỏ thần bí ở Liên Mặc thành), Ch.219-220 (đánh Đằng Nhất + cộng hưởng vỏ Cổ Đế)."
     }
    ]
   },
