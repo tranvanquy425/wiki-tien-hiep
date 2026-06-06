@@ -1,6 +1,6 @@
 {
  "updatedAt": "2026-06-06",
- "count": 43,
+ "count": 41,
  "factions": [
   {
    "name": "Tu Ma hải",
@@ -46,15 +46,19 @@
    ]
   },
   {
-   "name": "Thất Mai chi địa",
+   "name": "Thất Mai chi địa (Thất Mai Thành)",
    "cn": "七梅之地",
-   "type": "tochuc",
+   "type": "diadanh",
    "typeLabel": "7 thành Hóa Thần · trung tâm quyền lực Tu Ma nội hải",
    "blurb": "Cụm **7 tòa thành bố trí theo hình hoa mai** trong Tu Ma nội hải, mỗi thành do một **thành chủ tầm Hóa Thần kỳ** cai quản. Dấu hiệu thân phận thành chủ: áo than",
    "detail": [
     {
      "label": "Mô tả",
      "text": "Cụm **7 tòa thành bố trí theo hình hoa mai** trong Tu Ma nội hải, mỗi thành do một **thành chủ tầm Hóa Thần kỳ** cai quản. Dấu hiệu thân phận thành chủ: áo thanh bào thêu **7 đóa mai vàng nhụy đỏ**. **Bát Cực Ma Quân** là một trong 7 thành chủ (Ch.135-137). Đây là thế lực mạnh nhất xuất hiện trong arc, đưa Vương Lâm lần đầu chạm trán cấp Hóa Thần."
+    },
+    {
+     "label": "Mô tả",
+     "text": "7 thành bố trí hình hoa mai ở **Tu Ma nội hải** — mỗi thành do 1 cường giả **Hóa Thần kỳ** cai quản. Biểu tượng: **7 đóa mai vàng nhụy đỏ** trên y phục thành chủ. Đợt này xác nhận: **Đoan Mộc Cực (Bát Cực Ma Quân)** là 1 trong 7 thành chủ (Ch.143); Triệu Truyện Lương từng đe dọa \"dù là thành chủ Thất Mai Thành cũng khó thoát\" khi gặp Đoan Mộc Cực."
     }
    ]
   },
@@ -327,9 +331,9 @@
    ]
   },
   {
-   "name": "Cổ Thần chi địa — 4+1 cửa",
+   "name": "Cổ Thần chi địa (Yêu Thần chi địa)",
    "cn": "",
-   "type": "diadanh",
+   "type": "diavuc",
    "typeLabel": "Địa danh Cổ Thần chi địa",
    "blurb": "Không gian thần bí bên trong quang quyển đen Toái Tinh Loạn — chứa **thi thể Cổ Thần Đồ Ti** (thân thể lớn hơn Chu Tước tinh vô số lần). Cấu trúc:",
    "detail": [
@@ -356,6 +360,22 @@
     {
      "label": "Cửa 4 (chưa tới)",
      "text": "- Tiên cảnh nhỏ + hồ + bảo tháp 3 tầng (phần thưởng đã trống, người trước lấy hết). Tầng 3 = dòng xoáy vào thi thể Cổ Thần, Anh Biến đan trong kinh mạch."
+    },
+    {
+     "label": "Bản chất thật (vạch trần Ch.163-167)",
+     "text": "\"Cổ Thần chi địa\" thực ra là **cơ thể của một Cổ Thần đã chết (Đồ Ti)**, không phải kho báu như đồn đại. Lời đồn \"vô tận pháp bảo + đan dược (kể cả Anh Biến đan) trong cơ thể Cổ Thần\" là **BỊA** (kẻ viết ghi chép đặt điều). Có nhân vật gọi đúng hơn là **\"Yêu Thần chi địa\"**."
+    },
+    {
+     "label": "Cấu trúc 4 cửa",
+     "text": "cửa 1 (cần ngũ hành độn thuật + chống sinh vật khổng lồ); cửa 2 (Cấm Sơn — cấm chế + lôi điện tím); cửa 3 = **Tịch Diệt giới / khe không gian** (sân nhà thôn hồn, đầy du hồn); cửa 4 = **Truyền Tống trận** (đưa người vào các vị trí khác nhau trong cơ thể Cổ Thần tùy tốc độ qua tam quan; \"lĩnh ngộ giả\" → ngoài Khí Hải)."
+    },
+    {
+     "label": "Bên trong cơ thể Cổ Thần",
+     "text": "huyệt **Khí Hải** (làn khí lam vạn trượng = linh khí dòng xoáy, uy lực kinh người); **Thức Hải tử phủ** = quả cầu chia 2 (**huyết hải** đỏ máu + **tử hải** xám đen); kinh mạch (chứa Mặc gian thạch). Lối ra thông đạo nối với **Toái Tinh Loạn** (Tu Ma hải)."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "Nâng quy mô thế giới quan từ \"tu chân nhân giới\" lên tầm \"Cổ Thần — chủng tộc hủy diệt tinh cầu\"; là bí cảnh khép kín trọn vẹn (vào Ch.141 → ra Ch.176), nơi Vương Lâm lột xác."
     }
    ]
   },
@@ -369,19 +389,6 @@
     {
      "label": "Mô tả",
      "text": "Lớp **sương đỏ** tự nhiên ngăn cách **nội hải và ngoại hải** Tu Ma hải — chỉ tan 1 ngày/năm (\"sương mù hóa hải\"). Tu sĩ Nguyên Anh kỳ dính phải hồng vụ → thân thể bị hủ thực; ngay cả thần thức cũng bị giam trong đó cả đời. Bức tường thiên nhiên bảo vệ Tu Ma nội hải. Đoan Mộc Cực dùng cổ truyền tống trận để tránh phải qua hồng vụ."
-    }
-   ]
-  },
-  {
-   "name": "Thất Mai Thành / Thất Mai chi địa",
-   "cn": "",
-   "type": "diadanh",
-   "typeLabel": "Địa danh Cổ Thần chi địa",
-   "blurb": "7 thành bố trí hình hoa mai ở **Tu Ma nội hải** — mỗi thành do 1 cường giả **Hóa Thần kỳ** cai quản. Biểu tượng: **7 đóa mai vàng nhụy đỏ** trên y phục thành ch",
-   "detail": [
-    {
-     "label": "Mô tả",
-     "text": "7 thành bố trí hình hoa mai ở **Tu Ma nội hải** — mỗi thành do 1 cường giả **Hóa Thần kỳ** cai quản. Biểu tượng: **7 đóa mai vàng nhụy đỏ** trên y phục thành chủ. Đợt này xác nhận: **Đoan Mộc Cực (Bát Cực Ma Quân)** là 1 trong 7 thành chủ (Ch.143); Triệu Truyện Lương từng đe dọa \"dù là thành chủ Thất Mai Thành cũng khó thoát\" khi gặp Đoan Mộc Cực."
     }
    ]
   },
@@ -434,31 +441,6 @@
     {
      "label": "Mô tả",
      "text": "**Lục cấp tu chân quốc duy nhất** trên Chu Tước tinh. Sức mạnh tuyệt đỉnh: vạn năm trước đệ nhất cao thủ nước này vào Toái Tinh Loạn rồi mất tích; sau đó phong tỏa Toái Tinh Loạn trong 10 năm và ra lệnh giết. Nắm nguồn **cực phẩm linh thạch** — đây là tiền tệ giữa các tu chân tinh cầu, rất hiếm. Đoan Mộc Cực phải đổi từ Chu Tước quốc mới có 3 khối."
-    }
-   ]
-  },
-  {
-   "name": "Cổ Thần chi địa / Yêu Thần chi địa",
-   "cn": "古神之地",
-   "type": "diavuc",
-   "typeLabel": "Bí cảnh = cơ thể một Cổ Thần đã chết · 4 cửa + thức hải",
-   "blurb": "\"Cổ Thần chi địa\" thực ra là **cơ thể của một Cổ Thần đã chết (Đồ Ti)**, không phải kho báu như đồn đại. Lời đồn \"vô tận pháp bảo + đan dược (kể cả Anh Biến đan",
-   "detail": [
-    {
-     "label": "Bản chất thật (vạch trần Ch.163-167)",
-     "text": "\"Cổ Thần chi địa\" thực ra là **cơ thể của một Cổ Thần đã chết (Đồ Ti)**, không phải kho báu như đồn đại. Lời đồn \"vô tận pháp bảo + đan dược (kể cả Anh Biến đan) trong cơ thể Cổ Thần\" là **BỊA** (kẻ viết ghi chép đặt điều). Có nhân vật gọi đúng hơn là **\"Yêu Thần chi địa\"**."
-    },
-    {
-     "label": "Cấu trúc 4 cửa",
-     "text": "cửa 1 (cần ngũ hành độn thuật + chống sinh vật khổng lồ); cửa 2 (Cấm Sơn — cấm chế + lôi điện tím); cửa 3 = **Tịch Diệt giới / khe không gian** (sân nhà thôn hồn, đầy du hồn); cửa 4 = **Truyền Tống trận** (đưa người vào các vị trí khác nhau trong cơ thể Cổ Thần tùy tốc độ qua tam quan; \"lĩnh ngộ giả\" → ngoài Khí Hải)."
-    },
-    {
-     "label": "Bên trong cơ thể Cổ Thần",
-     "text": "huyệt **Khí Hải** (làn khí lam vạn trượng = linh khí dòng xoáy, uy lực kinh người); **Thức Hải tử phủ** = quả cầu chia 2 (**huyết hải** đỏ máu + **tử hải** xám đen); kinh mạch (chứa Mặc gian thạch). Lối ra thông đạo nối với **Toái Tinh Loạn** (Tu Ma hải)."
-    },
-    {
-     "label": "Vai trò trần thuật",
-     "text": "Nâng quy mô thế giới quan từ \"tu chân nhân giới\" lên tầm \"Cổ Thần — chủng tộc hủy diệt tinh cầu\"; là bí cảnh khép kín trọn vẹn (vào Ch.141 → ra Ch.176), nơi Vương Lâm lột xác."
     }
    ]
   },
