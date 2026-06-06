@@ -7,7 +7,7 @@ const VALID_CATS = new Set([
   "baovat","bua","congphap","dandung","khanang","tienthuat","vatpham",
 ]);
 const VALID_ROLES  = new Set(["main","foe","friend","neutral"]);
-const VALID_PHE    = new Set(["chinh","hangnhac","huyendao","thiamtong","hohang","khac"]);
+const VALID_PHE    = new Set(["chinh","hangnhac","huyendao","thiamtong","hohang","khac","vanthientong"]);
 const VALID_STATUS = new Set(["known","unknown"]);
 
 function findUnclosedTags(text = "") {
