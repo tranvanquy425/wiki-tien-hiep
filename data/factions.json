@@ -1,6 +1,6 @@
 {
  "updatedAt": "2026-06-06",
- "count": 36,
+ "count": 43,
  "factions": [
   {
    "name": "Tu Ma hải",
@@ -38,6 +38,10 @@
     {
      "label": "Vai trò trần thuật",
      "text": "bối cảnh VL đại khai sát giới + rời đi."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "Bối cảnh mới cho giai đoạn hậu-Cổ-Thần-chi-địa của Vương Lâm.\n\n### Toái Tinh Loạn (碎星亂) — CẬP NHẬT | status:known"
     }
    ]
   },
@@ -64,6 +68,10 @@
     {
      "label": "Mô tả",
      "text": "Thành lớn ở rìa Tu Ma hải, **vô chủ** (thành chủ Nam Đẩu cảnh Nguyên Anh đã mất tích ~500 năm). Hiện do **ba phái liên quản**: **Tru Thiên giáo, Diệt Hồn môn, Thiên Nhất đạo giáo**. Có **Luyện Khí Các** (giao dịch đan lô/pháp khí). Đấu Tà phái muốn nhập chủ thành này. Là nơi Vương Lâm đổi Bách Thú Linh lô, bị truy sát, rồi thảm sát >1000 tu sĩ lập uy. (Ch.127-131)"
+    },
+    {
+     "label": "ba phái liên quản",
+     "text": "**Tru Thiên giáo, Diệt Hồn môn, Thiên Nhất đạo giáo**. Có **Luyện Khí Các** (giao dịch đan lô/pháp khí). Đấu Tà phái muốn nhập chủ thành này. Là nơi Vương Lâm đổi Bách Thú Linh lô, bị truy sát, rồi thảm sát >1000 tu sĩ lập uy. (Ch.127-131)"
     }
    ]
   },
@@ -77,6 +85,10 @@
     {
      "label": "Mô tả",
      "text": "Môn phái ma đạo ở **Long sơn** (Tu Ma hải), 13.562 đệ tử, có phân bộ **Ngũ Đinh phong**. Trận trấn phái: **Đấu Long đại trận**.\n- **Giải Đông Lai**: chưởng môn (Kết Đan trung kỳ đỉnh, kiếm tu ẩn) — bị Vương Lâm giết, hóa tro (Ch.133).\n- **Tiễn Khôn**: đại trưởng lão (Kết Đan trung kỳ), chủ mưu cướp đan lô — bị giết, để lại Tru Sát Lệnh & tu đan (Ch.129).\n- **Thượng Quan Mặc** (Hắc y Ma quân): được Vương Lâm phong **chưởng giáo bù nhìn** sau khi diệt phái (Ch.133).\n- **Mộc Nam & Mộc Bắc**: hai trưởng lão Kết Đan sơ kỳ (phân bộ Ngũ Đinh phong) quy thuận.\n→ Sau Ch.133, Đấu Tà phái thực chất là **thế lực tay sai của Vương Lâm** trong Tu Ma hải."
+    },
+    {
+     "label": "Giải Đông Lai",
+     "text": "chưởng môn (Kết Đan trung kỳ đỉnh, kiếm tu ẩn) — bị Vương Lâm giết, hóa tro (Ch.133).\n- **Tiễn Khôn**: đại trưởng lão (Kết Đan trung kỳ), chủ mưu cướp đan lô — bị giết, để lại Tru Sát Lệnh & tu đan (Ch.129).\n- **Thượng Quan Mặc** (Hắc y Ma quân): được Vương Lâm phong **chưởng giáo bù nhìn** sau khi diệt phái (Ch.133).\n- **Mộc Nam & Mộc Bắc**: hai trưởng lão Kết Đan sơ kỳ (phân bộ Ngũ Đinh phong) quy thuận.\n→ Sau Ch.133, Đấu Tà phái thực chất là **thế lực tay sai của Vương Lâm** trong Tu Ma hải."
     }
    ]
   },
@@ -120,6 +132,10 @@
     {
      "label": "Cập nhật",
      "text": "nguồn Cửu Chuyển Thập Bát Đan (trong đó có Kỷ Tả đan nhị phẩm mở rộng kinh mạch mà Lý Mộ Uyển luyện)."
+    },
+    {
+     "label": "Lý Mộ Uyển",
+     "text": "thiên tài luyện đan/trận pháp, nữ chính phụ arc Tu Ma hải; được Vương Lâm cứu, đồng hành nhiều năm rồi đưa về môn (Ch.123-137).\n- **Lý Kỳ Khánh**: anh trai Lý Mộ Uyển.\n- Là một thành viên Hỏa Phần minh.\n\n**=== THẾ LỰC HỎA PHẦN QUỐC & VỰC NGOẠI (Quyển 2, giữ + cập nhật) ===**"
     }
    ]
   },
@@ -150,6 +166,10 @@
     {
      "label": "Mô tả",
      "text": "Bổ sung đợt Ch.141: có **thạch phủ mộ tổ 365 gian thạch thất** phong ấn bằng Thủy Kính môn — nơi an táng các đời tổ tiên. Lão tổ khai sáng **Cung Mặc** phát hiện Thần Đạo thuật; bị phản đồ làm lộ bí mật → Thiên Cương quốc tới lấy bản nguyên thủy; Cung Mặc đi vân du không về. Đệ tử **Trần Trùng** khắc lại 1 thành trên thanh ngọc thạch bích rồi chết. Thạch phủ còn có 1 **thi hài thần bí lơ lửng** (kẻ lạ ký sinh luyện công bằng khí đen từ tổ tiên Chiến Thần Điện) — Vương Lâm đã trộm túi trữ vật của kẻ này (Ch.142).\n\n---\n*Cập nhật arc Cổ Thần chi địa Ch.141-160. Thế lực tồn đọng chưa rõ: Âm Dương Tông (chi tiết), Thiên Cương quốc (thế lực nội bộ), kẻ ký sinh thi hài Chiến Thần Điện (danh tính).*\n\n\n**=== ĐỊA LÝ & THẾ LỰC — CỔ THẦN CHI ĐỊA (HỒI KẾT) & TU MA HẢI (Ch.161-180) ===**"
+    },
+    {
+     "label": "Hoắc Hồng Phi",
+     "text": "trưởng lão, tinh thông Thần Đạo thuật.\n- **Trâu Bân**: Nguyên Anh lão tổ (mặt đỏ), từng du ngoạn Tu Ma hải 300 năm trước nên biết Thất Mai chi địa; nhận ra Bát Cực Ma Quân, dẫn Vương Lâm vào **Thủy Kính môn** xem Thần Đạo thuật (Ch.137, 140).\n- Là một thành viên Hỏa Phần minh."
     }
    ]
   },
@@ -167,7 +187,7 @@
    ]
   },
   {
-   "name": "Hỏa Phần minh (cập nhật)",
+   "name": "Hỏa Phần minh",
    "cn": "火焚盟",
    "type": "tochuc",
    "typeLabel": "Liên minh tứ đại tông phái · chỉ huy thiên di & xâm lược",
@@ -180,7 +200,7 @@
    ]
   },
   {
-   "name": "Tuyên Vũ quốc (cập nhật)",
+   "name": "Tuyên Vũ quốc",
    "cn": "宣武國",
    "type": "quocgia",
    "typeLabel": "Mục tiêu xâm lược · chiến trường tuyến đầu đợt này",
@@ -202,6 +222,10 @@
     {
      "label": "Mô tả",
      "text": "Tu chân quốc lân cận, có **Thông Thiên Tháp**. Được nhắc tới khi lý giải vì sao Hỏa Phần minh chọn đánh Tuyên Vũ quốc thay vì Thiên Mậu quốc (Thiên Mậu mạnh/khó nuốt hơn). Bối cảnh địa-chính trị khu vực.\n\n**Cự Lộc Quốc — Linh Vũ Tông / Thiên Cương Tông (giữ)**\n- **Cự Lộc Quốc — Linh Vũ Tông**: Hứa Hạo (đại đệ tử thứ 6) là sát thủ Vực Ngoại giết Mã Lương, bị du hồn cắn chết (Ch.103, 107).\n- **Thiên Cương Tông** (tứ cấp): Hứa Lập Quốc vốn là Nguyên Anh kỳ của tông này, nay chỉ còn nguyên thần bị Vương Lâm luyện thành **ma đầu** — đợt này lộ ma đầu đã kết đan + khôi phục trí nhớ, thành ẩn họa nội bộ (Ch.134)."
+    },
+    {
+     "label": "Cự Lộc Quốc — Linh Vũ Tông",
+     "text": "Hứa Hạo (đại đệ tử thứ 6) là sát thủ Vực Ngoại giết Mã Lương, bị du hồn cắn chết (Ch.103, 107).\n- **Thiên Cương Tông** (tứ cấp): Hứa Lập Quốc vốn là Nguyên Anh kỳ của tông này, nay chỉ còn nguyên thần bị Vương Lâm luyện thành **ma đầu** — đợt này lộ ma đầu đã kết đan + khôi phục trí nhớ, thành ẩn họa nội bộ (Ch.134)."
     }
    ]
   },
@@ -249,12 +273,28 @@
    ]
   },
   {
-   "name": "Đằng gia (Đằng Gia thành)",
-   "cn": "藤家",
+   "name": "Đằng gia (Đằng gia thành)",
+   "cn": "",
    "type": "giatoc",
    "typeLabel": "Gia tộc tu tiên · KẺ THÙ TRUYỀN KIẾP",
    "blurb": "Gia tộc tu tiên Triệu quốc; **Đằng Hóa Nguyên** (Nguyên Anh lão tổ) tàn sát Vương gia + cha mẹ Vương Lâm. **Mục tiêu báo thù cốt lõi của Vương Lâm**: kết đan rồ",
    "detail": [
+    {
+     "label": "Định vị",
+     "text": "Gia tộc tu chân đệ nhất Triệu quốc; lão tổ Đằng Hóa Nguyên (Nguyên Anh hậu kỳ). Con cháu đông, cài ở khắp môn phái (cả chưởng giáo); kết thân (gả nữ song tu) với thiên tài các phái (Vương Trác là rể). Đằng gia thành mở rộng gấp 4 sau 400 năm; dưới thành có mật thất + linh mạch ngầm."
+    },
+    {
+     "label": "Cơ chế hạch tâm",
+     "text": "9 hạch tâm tộc nhân nuôi bằng toàn lực gia tộc tại 9 linh huyệt; 50 năm/lần cho người trong tộc khiêu chiến thay thế (Đằng Cửu đã đổi 6 đời chủ; Đằng Nhất 400 năm chưa ai dám khiêu chiến). Bí mật: do \"sứ giả Thông Thiên tháp\" chỉ định làm \"chuột thí nghiệm\" nên mới có 9 Nguyên Anh."
+    },
+    {
+     "label": "Kết cục",
+     "text": "Bị Vương Lâm diệt tộc (Ch.211-220) — phong tỏa thành bằng 16 trận kỳ, truy sát mọi huyết mạch; 6 hạch tâm chết (Đằng Cửu thành ma đầu, Đằng Tam tự sát, Đằng Nhất khổ chiến chưa hạ ở Hắc Nê đàm)."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.210-220."
+    },
     {
      "label": "Mô tả",
      "text": "Gia tộc tu tiên Triệu quốc; **Đằng Hóa Nguyên** (Nguyên Anh lão tổ) tàn sát Vương gia + cha mẹ Vương Lâm. **Mục tiêu báo thù cốt lõi của Vương Lâm**: kết đan rồi về Triệu quốc huyết tẩy Đằng gia thành (nay đã kết đan Ch.127, báo thù vẫn treo). Manh mối **vỏ kiếm cổ cấp Hóa Thần** Đằng Hóa Nguyên không phá được vẫn còn thất lạc (Ch.134).\n\n**(Giữ từ Quyển 1, hậu cảnh sâu)**\n- **Tu chân Liên minh** (Thông Thiên Tháp, sứ giả Lâm Dịch); **Huyền Đạo Tông** (Phác Nam Tử — mạnh nhất Triệu quốc, nơi nương náu người nhà Vương Lâm); **Vương gia** (gia tộc gốc bị diệt môn); **Hợp Hoan tông, Phiêu Miễu tông, Vô Phong cốc**; **Bì Lô quốc — Luyện Hồn Tông**; **Hằng Nhạc phái**; **Triệu quốc** (tam cấp); Uy Vũ tiêu cục; Hệ Tức Mặc lão nhân.\n\n---"
@@ -266,6 +306,10 @@
     {
      "label": "Lưu ý lịch đại",
      "text": "**Chu Cẩn** còn mâu thuẫn vai trò giữa Ch.120 và Ch.122 — để \"cần xác minh\", chưa chốt. Triệu quốc đã chốt tam cấp.\n\n\n---\n\n**ĐỊA LÝ & THẾ LỰC — CỔ THẦN CHI ĐỊA (Ch.141-160)**"
+    },
+    {
+     "label": "Mục tiêu báo thù cốt lõi của Vương Lâm",
+     "text": "kết đan rồi về Triệu quốc huyết tẩy Đằng gia thành (nay đã kết đan Ch.127, báo thù vẫn treo). Manh mối **vỏ kiếm cổ cấp Hóa Thần** Đằng Hóa Nguyên không phá được vẫn còn thất lạc (Ch.134).\n\n**(Giữ từ Quyển 1, hậu cảnh sâu)**\n- **Tu chân Liên minh** (Thông Thiên Tháp, sứ giả Lâm Dịch); **Huyền Đạo Tông** (Phác Nam Tử — mạnh nhất Triệu quốc, nơi nương náu người nhà Vương Lâm); **Vương gia** (gia tộc gốc bị diệt môn); **Hợp Hoan tông, Phiêu Miễu tông, Vô Phong cốc**; **Bì Lô quốc — Luyện Hồn Tông**; **Hằng Nhạc phái**; **Triệu quốc** (tam cấp); Uy Vũ tiêu cục; Hệ Tức Mặc lão nhân.\n\n---"
     }
    ]
   },
@@ -329,7 +373,7 @@
    ]
   },
   {
-   "name": "Thất Mai Thành / Thất Mai chi địa (CẬP NHẬT)",
+   "name": "Thất Mai Thành / Thất Mai chi địa",
    "cn": "",
    "type": "diadanh",
    "typeLabel": "Địa danh Cổ Thần chi địa",
@@ -394,7 +438,7 @@
    ]
   },
   {
-   "name": "Cổ Thần chi địa / Yêu Thần chi địa (CẬP NHẬT — bản chất thật)",
+   "name": "Cổ Thần chi địa / Yêu Thần chi địa",
    "cn": "古神之地",
    "type": "diavuc",
    "typeLabel": "Bí cảnh = cơ thể một Cổ Thần đã chết · 4 cửa + thức hải",
@@ -494,6 +538,14 @@
     {
      "label": "Vai trò trần thuật",
      "text": "Thiết lập nguy cơ \"đệ tử 4 lão quái truy nguồn gốc Vương Lâm\" cho arc Tu Ma hải."
+    },
+    {
+     "label": "Diễn biến",
+     "text": "Khâu Tứ Bình gia nhập; chuyên săn Bát Trảo thú lấy nội đan luyện Hủ Thực tán."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.203-206."
     }
    ]
   },
@@ -645,6 +697,133 @@
     {
      "label": "Vai trò trần thuật",
      "text": "phụ họa độ danh tiếng luyện đan của Vân Thiên tông.\n\n**=== CẬP NHẬT THẾ LỰC / ĐỊA DANH (Ch.181-200) ===**"
+    }
+   ]
+  },
+  {
+   "name": "Triệu quốc (趙國)",
+   "cn": "",
+   "type": "quocgia",
+   "typeLabel": "Tu chân quốc cấp 2",
+   "blurb": "Tiểu quốc tu chân cấp 2 ở tận cùng Khổng Mạnh đại lục (1/6 đại lục Chu Tước tinh); nhỏ chưa bằng nửa Hỏa Phần quốc, linh mạch thưa, ít linh thảo — \"chó ăn đá gà ăn sỏi\". Quê hương Vương Lâm.",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Tiểu quốc tu chân cấp 2 ở tận cùng Khổng Mạnh đại lục (1/6 đại lục Chu Tước tinh); nhỏ chưa bằng nửa Hỏa Phần quốc, linh mạch thưa, ít linh thảo — \"chó ăn đá gà ăn sỏi\". Quê hương Vương Lâm."
+    },
+    {
+     "label": "Quyền lực",
+     "text": "Phác Nam Tử (thủy tổ Huyền Đạo tông, Nguyên Anh hậu kỳ đỉnh) thống trị thực tế, hướng nâng Triệu quốc lên cấp 4; chính-ma ít xung đột dưới uy hắn."
+    },
+    {
+     "label": "Môn phái",
+     "text": "Huyền Đạo tông (đệ nhất), Phiêu Miểu tông (chánh đạo, suy), Nguyên Khuê phái, Tịch Diệt tông (nhị lưu); ma đạo: Thiên Đạo Môn, Hợp Hoan tông, Vô Phong cốc; Huyền Thiên tông (Vương Trác); Tử Vân tông (giữ cổ truyền tống trận). Gia tộc tu chân: Đằng gia (đệ nhất, bị diệt). Hiểm địa: Hắc Nê đàm. Thế lực ẩn: Thông Thiên tháp."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.210-220."
+    }
+   ]
+  },
+  {
+   "name": "Huyền Đạo tông (玄道宗)",
+   "cn": "",
+   "type": "monphai",
+   "typeLabel": "Đệ nhất tông phái Triệu quốc",
+   "blurb": "Môn phái đứng đầu Triệu quốc; thủy tổ Phác Nam Tử (Nguyên Anh hậu kỳ đỉnh, đang đánh Hóa Thần). Hậu thuẫn cho Đằng gia, sau lưng có sứ giả Thông Thiên tháp.",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Môn phái đứng đầu Triệu quốc; thủy tổ Phác Nam Tử (Nguyên Anh hậu kỳ đỉnh, đang đánh Hóa Thần). Hậu thuẫn cho Đằng gia, sau lưng có sứ giả Thông Thiên tháp."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.210, 218."
+    }
+   ]
+  },
+  {
+   "name": "Hắc Nê đàm (黑泥潭)",
+   "cn": "",
+   "type": "diadanh",
+   "typeLabel": "Đệ nhất hiểm địa Triệu quốc",
+   "blurb": "Vũng bùn đen khổng lồ ở biên giới Triệu quốc; lực hút nuốt sống mọi sinh vật tới gần, đáy đầy bạch cốt; cứ 100 năm bùng nổ một lần. Đáy sâu có quan tài hắc tinh — nơi tu luyện của Đằng Nhất.",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Vũng bùn đen khổng lồ ở biên giới Triệu quốc; lực hút nuốt sống mọi sinh vật tới gần, đáy đầy bạch cốt; cứ 100 năm bùng nổ một lần. Đáy sâu có quan tài hắc tinh — nơi tu luyện của Đằng Nhất."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.218-219."
+    }
+   ]
+  },
+  {
+   "name": "Thông Thiên tháp (通天塔)",
+   "cn": "",
+   "type": "thelucbian",
+   "typeLabel": "Thế lực ẩn (liên hệ Cự Ma tộc)",
+   "blurb": "Thế lực bí ẩn ở trung tâm Triệu quốc; \"sứ giả đại nhân\" (trung niên béo) thao túng Phác Nam Tử + Đằng gia (dùng Đằng làm chuột thí nghiệm, cấp thần thông luyện thể cho Đằng Nhất, cho mượn pháp luân Hóa Thần cấp). Nhận ra thần thông VL là \"thông thiên thuật của Cự Ma tộc\".",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Thế lực bí ẩn ở trung tâm Triệu quốc; \"sứ giả đại nhân\" (trung niên béo) thao túng Phác Nam Tử + Đằng gia (dùng Đằng làm chuột thí nghiệm, cấp thần thông luyện thể cho Đằng Nhất, cho mượn pháp luân Hóa Thần cấp). Nhận ra thần thông VL là \"thông thiên thuật của Cự Ma tộc\"."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.218-220."
+    }
+   ]
+  },
+  {
+   "name": "Hạo Nhiên tông (浩然宗)",
+   "cn": "",
+   "type": "monphai",
+   "typeLabel": "Đối thủ Vân Thiên tông (Sở quốc)",
+   "blurb": "Tông phái lớn Sở quốc, đối thủ ngàn năm bị Vân Thiên tông đè đầu; tông chủ Tư Mã Vân Nam dã tâm lớn.",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Tông phái lớn Sở quốc, đối thủ ngàn năm bị Vân Thiên tông đè đầu; tông chủ Tư Mã Vân Nam dã tâm lớn."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.201."
+    }
+   ]
+  },
+  {
+   "name": "Liên Mặc thành (聯墨城)",
+   "cn": "",
+   "type": "diadanh",
+   "typeLabel": "Thành thương mại Tu Ma hải (có bí thị)",
+   "blurb": "Thành lớn ở Tu Ma hải, nhiều truyền tống trận; có \"bí thị\" (chợ kín, hạn chế tu vi) đặt trong vết nứt không gian giữa 3 thành — phiên này 31 Nguyên Anh tham dự. Nơi VL đoạt ngọc giản cổ truyền tống trận + mua bản đồ Chu Tước tinh + nhặt vỏ kiếm cổ.",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Thành lớn ở Tu Ma hải, nhiều truyền tống trận; có \"bí thị\" (chợ kín, hạn chế tu vi) đặt trong vết nứt không gian giữa 3 thành — phiên này 31 Nguyên Anh tham dự. Nơi VL đoạt ngọc giản cổ truyền tống trận + mua bản đồ Chu Tước tinh + nhặt vỏ kiếm cổ."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.206-208."
+    }
+   ]
+  },
+  {
+   "name": "Khổng Mạnh đại lục (孔孟大陸)",
+   "cn": "",
+   "type": "diadanh",
+   "typeLabel": "1 trong 6 đại lục Chu Tước tinh",
+   "blurb": "Một trong sáu đại lục của Chu Tước tinh; nhiều tu chân quốc cấp 1-3, ít cấp 4 (tài nguyên ít). Chứa Triệu quốc ở tận cùng.",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Một trong sáu đại lục của Chu Tước tinh; nhiều tu chân quốc cấp 1-3, ít cấp 4 (tài nguyên ít). Chứa Triệu quốc ở tận cùng."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.210."
     }
    ]
   }
