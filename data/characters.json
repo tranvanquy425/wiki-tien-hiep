@@ -1,6 +1,6 @@
 {
  "updatedAt": "2026-06-06",
- "count": 121,
+ "count": 116,
  "chars": [
   {
    "name": "Vương Lâm (王琳)",
@@ -209,6 +209,10 @@
     {
      "label": "Vai trò trong arc",
      "text": "Xung đột nội tâm dữ dội giữa tình vợ (Đằng Tú Tú) và thù 400 năm của Vương gia với Đằng gia. Mấy lần đuổi vợ đi rồi lại quay lại. Gặp Vương Lâm, xác nhận chỉ VL đủ thực lực báo thù; cùng nhìn nhận \"kẻ thù chung chỉ có một — Đằng Hóa Nguyên\". Vương Lâm nói với hắn: \"Cha ngươi (Đằng Tam) không nên mang họ Đằng.\""
+    },
+    {
+     "label": "Tái xuất — bi kịch diệt môn Vương gia (Ch.87)",
+     "text": "Cùng Vương Hạo về thăm nhà thì gặp Đằng Hóa Nguyên tàn sát toàn tộc Vương gia. Vương Trác (tầng 11 Ngưng Khí lúc đó) ghì Vương Hạo lại (\"còn sống mới báo thù\"), nhận ra mình chỉ là \"rác rưởi\" so với Vương Lâm. Cả hai được Khải Minh đạo nhân xin tha, bay về Huyền Đạo tông. Vương gia bị diệt môn. (Về sau Vương Trác thành rể Đằng gia — xung đột ái-thù ở arc Ch.211-220.)"
     }
    ],
    "portrait": "V"
@@ -275,6 +279,10 @@
     {
      "label": "Mô tả",
      "text": "Con tam thúc (Vương lão Tam), anh em họ Vương Lâm; làm dược đồng cho tam sư huynh ở phòng luyện đan. Người duy nhất trong họ Vương không hùa nhạo báng Vương Lâm.\n- Ch.5, 7: trượt đệ tử chính thức, làm dược đồng; bị cha quát để không bênh Vương Lâm ở yến hội.\n- Ch.21: lén tặng Vương Lâm linh đan.\n- Ch.30, 32: mượn 200+ tiên phù mua Hóa Hình Hóa Thanh Đan; **môi giới đưa Vương Lâm vào Giao Dịch Hội**. Vẫn chưa đạt Ngưng Khí tầng 1.\n- **Đánh giá**: tình bạn hiếm hoi và bền của Vương Lâm; vai trò ngày càng quan trọng như cầu nối xã hội."
+    },
+    {
+     "label": "Tái xuất — chứng kiến diệt môn (Ch.87)",
+     "text": "Cùng Vương Trác về thăm nhà thì gặp Đằng Hóa Nguyên tàn sát toàn tộc Vương gia (con tam thúc, tầng 7 Ngưng Khí lúc đó); chứng kiến cha mẹ bị giết, gào khóc bất lực, suýt liều mạng, được Vương Trác ghì lại. Cả hai bay về Huyền Đạo tông."
     }
    ],
    "portrait": "V"
@@ -298,22 +306,6 @@
     }
    ],
    "portrait": "V"
-  },
-  {
-   "name": "Mẹ Vương Lâm — Nhị nương",
-   "role": "neutral",
-   "affiliation": "khac",
-   "roleFilter": "neutral",
-   "tag": "TRUNG LẬP",
-   "tagClass": "tag-neutral",
-   "blurb": "- Tên chưa nêu. Được Tứ thúc gọi \"Nhị tẩu\" (chị dâu hai).\n- Lúc Tứ thúc còn bé (mẹ Tứ thúc mất sớm), Nhị nương chiếu cố hắn — đó là lý do Tứ thúc nhường danh ngạch cho Vương Lâm sau này. (Ch.1)",
-   "detail": [
-    {
-     "label": "Mô tả",
-     "text": "- Tên chưa nêu. Được Tứ thúc gọi \"Nhị tẩu\" (chị dâu hai).\n- Lúc Tứ thúc còn bé (mẹ Tứ thúc mất sớm), Nhị nương chiếu cố hắn — đó là lý do Tứ thúc nhường danh ngạch cho Vương Lâm sau này. (Ch.1)"
-    }
-   ],
-   "portrait": "M"
   },
   {
    "name": "Tứ thúc — Chú thứ tư, ân nhân",
@@ -424,11 +416,11 @@
    "portrait": "T"
   },
   {
-   "name": "Trương sư huynh — Đệ tử nội môn, người chỉ điểm",
+   "name": "Trương Tính — \"Trương sư huynh\" (张姓)",
    "role": "friend",
    "affiliation": "hangnhac",
    "roleFilter": "friend",
-   "tag": "TIỀN BỐI THIỆN Ý",
+   "tag": "SƯ HUYNH NHẬP MÔN HẰNG NHẠC",
    "tagClass": "tag-friend",
    "blurb": "Sư huynh cũ của Vương Lâm ở Hằng Nhạc phái (người đưa Vương Lâm lên núi năm xưa). Nay là phế nhân ở Hợp Hoan tông — bị một nữ đệ tử Hợp Hoan tông lấy thân luyện Hợp Hoan đan, linh lực tán loạn, kinh mạch yếu ớt.\nNhận ra Vương Lâm. Vương Lâm tặng 7 viên đan (mỗi tháng 1 viên, sau 7 tháng khôi phục nửa tu vi) rồi từ biệt.",
    "detail": [
@@ -451,6 +443,30 @@
     {
      "label": "Vai trò",
      "text": "Nhận ra Vương Lâm. Vương Lâm tặng 7 viên đan (mỗi tháng 1 viên, sau 7 tháng khôi phục nửa tu vi) rồi từ biệt."
+    },
+    {
+     "label": "Xuất thân",
+     "text": "Đệ tử nội môn hắc y, người năm xưa đưa Vương Lâm (và mấy thiếu niên) lên núi nhập môn; luôn kính trọng, hay đốc thúc Vương Lâm tu luyện."
+    },
+    {
+     "label": "Tu vi",
+     "text": "Tầng 6 Ngưng Khí."
+    },
+    {
+     "label": "Mốc đời theo chương",
+     "text": "- Ch.48: Kinh ngạc khi Vương Lâm hạ Chu Bằng, không tin \"đứa nhỏ mình mang lên núi\" lại mạnh thế.\n- Ch.56: Theo Hằng Nhạc rời phái; bày tỏ bội phục Vương Lâm."
+    },
+    {
+     "label": "Quan hệ với Vương Lâm",
+     "text": "Một trong số ít người chưa từng châm chọc hắn — được Vương Lâm kính trọng."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "Mỏ neo ký ức \"ngày đầu nhập môn\", đo lường khoảng cách Vương Lâm đã đi."
+    },
+    {
+     "label": "Ghi chú cần xác minh",
+     "text": "Văn bản đợt này có cả \"Trương sư huynh\" (Trương Tính) và \"Trương Đức Khôn\" — là hai người khác nhau; tránh nhầm lẫn."
     }
    ],
    "portrait": "T"
@@ -884,13 +900,17 @@
    "role": "friend",
    "affiliation": "hohang",
    "roleFilter": "friend",
-   "tag": "MẸ",
+   "tag": "MẪU THÂN VƯƠNG LÂM",
    "tagClass": "tag-friend",
    "blurb": "Tên chưa nêu, được gọi \"Nhị tẩu\". Hiền hậu. Từng chăm sóc Tứ thúc lúc bé (mẹ Tứ thúc mất sớm) — cội nguồn ân nghĩa khiến Tứ thúc nhường danh ngạch cho Vương Lâm. (Ch.1)",
    "detail": [
     {
      "label": "Mô tả",
      "text": "Tên chưa nêu, được gọi \"Nhị tẩu\". Hiền hậu. Từng chăm sóc Tứ thúc lúc bé (mẹ Tứ thúc mất sớm) — cội nguồn ân nghĩa khiến Tứ thúc nhường danh ngạch cho Vương Lâm. (Ch.1)"
+    },
+    {
+     "label": "Mô tả",
+     "text": "- Tên chưa nêu. Được Tứ thúc gọi \"Nhị tẩu\" (chị dâu hai).\n- Lúc Tứ thúc còn bé (mẹ Tứ thúc mất sớm), Nhị nương chiếu cố hắn — đó là lý do Tứ thúc nhường danh ngạch cho Vương Lâm sau này. (Ch.1)"
     }
    ],
    "portrait": "N"
@@ -1314,22 +1334,6 @@
    "portrait": "L"
   },
   {
-   "name": "Vương Trác & Vương Hạo — người Vương gia (tái xuất, bi kịch)",
-   "role": "friend",
-   "affiliation": "huyendao",
-   "roleFilter": "friend",
-   "tag": "NGƯỜI NHÀ · SỐNG SÓT THẢM KỊCH VƯƠNG GIA",
-   "tagClass": "tag-friend",
-   "blurb": "Hai đệ tử Huyền Đạo gốc Vương gia, về thăm nhà thì gặp **Đằng Hóa Nguyên tàn sát toàn tộc**:\n- **Vương Hạo** (bạn thân Vương Lâm, con tam thúc): chứng kiến cha mẹ bị giết, gào khóc bất lực, suýt liều ",
-   "detail": [
-    {
-     "label": "Mô tả",
-     "text": "Hai đệ tử Huyền Đạo gốc Vương gia, về thăm nhà thì gặp **Đằng Hóa Nguyên tàn sát toàn tộc**:\n- **Vương Hạo** (bạn thân Vương Lâm, con tam thúc): chứng kiến cha mẹ bị giết, gào khóc bất lực, suýt liều mạng. Tu vi tầng 7 Ngưng Khí.\n- **Vương Trác** (con trai phụ thân khai nơi ở cha mẹ Vương Lâm): tầng 11 Ngưng Khí; ghì Vương Hạo lại (\"còn sống mới báo thù\"); nhận ra mình mới là \"rác rưởi\" so với Vương Lâm.\n- Cả hai được Khải Minh đạo nhân xin tha, bay về Huyền Đạo. **Vương gia bị diệt môn.** (Ch.87)"
-    }
-   ],
-   "portrait": "V"
-  },
-  {
    "name": "Các Nguyên Anh lão tổ Triệu quốc (xuất hiện ngắn)",
    "role": "neutral",
    "affiliation": "khac",
@@ -1398,45 +1402,41 @@
    "portrait": "L"
   },
   {
-   "name": "Bát Cực Ma Quân (八極魔君)",
+   "name": "Bát Cực Ma Quân (Đoan Mộc Cực · 八極魔君)",
    "role": "foe",
    "affiliation": "khac",
    "roleFilter": "foe",
-   "tag": "HÓA THẦN / THẤT MAI CHI ĐỊA",
+   "tag": "THÀNH CHỦ THẤT MAI · ĐỐI TRỌNG",
    "tagClass": "tag-foe",
    "blurb": "Một trong **7 thành chủ Thất Mai chi địa** (7 thành bố trí theo hình hoa mai, nằm trong Tu Ma nội hải). Áo thanh bào thêu 7 đóa mai vàng nhụy đỏ là dấu hiệu thân phận. 1000 năm trước từng suýt chết ở ",
    "detail": [
     {
-     "label": "Xuất thân / thân phận",
-     "text": "Một trong **7 thành chủ Thất Mai chi địa** (7 thành bố trí theo hình hoa mai, nằm trong Tu Ma nội hải). Áo thanh bào thêu 7 đóa mai vàng nhụy đỏ là dấu hiệu thân phận. 1000 năm trước từng suýt chết ở \"địa phương kia\", phải tu dưỡng cả ngàn năm mới khôi phục."
+     "label": "Thân phận",
+     "text": "Tên thật **Đoan Mộc Cực** (lộ ở Ch.141 khi Triệu Truyện Lương gọi tên). Một trong 7 thành chủ Thất Mai chi địa (7 thành bố trí hình hoa mai trong Tu Ma nội hải) — thành chủ Thất Mai Thành. Áo thanh bào thêu 7 đóa mai vàng nhụy đỏ là dấu hiệu thân phận. 1000 năm trước từng suýt chết ở \"địa phương kia\", tu dưỡng cả ngàn năm mới hồi phục."
     },
     {
      "label": "Tu vi",
-     "text": "**Hóa Thần kỳ** (Trâu Bân nghi vậy; văn bản nghiêng về Hóa Thần, tối thiểu cũng Nguyên Anh hậu kỳ/giả thần)."
+     "text": "Hóa Thần kỳ (tối thiểu Nguyên Anh hậu kỳ/giả thần). Thần thức cực mạnh."
     },
     {
      "label": "Tính cách",
-     "text": "Kiên nhẫn khủng khiếp (chờ Vương Lâm tới ba năm), thực dụng, lạnh lùng nhưng không giết bừa (tránh đắc tội tứ cấp tu chân quốc đứng sau Hỏa Phần/Tuyên Vũ), khôn ngoan — chọn dụ bằng lợi thay vì ép bằng cấm chế."
-    },
-    {
-     "label": "Mốc đời (trong truyện)",
-     "text": "Nghe tin \"sát tinh dùng Tử Chú thuật\" ở Nam Đấu thành → bắt đầu truy (Ch.135) → đuổi qua Tu Ma hải, bị phi kiếm Vương Lâm rạch mặt (Ch.136-137) → phong tỏa Tuyên Vũ quốc 3 năm bằng bổn tôn cùng 3 phân thân (Ch.139) → ép Vương Lâm vào giao ước (Ch.140)."
+     "text": "Kiên nhẫn khủng khiếp (chờ Vương Lâm 3 năm), thực dụng, lạnh lùng nhưng không giết bừa (tránh đắc tội tứ cấp tu chân quốc sau lưng Hỏa Phần/Tuyên Vũ); khôn ngoan — dụ bằng lợi (Lập Anh đan, bảo vật) thay vì ép bằng cấm chế."
     },
     {
      "label": "Pháp bảo / sở trường",
-     "text": "Thần thức cực mạnh — **Bát Trảo thần thức** (bát trảo chương ngư phòng ngự ý thức hải, hút được cả chữ \"Tử\" của Cực cảnh); một chữ \"Biến\" làm tu sĩ Nguyên Anh chảy máu; Thổ Hành Chu (mượn), hồ lô xanh di chuyển, trùy tử thoi trong suốt; phân thân thuật (4 thân)."
+     "text": "**Bát Trảo thần thức** (bát trảo chương ngư phòng ngự thức hải, hút được cả chữ \"Tử\" của Cực cảnh); chữ \"Biến\" làm Nguyên Anh chảy máu; Thổ Hành Chu (mượn), hồ lô xanh di chuyển, trùy tử thoi trong suốt; phân thân thuật (4 thân)."
     },
     {
-     "label": "Kết cục / hiện trạng",
-     "text": "Đối tác cưỡng ép của Vương Lâm; dẫn hắn tới \"địa phương kia\" sắp mở."
+     "label": "Hành trình (một mạch)",
+     "text": "- Ch.135: Nghe tin \"sát tinh dùng Tử Chú thuật\" ở Nam Đấu thành → bắt đầu truy.\n- Ch.136-137: Đuổi qua Tu Ma hải, bị phi kiếm Vương Lâm rạch mặt.\n- Ch.139: Phong tỏa Tuyên Vũ quốc 3 năm bằng bổn tôn + 3 phân thân.\n- Ch.140: Ép Vương Lâm vào giao ước.\n- Ch.141: Lộ tên thật Đoan Mộc Cực.\n- Ch.142-143: Phá Truyền Tống trận Thi Âm tông (1 trảo) bảo vệ VL; nói với Uông Thanh Việt rằng VL có Tử Chú thuật — gieo bom hẹn giờ.\n- Ch.144-146: Dẫn đội tới cổ truyền tống trận, cấp VL Hóa Anh + Lập Anh đan; vào thế giới ngũ hành cửa 1 riêng (kết quả chưa rõ trong đợt)."
     },
     {
      "label": "Quan hệ với Vương Lâm",
-     "text": "Đối trọng mới, từ kẻ truy đuổi (Ch.135-139) thành đối tác giao ước cưỡng ép (Ch.140). Lão cần Tử Chú thuật của Vương Lâm để vào \"địa phương kia\" (nơi cấm chế mất tác dụng, cần thần thức công kích), không thể ép bằng cấm chế nên dụ bằng Lập Anh đan và bảo vật. Vương Lâm biết từ chối là chết nên đồng ý nhưng cảnh giác (\"chuyện này nhất định có vấn đề\"). Cốt lõi quan hệ là một hiểu nhầm: Bát Cực tin Vương Lâm có Tử Chú thuật trong khi thật ra là Cực cảnh thần thức — \"bom hẹn giờ\" cho arc sau."
+     "text": "Từ kẻ truy đuổi (Ch.135-139) thành đối tác giao ước cưỡng ép (Ch.140). Lão cần \"Tử Chú thuật\" của VL để vào \"địa phương kia\" (nơi cấm chế vô hiệu, cần thần thức công kích). Cốt lõi là một HIỂU NHẦM: Bát Cực tin VL có Tử Chú thuật trong khi thật ra là Cực Cảnh thần thức — bom hẹn giờ cho arc sau."
     },
     {
      "label": "Vai trò trần thuật",
-     "text": "Phản diện/đối trọng mở arc mới; vừa là nguồn cơ hội (Lập Anh đan, Anh Biến đan) vừa là nguy hiểm lớn; mang theo hiểu nhầm Tử Chú thuật làm ngòi nổ về sau.\n\n---"
+     "text": "Phản diện/đối trọng mở arc mới; vừa là nguồn cơ hội (Lập Anh đan, Anh Biến đan) vừa là nguy hiểm lớn; mang hiểu nhầm Tử Chú thuật làm ngòi nổ."
     }
    ],
    "portrait": "B"
@@ -1600,34 +1600,6 @@
     }
    ],
    "portrait": "C"
-  },
-  {
-   "name": "Từ Tư (徐絲) & Chu An (朱安)",
-   "role": "foe",
-   "affiliation": "khac",
-   "roleFilter": "foe",
-   "tag": "KẺ THÙ THÂN MÃ LƯƠNG",
-   "tagClass": "tag-foe",
-   "blurb": "Thanh mai trúc mã/hôn ước cũ của Mã Lương thật. Sau khi Mã Lương bị đoạt xá, nàng cảm nhận khác lạ, nhiều lần định giết, dùng hắc châm xóa thần thức (Ch.119); đợt này ngoại tình với Chu An và bị Vương",
-   "detail": [
-    {
-     "label": "Từ Tư",
-     "text": "Thanh mai trúc mã/hôn ước cũ của Mã Lương thật. Sau khi Mã Lương bị đoạt xá, nàng cảm nhận khác lạ, nhiều lần định giết, dùng hắc châm xóa thần thức (Ch.119); đợt này ngoại tình với Chu An và bị Vương Lâm gài thần thức giết qua tay (Ch.123)."
-    },
-    {
-     "label": "Chu An",
-     "text": "Kẻ đeo bám Từ Tư; bị gài thần thức (nửa tháng sau phát tác)."
-    },
-    {
-     "label": "Quan hệ với Vương Lâm",
-     "text": "Tàn dư ân oán cá nhân của thân phận Mã Lương; Vương Lâm dứt điểm cả hai để vừa trừ hậu hoạn vừa giúp Chu Tử Hồng \"trả thù tình\"."
-    },
-    {
-     "label": "Vai trò trần thuật",
-     "text": "Khép lại tuyến ân oán đời tư của vỏ bọc Mã Lương.\n\n---"
-    }
-   ],
-   "portrait": "T"
   },
   {
    "name": "Trương Tự Lực (張自力)",
@@ -2030,22 +2002,6 @@
    "portrait": "C"
   },
   {
-   "name": "Đoan Mộc Cực / Bát Cực Ma Quân",
-   "role": "neutral",
-   "affiliation": "khac",
-   "roleFilter": "neutral",
-   "tag": "TRUNG LẬP",
-   "tagClass": "tag-neutral",
-   "blurb": "*(hồ sơ gốc ở `Tu_Ma_hai_nhan_vat_Ch121-140.md` — bổ sung mốc Ch.141-160)*\n\n- Ch.141: Lộ tên thật **Đoan Mộc Cực** khi Triệu Truyện Lương gọi tên. Xác nhận là thành chủ Thất Mai Thành Tu Ma nội hải.\n-",
-   "detail": [
-    {
-     "label": "Mô tả",
-     "text": "*(hồ sơ gốc ở `Tu_Ma_hai_nhan_vat_Ch121-140.md` — bổ sung mốc Ch.141-160)*\n\n- Ch.141: Lộ tên thật **Đoan Mộc Cực** khi Triệu Truyện Lương gọi tên. Xác nhận là thành chủ Thất Mai Thành Tu Ma nội hải.\n- Ch.142-143: Phá Truyền Tống trận Thi Âm tông (1 trảo), bảo vệ VL. Nói thật với Uông Thanh Việt rằng VL có Tử Chú thuật — gieo bom hẹn giờ.\n- Ch.144-146: Dẫn đội tới cổ truyền tống trận; cấp VL Hóa Anh + Lập Anh đan; vào thế giới ngũ hành cửa 1 riêng.\n- Hiện trạng đợt này: Trong 1 thế giới ngũ hành cửa 1, kết quả chưa rõ trong đợt.\n\n---"
-    }
-   ],
-   "portrait": "C"
-  },
-  {
    "name": "Hứa Lập Quốc (許立國)",
    "role": "friend",
    "affiliation": "chinh",
@@ -2141,6 +2097,10 @@
     {
      "label": "Mô tả",
      "text": "Vốn là **hôn ước cũ của Mã Lương** (tiểu sư muội hắn từng mê). Cảm nhận sự khác lạ ở \"Mã Lương\" sau khi hắn trở về, nhiều lần tìm cách giết, dùng **hắc châm xóa thần thức** Vương Lâm (Ch.119). Bị Vương Lâm gài ngược một dấu thần thức — định sẵn một tháng sau sẽ chết. Mối thù cá nhân trực tiếp của Quyển 2.\n\n---"
+    },
+    {
+     "label": "Liên quan: Chu An (朱安)",
+     "text": "Kẻ đeo bám/ngoại tình với Từ Tư; bị Vương Lâm gài thần thức (phát tác nửa tháng sau). Vương Lâm dứt điểm cả Từ Tư lẫn Chu An (Ch.123) để trừ hậu hoạn thân phận Mã Lương, đồng thời giúp Chu Tử Hồng \"trả thù tình\". Khép lại tuyến ân oán đời tư của vỏ bọc Mã Lương."
     }
    ],
    "portrait": "T"
@@ -2290,17 +2250,21 @@
    "portrait": "T"
   },
   {
-   "name": "Lý Kỳ Khánh & Lý Mộ Uyển (Lạc Hà Môn)",
+   "name": "Lý Kỳ Khánh (Lạc Hà Môn)",
    "role": "neutral",
    "affiliation": "khac",
    "roleFilter": "neutral",
-   "tag": "LẠC HÀ MÔN",
+   "tag": "LẠC HÀ MÔN · ANH LÝ MỘ UYỂN",
    "tagClass": "tag-neutral",
-   "blurb": "Hai tu sĩ Lạc Hà Môn Vương Lâm gặp ở Ch.113. Lạc Hà Môn về sau là một trong bốn thành viên **Hỏa Phần minh** (Ch.120). **Thanh Huyền** (Lạc Hà Môn) là người dẫn đại quân thiên di (Ch.119). Cụm nhân vậ",
+   "blurb": "Tu sĩ Lạc Hà Môn (Hỏa Phần quốc), anh trai Lý Mộ Uyển. Vương Lâm gặp ở Ch.113. Lạc Hà Môn về sau là một trong bốn thành viên Hỏa Phần minh (Ch.120).",
    "detail": [
     {
-     "label": "Mô tả",
-     "text": "Hai tu sĩ Lạc Hà Môn Vương Lâm gặp ở Ch.113. Lạc Hà Môn về sau là một trong bốn thành viên **Hỏa Phần minh** (Ch.120). **Thanh Huyền** (Lạc Hà Môn) là người dẫn đại quân thiên di (Ch.119). Cụm nhân vật giới thiệu thế lực đồng minh.\n\n---"
+     "label": "Vai trò",
+     "text": "Anh trai Lý Mộ Uyển, đồng môn Lạc Hà Môn. (Hồ sơ Lý Mộ Uyển xem riêng tại thẻ \"Lý Mộ Uyển (李慕婉)\" — đã gộp một mạch.)"
+    },
+    {
+     "label": "Bối cảnh",
+     "text": "Lạc Hà Môn là một trong bốn thành viên Hỏa Phần minh (Ch.120); Thanh Huyền (Lạc Hà Môn) dẫn đại quân thiên di (Ch.119)."
     }
    ],
    "portrait": "L"
@@ -2944,42 +2908,6 @@
     }
    ],
    "portrait": "H"
-  },
-  {
-   "name": "Trương Tính — \"Trương sư huynh\" (张姓)",
-   "role": "friend",
-   "affiliation": "hangnhac",
-   "roleFilter": "friend",
-   "tag": "NGƯỜI ĐƯA VƯƠNG LÂM NHẬP MÔN",
-   "tagClass": "tag-friend",
-   "blurb": "Đệ tử nội môn hắc y, người năm xưa đưa Vương Lâm (và mấy thiếu niên) lên núi nhập môn; luôn kính trọng, hay đốc thúc Vương Lâm tu luyện.",
-   "detail": [
-    {
-     "label": "Xuất thân",
-     "text": "Đệ tử nội môn hắc y, người năm xưa đưa Vương Lâm (và mấy thiếu niên) lên núi nhập môn; luôn kính trọng, hay đốc thúc Vương Lâm tu luyện."
-    },
-    {
-     "label": "Tu vi",
-     "text": "Tầng 6 Ngưng Khí."
-    },
-    {
-     "label": "Mốc đời theo chương",
-     "text": "- Ch.48: Kinh ngạc khi Vương Lâm hạ Chu Bằng, không tin \"đứa nhỏ mình mang lên núi\" lại mạnh thế.\n- Ch.56: Theo Hằng Nhạc rời phái; bày tỏ bội phục Vương Lâm."
-    },
-    {
-     "label": "Quan hệ với Vương Lâm",
-     "text": "Một trong số ít người chưa từng châm chọc hắn — được Vương Lâm kính trọng."
-    },
-    {
-     "label": "Vai trò trần thuật",
-     "text": "Mỏ neo ký ức \"ngày đầu nhập môn\", đo lường khoảng cách Vương Lâm đã đi."
-    },
-    {
-     "label": "Ghi chú cần xác minh",
-     "text": "Văn bản đợt này có cả \"Trương sư huynh\" (Trương Tính) và \"Trương Đức Khôn\" — là hai người khác nhau; tránh nhầm lẫn."
-    }
-   ],
-   "portrait": "T"
   },
   {
    "name": "Trương Đức Khôn (张德坤)",
