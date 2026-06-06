@@ -120,3 +120,43 @@ def find_fac_dup_groups(facs):
     g = defaultdict(list)
     for f in facs: g[fac_key(f["name"])].append(f["name"])
     return {k: v for k, v in g.items() if len(v) > 1}
+
+
+# ============ SCHEMA NORMALIZATION (W3, 2026-06-06 — QC W1) ============
+# Sửa GỐC LỖI: .md khai vaitro/phe ngoài schema web → pipeline phải normalize.
+# role web hợp lệ: main | foe | friend | neutral
+# affiliation web hợp lệ (Tiên Nghịch): chinh | hangnhac | huyendao | hohang | thiamtong | vanthientong | khac
+
+ROLE_NORMALIZE = {"phu": "neutral", "dongminh": "friend", "main": "main",
+                  "foe": "foe", "friend": "friend", "neutral": "neutral"}
+AFF_NORMALIZE = {"trunglap": "khac"}  # các phe lạ khác → giữ nếu đã khai, else "khac"
+VALID_AFF = {"chinh","hangnhac","huyendao","hohang","thiamtong","vanthientong","khac"}
+
+# Heading KHÔNG phải nhân vật (parser bỏ qua) — tránh thẻ rác trên web
+NOTE_HEADING_PREFIXES = ("Cập nhật hồ sơ", "Ghi chú", "=== ", "===")
+
+def is_note_heading(name):
+    n = name.strip()
+    if n.lower().startswith("ghi chú"): return True
+    if n.startswith("Cập nhật hồ sơ"): return True
+    if n.startswith("===") or n.startswith("=== "): return True
+    return False
+
+def normalize_char(c):
+    # role
+    r = c.get("role", "neutral")
+    c["role"] = ROLE_NORMALIZE.get(r, "neutral")
+    c["roleFilter"] = c["role"]
+    # affiliation
+    a = c.get("affiliation", "khac")
+    if a in AFF_NORMALIZE: a = AFF_NORMALIZE[a]
+    if a not in VALID_AFF: a = "khac"
+    c["affiliation"] = a
+    # strip stray "Cập nhật:" name prefix
+    c["name"] = re.sub(r'(?i)^\s*cập nhật\s*[:：]\s*', '', c["name"]).strip()
+    return c
+
+def clean_realm_status(status):
+    # field status chỉ nhận known|unknown; giải thích để trong blurb/detail
+    s = (status or "known").strip().lower()
+    return "unknown" if s.startswith("unknown") else "known"
