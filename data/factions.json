@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-06-05",
- "count": 34,
+ "updatedAt": "2026-06-06",
+ "count": 36,
  "factions": [
   {
    "name": "Tu Ma hải",
@@ -10,8 +10,34 @@
    "blurb": "Biển sương mù (vụ hải) ngăn cách **Chu Vũ đại lục** (Hỏa Phần quốc) với đại lục chứa Triệu quốc. Quy mô khổng lồ: rìa ngoài là vùng ma tu tản mạn (Đấu Tà phái, ",
    "detail": [
     {
+     "label": "Cập nhật Ch.177-180",
+     "text": "Sau 200 năm, Tu Ma hải vào giai đoạn **thưa thớt Hóa Thần kỳ** — \"từ hơn 200 năm trước, sau khi mấy lão quái Hóa Thần mất tích trong Toái Tinh Loạn, tu sĩ Hóa Thần kỳ không còn nhiều\". Có **10 đại thành lớn nhất** (Kỳ Lân thành là một); biển nước Tu Ma hải xưa nay đã hóa sương khói. Bên trong có **Toái Tinh Loạn** (Tu Ma nội hải). Nhiều môn phái/ma cung: Độc Ma Cung, Kỳ Hoàng Môn (đã diệt), Huyền Thiên tông, Thiên Ma động, Thất Mai chi địa..."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "Bối cảnh mới cho giai đoạn hậu-Cổ-Thần-chi-địa của Vương Lâm."
+    },
+    {
+     "label": "Vị trí/Cơ chế",
+     "text": "Vòng tròn lớn tạo từ vô số đá vụn ở **Tu Ma nội hải**; ra/vào đều phải **đối mặt + chiến thắng một phân thân cùng tu vi**. Đại thần bí hung hiểm, hiếm người dám tới, gần như bị lãng quên. Lối ra thông đạo Cổ Thần chi địa nằm bên trong Toái Tinh Loạn → muốn ra ngoài phải xuyên qua đây.",
+     "phase": "Toái Tinh Loạn (碎星亂) — CẬP NHẬT | status:known"
+    },
+    {
+     "label": "Liên đới",
+     "text": "200 năm trước, **4 lão quái Hóa Thần** (Mạnh Khánh Phàm/Mạnh Đà Tử, Đoan Mộc Cực, Lục Dục Ma Quân, Cổ Đế) cùng mất tích tại đây (thực ra vào Cổ Thần chi địa). Vương Lâm ra từ khe không gian Toái Tinh Loạn rồi xuyên qua dễ dàng (Ch.177-178).",
+     "phase": "Toái Tinh Loạn (碎星亂) — CẬP NHẬT | status:known"
+    },
+    {
      "label": "Mô tả",
      "text": "Biển sương mù (vụ hải) ngăn cách **Chu Vũ đại lục** (Hỏa Phần quốc) với đại lục chứa Triệu quốc. Quy mô khổng lồ: rìa ngoài là vùng ma tu tản mạn (Đấu Tà phái, Hắc y Ma quân…), càng vào trong càng mạnh. **Nội hải >300 thành**, đỉnh cao là **Thất Mai chi địa**. Sương mù khắc hỏa nên Hỏa Linh Thú không dám vào — Vương Lâm lợi dụng để cắt đuôi và lập động phủ kết đan. (Ch.123-140)"
+    },
+    {
+     "label": "Cập nhật",
+     "text": "sau Thiên Kiếp (Ch.184), sương mù dày đặc đặc trưng bị bốc hơi → mất \"lá chắn thiên nhiên\" → dị thú trong sương tràn ra (loạn dị thú giết người/người giết dị thú đoạt nội đan), các tu chân quốc bốn phía nhòm ngó → đại loạn. Vài đại môn phái ngàn năm cùng ra mặt mới tạm ổn định."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "bối cảnh VL đại khai sát giới + rời đi."
     }
    ]
   },
@@ -81,7 +107,7 @@
    ]
   },
   {
-   "name": "Lạc Hà Môn (cập nhật)",
+   "name": "Lạc Hà Môn",
    "cn": "落霞門",
    "type": "monphai",
    "typeLabel": "Tông môn Hỏa Phần quốc · thành viên Hỏa Phần minh",
@@ -90,6 +116,10 @@
     {
      "label": "Mô tả",
      "text": "Tông môn trong tứ đại tông phái Hỏa Phần quốc, mạnh về **luyện đan & trận pháp**.\n- **Lý Mộ Uyển**: thiên tài luyện đan/trận pháp, nữ chính phụ arc Tu Ma hải; được Vương Lâm cứu, đồng hành nhiều năm rồi đưa về môn (Ch.123-137).\n- **Lý Kỳ Khánh**: anh trai Lý Mộ Uyển.\n- Là một thành viên Hỏa Phần minh.\n\n**=== THẾ LỰC HỎA PHẦN QUỐC & VỰC NGOẠI (Quyển 2, giữ + cập nhật) ===**"
+    },
+    {
+     "label": "Cập nhật",
+     "text": "nguồn Cửu Chuyển Thập Bát Đan (trong đó có Kỷ Tả đan nhị phẩm mở rộng kinh mạch mà Lý Mộ Uyển luyện)."
     }
    ]
   },
@@ -107,7 +137,7 @@
    ]
   },
   {
-   "name": "Chiến Thần Điện (cập nhật)",
+   "name": "Chiến Thần Điện",
    "cn": "戰神殿",
    "type": "monphai",
    "typeLabel": "Tông môn của thân phận Mã Lương",
@@ -116,6 +146,10 @@
     {
      "label": "Mô tả",
      "text": "Tông môn của \"Mã Lương\". Đặc trưng **luyện khí thuật Điều - Dung - Hợp** (Phiên Ưng lô) và **Thần Đạo thuật** (bản nhái phổ biến; bản nguyên thủy tăng tỷ lệ Kết Anh).\n- **Hoắc Hồng Phi**: trưởng lão, tinh thông Thần Đạo thuật.\n- **Trâu Bân**: Nguyên Anh lão tổ (mặt đỏ), từng du ngoạn Tu Ma hải 300 năm trước nên biết Thất Mai chi địa; nhận ra Bát Cực Ma Quân, dẫn Vương Lâm vào **Thủy Kính môn** xem Thần Đạo thuật (Ch.137, 140).\n- Là một thành viên Hỏa Phần minh."
+    },
+    {
+     "label": "Mô tả",
+     "text": "Bổ sung đợt Ch.141: có **thạch phủ mộ tổ 365 gian thạch thất** phong ấn bằng Thủy Kính môn — nơi an táng các đời tổ tiên. Lão tổ khai sáng **Cung Mặc** phát hiện Thần Đạo thuật; bị phản đồ làm lộ bí mật → Thiên Cương quốc tới lấy bản nguyên thủy; Cung Mặc đi vân du không về. Đệ tử **Trần Trùng** khắc lại 1 thành trên thanh ngọc thạch bích rồi chết. Thạch phủ còn có 1 **thi hài thần bí lơ lửng** (kẻ lạ ký sinh luyện công bằng khí đen từ tổ tiên Chiến Thần Điện) — Vương Lâm đã trộm túi trữ vật của kẻ này (Ch.142).\n\n---\n*Cập nhật arc Cổ Thần chi địa Ch.141-160. Thế lực tồn đọng chưa rõ: Âm Dương Tông (chi tiết), Thiên Cương quốc (thế lực nội bộ), kẻ ký sinh thi hài Chiến Thần Điện (danh tính).*\n\n\n**=== ĐỊA LÝ & THẾ LỰC — CỔ THẦN CHI ĐỊA (HỒI KẾT) & TU MA HẢI (Ch.161-180) ===**"
     }
    ]
   },
@@ -194,6 +228,10 @@
     {
      "label": "Mô tả",
      "text": "Chủng tộc khổng lồ Vực Ngoại (ngũ cấp), treo thưởng tìm Nghịch Thiên châu (pháp bảo Anh Biến cấp); từng đoạt ánh sáng chứa hồn cha mẹ Vương Lâm. Mối nguy cao treo lơ lửng."
+    },
+    {
+     "label": "Cập nhật",
+     "text": "Tứ cấp tu chân quốc; che chở Vân Thiên tông; dùng hiệp nghị bí mật hạng nhất đổi lấy Thiên Tổn đan, bố trí pháp trận mạnh trước cửa Vân Thiên tông. Cho thấy địa vị Vân Thiên tông trong Cự Ma tộc."
     }
    ]
   },
@@ -356,19 +394,6 @@
    ]
   },
   {
-   "name": "Chiến Thần Điện (CẬP NHẬT)",
-   "cn": "",
-   "type": "monphai",
-   "typeLabel": "Môn phái/Thế lực",
-   "blurb": "Bổ sung đợt Ch.141: có **thạch phủ mộ tổ 365 gian thạch thất** phong ấn bằng Thủy Kính môn — nơi an táng các đời tổ tiên. Lão tổ khai sáng **Cung Mặc** phát hiệ",
-   "detail": [
-    {
-     "label": "Mô tả",
-     "text": "Bổ sung đợt Ch.141: có **thạch phủ mộ tổ 365 gian thạch thất** phong ấn bằng Thủy Kính môn — nơi an táng các đời tổ tiên. Lão tổ khai sáng **Cung Mặc** phát hiện Thần Đạo thuật; bị phản đồ làm lộ bí mật → Thiên Cương quốc tới lấy bản nguyên thủy; Cung Mặc đi vân du không về. Đệ tử **Trần Trùng** khắc lại 1 thành trên thanh ngọc thạch bích rồi chết. Thạch phủ còn có 1 **thi hài thần bí lơ lửng** (kẻ lạ ký sinh luyện công bằng khí đen từ tổ tiên Chiến Thần Điện) — Vương Lâm đã trộm túi trữ vật của kẻ này (Ch.142).\n\n---\n*Cập nhật arc Cổ Thần chi địa Ch.141-160. Thế lực tồn đọng chưa rõ: Âm Dương Tông (chi tiết), Thiên Cương quốc (thế lực nội bộ), kẻ ký sinh thi hài Chiến Thần Điện (danh tính).*\n\n\n**=== ĐỊA LÝ & THẾ LỰC — CỔ THẦN CHI ĐỊA (HỒI KẾT) & TU MA HẢI (Ch.161-180) ===**"
-    }
-   ]
-  },
-  {
    "name": "Cổ Thần chi địa / Yêu Thần chi địa (CẬP NHẬT — bản chất thật)",
    "cn": "古神之地",
    "type": "diavuc",
@@ -419,33 +444,6 @@
    ]
   },
   {
-   "name": "Tu Ma hải (CẬP NHẬT — hiện trạng 200 năm sau)",
-   "cn": "修魔海",
-   "type": "diavuc",
-   "typeLabel": "Hải vực ma tu · sân khấu mới sau khi Vương Lâm ra khỏi Cổ Thần chi địa",
-   "blurb": "Sau 200 năm, Tu Ma hải vào giai đoạn **thưa thớt Hóa Thần kỳ** — \"từ hơn 200 năm trước, sau khi mấy lão quái Hóa Thần mất tích trong Toái Tinh Loạn, tu sĩ Hóa T",
-   "detail": [
-    {
-     "label": "Cập nhật Ch.177-180",
-     "text": "Sau 200 năm, Tu Ma hải vào giai đoạn **thưa thớt Hóa Thần kỳ** — \"từ hơn 200 năm trước, sau khi mấy lão quái Hóa Thần mất tích trong Toái Tinh Loạn, tu sĩ Hóa Thần kỳ không còn nhiều\". Có **10 đại thành lớn nhất** (Kỳ Lân thành là một); biển nước Tu Ma hải xưa nay đã hóa sương khói. Bên trong có **Toái Tinh Loạn** (Tu Ma nội hải). Nhiều môn phái/ma cung: Độc Ma Cung, Kỳ Hoàng Môn (đã diệt), Huyền Thiên tông, Thiên Ma động, Thất Mai chi địa..."
-    },
-    {
-     "label": "Vai trò trần thuật",
-     "text": "Bối cảnh mới cho giai đoạn hậu-Cổ-Thần-chi-địa của Vương Lâm."
-    },
-    {
-     "label": "Vị trí/Cơ chế",
-     "text": "Vòng tròn lớn tạo từ vô số đá vụn ở **Tu Ma nội hải**; ra/vào đều phải **đối mặt + chiến thắng một phân thân cùng tu vi**. Đại thần bí hung hiểm, hiếm người dám tới, gần như bị lãng quên. Lối ra thông đạo Cổ Thần chi địa nằm bên trong Toái Tinh Loạn → muốn ra ngoài phải xuyên qua đây.",
-     "phase": "Toái Tinh Loạn (碎星亂) — CẬP NHẬT | status:known"
-    },
-    {
-     "label": "Liên đới",
-     "text": "200 năm trước, **4 lão quái Hóa Thần** (Mạnh Khánh Phàm/Mạnh Đà Tử, Đoan Mộc Cực, Lục Dục Ma Quân, Cổ Đế) cùng mất tích tại đây (thực ra vào Cổ Thần chi địa). Vương Lâm ra từ khe không gian Toái Tinh Loạn rồi xuyên qua dễ dàng (Ch.177-178).",
-     "phase": "Toái Tinh Loạn (碎星亂) — CẬP NHẬT | status:known"
-    }
-   ]
-  },
-  {
    "name": "Kỳ Lân thành (麒麟城)",
    "cn": "麒麟城",
    "type": "diadiem",
@@ -467,6 +465,14 @@
     {
      "label": "Vai trò trần thuật",
      "text": "Cứ điểm đầu tiên Vương Lâm dừng chân sau khi ra Cổ Thần chi địa; nơi hắn chỉnh đốn, nghiên cứu cổ truyền tống trận để rời Tu Ma hải."
+    },
+    {
+     "label": "Cập nhật",
+     "text": "BỊ THIÊN KIẾP HỦY DIỆT (Ch.184) — Kỳ Lân thú (cổ thú làm nền thành) tan nát khi mây đỏ thiên kiếp đánh trúng. Trước đó là nơi VL chế Cấm Phiên + cổ kính, có Luyện khí các (bộ da giao long năm xưa)."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "nơi khởi phát thiên kiếp; mất đi → đẩy VL rời Tu Ma hải tới Sở quốc."
     }
    ]
   },
@@ -509,6 +515,10 @@
     {
      "label": "Vai trò trần thuật",
      "text": "Lai lịch của nhân vật phụ Vân Phi; gợi mở thế lực \"Ma Cung\" (nơi Vân Phi từng bị giam) và một \"cổ lực lượng thần bí\" diệt môn (hạt giống mơ hồ)."
+    },
+    {
+     "label": "Cập nhật",
+     "text": "nguồn gốc đan lô + đan phong + đan dược chí bảo Vân Phi để lại (giúp VL Kết Anh). Vốn tông phái tứ cấp tu chân quốc, do trêu cừu địch phải dời vào Tu Ma hải mai danh ẩn tích."
     }
    ]
   },
@@ -546,7 +556,95 @@
     },
     {
      "label": "Vai trò trần thuật",
-     "text": "Liên kết phản diện arc Cổ Thần chi địa (đã ma hóa trong huyết hải) với thế lực hiện tại của Tu Ma hải sau 200 năm."
+     "text": "Liên kết phản diện arc Cổ Thần chi địa (đã ma hóa trong huyết hải) với thế lực hiện tại của Tu Ma hải sau 200 năm.\n\n\n**=== THẾ LỰC SỞ QUỐC / VÂN THIÊN TÔNG (arc Ch.181-200) ===**"
+    }
+   ]
+  },
+  {
+   "name": "Vân Thiên tông (雲天宗)",
+   "cn": "",
+   "type": "monphai",
+   "typeLabel": "Môn phái luyện đan",
+   "blurb": "Đệ nhất tông phái của Sở quốc (Tam cấp tu chân quốc, Chu Tước tinh). Nổi danh khắp Sở quốc về luyện đan.",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Đệ nhất tông phái của Sở quốc (Tam cấp tu chân quốc, Chu Tước tinh). Nổi danh khắp Sở quốc về luyện đan."
+    },
+    {
+     "label": "Cơ cấu",
+     "text": "chia Nội tông (chuyên luyện đan) + Ngoại tông (chiến đấu/đối địch). Thu đồ đệ 30 năm/lần, chỉ chú trọng \"duyên pháp\" (không xét thiên tư linh căn), tối đa ~10 người/lần. Sơn môn trên dãy Vân Thiên Sơn, đa số lầu các bị thần thông ẩn giấu."
+    },
+    {
+     "label": "Thực lực/quan hệ",
+     "text": "được Cự Ma tộc (Tứ cấp tu chân quốc) che chở (đổi Thiên Tổn đan); cực \"xa xỉ\" — nuôi linh thú như gia súc, mỗi phòng đệ tử 1 đan lô quý. Có ≥3 tu sĩ Nguyên Anh kỳ + thủy tổ Nguyên Anh hậu kỳ đang đánh vào Hóa Thần."
+    },
+    {
+     "label": "Bảo vật",
+     "text": "Đoạt Thiên Thất đỉnh (tích linh lực ngàn năm), Thiên Tổn đan (ngũ phẩm, tái sinh thân thể Nguyên Anh)."
+    },
+    {
+     "label": "Nhân vật",
+     "text": "Âu Dương Tử (đại đệ tử nội tông, ngũ phẩm đan sư, Nguyên Anh sơ kỳ, U Minh nhãn), Chu Lâm (đệ tử nội tông luyện đan, sư phụ phân thân VL), Tôn trưởng lão & Tôn Trấn Vĩ (Ngoại viện), Chưởng môn Nội tông, Lý Mộ Uyển (khách khanh — 1 trong 3 ngũ phẩm luyện đan sư)."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "sân khấu chính của arc Kết Anh; nơi VL trà trộn (phân thân) đoạt đan + bổn tôn đại náo; nơi tái ngộ Lý Mộ Uyển."
+    }
+   ]
+  },
+  {
+   "name": "Sở quốc (楚國)",
+   "cn": "",
+   "type": "quocgia",
+   "typeLabel": "Tam cấp tu chân quốc",
+   "blurb": "Tam cấp tu chân quốc trên Chu Tước tinh; Vân Thiên tông là đệ nhất tông phái. Dù Sở quốc gặp đại nạn cũng khó lan tới Vân Thiên tông.",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Tam cấp tu chân quốc trên Chu Tước tinh; Vân Thiên tông là đệ nhất tông phái. Dù Sở quốc gặp đại nạn cũng khó lan tới Vân Thiên tông."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "địa bàn arc Ch.181-200; mốc nhận thức \"Triệu quốc cũng chỉ là 1 Tam cấp tu chân quốc như Sở quốc\"."
+    }
+   ]
+  },
+  {
+   "name": "Kiếm Khí tông (劍氣宗)",
+   "cn": "",
+   "type": "monphai",
+   "typeLabel": "Môn phái Sở quốc",
+   "blurb": "Tông phái ở Sở quốc, \"giết chóc nặng\". Đệ tử nội môn vạt áo thêu phi kiếm tím.",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Tông phái ở Sở quốc, \"giết chóc nặng\". Đệ tử nội môn vạt áo thêu phi kiếm tím."
+    },
+    {
+     "label": "Nhân vật",
+     "text": "người ca của thiếu nữ bái sư (đệ tử nội môn, Trúc Cơ hậu kỳ)."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "gợi mở qua cặp huynh muội gặp phân thân VL (Ch.188-189)."
+    }
+   ]
+  },
+  {
+   "name": "Thiên Võ quốc (天武國)",
+   "cn": "",
+   "type": "quocgia",
+   "typeLabel": "Tam cấp tu chân quốc",
+   "blurb": "Tam cấp tu chân quốc; phái sứ giả tới Vân Thiên tông hâm mộ Âu Dương Tử + mua đan dược (bị Âu Dương Tử đuổi).",
+   "detail": [
+    {
+     "label": "Định vị",
+     "text": "Tam cấp tu chân quốc; phái sứ giả tới Vân Thiên tông hâm mộ Âu Dương Tử + mua đan dược (bị Âu Dương Tử đuổi)."
+    },
+    {
+     "label": "Vai trò trần thuật",
+     "text": "phụ họa độ danh tiếng luyện đan của Vân Thiên tông.\n\n**=== CẬP NHẬT THẾ LỰC / ĐỊA DANH (Ch.181-200) ===**"
     }
    ]
   }
