@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-06-05",
- "count": 85,
+ "updatedAt": "2026-06-06",
+ "count": 101,
  "artifacts": [
   {
    "name": "Nghịch Thiên châu (Thần Bí Hạt Châu)",
@@ -1332,6 +1332,350 @@
     {
      "label": "Mốc chương",
      "text": "Ch.164, 180."
+    }
+   ]
+  },
+  {
+   "name": "Cấm Phiên",
+   "category": "baovat",
+   "categoryLabel": "Pháp bảo",
+   "status": "known",
+   "blurb": "Vương Lâm chế từ 3 Mặc Gian thạch (lấy trong kinh mạch Cổ Thần); hoàn thành Ch.183.",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "Vương Lâm chế từ 3 Mặc Gian thạch (lấy trong kinh mạch Cổ Thần); hoàn thành Ch.183."
+    },
+    {
+     "label": "Công dụng",
+     "text": "Pháp bảo cấm chế tổng hợp; 4 đẳng cấp theo số cấm chế trên cờ — 999 / 9.999 / 99.999 / 999.999 (chín mươi chín vạn...). Cứ 9 cấm chế = 1 tổ, không tổ nào trùng; 1 cấm chế lặp tối đa 9 lần. Có thể chế thuần công kích / thuần phòng ngự / hỗn hợp; thuần một thuộc tính uy lực càng khủng bố nhưng cực khó."
+    },
+    {
+     "label": "Bản của VL",
+     "text": "hỗn hợp (công + thủ + hộ + tầm vật + vây) để chế nhanh; uy lực vây được tu sĩ Nguyên Anh kỳ (Vân Thiên tông). Còn 2 Mặc Gian thạch → chế thêm 2 cán."
+    },
+    {
+     "label": "Đối chiếu lịch đại",
+     "text": "chính Cấm Phiên gây Thiên Kiếp khi hoàn thành (do Mặc Gian thạch nhiễm khí Cổ Thần) → hủy Kỳ Lân thành."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.181 (bắt đầu chế) - Ch.183 (thành) - Ch.195 (thực chiến)."
+    }
+   ]
+  },
+  {
+   "name": "Cổ kính đồng",
+   "category": "baovat",
+   "categoryLabel": "Pháp bảo",
+   "status": "known",
+   "blurb": "1 trong 10 bổn mạng pháp khí nhóm Đóa Mục; là cổ kính đồng thượng cổ. Vương Lâm hóa giải thần thức cũ + tế luyện 49 ngày (Ch.181).",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "1 trong 10 bổn mạng pháp khí nhóm Đóa Mục; là cổ kính đồng thượng cổ. Vương Lâm hóa giải thần thức cũ + tế luyện 49 ngày (Ch.181)."
+    },
+    {
+     "label": "Công dụng",
+     "text": "công năng liên quan phân thân, tương tự lực lượng thần bí trong Loạn Tinh Hải; thượng cổ tu sĩ dùng làm bổn mạng pháp bảo (rất nổi danh; cả ký ức Cổ Thần Đồ Ti cũng không rõ tên)."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.181."
+    }
+   ]
+  },
+  {
+   "name": "Huyền Tinh đỉnh",
+   "category": "baovat",
+   "categoryLabel": "Pháp bảo",
+   "status": "unknown",
+   "blurb": "cái đỉnh Cổ Thần Đồ Ti từng ném đi; Vương Lâm biết tên qua truyền thừa ký ức.",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "cái đỉnh Cổ Thần Đồ Ti từng ném đi; Vương Lâm biết tên qua truyền thừa ký ức."
+    },
+    {
+     "label": "Công dụng",
+     "text": "phong ấn vạn vật, dù cả một tinh cầu cũng phong ấn được; tài liệu chế cực hiếm (cả Chu Tước tinh gộp lại cũng không đủ 1 kiện); VL nhớ ~50% cách chế."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.181 (gợi mở)."
+    }
+   ]
+  },
+  {
+   "name": "Phi kiếm Thanh Phong",
+   "category": "baovat",
+   "categoryLabel": "Pháp bảo",
+   "status": "known",
+   "blurb": "Tôn Trấn Vĩ tặng phân thân Vương Lâm (Ch.197).",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "Tôn Trấn Vĩ tặng phân thân Vương Lâm (Ch.197)."
+    },
+    {
+     "label": "Công dụng",
+     "text": "gắn ám khí do thám (để Tôn giám sát qua VL → giám sát Lý Mộ Uyển); VL gài cấm chế vô hiệu hóa mà Tôn không biết."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.197."
+    }
+   ]
+  },
+  {
+   "name": "Đan lô Kỳ Hoàng Môn",
+   "category": "baovat",
+   "categoryLabel": "Pháp bảo",
+   "status": "known",
+   "blurb": "Vân Phi để lại cho Vương Lâm (Ch.196).",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "Vân Phi để lại cho Vương Lâm (Ch.196)."
+    },
+    {
+     "label": "Công dụng",
+     "text": "đan lô phẩm chất chí bảo (ngang/hơn Đoạt Thiên đỉnh, ngang bộ da giao long năm xưa); là chí bảo trấn phái của một lưu phái luyện đan (Kỳ Hoàng Môn). Chứa đan dược chí bảo (Kết Anh) được bảo vệ bởi đan phong."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.196-200."
+    }
+   ]
+  },
+  {
+   "name": "Đan phong",
+   "category": "vatpham",
+   "categoryLabel": "Vật phẩm",
+   "status": "known",
+   "blurb": "tờ giấy vàng phong ấn trên đan lô Kỳ Hoàng Môn.",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "tờ giấy vàng phong ấn trên đan lô Kỳ Hoàng Môn."
+    },
+    {
+     "label": "Công dụng",
+     "text": "phong ấn + hấp thu linh khí + bồi dưỡng đan dược (đan dược thường dán đan phong vài ngày phẩm chất tăng gấp đôi; đan nghịch thiên dưỡng mấy trăm/ngàn năm). Cách chế thất truyền; còn quý hơn cả đan lô. Cần thiên thời địa lợi + bí quyết mới mở được (mở sai → đan dược vỡ vụn)."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.196, 199."
+    }
+   ]
+  },
+  {
+   "name": "Đoạt Thiên Thất đỉnh",
+   "category": "baovat",
+   "categoryLabel": "Pháp bảo",
+   "status": "known",
+   "blurb": "7 đỉnh trấn phái Vân Thiên tông; tích linh lực ngàn năm.",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "7 đỉnh trấn phái Vân Thiên tông; tích linh lực ngàn năm."
+    },
+    {
+     "label": "Công dụng",
+     "text": "luyện đan vào đêm trăng tròn (công hiệu cao nhất); chỉ Trưởng lão được dùng; luyện đan dược đặc biệt quý. Linh lực ngàn năm bị Vương Lâm hút để tu bản tôn (Ch.200)."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.198-200."
+    }
+   ]
+  },
+  {
+   "name": "Thất Long đỉnh",
+   "category": "baovat",
+   "categoryLabel": "Pháp bảo",
+   "status": "known",
+   "blurb": "Lý Mộ Uyển tự chế mô phỏng Đoạt Thiên Thất đỉnh trong mấy năm ở Vân Thiên tông.",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "Lý Mộ Uyển tự chế mô phỏng Đoạt Thiên Thất đỉnh trong mấy năm ở Vân Thiên tông."
+    },
+    {
+     "label": "Công dụng",
+     "text": "\"đòn sát thủ tối hậu\" — cộng hưởng/tác động Đoạt Thiên đỉnh khiến nó sinh dị biến vỡ nát (giải phóng linh lực ngàn năm) để cản các Nguyên Anh tông. Dùng cộng hưởng để giải phong ấn đan lô Kỳ Hoàng Môn cho VL."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.199-200."
+    }
+   ]
+  },
+  {
+   "name": "Thuật Thần Đạo",
+   "category": "congphap",
+   "categoryLabel": "Công pháp",
+   "status": "known",
+   "blurb": "bản khắc của thủy tổ Chiến Thần điện; Vương Lâm nhìn thấu năm xưa.",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "bản khắc của thủy tổ Chiến Thần điện; Vương Lâm nhìn thấu năm xưa."
+    },
+    {
+     "label": "Công dụng",
+     "text": "pháp môn phân thân hạng nhất — phân thân có huyết nhục (một khối chân thân), sinh ra không tu vi, thọ ~30 năm; tu cùng lúc với bản tôn → tăng tốc; khi Kết Anh hợp nhất bản tôn + phân thân → tăng xác suất + vượt được thiên kiếp cực cảnh ở Kết Đan hậu kỳ. (Khuyết điểm: phân thân thọ ngắn, cần nhiều linh dược.)"
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.185-200."
+    }
+   ]
+  },
+  {
+   "name": "Tế đan",
+   "category": "tienthuat",
+   "categoryLabel": "Tiên thuật",
+   "status": "known",
+   "blurb": "phương pháp luyện đan độc đáo của Âu Dương Tử (Vân Thiên tông).",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "phương pháp luyện đan độc đáo của Âu Dương Tử (Vân Thiên tông)."
+    },
+    {
+     "label": "Công dụng",
+     "text": "coi luyện đan là việc nghịch thiên cần tế phẩm; dùng du hồn (luyện đan sư) làm tế phẩm cho đan dược. Luyện ra Lục Đạo linh đan (hi sinh 6 du hồn)."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.199-200."
+    }
+   ]
+  },
+  {
+   "name": "Thiên Tổn đan",
+   "category": "dandung",
+   "categoryLabel": "Đan dược",
+   "status": "known",
+   "blurb": "Vân Thiên tông luyện chế (ngũ phẩm sơ khai).",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "Vân Thiên tông luyện chế (ngũ phẩm sơ khai)."
+    },
+    {
+     "label": "Công dụng",
+     "text": "chữa trị/tái sinh thân thể cho Nguyên Anh đã mất thân thể, không cần đoạt xá. Cự Ma tộc dùng hiệp nghị bí mật đổi lấy."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.187."
+    }
+   ]
+  },
+  {
+   "name": "Kỷ Tả đan (Kỳ Tả đan)",
+   "category": "dandung",
+   "categoryLabel": "Đan dược",
+   "status": "known",
+   "blurb": "một trong Cửu Chuyển Thập Bát Đan của Lạc Hà Môn; Lý Mộ Uyển luyện chế (Vân Thiên tông có chưa tới 20 viên).",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "một trong Cửu Chuyển Thập Bát Đan của Lạc Hà Môn; Lý Mộ Uyển luyện chế (Vân Thiên tông có chưa tới 20 viên)."
+    },
+    {
+     "label": "Công dụng",
+     "text": "nhị phẩm linh đan nhưng gia tăng linh lực (gấp đôi Trúc Cơ đan) + mở rộng kinh mạch (công hiệu thường chỉ có ở đan tứ phẩm trở lên → cực hiếm ở nhị phẩm)."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.197."
+    }
+   ]
+  },
+  {
+   "name": "Lục Đạo linh đan",
+   "category": "dandung",
+   "categoryLabel": "Đan dược",
+   "status": "known",
+   "blurb": "Âu Dương Tử luyện bằng \"Tế đan\" (hi sinh 6 du hồn luyện đan sư), ngũ phẩm.",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "Âu Dương Tử luyện bằng \"Tế đan\" (hi sinh 6 du hồn luyện đan sư), ngũ phẩm."
+    },
+    {
+     "label": "Công dụng",
+     "text": "đan dược ngũ phẩm Âu Dương Tử luyện thành để thử nghiệm tiến lên lục phẩm."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.200."
+    }
+   ]
+  },
+  {
+   "name": "U Minh đan / U Minh nhãn",
+   "category": "dandung",
+   "categoryLabel": "Đan dược",
+   "status": "known",
+   "blurb": "U Minh đan là đan dược quỷ dị; ăn vào 1/10 thành công (thất bại → mù).",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "U Minh đan là đan dược quỷ dị; ăn vào 1/10 thành công (thất bại → mù)."
+    },
+    {
+     "label": "Công dụng",
+     "text": "thành công → hình thành U Minh nhãn (nhìn thấu đan đỉnh, đoạt tâm phồn người khác); Âu Dương Tử có nhờ ăn U Minh đan."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.199."
+    }
+   ]
+  },
+  {
+   "name": "Nguyên Anh Quy Tức",
+   "category": "khanang",
+   "categoryLabel": "Khả năng",
+   "status": "known",
+   "blurb": "trạng thái bất thường của tu sĩ Nguyên Anh.",
+   "detail": [
+    {
+     "label": "Nguồn gốc",
+     "text": "trạng thái bất thường của tu sĩ Nguyên Anh."
+    },
+    {
+     "label": "Công dụng/cơ chế",
+     "text": "khi tu sĩ Nguyên Anh bị ngoại ma (sự kiện bên ngoài tác động tâm trí) quấy nhiễu → Nguyên Anh rối loạn, không rời khỏi thân, thân ở trạng thái như ngủ mê. Cần đưa tới chỗ ngăn linh lực + người tu vi cao hơn (≥1 cảnh giới) trợ giúp đánh thức; nếu lâu không tỉnh → Nguyên Anh bị ngoại ma thẩm thấu, tiêu tán, thân rữa nát. Ăn Nguyên Anh quy tức → tăng mạnh tỷ lệ Kết Anh."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.182-183."
+    }
+   ]
+  },
+  {
+   "name": "Thiên Kiếp",
+   "category": "khanang",
+   "categoryLabel": "Khả năng",
+   "status": "known",
+   "blurb": "hiện tượng tuyệt tích từ khi thượng cổ Tu Chân giới gặp đại nạn bị hủy (tu sĩ nay \"tu nghịch thiên\" nên không gây thiên kiếp). Cổ Thần luyện khí mới gây thiên k",
+   "detail": [
+    {
+     "label": "Nguồn gốc/cơ chế",
+     "text": "hiện tượng tuyệt tích từ khi thượng cổ Tu Chân giới gặp đại nạn bị hủy (tu sĩ nay \"tu nghịch thiên\" nên không gây thiên kiếp). Cổ Thần luyện khí mới gây thiên kiếp (dùng uy lực thiên kiếp đo phẩm chất pháp bảo). Lực tích tụ vô số năm → cực kỳ khủng bố."
+    },
+    {
+     "label": "Sự kiện",
+     "text": "Cấm Phiên của VL (Mặc Gian thạch nhiễm khí Cổ Thần) gây thiên kiếp → mây đỏ trăm dặm hủy Kỳ Lân thành, bốc hơi sương mù Tu Ma hải; 1 tia thiên kiếp ghim vào VL phá kim đan."
+    },
+    {
+     "label": "Mốc chương",
+     "text": "Ch.183-184, 200."
     }
    ]
   }
