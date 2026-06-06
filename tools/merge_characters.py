@@ -1,0 +1,73 @@
+"""
+merge_characters.py — Module GỘP nhân vật trùng cho pipeline W3 (Tiên Nghịch wiki).
+Dùng ở bước parse .md -> JSON: sau khi gom tất cả bản ghi nhân vật, gọi merge_characters(chars)
+để gộp các bản trùng (cùng người, khác hậu tố tên qua các đợt) thành 1 thẻ.
+
+Quy tắc (chốt bởi W2, 2026-06-05):
+- KHÓA GỘP = tên chuẩn hóa: bỏ phần Hán "(..)", bỏ hậu tố "— mô tả", bỏ chữ "cập nhật", bỏ "· ...".
+- Trùng khóa -> chọn bản ĐẦY ĐỦ nhất làm canonical (nhiều detail + role/aff khác mặc định + có Hán).
+- Gộp toàn bộ detail (khử trùng theo label+text), canonical trước; giữ phe/role/blurb của bản đầy đủ.
+- KHÔNG tạo thẻ thứ 2. Giữ thứ tự xuất hiện đầu tiên. VL luôn ở đầu (do pipeline prepend).
+"""
+import re
+from collections import defaultdict
+
+def norm_key(name):
+    s = name
+    s = re.sub(r'[（(][^（）()]*[）)]', '', s)        # bỏ (...) kể cả Hán
+    s = re.sub(r'\s*[—–-]\s*.*$', '', s)             # bỏ hậu tố "— mô tả/role"
+    s = re.sub(r'(?i)\bcập nhật\b', '', s)
+    s = re.sub(r'·.*$', '', s)
+    return re.sub(r'\s+', ' ', s).strip().lower()
+
+def _completeness(c):
+    score = 0
+    if c.get("role") not in (None, "", "neutral"): score += 2
+    if c.get("affiliation") not in (None, "", "khac"): score += 2
+    score += len(c.get("detail", []))
+    score += len(c.get("blurb", "")) / 200.0
+    if re.search(r'[（(][\u4e00-\u9fff]', c.get("name", "")): score += 0.5
+    if re.search(r'(?i)cập nhật', c.get("name", "")): score -= 1
+    return score
+
+def _clean_name(name):
+    s = re.sub(r'\s*[（(](?:CẬP NHẬT|cập nhật)[^（）()]*[）)]', '', name)
+    s = re.sub(r'\s*[—–-]\s*\(?cập nhật[^)]*\)?', '', s, flags=re.I)
+    s = re.sub(r'\s*\(cập nhật\)', '', s, flags=re.I)
+    return re.sub(r'\s+', ' ', s).strip()
+
+def merge_characters(chars):
+    order, bucket = [], defaultdict(list)
+    for c in chars:
+        k = norm_key(c["name"])
+        if k not in bucket: order.append(k)
+        bucket[k].append(c)
+    merged = []
+    for k in order:
+        items = bucket[k]
+        if len(items) == 1:
+            merged.append(items[0]); continue
+        canon = max(items, key=_completeness)
+        seen, details = set(), []
+        for it in [canon] + [x for x in items if x is not canon]:
+            for d in it.get("detail", []):
+                sg = (d.get("label", "").strip(), d.get("text", "").strip())
+                if sg in seen: continue
+                seen.add(sg); details.append(d)
+        out = dict(canon)
+        out["name"] = _clean_name(canon["name"])
+        out["detail"] = details
+        out["blurb"] = max((x.get("blurb", "") for x in items), key=len)
+        for x in sorted(items, key=_completeness, reverse=True):
+            if x.get("role") not in (None, "", "neutral"):
+                out["role"] = x["role"]; out["roleFilter"] = x["role"]; break
+        for x in sorted(items, key=_completeness, reverse=True):
+            if x.get("affiliation") not in (None, "", "khac"):
+                out["affiliation"] = x["affiliation"]; break
+        merged.append(out)
+    return merged
+
+def find_dup_groups(chars):
+    g = defaultdict(list)
+    for c in chars: g[norm_key(c["name"])].append(c["name"])
+    return {k: v for k, v in g.items() if len(v) > 1}
