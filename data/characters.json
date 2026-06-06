@@ -1,6 +1,6 @@
 {
  "updatedAt": "2026-06-06",
- "count": 112,
+ "count": 123,
  "chars": [
   {
    "name": "Vương Lâm (王琳)",
@@ -12,299 +12,114 @@
    "blurb": "Nhân vật chính của Tiên Nghịch.",
    "detail": [
     {
-     "label": "Vai trò",
-     "text": "Nhân vật chính của Tiên Nghịch."
+     "label": "Tổng quan tu vi (Phàm → Kết Đan hậu kỳ)",
+     "text": "Lộ trình tu vi: Phàm → Ngưng Khí → Trúc Cơ → Kết Đan (Ch.127) → Kết Đan trung kỳ (Ch.157) → Kết Đan HẬU KỲ (xác nhận Ch.178).\nLưu ý quan trọng: dù mới Kết Đan hậu kỳ, tổng thực lực vượt xa cảnh giới nhờ thân thể Cổ Thần trọng tổ + Cực cảnh thần thức + hồn thạch + Cổ Thần quyết.\nTự đánh giá thực lực mới (Ch.178): tin có thể tự vệ trước Nguyên Anh kỳ, \"không phải không có cơ sở chiến thắng\" Nguyên Anh sơ kỳ nếu vận dụng linh hoạt thần thông + pháp bảo. Văn bản nhấn mạnh: Kết Đan thắng Nguyên Anh gần như chưa từng có trong lịch sử tu chân — nên đây là phi thường."
     },
     {
-     "label": "Tu vi (Ch.200)",
-     "text": "**NGUYÊN ANH KỲ (Kết Anh thành công, Ch.200)** — hoàn thành mục tiêu lớn nhất từ đầu Quyển 2. Tổng thực lực vượt xa cảnh giới nhờ thân Cổ Thần trọng tổ + Cực cảnh thần thức (đột phá lần đầu khi bản tôn Kết Anh) + hồn thạch + Cổ Thần quyết + phân thân."
+     "label": "Giai đoạn Kết Đan — thân thể & thần thức (Ch.161-180)",
+     "text": "Thân thể trọng tổ (Cổ Thần) — đặc năng MỚI Ch.175-176: - Nhờ hấp thu 94 băng tinh, thân thể (do thần thức ngưng kết) chuyển từ nửa trong suốt → ngưng thật = khôi phục thân thể gốc trước khi bị Đằng Hóa Nguyên hủy (khuôn mặt thật thuần phác, tóc bạc, mắt đen mây cuộn).\n- Thân thể cường hóa kiểu Cổ Thần: độ cứng/tốc độ vượt xa, phân thân không thể phục chế (nên xuyên Toái Tinh Loạn dễ dàng).\n- Sau đó hấp thu lại kim đan từ xác khô cũ + thu Hoàng tuyền chi viêm.\nCực cảnh thần thức + Hồn thạch (MỚI Ch.170): - Sau khi nuốt 3 hồn cầu của du hồn nam tử (Sứ giả), Cực cảnh thần thức co rút thành hồn thạch (hồn hạch) cỡ móng tay → Vương Lâm thành thôn hồn CHÍNH THỨC, có thể tự tạo ra du hồn (đặc quyền chỉ thôn hồn có hồn thạch).\n- Thần thức được tẩm bổ liên tục trong arc (nuốt phân thức Cổ Thần + du hồn), phạm vi tới mấy ngàn dặm / dặm trong cơ thể Cổ Thần."
     },
     {
-     "label": "Cập nhật",
-     "text": "Ch.1-200 (kết arc Cổ Thần chi địa → Kỳ Lân thành/Tu Ma hải → Vân Thiên tông → KẾT ANH)."
+     "label": "Công pháp & thần thông cốt lõi",
+     "text": "Cổ Thần quyết (MỚI Ch.167) — 2 tầng: thần thông cốt lõi Cổ Thần, tinh túy \"Cướp đoạt hết thảy\". Tầng 1 ba giai đoạn: đoạt linh → thôn linh → hóa linh. Dùng để nuốt sống kim đan người khác (8 phần bổ thân, 2 phần hóa linh lực — Ch.179) + tiêu hóa phân thức Cổ Thần. Vương Lâm tin nhờ Cổ Thần quyết \"Kết Anh không còn là mộng tưởng\".\nCổ Thần phá (MỚI Ch.168): pháp thuật từ Cổ Thần quyết, dùng linh lực khổng lồ (qua linh dịch) cưỡng phá mọi cấm chế (quả cầu đen tỏa xúc tu nổ tung); ≤3 lần nếu chưa tu thành Cổ Thần quyết, quá thì hại thân.\nDẫn lực thuật (đại thành Ch.179): phi hành không cần phi kiếm, hao linh lực chỉ ~1/vạn so với phi kiếm, đạt cảnh giới \"xuất thần nhập hóa\".\n**Cấm chế thuật / vòng tròn tàn ảnh** (thuần thục từ arc trước): đợt này vận dụng sâu — tạo Cấm Sơn, gài bẫy phá Truyền Tống trận cửa 4, bảo vệ thân thể cũ.\n**Khả năng thôn hồn + tạo du hồn (hồn thạch, MỚI)**, ngôn ngữ Cổ Thần (\"Khẩu/Khai\" mở khe không gian).\nBộ công pháp tích lũy: Đại Tự Tại Tu La thuật, Ngụy Thổ Độn thuật, Thông Phệ đại pháp, Luyện Khí thuật Chiến Thần điện, Hoàng Tuyền Thăng Khiếu Quyết, Nghịch Lưu thuật."
     },
     {
-     "label": "Tổng quan",
-     "text": "Thiếu niên bình thường thôn quê Triệu quốc (tên mụ Thiết Trụ), thiên tư tu tiên cực kém, nhờ Nghịch Thiên châu (Mộng Cảnh gia tốc + cố vấn Tư Đồ Nam) lấy \"thời gian\" và tâm cơ bù thiên phú. Hết Quyển 1 \"bỏ mạng\" rồi được cứu; Quyển 2 tỉnh lại làm linh hồn hệ hỏa, đoạt xá thân Mã Lương, Kết Đan, nhập ma đạo, vào Cổ Thần chi địa. Đợt Ch.161-180 là bước ngoặt lớn nhất từ đầu truyện: trong cơ thể Cổ Thần, hắn đoạt Cổ Thần quyết + 94 băng tinh truyền thừa ký ức, trọng tổ lại thân thể gốc, sinh hồn thạch, thoát qua Toái Tinh Loạn ra Tu Ma hải — và phát hiện đã trôi qua 200 năm. Từ \"kẻ chạy trốn yếu thế\" hắn thành \"kẻ tự tin có thể tự vệ, thậm chí thắng Nguyên Anh sơ kỳ\"."
-    },
-    {
-     "label": "Lộ trình tu vi",
-     "text": "Phàm → Ngưng Khí → Trúc Cơ → Kết Đan (Ch.127) → Kết Đan trung kỳ (Ch.157) → Kết Đan HẬU KỲ (xác nhận Ch.178).",
-     "group": "Thực lực",
-     "phase": "Tổng quan tu vi (Phàm → Kết Đan hậu kỳ)",
-     "popup": true
-    },
-    {
-     "label": "Lưu ý quan trọng",
-     "text": "dù mới Kết Đan hậu kỳ, tổng thực lực vượt xa cảnh giới nhờ thân thể Cổ Thần trọng tổ + Cực cảnh thần thức + hồn thạch + Cổ Thần quyết.",
-     "group": "Thực lực",
-     "phase": "Tổng quan tu vi (Phàm → Kết Đan hậu kỳ)",
-     "popup": true
-    },
-    {
-     "label": "Tự đánh giá thực lực mới (Ch.178)",
-     "text": "tin có thể tự vệ trước Nguyên Anh kỳ, \"không phải không có cơ sở chiến thắng\" Nguyên Anh sơ kỳ nếu vận dụng linh hoạt thần thông + pháp bảo. Văn bản nhấn mạnh: Kết Đan thắng Nguyên Anh gần như chưa từng có trong lịch sử tu chân — nên đây là phi thường.",
-     "group": "Thực lực",
-     "phase": "Tổng quan tu vi (Phàm → Kết Đan hậu kỳ)",
-     "popup": true
-    },
-    {
-     "label": "Thân thể trọng tổ (Cổ Thần) — đặc năng MỚI Ch.175-176",
-     "text": "- Nhờ hấp thu 94 băng tinh, thân thể (do thần thức ngưng kết) chuyển từ nửa trong suốt → ngưng thật = khôi phục thân thể gốc trước khi bị Đằng Hóa Nguyên hủy (khuôn mặt thật thuần phác, tóc bạc, mắt đen mây cuộn).\n- Thân thể cường hóa kiểu Cổ Thần: độ cứng/tốc độ vượt xa, phân thân không thể phục chế (nên xuyên Toái Tinh Loạn dễ dàng).\n- Sau đó hấp thu lại kim đan từ xác khô cũ + thu Hoàng tuyền chi viêm.",
-     "group": "Thực lực",
-     "phase": "Giai đoạn Kết Đan — thân thể & thần thức (Ch.161-180)",
-     "popup": true
-    },
-    {
-     "label": "Cực cảnh thần thức + Hồn thạch (MỚI Ch.170)",
-     "text": "- Sau khi nuốt 3 hồn cầu của du hồn nam tử (Sứ giả), Cực cảnh thần thức co rút thành hồn thạch (hồn hạch) cỡ móng tay → Vương Lâm thành thôn hồn CHÍNH THỨC, có thể tự tạo ra du hồn (đặc quyền chỉ thôn hồn có hồn thạch).\n- Thần thức được tẩm bổ liên tục trong arc (nuốt phân thức Cổ Thần + du hồn), phạm vi tới mấy ngàn dặm / dặm trong cơ thể Cổ Thần.",
-     "group": "Thực lực",
-     "phase": "Giai đoạn Kết Đan — thân thể & thần thức (Ch.161-180)",
-     "popup": true
-    },
-    {
-     "label": "Cổ Thần quyết (MỚI Ch.167) — 2 tầng",
-     "text": "thần thông cốt lõi Cổ Thần, tinh túy \"Cướp đoạt hết thảy\". Tầng 1 ba giai đoạn: đoạt linh → thôn linh → hóa linh. Dùng để nuốt sống kim đan người khác (8 phần bổ thân, 2 phần hóa linh lực — Ch.179) + tiêu hóa phân thức Cổ Thần. Vương Lâm tin nhờ Cổ Thần quyết \"Kết Anh không còn là mộng tưởng\".",
-     "group": "Thực lực",
-     "phase": "Công pháp & thần thông cốt lõi",
-     "popup": true
-    },
-    {
-     "label": "Cổ Thần phá (MỚI Ch.168)",
-     "text": "pháp thuật từ Cổ Thần quyết, dùng linh lực khổng lồ (qua linh dịch) cưỡng phá mọi cấm chế (quả cầu đen tỏa xúc tu nổ tung); ≤3 lần nếu chưa tu thành Cổ Thần quyết, quá thì hại thân.",
-     "group": "Thực lực",
-     "phase": "Công pháp & thần thông cốt lõi",
-     "popup": true
-    },
-    {
-     "label": "Dẫn lực thuật (đại thành Ch.179)",
-     "text": "phi hành không cần phi kiếm, hao linh lực chỉ ~1/vạn so với phi kiếm, đạt cảnh giới \"xuất thần nhập hóa\".\n**Cấm chế thuật / vòng tròn tàn ảnh** (thuần thục từ arc trước): đợt này vận dụng sâu — tạo Cấm Sơn, gài bẫy phá Truyền Tống trận cửa 4, bảo vệ thân thể cũ.\n**Khả năng thôn hồn + tạo du hồn (hồn thạch, MỚI)**, ngôn ngữ Cổ Thần (\"Khẩu/Khai\" mở khe không gian).",
-     "group": "Thực lực",
-     "phase": "Công pháp & thần thông cốt lõi",
-     "popup": true
-    },
-    {
-     "label": "Bộ công pháp tích lũy",
-     "text": "Đại Tự Tại Tu La thuật, Ngụy Thổ Độn thuật, Thông Phệ đại pháp, Luyện Khí thuật Chiến Thần điện, Hoàng Tuyền Thăng Khiếu Quyết, Nghịch Lưu thuật.",
-     "group": "Thực lực",
-     "phase": "Công pháp & thần thông cốt lõi",
-     "popup": true
-    },
-    {
-     "label": "Bước ngoặt tu vi lớn nhất Quyển 2",
-     "text": "từ Kết Đan hậu kỳ → KẾT ANH (Nguyên Anh kỳ) ở Ch.200.",
-     "group": "Thực lực",
-     "phase": "Giai đoạn Kết Anh — đột phá Nguyên Anh kỳ (Ch.181-200)",
-     "popup": true
-    },
-    {
-     "label": "Trở ngại",
-     "text": "(1) \"Cực cảnh tu vi cản trở\" — do mở Cực cảnh thần thức ở Kết Đan nên Kết Anh bình thường cực khó (ăn hết tủy giao long + đan tăng tỷ lệ vẫn không một dấu hiệu); (2) 1 sợi tơ Thiên Kiếp ghim trong người (xem dưới).",
-     "group": "Thực lực",
-     "phase": "Giai đoạn Kết Anh — đột phá Nguyên Anh kỳ (Ch.181-200)",
-     "popup": true
-    },
-    {
-     "label": "Giải pháp ĐỘC ĐÁO (Thuật Thần Đạo)",
-     "text": "tách 1 **phân thân** có huyết nhục (thọ 30 năm, sinh ra không tu vi), cho phân thân tu tới Nguyên Anh trong Nghịch Thiên châu (30 năm thực ≈ 180 năm gia tốc), rồi **dung hợp bản tôn + phân thân** lúc Kết Anh → vừa giữ Cực cảnh không tán công, vừa vượt thiên kiếp cực cảnh. Cần đan dược mạnh → tới Vân Thiên tông (Lý Mộ Uyển).",
-     "group": "Thực lực",
-     "phase": "Giai đoạn Kết Anh — đột phá Nguyên Anh kỳ (Ch.181-200)",
-     "popup": true
-    },
-    {
-     "label": "Tai họa Thiên Kiếp (Ch.183-184)",
-     "text": "Cấm Phiên hoàn thành → Mặc Gian thạch (nhiễm khí Cổ Thần) gây THIÊN KIẾP (tuyệt tích từ khi thượng cổ Tu Chân giới bị hủy) → hủy diệt Kỳ Lân thành; 1 tia thiên kiếp chui vào người VL phá kim đan, **tụt xuống Kết Đan trung kỳ**, sắp vỡ kim đan → buộc đại khai sát giới giết người nuốt kim đan cầm cự. Sợi tơ thiên kiếp sau bị ngăn chặn (nén vào 3 lốc xoáy linh lực) nhưng luôn là mối nguy.",
-     "group": "Thực lực",
-     "phase": "Giai đoạn Kết Anh — đột phá Nguyên Anh kỳ (Ch.181-200)",
-     "popup": true
-    },
-    {
-     "label": "Kết Anh (Ch.200)",
-     "text": "nuốt đan dược giải từ đan lô Kỳ Hoàng Môn + vận Cổ Thần quyết → kim đan tăng vọt, hiện linh lực màu tím, kim đan hòa tan = Kết Anh; vào Nghịch Thiên châu 10 ngày → hợp nhất bản tôn + phân thân, hút linh lực ngàn năm của Đoạt Thiên Thất đỉnh; dung hợp cuối vượt cực cảnh + sợi thiên kiếp.",
-     "group": "Thực lực",
-     "phase": "Giai đoạn Kết Anh — đột phá Nguyên Anh kỳ (Ch.181-200)",
-     "popup": true
-    },
-    {
-     "label": "Ý nghĩa",
-     "text": "Kết Anh = bước 1 kế hoạch; bước 2 = dung hợp → bản tôn cũng Kết Anh → Cực cảnh thần thức đột phá lần đầu → thành đệ nhất nhân Sở quốc, có vốn tranh đấu với Hóa Thần kỳ, đủ thực lực về Triệu quốc báo thù.",
-     "group": "Thực lực",
-     "phase": "Giai đoạn Kết Anh — đột phá Nguyên Anh kỳ (Ch.181-200)",
-     "popup": true
+     "label": "Giai đoạn Kết Anh — đột phá Nguyên Anh kỳ (Ch.181-200)",
+     "text": "Bước ngoặt tu vi lớn nhất Quyển 2: từ Kết Đan hậu kỳ → KẾT ANH (Nguyên Anh kỳ) ở Ch.200.\nTrở ngại: (1) \"Cực cảnh tu vi cản trở\" — do mở Cực cảnh thần thức ở Kết Đan nên Kết Anh bình thường cực khó (ăn hết tủy giao long + đan tăng tỷ lệ vẫn không một dấu hiệu); (2) 1 sợi tơ Thiên Kiếp ghim trong người (xem dưới).\nGiải pháp ĐỘC ĐÁO (Thuật Thần Đạo): tách 1 **phân thân** có huyết nhục (thọ 30 năm, sinh ra không tu vi), cho phân thân tu tới Nguyên Anh trong Nghịch Thiên châu (30 năm thực ≈ 180 năm gia tốc), rồi **dung hợp bản tôn + phân thân** lúc Kết Anh → vừa giữ Cực cảnh không tán công, vừa vượt thiên kiếp cực cảnh. Cần đan dược mạnh → tới Vân Thiên tông (Lý Mộ Uyển).\nTai họa Thiên Kiếp (Ch.183-184): Cấm Phiên hoàn thành → Mặc Gian thạch (nhiễm khí Cổ Thần) gây THIÊN KIẾP (tuyệt tích từ khi thượng cổ Tu Chân giới bị hủy) → hủy diệt Kỳ Lân thành; 1 tia thiên kiếp chui vào người VL phá kim đan, **tụt xuống Kết Đan trung kỳ**, sắp vỡ kim đan → buộc đại khai sát giới giết người nuốt kim đan cầm cự. Sợi tơ thiên kiếp sau bị ngăn chặn (nén vào 3 lốc xoáy linh lực) nhưng luôn là mối nguy.\nKết Anh (Ch.200): nuốt đan dược giải từ đan lô Kỳ Hoàng Môn + vận Cổ Thần quyết → kim đan tăng vọt, hiện linh lực màu tím, kim đan hòa tan = Kết Anh; vào Nghịch Thiên châu 10 ngày → hợp nhất bản tôn + phân thân, hút linh lực ngàn năm của Đoạt Thiên Thất đỉnh; dung hợp cuối vượt cực cảnh + sợi thiên kiếp.\nÝ nghĩa: Kết Anh = bước 1 kế hoạch; bước 2 = dung hợp → bản tôn cũng Kết Anh → Cực cảnh thần thức đột phá lần đầu → thành đệ nhất nhân Sở quốc, có vốn tranh đấu với Hóa Thần kỳ, đủ thực lực về Triệu quốc báo thù."
     },
     {
      "label": "Công pháp & thần thông MỚI (Ch.181-200)",
-     "text": "**Thuật Thần Đạo** (Chiến Thần điện): pháp môn phân thân hạng nhất; phân thân có huyết nhục, là một khối chân thân, tu cùng lúc → tăng tốc; hợp nhất khi Kết Anh → tăng xác suất + vượt thiên kiếp cực cảnh. (Năm xưa VL nhìn thấu bản khắc của thủy tổ Chiến Thần điện.)",
-     "group": "Thực lực",
-     "phase": "Công pháp & thần thông MỚI (Ch.181-200)",
-     "popup": true
-    },
-    {
-     "label": "Cực Cảnh thần thức (vận dụng thực chiến)",
-     "text": "dù bị thân thể hạn chế chỉ phát huy tới Kết Đan hậu kỳ, lực thần thức vượt cả Hóa Thần kỳ; áp đảo Khâu Tứ Bình (Kết Đan hậu kỳ đại viên mãn) chỉ bằng 1 chữ \"Diệt\"; là nhiệm vụ nghiên cứu ở Kỳ Lân thành (tìm điển tịch Cực cảnh thần thức).",
-     "group": "Thực lực",
-     "phase": "Công pháp & thần thông MỚI (Ch.181-200)",
+     "text": "Cực Cảnh thần thức (vận dụng thực chiến): dù bị thân thể hạn chế chỉ phát huy tới Kết Đan hậu kỳ, lực thần thức vượt cả Hóa Thần kỳ; áp đảo Khâu Tứ Bình (Kết Đan hậu kỳ đại viên mãn) chỉ bằng 1 chữ \"Diệt\"; là nhiệm vụ nghiên cứu ở Kỳ Lân thành (tìm điển tịch Cực cảnh thần thức).",
      "popup": true
     },
     {
      "label": "Pháp bảo & vật phẩm MỚI (Ch.181-200)",
-     "text": "- **Cấm Phiên** (Ch.183 hoàn thành): pháp bảo VL chế từ 3 Mặc Gian thạch; 4 đẳng cấp theo số cấm chế (999 / 9.999 / 99.999 / 999.999), cứ 9 cấm chế = 1 tổ không trùng. VL chế bản hỗn hợp (công+thủ+hộ+tầm vật+vây) để nhanh; còn 2 Mặc Gian thạch chế thêm 2 cán. Uy lực vây cả tu sĩ Nguyên Anh ở Vân Thiên tông.\n- **Cổ kính đồng** (Ch.181): bổn mạng pháp bảo thượng cổ (lấy trong 10 pháp khí nhóm Đóa Mục); công năng liên quan phân thân (giống lực Loạn Tinh Hải); hóa giải thần thức cũ + tế luyện 49 ngày → thuộc về VL.\n- **Đan lô + đan phong + đan dược Kỳ Hoàng Môn** (Vân Phi để lại): đan lô chí bảo (≥ Đoạt Thiên đỉnh), đan phong (phong ấn bồi dưỡng đan dược, thất truyền), đan dược bên trong = chí bảo Kết Anh; Lý Mộ Uyển giải phong ấn (Ch.199-200).\n- **Phi kiếm Thanh Phong** (Ch.197): Tôn Trấn Vĩ tặng phân thân (gắn ám khí do thám); VL gài cấm chế vô hiệu hóa.\n- **Huyền Tinh đỉnh** (gợi mở): tên cái đỉnh Cổ Thần Đồ Ti ném đi; phong ấn cả tinh cầu; VL nhớ ~50% cách chế.\n- Linh dịch Nghịch Thiên châu (chuẩn bị cho phân thân + tăng tỷ lệ Kết Anh).",
-     "group": "Thực lực",
-     "phase": "Pháp bảo & vật phẩm MỚI (Ch.181-200)",
+     "text": "Pháp bảo giữ từ trước: Nghịch Thiên châu (gia tốc tu phân thân — 30 năm thực ≈ 180 năm), Cực Cảnh thần thức/hồn thạch, Cổ Thần quyết, Độc kiếm/Độc Vương đỉnh, Băng diễm lam, Thanh Long ngọc giản (Lý Mộ Uyển tặng — bố trí động phủ), 2 ma đầu (Hứa Lập Quốc + đệ nhị ma đầu).\n- Hỗn Nguyên khu thú quyển (Ch.170): bảo vật cấp 1 trong truyền thuyết (thù lao nhóm Đóa Mục); đồng quyển khắc tiên thú; thu phục mọi loài thú kể cả tiên thú nếu đủ linh lực. Chưa dùng.\n- 3 viên Mặc gian thạch (Ch.176): vật bắt buộc chế Cấm Phiên; lấy từ khe trong kinh mạch Cổ Thần.\n- Hoàng tuyền chi viêm (lam sắc hỏa diễm) (Ch.176): thu từ kim đan trong xác khô thân thể cũ (\"Hoàng tuyền chi viêm, hiện!\").\n- 20 khối cực phẩm linh thạch (Ch.170): thù lao; đủ mở cổ truyền tống trận đi bất cứ đâu.\n- 10 bổn mạng pháp khí nhóm Đóa Mục (Ch.170): \"giữ hộ\"; bị gài bẫy khống chế (né bằng khe không gian).\n- Túi trữ vật Cổ Đế (Ch.162) + túi trữ vật Mạnh Đà Tử (arc trước): còn thần thức cố chủ, bị khóa.\n- Ngọc giản pháp quyết truyền tống của Cổ Đế (Ch.162): >400 thủ ấn tạo dòng xoáy thoát Cổ Thần chi địa; là bẫy (dòng xoáy ngược chiều, dễ vỡ kim đan) — Vương Lâm không dùng.\n- Ngọc giản phương thuốc đan dược Kỳ Hoàng Môn (Ch.179): bảo vật trấn phái, Vân Phi dâng (không khiến Vương Lâm động tâm).\n- Kim đan + túi trữ vật Tiền Côn (Ch.179): đoạt sau diệt khẩu; kim đan đã nuốt sống.\nPháp bảo giữ từ arc trước (còn dùng): Nghịch Thiên châu (công cụ sống còn — né hơn 10 lần khí lãng linh khí; giấu thân trước Đóa Mục; vẫn thiếu Kim + Thổ để hoàn thành Ngũ Hành); Độc kiếm / Độc Vương đỉnh (hấp thu cát đen độc Tiền Côn Ch.179; độc vô dụng với Mạnh Đà Tử cùng nguồn); Băng diễm lam (tạo Cấm Sơn Ch.161, đóng băng Mạnh Đà Tử Ch.163); Ma đầu Hứa Lập Quốc (phóng từ hồn thạch nuốt Tiền Côn Ch.179); Đệ nhị ma đầu (canh Vân Phi Ch.180); Ngọc giản Cấm Phiên (Ch.160) + Ngọc giản Thanh Long trận (quà Lý Mộ Uyển); ngọc giản >100 cấm chế, ~30 vạn linh thạch thượng phẩm, Lập/Hóa Anh đan, hơn 100 kim đan chờ tế luyện, túi thi hài thần bí Chiến Thần Điện.",
      "popup": true
     },
     {
-     "label": "Pháp bảo giữ từ trước",
-     "text": "Nghịch Thiên châu (gia tốc tu phân thân — 30 năm thực ≈ 180 năm), Cực Cảnh thần thức/hồn thạch, Cổ Thần quyết, Độc kiếm/Độc Vương đỉnh, Băng diễm lam, Thanh Long ngọc giản (Lý Mộ Uyển tặng — bố trí động phủ), 2 ma đầu (Hứa Lập Quốc + đệ nhị ma đầu).\n- Hỗn Nguyên khu thú quyển (Ch.170): bảo vật cấp 1 trong truyền thuyết (thù lao nhóm Đóa Mục); đồng quyển khắc tiên thú; thu phục mọi loài thú kể cả tiên thú nếu đủ linh lực. Chưa dùng.\n- 3 viên Mặc gian thạch (Ch.176): vật bắt buộc chế Cấm Phiên; lấy từ khe trong kinh mạch Cổ Thần.\n- Hoàng tuyền chi viêm (lam sắc hỏa diễm) (Ch.176): thu từ kim đan trong xác khô thân thể cũ (\"Hoàng tuyền chi viêm, hiện!\").\n- 20 khối cực phẩm linh thạch (Ch.170): thù lao; đủ mở cổ truyền tống trận đi bất cứ đâu.\n- 10 bổn mạng pháp khí nhóm Đóa Mục (Ch.170): \"giữ hộ\"; bị gài bẫy khống chế (né bằng khe không gian).\n- Túi trữ vật Cổ Đế (Ch.162) + túi trữ vật Mạnh Đà Tử (arc trước): còn thần thức cố chủ, bị khóa.\n- Ngọc giản pháp quyết truyền tống của Cổ Đế (Ch.162): >400 thủ ấn tạo dòng xoáy thoát Cổ Thần chi địa; là bẫy (dòng xoáy ngược chiều, dễ vỡ kim đan) — Vương Lâm không dùng.\n- Ngọc giản phương thuốc đan dược Kỳ Hoàng Môn (Ch.179): bảo vật trấn phái, Vân Phi dâng (không khiến Vương Lâm động tâm).\n- Kim đan + túi trữ vật Tiền Côn (Ch.179): đoạt sau diệt khẩu; kim đan đã nuốt sống.",
-     "group": "Thực lực",
-     "phase": "Pháp bảo & vật phẩm MỚI (Ch.181-200)",
+     "label": "Công pháp & thần thông MỚI (Ch.201-220)",
+     "text": "Nhãn: Thần thông gọi hồn phách (ký ức Cổ Thần Đồ Ti) — gọi hồn người đã chết về cõi dương nửa nén hương (vô ký ức); Vương Lâm dùng hồn phách Đằng Lệ để định vị MỌI huyết mạch Đằng gia khắp Triệu quốc.\nNhãn: Thôn hồn / hồn kỳ — thu hồn phách kẻ vừa giết vào hồn kỳ để luyện ma đầu (\"Ta lấy danh nghĩa thôn hồn, thu hồn phách của ngươi!\").\nNhãn: Thần thông cổ thần (đốt máu cổ thần) — ngưng tụ hư ảnh ma thần thượng cổ, uy lực kinh khủng; tiêu hao khổng lồ (đốt linh mạch + chịu phản chấn), chỉ duy trì trạng thái hư ảo do máu cổ thần còn ít. Dùng để ép lui Đằng Nhất (Ch.219).\nNhãn: Cực Cảnh thần thức (giới hạn lộ ra) — KHÔNG còn vô địch: Trần Bách Lương ném được vào khe không gian (Ch.202); Đằng Nhất chịu được (chỉ mất tay). Mỗi lần dùng hao tổn tinh hoa Nguyên Anh lớn → Vương Lâm ý thức phải dựa thêm pháp bảo.",
      "popup": true
     },
     {
-     "label": "Pháp bảo giữ từ arc trước (còn dùng)",
-     "text": "Nghịch Thiên châu (công cụ sống còn — né hơn 10 lần khí lãng linh khí; giấu thân trước Đóa Mục; vẫn thiếu Kim + Thổ để hoàn thành Ngũ Hành); Độc kiếm / Độc Vương đỉnh (hấp thu cát đen độc Tiền Côn Ch.179; độc vô dụng với Mạnh Đà Tử cùng nguồn); Băng diễm lam (tạo Cấm Sơn Ch.161, đóng băng Mạnh Đà Tử Ch.163); Ma đầu Hứa Lập Quốc (phóng từ hồn thạch nuốt Tiền Côn Ch.179); Đệ nhị ma đầu (canh Vân Phi Ch.180); Ngọc giản Cấm Phiên (Ch.160) + Ngọc giản Thanh Long trận (quà Lý Mộ Uyển); ngọc giản >100 cấm chế, ~30 vạn linh thạch thượng phẩm, Lập/Hóa Anh đan, hơn 100 kim đan chờ tế luyện, túi thi hài thần bí Chiến Thần Điện.",
-     "group": "Thực lực",
-     "phase": "Pháp bảo & vật phẩm MỚI (Ch.181-200)",
+     "label": "Pháp bảo & vật phẩm MỚI (Ch.201-220)",
+     "text": "Nhãn: 1 tia Thiên Kiếp lực — bức ra khi Kết Anh; dùng làm đòn sát thủ / nghi binh (dọa 5 lão tổ Vân Thiên tông). Để dành đối phó thượng cấp sứ giả Thông Thiên tháp — không muốn dùng phí.\nNhãn: Vỏ kiếm cổ thần bí — nhặt ở bí thị Liên Mặc thành; phong ấn sát khí kinh khủng (đâm phi kiếm vào 4/5 → sát khí xé đất mấy trăm trượng). KHÁC vỏ kiếm cũ của hắn (không có hơi lạnh, ký hiệu khác). Dùng kiếm khí đánh Đằng Nhất.\nNhãn: Hai vỏ kiếm cộng hưởng — vỏ kiếm cũ của VL + vỏ kiếm trong túi trữ vật Cổ Đế (chữ \"Lam\"); khi cùng xuất hiện, ký hiệu trên cả hai lóe sáng → ẩn chứa bí mật lớn (foreshadow).\nNhãn: Thanh Đồng Cổ kính — TỰ BẠO/hủy ở Ch.219 (\"Bạo!\") để tạo gió lốc ép Đằng Nhất phun cục máu vàng. Sau trận, pháp bảo VL càng thiếu.\nNhãn: Văn thú (yêu thú muỗi) — thu phục ở Tu Ma hải; xúc tu hút nội đan, nuôi bằng nội đan → càng lớn càng mạnh + tốc độ cực cao (vượt thuyền Khâu Tứ Bình). Làm phương tiện di chuyển + miệng ngậm dây trói thi thể Đằng gia.\nNhãn: 4 cổ thi khôi lỗi — đoạt từ Tức Mặc lão nhân + ngọc giản phương pháp luyện rối.\nNhãn: Huyết hồn (thu cả Vân Thiên tông) — bắt mọi Kết Đan kỳ trở lên giao huyết hồn (hứa trả sau 500 năm); 4 lão tổ Nguyên Anh hậu kỳ cũng giao.\nNhãn: Pháp bảo chưa khai thác — Khu thú quyển (chỉ dùng với dị thú mạnh), cuốn tranh huyền bí (phong ấn sinh linh hùng mạnh — không dám mở), túi 10 pháp khí thượng cổ ở nơi Cổ Thần (chỉ khống chế nổi Thanh Đồng Cổ kính).",
      "popup": true
     },
     {
-     "label": "Lạnh lùng vô tình, quyết đoán tuyệt đối",
-     "text": "đặc trưng càng đậm sau arc này. Bỏ mặc sinh tử Lục Dục / Cổ Đế / Đoan Mộc Cực khi không còn lợi dụng được; giết Tiền Côn diệt khẩu không do dự; khống chế Vân Phi bằng cấm chế như nuôi ma đầu, không động lòng trước nhan sắc.",
-     "group": "Tâm cảnh",
-     "phase": "Cốt cách bản chất (xuyên suốt)",
+     "label": "Cốt cách bản chất (xuyên suốt)",
+     "text": "Lạnh lùng vô tình, quyết đoán tuyệt đối: đặc trưng càng đậm sau arc này. Bỏ mặc sinh tử Lục Dục / Cổ Đế / Đoan Mộc Cực khi không còn lợi dụng được; giết Tiền Côn diệt khẩu không do dự; khống chế Vân Phi bằng cấm chế như nuôi ma đầu, không động lòng trước nhan sắc.\nTâm cơ cực sâu, đa nghi cùng cực: không tin thù lao nhóm Đóa Mục, lén tách 3 loại bảo vật vào 3 túi riêng, dùng tính ngăn-thần-thức của khe không gian né khống chế; tương kế tựu kế giữa cuộc hỗn chiến ba bên để đoạt truyền thừa.\nCẩn thận tới mức cực hạn: hấp thu băng tinh chủ động giảm tốc từ băng tinh thứ 50+ để tạo cơ sở vững — nhờ đó qua được băng tinh cuối mà không hóa \"Cổ Thần Đồ Ti điên\".",
      "popup": true
     },
     {
-     "label": "Tâm cơ cực sâu, đa nghi cùng cực",
-     "text": "không tin thù lao nhóm Đóa Mục, lén tách 3 loại bảo vật vào 3 túi riêng, dùng tính ngăn-thần-thức của khe không gian né khống chế; tương kế tựu kế giữa cuộc hỗn chiến ba bên để đoạt truyền thừa.",
-     "group": "Tâm cảnh",
-     "phase": "Cốt cách bản chất (xuyên suốt)",
+     "label": "Nội tâm & nhân quả (Ch.180)",
+     "text": "Day dứt nội tâm sâu: hồi tưởng \"một phút mềm lòng năm xưa ở Hằng Nhạc phái\" (tha phàm nhân khi cứu Trương Hổ) dẫn tới chuỗi tai họa — Mặc lão nhân báo thù → Đằng Hóa Nguyên truy sát → hủy thân, diệt tộc. Tự nhận \"nếu được chọn lại sẽ không ngăn Trương Hổ\". Đây là đoạn lý giải trực tiếp vì sao tính cách hắn hóa vô tình: \"không ai sinh ra đã lòng lang dạ sói... tất cả do hiện thực thúc đẩy.\"\nNặng thân tình ẩn sâu: Tư Đồ Nam + cha mẹ (hồn phách) vẫn trong Nghịch Thiên châu; khi trọng tổ thân thể gốc, hắn xúc động \"chưa bao giờ nghĩ mình có ngày nhìn lại khuôn mặt cha mẹ ban cho\".\nÝ chí báo thù làm động lực: \"tòa núi đè trong lòng\" (Thác Sâm sẽ truy sát) + thề huyết tẩy Đằng gia khi đạt Nguyên Anh — thúc hắn tu luyện gấp gáp.",
      "popup": true
     },
     {
-     "label": "Cẩn thận tới mức cực hạn",
-     "text": "hấp thu băng tinh chủ động giảm tốc từ băng tinh thứ 50+ để tạo cơ sở vững — nhờ đó qua được băng tinh cuối mà không hóa \"Cổ Thần Đồ Ti điên\".",
-     "group": "Tâm cảnh",
-     "phase": "Cốt cách bản chất (xuyên suốt)",
+     "label": "Lột xác tâm tính — thoát ly thù hận (Ch.200)",
+     "text": "Bước ngoặt nội tâm lớn: trong khoảnh khắc Kết Anh, tâm tính VL \"rốt cục thoát ly khỏi thù hận\". Không còn chỉ tu luyện vì báo thù mà còn **vì theo đuổi giấc mộng cường giả**, không cam bị người khác dẫm đạp, muốn tâm tính đạt cực hạn của cường giả.\nMở rộng vũ trụ quan: nhận ra Triệu quốc chỉ là một Tam cấp tu chân quốc bé nhỏ trên Chu Tước tinh; trên còn Tứ/Ngũ/Lục cấp (Chu Tước quốc thống trị tinh cầu); sau khi nhận truyền thừa Cổ Thần, biết vũ trụ có vô số tinh cầu như Chu Tước tinh, Cổ Thần đủ sức hủy cả tinh cầu → giấc mộng được nâng tầng.\nTiến trình \"lột xác\" cả đời: thi đỗ (phàm) → tiên nhân (nhập tu chân) → báo thù (sau đại biến) → giấc mộng cường giả vũ trụ (sau truyền thừa Cổ Thần + Kết Anh).",
      "popup": true
     },
     {
-     "label": "Day dứt nội tâm sâu",
-     "text": "hồi tưởng \"một phút mềm lòng năm xưa ở Hằng Nhạc phái\" (tha phàm nhân khi cứu Trương Hổ) dẫn tới chuỗi tai họa — Mặc lão nhân báo thù → Đằng Hóa Nguyên truy sát → hủy thân, diệt tộc. Tự nhận \"nếu được chọn lại sẽ không ngăn Trương Hổ\". Đây là đoạn lý giải trực tiếp vì sao tính cách hắn hóa vô tình: \"không ai sinh ra đã lòng lang dạ sói... tất cả do hiện thực thúc đẩy.\"",
-     "group": "Tâm cảnh",
-     "phase": "Nội tâm & nhân quả (Ch.180)",
+     "label": "Kìm nén thân tình (Lý Mộ Uyển, Ch.181-200)",
+     "text": "Day dứt cố nhân: gặp lại bộ da giao long (Kỳ Lân thành) + tái ngộ Lý Mộ Uyển (Vân Thiên tông) khơi dậy \"tia nhu tình hiếm thấy\"; nhưng VL ép mình lãnh khốc, \"không cho phép vướng bận khi chưa đủ thực lực bảo vệ thân nhân\", sợ liên lụy nàng vào huyết hải thâm cừu. Khi nghe tin Lý Mộ Uyển sắp kết đạo lữ với Tôn Trấn Vĩ → cảm xúc bị đẩy tới cực hạn, thúc hắn quyết Kết Anh.\nLòng tin sư đồ lung lay: Chu Lâm (sư phụ của phân thân) đối xử chân thành khiến VL — vốn định lừa gạt trộm đan — nảy \"cảm giác lạ chưa từng gặp\".",
      "popup": true
     },
     {
-     "label": "Nặng thân tình ẩn sâu",
-     "text": "Tư Đồ Nam + cha mẹ (hồn phách) vẫn trong Nghịch Thiên châu; khi trọng tổ thân thể gốc, hắn xúc động \"chưa bao giờ nghĩ mình có ngày nhìn lại khuôn mặt cha mẹ ban cho\".",
-     "group": "Tâm cảnh",
-     "phase": "Nội tâm & nhân quả (Ch.180)",
+     "label": "Báo thù tàn khốc — diệt tộc Đằng gia (Ch.201-220)",
+     "text": "Nhãn: Tận diệt huyết thống — không chỉ giết con cháu mà xóa MỌI huyết mạch Đằng gia khỏi thế gian (\"như vậy mới xứng là diệt tộc\"); cố ý không giết Đằng Hóa Nguyên trước để hắn trơ mắt nhìn cả tộc chết dần, chịu đau tận cùng rồi mới giết.\nNhãn: Lạnh lùng tuyệt đối — \"Người nào cản đường, chết\"; giết hàng trăm đệ tử Hợp Hoan tông hộ trận không chớp mắt; điệp khúc \"ngươi không nên mang họ Đằng\".\nNhãn: Quyết tâm thép — hơn 400 năm thù hận từ vụ Đằng Hóa Nguyên ép tự bạo + truy sát ở Đằng gia thành năm xưa, nay dồn cả vào kế hoạch.",
      "popup": true
     },
     {
-     "label": "Ý chí báo thù làm động lực",
-     "text": "\"tòa núi đè trong lòng\" (Thác Sâm sẽ truy sát) + thề huyết tẩy Đằng gia khi đạt Nguyên Anh — thúc hắn tu luyện gấp gáp.",
-     "group": "Tâm cảnh",
-     "phase": "Nội tâm & nhân quả (Ch.180)",
+     "label": "Nhân tình giữa sát giới (Ch.201-220)",
+     "text": "Nhãn: Báo ơn Tứ thúc — chữa khỏi bệnh chí âm cho hậu duệ Vương Thiên Thổ, tặng 72 viên đan + ngọc giản hộ mệnh (Cực Cảnh lạc ấn); xúc động khi biết Tứ thúc thọ 98 tuổi, con cháu sung túc ở kinh thành.\nNhãn: Cảm tình nghĩa Đằng Tam — cảm nhận \"tia ý niệm thương nhớ đau xót\" khi Đằng Tam tự sát vì vợ con, nên KHÔNG lấy hồn phách hắn (dù sẽ thành thượng đẳng ma đầu) — nhưng vẫn để hắn chết vì họ Đằng.\nNhãn: Nghĩa đồng môn — cứu Trương sư huynh (phế nhân ở Hợp Hoan tông) bằng 7 viên đan; bồi hồi nhớ Hằng Nhạc phái khi thấy cảnh thu đồ đệ ở Tử Vân tông.\nNhãn: Mâu thuẫn đạo đức — tự nhận mình \"có lẽ là tiên nhân\"; vừa tàn khốc diệt tộc vừa giữ ân nghĩa với người thân/cố nhân — hai mặt cùng tồn tại.",
      "popup": true
     },
     {
-     "label": "Bước ngoặt nội tâm lớn",
-     "text": "trong khoảnh khắc Kết Anh, tâm tính VL \"rốt cục thoát ly khỏi thù hận\". Không còn chỉ tu luyện vì báo thù mà còn **vì theo đuổi giấc mộng cường giả**, không cam bị người khác dẫm đạp, muốn tâm tính đạt cực hạn của cường giả.",
-     "group": "Tâm cảnh",
-     "phase": "Lột xác tâm tính — thoát ly thù hận (Ch.200)",
-     "popup": true
-    },
-    {
-     "label": "Mở rộng vũ trụ quan",
-     "text": "nhận ra Triệu quốc chỉ là một Tam cấp tu chân quốc bé nhỏ trên Chu Tước tinh; trên còn Tứ/Ngũ/Lục cấp (Chu Tước quốc thống trị tinh cầu); sau khi nhận truyền thừa Cổ Thần, biết vũ trụ có vô số tinh cầu như Chu Tước tinh, Cổ Thần đủ sức hủy cả tinh cầu → giấc mộng được nâng tầng.",
-     "group": "Tâm cảnh",
-     "phase": "Lột xác tâm tính — thoát ly thù hận (Ch.200)",
-     "popup": true
-    },
-    {
-     "label": "Tiến trình \"lột xác\" cả đời",
-     "text": "thi đỗ (phàm) → tiên nhân (nhập tu chân) → báo thù (sau đại biến) → giấc mộng cường giả vũ trụ (sau truyền thừa Cổ Thần + Kết Anh).",
-     "group": "Tâm cảnh",
-     "phase": "Lột xác tâm tính — thoát ly thù hận (Ch.200)",
-     "popup": true
-    },
-    {
-     "label": "Day dứt cố nhân",
-     "text": "gặp lại bộ da giao long (Kỳ Lân thành) + tái ngộ Lý Mộ Uyển (Vân Thiên tông) khơi dậy \"tia nhu tình hiếm thấy\"; nhưng VL ép mình lãnh khốc, \"không cho phép vướng bận khi chưa đủ thực lực bảo vệ thân nhân\", sợ liên lụy nàng vào huyết hải thâm cừu. Khi nghe tin Lý Mộ Uyển sắp kết đạo lữ với Tôn Trấn Vĩ → cảm xúc bị đẩy tới cực hạn, thúc hắn quyết Kết Anh.",
-     "group": "Tâm cảnh",
-     "phase": "Kìm nén thân tình (Lý Mộ Uyển, Ch.181-200)",
-     "popup": true
-    },
-    {
-     "label": "Lòng tin sư đồ lung lay",
-     "text": "Chu Lâm (sư phụ của phân thân) đối xử chân thành khiến VL — vốn định lừa gạt trộm đan — nảy \"cảm giác lạ chưa từng gặp\".",
-     "group": "Tâm cảnh",
-     "phase": "Kìm nén thân tình (Lý Mộ Uyển, Ch.181-200)",
+     "label": "Giấc mộng cường giả & vũ trụ quan mở rộng (Ch.201+)",
+     "text": "Nhãn: Đội quân ma đầu — mơ về Vực Ngoại chiến trường, muốn nắm đội quân ma đầu lớn để sống yên ổn dù gặp cường giả; ma đầu hồn phách cực hiếm (mới có 4: Hứa Lập Quốc, đệ nhị ma đầu, ma đầu linh viên, Đằng Cửu).\nNhãn: Ý thức về giới hạn — sau trận Đằng Nhất, nhận ra Cực Cảnh không vô địch + pháp bảo quá thiếu → đặt mục tiêu nâng cấp Cấm Phiên (cấm chế thứ 99, cần nơi chống thiên kiếp) + mở các túi trữ vật phong ấn.",
      "popup": true
     },
     {
      "label": "Diễn biến chi tiết Ch.161-180 (arc Cổ Thần chi địa — hồi kết + thoát ra)",
      "text": "- Ch.161: Tạo Cấm Sơn bằng băng diễm + vòng tròn tàn ảnh; thần thức ly thể cắn nuốt/khống chế du hồn ở cửa 3; điều du hồn vây Cổ Đế.\n- Ch.162: Mạnh Đà Tử ma hóa sống lại (yêu thần Đồ Ti) truy sát thôn hồn; Vương Lâm ép Cổ Đế giao ngọc giản pháp quyết truyền tống → Cổ Đế bị du hồn nuốt khô, thân khô bị ném vào Yêu Thần huyết hải; đoạt túi trữ vật Cổ Đế.\n- Ch.163: Băng diễm + độc kiếm chặn Mạnh Đà Tử (độc vô dụng — cùng nguồn Độc Vương đỉnh); nuốt một phần thần thức Sứ giả (du hồn khổng lồ).\n- Ch.164: Gài bẫy phá Truyền Tống trận cửa 4; bị truyền tống tới \"bên ngoài khí hải\" (danh hiệu lĩnh ngộ giả) = vào trong cơ thể Cổ Thần; phát hiện bẫy dòng xoáy ngược của ngọc giản Cổ Đế.\n- Ch.165: Hướng tới Thức Hải; né hơn 10 lần khí lãng linh khí bằng Nghịch Thiên châu. (Tuyến LDMQ được thủ cốt cứu, bị sư phụ thao túng.)\n- Ch.166: Đóa Mục suýt nhìn xuyên Nghịch Thiên châu; chộp băng tinh (truyền thừa ký ức nhỏ); ấn vào trán → cơn đau + kén lam bọc thân → thấy ký ức Cổ Thần nuôi con bằng tinh cầu.\n- Ch.167 (THEN CHỐT): nhận Cổ Thần quyết (2 tầng, \"cướp đoạt\"); hiểu cơ chế truyền thừa Cổ Thần (sức mạnh + ký ức → tân Cổ Thần) + lai lịch Thác Sâm / huyết hải / tử hải.\n- Ch.168: Tới Thức Hải tử phủ (huyết hải + tử hải); thử Cổ Thần phá xuyên sương mù tử hải nhưng bị lôi điện / sinh vật vạn trượng chặn; định bế quan đột phá Nguyên Anh.\n- Ch.169-170: Nhóm Đóa Mục bắt, kể bí mật Thác Sâm = Cổ Ma Đồ Ti; mặc cả nhận Hỗn Nguyên khu thú quyển + 20 cực phẩm linh thạch + 10 pháp khí. Vào huyết hải: nuốt phân thức + 3 hồn cầu → sinh hồn thạch = thôn hồn chính thức.\n- Ch.171: Mở phong ấn: Thác Sâm hi sinh hàng trăm tu sĩ phân tán phân thức; Vương Lâm vụng trộm vận Cổ Thần quyết tiêu hóa; phong ấn tạm giải, Thác Sâm gọi Diệt Thần Mâu.\n- Ch.172: Thác Sâm vào tử hải, đối thoại sinh vật vạn trượng (lai lịch ma niệm); Vương Lâm phát hiện đây KHÔNG phải thức hải thật + cảm nhận truyền thừa thật trong lân phiến.\n- Ch.173-174: Nhóm Đóa Mục trở mặt; Lệ Bằng hiện (đầu người trong miệng sinh vật vạn trượng); Vương Lâm né khống chế bằng khe không gian + tung nghi binh tiểu thú; hỗn chiến ba bên.\n- Ch.175 (THEN CHỐT): hiện Cổ Thần quyết; nam tử lục lăng / Lệ Bằng \"chuyển\" Vương Lâm vào nơi chứa 94 băng tinh; hấp thu → TRỌNG TỔ THÂN THỂ GỐC (khôi phục khuôn mặt thật). Thề báo thù Đằng gia.\n- Ch.176: Hấp thu hết 94 băng tinh (suýt hóa Cổ Thần điên); lấy 3 Mặc gian thạch; hấp thu lại kim đan từ xác khô cũ + thu Hoàng tuyền chi viêm; mở thông đạo rời Cổ Thần chi địa.\n- Ch.177: Bước ra từ Toái Tinh Loạn (Tu Ma hải); chứng kiến Tiền Côn truy sát Vân Phi; nhảy vào Toái Tinh Loạn.\n- Ch.178 (MỐC): xuyên Toái Tinh Loạn dễ dàng (phân thân không phục chế được thân Cổ Thần + Cực cảnh thần thức); tự đánh giá tự vệ trước Nguyên Anh; biết đã trôi qua 200 NĂM (4 lão quái biến mất).\n- Ch.179: Giết Tiền Côn diệt khẩu (Hứa Lập Quốc nuốt thần thức, nuốt sống kim đan); khống chế Vân Phi bằng cấm chế 3 ngày phát tác; bắt dẫn đường Kỳ Lân thành.\n- Ch.180: Hồi tưởng nhân quả \"một phút mềm lòng\" (lý giải tính cách); tới Kỳ Lân thành (Kỳ Lân cổ thú = công hiệu giống Thanh Long trận); vào động phủ Vân Phi; gài cấm chế + đặt đệ nhị ma đầu canh.",
-     "group": "Hành trình",
-     "phase": "Diễn biến chi tiết Ch.161-180 (arc Cổ Thần chi địa — hồi kết + thoát ra)",
      "popup": true
     },
     {
      "label": "Diễn biến chi tiết Ch.181-200 (arc Kỳ Lân thành → Vân Thiên tông → Kết Anh)",
      "text": "- Ch.181: Ở Kỳ Lân thành; hóa giải + tế luyện Cổ kính đồng (49 ngày); chế Cấm Phiên từ Mặc Gian thạch; biết tên Huyền Tinh đỉnh; tới Luyện khí các thấy lại bộ da giao long (sự tích mình thành truyền thuyết); nhớ Lý Mộ Uyển nhưng ép mình lãnh khốc; theo dõi Vân Phi (bị khống chế) lén tìm người giải cấm chế.\n- Ch.182: Vân Phi tìm Khâu Tứ Bình giải cấm chế → đệ nhị ma đầu nuốt thần thức + kim đan Vân Phi (Vân Phi CHẾT); VL hiện thân áp chế Khâu bằng Cực Cảnh thần thức; Khâu mặc cả tiết lộ Nguyên Anh Quy Tức.\n- Ch.183: Khâu kể mưu đồ (ám toán sư phụ + đại sư huynh → 2 Nguyên Anh quy tức; động cơ hồi sinh nữ tử tượng sáp); hẹn 7 ngày, VL cho Hứa Lập Quốc do thám. Cấm Phiên thành → THIÊN KIẾP (mây đỏ trăm dặm, kéo lão quái Tu Ma hải xuất hiện).\n- Ch.184: Thiên kiếp hủy Kỳ Lân thành; 1 tia thiên kiếp vào người VL phá kim đan (tụt Kết Đan trung kỳ); sương mù Tu Ma hải bốc hơi → dị thú tràn ra, đại loạn; VL đại khai sát giới nuốt kim đan; tha Tôn Phàm.\n- Ch.185: Tìm ra giải pháp Thuật Thần Đạo (tu phân thân); tới gần Vân Thiên tông (Sở quốc) bố trí động phủ nghiêm mật (Cấm Phiên + Thanh Long ngọc giản); nhốt 2 ma đầu; chuẩn bị 1 năm thu linh dịch.\n- Ch.186-187: Bối cảnh Vân Thiên tông (đệ nhất Sở quốc, Cự Ma tộc che chở, Thiên Tổn đan); VL ngưng luyện phân thân (dị tượng phát sáng → bỏ động phủ cũ).\n- Ch.188-189: Phân thân VL giả thiếu niên sơn thôn đi bái sư Vân Thiên tông; gặp huynh muội (ca = đệ tử Kiếm Khí tông; muội tinh nghịch); đỗ.\n- Ch.190: Chu Lâm thu phân thân VL làm đồ đệ đầu tiên, chân thành (tặng ngọc giản kinh nghiệm + đan dược) → VL \"cảm giác lạ\".\n- Ch.191-194: VL điều tra kho đan; va chạm thế lực trong tông; phát hiện Lý Mộ Uyển ở Vân Thiên tông.\n- Ch.195: Diệt Trình Linh + Công Tôn Đồng; bổn tôn đại náo Vân Thiên tông (Cấm Phiên vây Nguyên Anh, làm nghiêng Đông uyển); tin Lý Mộ Uyển sắp kết đạo lữ Tôn Trấn Vĩ → VL tới gặp xin đan dược nâng tu vi.\n- Ch.196: Lý Mộ Uyển nhận ra VL; giám định đan lô Kỳ Hoàng Môn (đan lô + đan phong + đan dược chí bảo); hứa tăng tỷ lệ Kết Anh.\n- Ch.197: Tôn Trấn Vĩ tặng phi kiếm do thám (VL vô hiệu hóa); VL vào Nghịch Thiên châu dùng Kỷ Tả đan nâng tu vi.\n- Ch.198-199: Đoạt Thiên Thất đỉnh; Lý Mộ Uyển dùng Thất Long đỉnh cộng hưởng Đoạt Thiên đỉnh lúc Âu Dương Tử luyện đan đêm trăng tròn → giải phong ấn đan lô; VL lợi dụng tu bản tôn (\"Bản tôn, hiện!\").\n- Ch.200: Âu Dương Tử luyện thành Lục Đạo linh đan; VL nuốt đan dược + Cổ Thần quyết → KẾT ANH; hợp nhất bản tôn + phân thân, hút linh lực ngàn năm Đoạt Thiên Thất đỉnh; dung hợp cuối + lột xác tâm tính.",
-     "group": "Hành trình",
-     "phase": "Diễn biến chi tiết Ch.181-200 (arc Kỳ Lân thành → Vân Thiên tông → Kết Anh)",
+     "popup": true
+    },
+    {
+     "label": "Diễn biến chi tiết Ch.201-220 (arc Báo thù Đằng gia — xuất Sở quốc → về Triệu quốc)",
+     "text": "Nhãn: Ch.201-202 — Xuất quan sau Kết Anh tại Vân Thiên tông; bắt sống Liễu Phỉ, giết Tôn Trấn Vĩ (\"Tử!\"), đón Lý Mộ Uyển. Khuất phục 5 lão tổ (Trần Bách Lương chết, 4 hàng giao huyết hồn); bắt mọi Kết Đan kỳ trở lên giao huyết hồn. Rời Sở quốc.\nNhãn: Ch.203-206 — Tìm cổ truyền tống trận + bản đồ Chu Tước tinh để về Triệu quốc (đoán ở bên kia Tu Ma hải). Bối cảnh hậu Thiên Kiếp: mưa đen gây dịch + nâng cấp yêu thú, sinh nghề săn nội đan. Gặp lại Khâu Tứ Bình (Nguyên Anh sơ kỳ, Độc Ma cung) — áp chế hắn. Thu phục Văn thú.\nNhãn: Ch.207-209 — Vào bí thị Liên Mặc thành (vết nứt không gian 3 thành, 31 Nguyên Anh): đoạt ngọc giản cổ truyền tống trận + mua bản đồ (Tu Ma hải + 4 đại lục + 148 quốc gia) từ Chu Vũ Đức. Nhặt vỏ kiếm cổ thần bí. Phát hiện có người tu bổ các cổ truyền tống trận → điềm Tu Ma hải sắp biến.\nNhãn: Ch.210 — Về tới Khổng Mạnh đại lục (qua tiểu thành ven biển → Tử Vân tông → truyền tống trận thứ 2). Bối cảnh Triệu quốc (cấp 2, Phác Nam Tử thống trị, Đằng gia đệ nhất). Đằng Hóa Nguyên giữ bài vị Đằng Lệ.\nNhãn: Ch.211 — Gặp hậu duệ Tứ thúc, chữa bệnh + tặng đan + ngọc giản hộ mệnh (báo ơn). Khởi động DIỆT TỘC: gọi hồn phách Đằng Lệ định vị mọi huyết mạch Đằng; cắm 16 trận kỳ phong tỏa Đằng gia thành (\"chỉ vào không ra\").\nNhãn: Ch.212-215 — Truy sát người họ Đằng ở các môn phái: Thiên Đạo Môn (giết Đằng Huyền + Nguyên Anh thủy tổ), Vô Phong cốc (Đằng Cao), Hợp Hoan tông (Âm Dương lão nhân khởi hộ sơn đại trận; VL giết hàng trăm đệ tử hộ trận). Giết Tức Mặc lão nhân (báo thù cũ, đoạt 4 con rối). Cứu Trương sư huynh. Bắt Đằng Cửu → ma đầu thứ tư. Khái niệm 9 hạch tâm tộc nhân.\nNhãn: Ch.216-217 — Đằng Tam (Đằng Hải) hi sinh truyền tống cứu Đằng Tú Tú + Vương Trác; tự sát công kích VL bằng phi kiếm Điệu Vân → VL không lấy hồn phách. Đằng Hóa Nguyên đau (9 ngọc giản hạch tâm vỡ dần). Vương Trác giằng xé ái-thù, gặp VL — xác nhận kẻ thù chung là Đằng Hóa Nguyên.\nNhãn: Ch.218-219 — Phác Nam Tử giúp Đằng gia lần cuối (mượn 2 pháp luân Hóa Thần cấp; tiết lộ Đằng gia là \"chuột thí nghiệm\" của sứ giả Thông Thiên tháp). Khổ chiến Đằng Nhất ở Hắc Nê đàm: dùng Cực Cảnh + Cấm Phiên + vỏ kiếm cổ + tự bạo Thanh Đồng Cổ kính + thần thông cổ thần → ép Đằng Nhất phun cục máu vàng (1 tia máu cổ thần), mỗi bên giành nửa cục.\nNhãn: Ch.220 — Mở túi trữ vật Cổ Đế (xóa thần thức) → chỉ được 2 cực phẩm linh thạch + 1 vỏ kiếm cổ (cộng hưởng vỏ kiếm cũ, ẩn bí mật). Cổ Ma Đồ Ti (Thác Sâm) tỉnh, truy lùng qua túi trữ vật. Ngày thứ 9: Đằng gia thành ngập máu, toàn tộc tụ về; toàn Triệu quốc khiếp sợ tên Vương Lâm (diễn biến diệt tộc cao trào tiếp ở khối sau).",
      "popup": true
     },
     {
      "label": "Chuyển biến tổng quát toàn truyện (Ch.1-200)",
      "text": "- Ch.1-100 (Quyển 1 — Triệu quốc): Phàm nhân → ký danh ẩn nấp → mất gia đình → Kết Đan bất thành → mở Cực cảnh → báo thù bất thành → \"bỏ mạng\".\n- Ch.101-120 (mở Quyển 2 — Vực Ngoại/Hỏa Phần quốc): Tỉnh lại làm thôn hồn → đoạt xá Mã Lương → tái tu luyện → nhập ma đạo.\n- Ch.121-140 (arc Tu Ma hải & Kết Đan): Kết Đan (Ch.127) → diệt Đấu Tà phái → chia tay Lý Mộ Uyển → giao ước Hóa Thần.\n- Ch.141-160 (arc Cổ Thần chi địa — vào): Vào thi thể Cổ Thần → thoát ly đội Hóa Thần → 13 năm vượt cửa 1-2 → Kết Đan trung kỳ + cao thủ cấm chế + \"người lĩnh ngộ thứ tư\" → vào cửa 3.\n- Ch.161-180 (arc Cổ Thần chi địa — hồi kết): Thôn hồn ở cửa 3 → đắc Cổ Thần quyết + 94 băng tinh truyền thừa ký ức → TRỌNG TỔ THÂN THỂ GỐC + sinh hồn thạch (thôn hồn chính thức) → thoát qua Toái Tinh Loạn ra Tu Ma hải → tới Kỳ Lân thành. Bước ngoặt lớn nhất: từ ma tu/cấm chế thêm tuyến \"truyền nhân ký ức Cổ Thần + thân thể Cổ Thần\", thực lực nhảy vọt (tự vệ trước Nguyên Anh dù mới Kết Đan hậu kỳ). Đại địch mới: Thác Sâm. Thời gian trôi qua 200 năm; tổng rời nước ~400 năm.",
-     "group": "Hành trình",
-     "phase": "Chuyển biến tổng quát toàn truyện (Ch.1-200)",
      "popup": true
     },
     {
-     "label": "Mục tiêu hiện tại (Ch.201+)",
+     "label": "Mục tiêu hiện tại (Ch.221+)",
      "text": "- (1) Hoàn tất dung hợp bản tôn + phân thân → bản tôn Kết Anh → Cực cảnh thần thức đột phá lần đầu.\n- (2) Rời Vân Thiên tông / Sở quốc; xử lý ân oán (Lý Mộ Uyển, Tôn Trấn Vĩ, Vân Thiên tông).\n- (3) Về Triệu quốc huyết tẩy Đằng gia + Đằng Hóa Nguyên (>400 năm hận) — giờ đã có vốn (Nguyên Anh + Cổ Thần quyết).\n- (4) Đề phòng Thác Sâm (Cổ Ma Đồ Ti) thoát Cổ Thần chi địa truy sát.\n- (5) Dài hạn: theo đuổi giấc mộng cường giả vũ trụ (Tứ/Ngũ/Lục cấp tu chân quốc; Chu Tước quốc).",
-     "group": "Hành trình",
-     "phase": "Mục tiêu hiện tại (Ch.201+)",
      "popup": true
     },
     {
      "label": "Đồng minh & thân tình",
-     "text": "- Tư Đồ Nam + cha mẹ (hồn phách) — ân nhân/thân tình — vẫn trong Nghịch Thiên châu; Vương Lâm liếc thấy khi vào không gian né khống chế (Ch.168). Mục tiêu đưa Tư Đồ Nam ra khi đạt Anh Biến vẫn treo.\n- Lý Mộ Uyển — bạn/cố nhân — di sản (ngọc giản Thanh Long trận) tiếp tục cứu mạng/hữu dụng đợt này.\n- Cổ Thần Đồ Ti — tiền nhân truyền thừa — cho Vương Lâm Cổ Thần quyết + ký ức; Vương Lâm \"sống lại\" cuộc đời hắn khi hấp thu băng tinh.\n- Sinh vật vạn trượng / Lệ Bằng — ân nhân ngoài ý muốn — \"chuyển\" Vương Lâm vào nơi chứa truyền thừa ký ức thật.\n\n- Lý Mộ Uyển — cố nhân/ân nhân (TÁI XUẤT) — ngũ phẩm luyện đan sư Vân Thiên tông; nhận ra VL sau 200 năm; giúp VL Kết Anh (đan dược + giải phong ấn + Thất Long đỉnh); tình cảm sâu, VL kìm nén vì huyết hải thâm cừu.\n- Chu Lâm — sư phụ (của phân thân) — đệ tử nội tông luyện đan, chân thành thu phân thân VL làm đồ đệ đầu tiên; làm lung lay định kiến sư đồ của VL.",
-     "group": "Quan hệ",
-     "phase": "Đồng minh & thân tình",
+     "text": "Nhãn: Lý Mộ Uyển (Ch.201) — đạo lữ chính thức, đón công khai khỏi Vân Thiên tông.\nNhãn: Hậu duệ Tứ thúc (Ch.211) — báo ơn, chữa bệnh + tặng đan + ngọc giản hộ mệnh.\nNhãn: Trương sư huynh (Ch.214) — cứu bằng 7 viên đan ở Hợp Hoan tông.\nNhãn: Vương Trác (Ch.213-217) — đường huynh, đồng minh báo thù; kẻ thù chung Đằng Hóa Nguyên.\n- Tư Đồ Nam + cha mẹ (hồn phách) — ân nhân/thân tình — vẫn trong Nghịch Thiên châu; Vương Lâm liếc thấy khi vào không gian né khống chế (Ch.168). Mục tiêu đưa Tư Đồ Nam ra khi đạt Anh Biến vẫn treo.\n- Lý Mộ Uyển — bạn/cố nhân — di sản (ngọc giản Thanh Long trận) tiếp tục cứu mạng/hữu dụng đợt này.\n- Cổ Thần Đồ Ti — tiền nhân truyền thừa — cho Vương Lâm Cổ Thần quyết + ký ức; Vương Lâm \"sống lại\" cuộc đời hắn khi hấp thu băng tinh.\n- Sinh vật vạn trượng / Lệ Bằng — ân nhân ngoài ý muốn — \"chuyển\" Vương Lâm vào nơi chứa truyền thừa ký ức thật.\n\n- Lý Mộ Uyển — cố nhân/ân nhân (TÁI XUẤT) — ngũ phẩm luyện đan sư Vân Thiên tông; nhận ra VL sau 200 năm; giúp VL Kết Anh (đan dược + giải phong ấn + Thất Long đỉnh); tình cảm sâu, VL kìm nén vì huyết hải thâm cừu.\n- Chu Lâm — sư phụ (của phân thân) — đệ tử nội tông luyện đan, chân thành thu phân thân VL làm đồ đệ đầu tiên; làm lung lay định kiến sư đồ của VL.",
      "popup": true
     },
     {
      "label": "Đối thủ & kẻ thù",
-     "text": "- Thác Sâm (Cổ Ma Đồ Ti) — ĐẠI ĐỊCH MỚI — Vương Lâm đoạt truyền thừa KÝ ỨC mà Thác Sâm cần để hoàn chỉnh → một khi Thác Sâm thoát cơ thể Cổ Thần sẽ truy Vương Lâm đầu tiên.\n- Đằng Hóa Nguyên + Đằng gia (Triệu quốc) — KẺ THÙ TRUYỀN KIẾP — sau khi trọng tổ thân thể, Vương Lâm thề \"khi đạt Nguyên Anh sẽ đánh tới Triệu quốc, huyết tẩy toàn tộc Đằng gia\". Mở rộng danh sách báo thù: Mặc lão nhân (Chú thuật khiến hắn bị truy sát), tu chân Triệu quốc, Cự Ma tộc.\n- Đóa Mục / lão giả / nhóm 10-11 người — đối tác kiêm đối thủ — cung cấp Hỗn Nguyên khu thú quyển + bảo vật; Vương Lâm né khống chế của họ.\n- Tiền Côn (đã chết) — nạn nhân diệt khẩu đầu tiên hậu-trọng-tổ.\n\n- Khâu Tứ Bình — đối thủ tạm — Kết Đan hậu kỳ đại viên mãn, tâm cơ; bị VL áp chế, dùng làm nguồn tin Nguyên Anh Quy Tức.\n- Tôn Trấn Vĩ — đối thủ — vị hôn phu Lý Mộ Uyển; tặng phi kiếm do thám phân thân VL (bị vô hiệu hóa).",
-     "group": "Quan hệ",
-     "phase": "Đối thủ & kẻ thù",
+     "text": "Nhãn: Đằng Hóa Nguyên (Ch.210-220) — kẻ thù số 1, mục tiêu diệt tộc; Nguyên Anh hậu kỳ.\nNhãn: Đằng Nhất / Đằng Cửu / Đằng Tam (Ch.214-219) — 9 hạch tâm tộc nhân Đằng gia; Đằng Cửu thành ma đầu, Đằng Nhất khổ chiến chưa hạ.\nNhãn: Phác Nam Tử (Ch.218) — thủy tổ Huyền Đạo tông, giúp Đằng gia lần cuối; cho VL 100 năm.\nNhãn: Tức Mặc lão nhân / Âm Dương lão nhân (Ch.213-215) — cản đường bảo vệ Đằng gia, bị giết/phá trận.\nNhãn: Khâu Tứ Bình (Ch.203-206) — kẻ thù cũ Tu Ma hải, Độc Ma cung.\nNhãn: Thác Sâm / Cổ Ma Đồ Ti (Ch.208-220) — uy hiếp nền, truy lùng qua túi trữ vật; sứ giả Thông Thiên tháp (Cự Ma tộc) sau lưng Triệu quốc.\n- Thác Sâm (Cổ Ma Đồ Ti) — ĐẠI ĐỊCH MỚI — Vương Lâm đoạt truyền thừa KÝ ỨC mà Thác Sâm cần để hoàn chỉnh → một khi Thác Sâm thoát cơ thể Cổ Thần sẽ truy Vương Lâm đầu tiên.\n- Đằng Hóa Nguyên + Đằng gia (Triệu quốc) — KẺ THÙ TRUYỀN KIẾP — sau khi trọng tổ thân thể, Vương Lâm thề \"khi đạt Nguyên Anh sẽ đánh tới Triệu quốc, huyết tẩy toàn tộc Đằng gia\". Mở rộng danh sách báo thù: Mặc lão nhân (Chú thuật khiến hắn bị truy sát), tu chân Triệu quốc, Cự Ma tộc.\n- Đóa Mục / lão giả / nhóm 10-11 người — đối tác kiêm đối thủ — cung cấp Hỗn Nguyên khu thú quyển + bảo vật; Vương Lâm né khống chế của họ.\n- Tiền Côn (đã chết) — nạn nhân diệt khẩu đầu tiên hậu-trọng-tổ.\n\n- Khâu Tứ Bình — đối thủ tạm — Kết Đan hậu kỳ đại viên mãn, tâm cơ; bị VL áp chế, dùng làm nguồn tin Nguyên Anh Quy Tức.\n- Tôn Trấn Vĩ — đối thủ — vị hôn phu Lý Mộ Uyển; tặng phi kiếm do thám phân thân VL (bị vô hiệu hóa).",
      "popup": true
     },
     {
      "label": "Thuộc hạ & quan hệ khác",
-     "text": "- Mặc Vân Phi — thuộc hạ mới bị khống chế bằng cấm chế (dẫn đường Tu Ma hải / Kỳ Lân thành).\n- Đoan Mộc Cực / Bát Cực Ma Quân — đồng hành cũ — bị cuốn vào huyết hải.\n- Mặc Vân Phi — thuộc hạ cũ (đã chết) — bị đệ nhị ma đầu nuốt (Ch.182); để lại đan lô Kỳ Hoàng Môn = chìa khóa Kết Anh.\n- Tôn Phàm — kẻ được tha — tu sĩ Trúc Cơ được VL tha mạng giữa thiên kiếp; ám ảnh suốt đời.\n- Huynh muội bái sư Vân Thiên tông — quan hệ treo — gặp phân thân VL (ca = đệ tử Kiếm Khí tông; muội tinh nghịch).\n- Thi Âm tông; Phượng Loan — quan hệ treo từ arc trước.\n\n---",
-     "group": "Quan hệ",
-     "phase": "Thuộc hạ & quan hệ khác",
-     "popup": true
-    },
-    {
-     "label": "Cập nhật tới",
-     "text": "Ch.200 (KẾT ANH — Nguyên Anh kỳ; arc Vân Thiên tông / Sở quốc)",
-     "group": "Quan hệ",
-     "phase": "Thuộc hạ & quan hệ khác",
-     "popup": true
-    },
-    {
-     "label": "File liên quan đợt này",
-     "text": "`Cot_truyen/Q02_Ch161-180.md`, `Nhan_vat/Co_Than_chi_dia_nhan_vat_Ch161-180.md`, `He_thong/He_thong_Ch001-180.md`, `The_luc/The_luc_Ch001-180.md`",
-     "group": "Quan hệ",
-     "phase": "Thuộc hạ & quan hệ khác",
+     "text": "Nhãn: Ma đầu thứ tư — Đằng Cửu (thượng đẳng, Ch.215); cùng Hứa Lập Quốc, đệ nhị ma đầu, ma đầu linh viên.\nNhãn: Văn thú (Ch.205) — yêu thú muỗi thuần dưỡng làm phương tiện.\n- Mặc Vân Phi — thuộc hạ mới bị khống chế bằng cấm chế (dẫn đường Tu Ma hải / Kỳ Lân thành).\n- Đoan Mộc Cực / Bát Cực Ma Quân — đồng hành cũ — bị cuốn vào huyết hải.\n- Mặc Vân Phi — thuộc hạ cũ (đã chết) — bị đệ nhị ma đầu nuốt (Ch.182); để lại đan lô Kỳ Hoàng Môn = chìa khóa Kết Anh.\n- Tôn Phàm — kẻ được tha — tu sĩ Trúc Cơ được VL tha mạng giữa thiên kiếp; ám ảnh suốt đời.\n- Huynh muội bái sư Vân Thiên tông — quan hệ treo — gặp phân thân VL (ca = đệ tử Kiếm Khí tông; muội tinh nghịch).\n- Thi Âm tông; Phượng Loan — quan hệ treo từ arc trước.\n\n---\nCập nhật tới: Ch.200 (KẾT ANH — Nguyên Anh kỳ; arc Vân Thiên tông / Sở quốc)\nFile liên quan đợt này: `Cot_truyen/Q02_Ch161-180.md`, `Nhan_vat/Co_Than_chi_dia_nhan_vat_Ch161-180.md`, `He_thong/He_thong_Ch001-180.md`, `The_luc/The_luc_Ch001-180.md`",
      "popup": true
     }
    ],
@@ -317,7 +132,7 @@
    "roleFilter": "foe",
    "tag": "ĐƯỜNG HUYNH · KẺ CHÂM CHỌC",
    "tagClass": "tag-foe",
-   "blurb": "- 16-17 tuổi (lớn hơn Vương Lâm 1 tuổi). Tướng mạo tuấn tú, mày kiếm mắt sáng, mặt như quan ngọc, kiêu căng ngạo mạn. (Ch.2)\n- Được Hằng Nhạc phái **Đạo Hư thượng tiên** nội bộ chỉ định làm đệ tử tiên",
+   "blurb": "Đường huynh của Vương Lâm (người Vương gia); thiên tài Huyền Thiên tông; rể Đằng gia (chồng Đằng Tú Tú).\nKết Đan hậu kỳ (gần 200 năm lên Kết Đan sơ kỳ, 200 năm nữa lên hậu kỳ — hiếm thấy ở Triệu quốc).",
    "detail": [
     {
      "label": "Xuất thân",
@@ -382,6 +197,18 @@
     {
      "label": "Mô tả",
      "text": "Con đại bá, 16-17 tuổi, tuấn tú nhưng kiêu căng cực độ. Vào Hằng Nhạc nhờ Đạo Hư thượng tiên chỉ định (không qua trắc thí).\n- Ch.2, 5-6: chế nhạo Vương Lâm \"ngu dốt\", làm gia đình hắn bẽ mặt; bị Vương Lâm ghi vào sổ thù.\n- Ch.20: bịa chuyện \"giết đại xà hái hoa\" tán tỉnh Trương sư tỷ, bị Chu sư tỷ bóc mẽ.\n- Ch.21, 30, 32: nhờ Đạo Hư xin được Tạo Hóa Đan nên tu luyện cực nhanh; nghi là người bán đan ở Giao Dịch Hội.\n- Ch.34, 36: thành **\"tân nhân vương\"** tỷ thí; tiếp tục nhạo Vương Lâm \"phế vật\" ở hậu sơn.\n- **Chuyển biến**: từ kẻ khinh miệt thuần túy (Ch.2) thành đối thủ thực lực đang lên (tân nhân vương, Ch.34) — đối trọng được Nhĩ Căn nuôi lớn dần song song Vương Lâm."
+    },
+    {
+     "label": "Thân phận",
+     "text": "Đường huynh của Vương Lâm (người Vương gia); thiên tài Huyền Thiên tông; rể Đằng gia (chồng Đằng Tú Tú)."
+    },
+    {
+     "label": "Tu vi",
+     "text": "Kết Đan hậu kỳ (gần 200 năm lên Kết Đan sơ kỳ, 200 năm nữa lên hậu kỳ — hiếm thấy ở Triệu quốc)."
+    },
+    {
+     "label": "Vai trò trong arc",
+     "text": "Xung đột nội tâm dữ dội giữa tình vợ (Đằng Tú Tú) và thù 400 năm của Vương gia với Đằng gia. Mấy lần đuổi vợ đi rồi lại quay lại. Gặp Vương Lâm, xác nhận chỉ VL đủ thực lực báo thù; cùng nhìn nhận \"kẻ thù chung chỉ có một — Đằng Hóa Nguyên\". Vương Lâm nói với hắn: \"Cha ngươi (Đằng Tam) không nên mang họ Đằng.\""
     }
    ],
    "portrait": "V"
@@ -603,7 +430,7 @@
    "roleFilter": "friend",
    "tag": "TIỀN BỐI THIỆN Ý",
    "tagClass": "tag-friend",
-   "blurb": "Đệ tử nội môn có thiện cảm với Vương Lâm, hay chỉ điểm. Từng đi tìm Vương Lâm khi hắn bỏ nhà.\n- Đột phá nhanh nhờ khai thác phong nhãn vách núi; đoạt giải nhất tỷ thí đệ tử nội môn. (Ch.27, 34)\n- Giản",
+   "blurb": "Sư huynh cũ của Vương Lâm ở Hằng Nhạc phái (người đưa Vương Lâm lên núi năm xưa). Nay là phế nhân ở Hợp Hoan tông — bị một nữ đệ tử Hợp Hoan tông lấy thân luyện Hợp Hoan đan, linh lực tán loạn, kinh mạch yếu ớt.\nNhận ra Vương Lâm. Vương Lâm tặng 7 viên đan (mỗi tháng 1 viên, sau 7 tháng khôi phục nửa tu vi) rồi từ biệt.",
    "detail": [
     {
      "label": "Mô tả",
@@ -616,6 +443,14 @@
     {
      "label": "Mô tả",
      "text": "- Đệ tử nội môn, có khả năng bay bằng kiếm quang.\n- Là người được phái đi tìm Vương Lâm sau khi hắn bỏ nhà. Phát hiện Vương Lâm trong phong nhãn. (Ch.9)\n- Không thân thiện, sắc mặt chán ghét khi báo cáo với trưởng lão."
+    },
+    {
+     "label": "Thân phận",
+     "text": "Sư huynh cũ của Vương Lâm ở Hằng Nhạc phái (người đưa Vương Lâm lên núi năm xưa). Nay là phế nhân ở Hợp Hoan tông — bị một nữ đệ tử Hợp Hoan tông lấy thân luyện Hợp Hoan đan, linh lực tán loạn, kinh mạch yếu ớt."
+    },
+    {
+     "label": "Vai trò",
+     "text": "Nhận ra Vương Lâm. Vương Lâm tặng 7 viên đan (mỗi tháng 1 viên, sau 7 tháng khôi phục nửa tu vi) rồi từ biệt."
     }
    ],
    "portrait": "T"
@@ -1241,14 +1076,34 @@
    "portrait": "Đ"
   },
   {
-   "name": "Đằng Hóa Nguyên — lão tổ Nguyên Anh Đằng gia",
+   "name": "Đằng Hóa Nguyên",
    "role": "foe",
    "affiliation": "khac",
    "roleFilter": "foe",
-   "tag": "NGUYÊN ANH LÃO TỔ ĐẰNG GIA · KẺ THÙ LỚN",
+   "tag": "ĐẰNG HÓA NGUYÊN",
    "tagClass": "tag-foe",
-   "blurb": "Ông nội Đằng Lệ, **cao thủ Nguyên Anh kỳ**. Khi Đằng Lệ bị Đoạt Cơ, lão (qua hóa thân từ xa) không tiếc hao tổn tuổi thọ gieo **lời nguyền trận pháp** lên trán Vương Lâm (đồ án hình thoi tím) làm định",
+   "blurb": "Lão tổ Đằng gia — gia tộc tu chân đệ nhất Triệu quốc; kẻ thù truyền kiếp số một của Vương Lâm suốt hơn 400 năm.\nNguyên Anh hậu kỳ (400 năm trước mới Nguyên Anh sơ kỳ; được Phác Nam Tử và \"sứ giả Thông Thiên tháp\" trợ giúp nên thăng tiến thần tốc).",
    "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Lão tổ Đằng gia — gia tộc tu chân đệ nhất Triệu quốc; kẻ thù truyền kiếp số một của Vương Lâm suốt hơn 400 năm."
+    },
+    {
+     "label": "Tu vi",
+     "text": "Nguyên Anh hậu kỳ (400 năm trước mới Nguyên Anh sơ kỳ; được Phác Nam Tử và \"sứ giả Thông Thiên tháp\" trợ giúp nên thăng tiến thần tốc)."
+    },
+    {
+     "label": "Tính cách",
+     "text": "Nham hiểm, thù dai có thù ắt báo; cao cao tại thượng. Nhưng giữ một góc tình cảm bí ẩn — suốt 400 năm vẫn lau giữ bài vị \"Đằng Lệ\" (người hắn thương), mỗi khi tâm phiền lại tới nhìn."
+    },
+    {
+     "label": "Vai trò trong arc",
+     "text": "Mục tiêu tối hậu của kế hoạch diệt tộc. Vương Lâm cố ý KHÔNG giết hắn trước, mà giết sạch huyết mạch Đằng gia để hắn trơ mắt nhìn — trả thù bằng nỗi đau tận cùng. Cuối khối, 9 ngọc giản hạch tâm vỡ dần khiến hắn lần đầu rơi nước mắt sau 400 năm (đặc biệt vì Đằng Tam / Đằng Hải)."
+    },
+    {
+     "label": "Chuyển biến lịch đại",
+     "text": "Từ thanh niên bốc đồng (kẻ ép Vương Lâm tự bạo 400 năm trước) → lão quái lõi đời nham hiểm."
+    },
     {
      "label": "Mô tả",
      "text": "Ông nội Đằng Lệ, **cao thủ Nguyên Anh kỳ**. Khi Đằng Lệ bị Đoạt Cơ, lão (qua hóa thân từ xa) không tiếc hao tổn tuổi thọ gieo **lời nguyền trận pháp** lên trán Vương Lâm (đồ án hình thoi tím) làm định vị truy sát, thề báo thù \"dù trên trời hay dưới âm phủ\". Lần theo lời nguyền tới rừng sương mù nhưng bị sương + thi khôi cản, trọng thương bỏ chạy (Ch.77-78). **Kẻ thù lớn treo lơ lửng.**"
@@ -1261,24 +1116,34 @@
      "label": "Cập nhật",
      "text": "Vẫn là mục tiêu báo thù số một (>400 năm hận). Sau khi bản tôn Kết Anh, VL tin chỉ cần Đằng chưa đạt Hóa Thần thì kết cục hắn không thể đổi (VL không tin 400 năm đủ để 1 Nguyên Anh sơ kỳ lên Hóa Thần). VL thề rút hồn lột da Đằng Hóa Nguyên, diệt cả Đằng gia."
     }
-   ],
-   "portrait": "Đ"
+   ]
   },
   {
-   "name": "Tức Mặc lão nhân — tán tu Kết Đan",
+   "name": "Tức Mặc lão nhân",
    "role": "foe",
    "affiliation": "khac",
    "roleFilter": "foe",
-   "tag": "KẾT ĐAN TÁN TU · SẼ ĐIỀU TRA CÁI CHẾT BẠCH TRIỂN",
+   "tag": "TỨC MẶC LÃO NHÂN",
    "tagClass": "tag-foe",
-   "blurb": "Tán tu **Kết Đan kỳ**, sư phụ của Bạch Triển (đệ tử thứ 6), Trần Trung (đại đệ tử) và Đằng Lệ-tri-kỷ. Có bí kíp khống chế đệ tử, cảm nhận được khi đệ tử chết → sẽ điều tra. Mối đe dọa tiềm tàng. (Ch.6",
+   "blurb": "Tu sĩ Nguyên Anh sơ→trung kỳ hoành hành Triệu quốc; chuyên luyện cổ thi khôi lỗi (Ám Quang quyết). Người mập như núi thịt → biến thành trung niên cường kiện khi thi triển toàn lực.\nHắn là sư phụ của kẻ Vương Lâm đã giết 400 năm trước (khi cứu Trương Hổ ở Đằng gia thành).",
    "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Tu sĩ Nguyên Anh sơ→trung kỳ hoành hành Triệu quốc; chuyên luyện cổ thi khôi lỗi (Ám Quang quyết). Người mập như núi thịt → biến thành trung niên cường kiện khi thi triển toàn lực."
+    },
+    {
+     "label": "Mối thù cũ",
+     "text": "Hắn là sư phụ của kẻ Vương Lâm đã giết 400 năm trước (khi cứu Trương Hổ ở Đằng gia thành)."
+    },
+    {
+     "label": "Kết cục",
+     "text": "Định bỏ chạy né Vương Lâm; bị Cực Cảnh thần thức giết. Vương Lâm đoạt 4 con rối (cổ thi) + ngọc giản phương pháp luyện rối."
+    },
     {
      "label": "Mô tả",
      "text": "Tán tu **Kết Đan kỳ**, sư phụ của Bạch Triển (đệ tử thứ 6), Trần Trung (đại đệ tử) và Đằng Lệ-tri-kỷ. Có bí kíp khống chế đệ tử, cảm nhận được khi đệ tử chết → sẽ điều tra. Mối đe dọa tiềm tàng. (Ch.69, 72)"
     }
-   ],
-   "portrait": "T"
+   ]
   },
   {
    "name": "Nhân vật phụ phàm tục (Uy Vũ tiêu cục)",
@@ -1503,7 +1368,7 @@
    "roleFilter": "friend",
    "tag": "LÒ LUYỆN ĐAN / TÌNH MỘT CHIỀU",
    "tagClass": "tag-friend",
-   "blurb": "*(bổ sung hồi báo — không xuất hiện trực tiếp)*\n\n- Lời dặn \"dịch tủy giao long tăng tỷ lệ Kết Anh\" (Ch.123) → VL liều chui vào miệng cự xà lấy dịch tủy (Ch.147-148). **Lời dặn đã được VL thực hiện.**\n",
+   "blurb": "Đạo lữ chính thức của Vương Lâm; ngũ phẩm luyện đan sư Vân Thiên tông (1 trong 3 ngũ phẩm đan sư của tông).\nĐược Vương Lâm công khai đón đi (\"Đến đây!\") ngay trước mặt toàn Vân Thiên tông, sau khi hắn giết vị hôn phu bị ép gả Tôn Trấn Vĩ. Tình cảm hai người chính thức xác lập. Trước đó (Ch.196-200) chính nàng giám định đan lô + dùng Thất Long đỉnh giúp Vương Lâm Kết Anh.",
    "detail": [
     {
      "label": "Xuất thân / thân phận",
@@ -1556,6 +1421,18 @@
     {
      "label": "Tình cảm",
      "text": "Vẫn sâu đậm; Vương Lâm có \"tia nhu tình hiếm thấy\" nhưng kìm nén vì huyết hải thâm cừu, sợ liên lụy nàng. VL để 2 ma đầu lại bảo vệ nàng."
+    },
+    {
+     "label": "Thân phận",
+     "text": "Đạo lữ chính thức của Vương Lâm; ngũ phẩm luyện đan sư Vân Thiên tông (1 trong 3 ngũ phẩm đan sư của tông)."
+    },
+    {
+     "label": "Vai trò trong arc",
+     "text": "Được Vương Lâm công khai đón đi (\"Đến đây!\") ngay trước mặt toàn Vân Thiên tông, sau khi hắn giết vị hôn phu bị ép gả Tôn Trấn Vĩ. Tình cảm hai người chính thức xác lập. Trước đó (Ch.196-200) chính nàng giám định đan lô + dùng Thất Long đỉnh giúp Vương Lâm Kết Anh."
+    },
+    {
+     "label": "Quan hệ",
+     "text": "Cố nhân từ thời Hỏa Phần quốc; nhận ra Vương Lâm qua bộ da giao long năm xưa."
     }
    ],
    "portrait": "L"
@@ -2552,6 +2429,18 @@
     {
      "label": "Vai trò trần thuật",
      "text": "Phản diện cấp truyền-thuyết đầu tiên gắn trực tiếp với bí mật cốt lõi (Cổ Thần) mà Vương Lâm vướng vào; tạo \"đồng hồ đếm ngược\" treo trên đầu nhân vật chính, đẩy động lực tu luyện Nguyên Anh và truy tìm phần truyền thừa còn thiếu.\n\n---"
+    },
+    {
+     "label": "Thân phận",
+     "text": "Nam tử thi khô phục hồi trong địa thạch Chiến Thần điện (Hỏa Phần quốc) — cường giả Cổ Ma tộc thượng cổ."
+    },
+    {
+     "label": "Tu vi",
+     "text": "Chữa trị 3000 năm mới hồi phục ~3 thành (tương đương Anh Biến kỳ)."
+    },
+    {
+     "label": "Thủ đoạn / mục tiêu",
+     "text": "Dùng Tinh La Bàn phá vòng phòng ngự tinh cầu để về Mẫu tinh; dùng \"Thiên Quỷ Sưu thần thuật\" truy lùng Vương Lâm qua thần thức túi trữ vật (Vương Lâm đã lấy túi trữ vật của hắn). Đại uy hiếp nền của arc."
     }
    ],
    "portrait": "T"
@@ -2839,7 +2728,7 @@
    "roleFilter": "foe",
    "tag": "THỦY TỔ HUYỀN ĐẠO TÔNG · NGUYÊN ANH KỲ",
    "tagClass": "tag-foe",
-   "blurb": "Thủy tổ (lão tổ) Huyền Đạo Tông, vừa từ chiến trường tứ cấp Tu Chân quốc trở về.",
+   "blurb": "Thủy tổ Huyền Đạo tông — kẻ thống trị thực tế của Triệu quốc.\nNguyên Anh hậu kỳ đỉnh phong, đang toàn lực đánh lên Hóa Thần kỳ (mục tiêu nâng Triệu quốc lên tu chân quốc cấp 4).",
    "detail": [
     {
      "label": "Xuất thân",
@@ -2868,6 +2757,22 @@
     {
      "label": "Vai trò trần thuật",
      "text": "Hiện thân của \"mạnh được yếu thua\" ở tầng Nguyên Anh; biến cố khiến Vương Lâm mất môn phái và bước vào kiếp lưu lạc."
+    },
+    {
+     "label": "Thân phận",
+     "text": "Thủy tổ Huyền Đạo tông — kẻ thống trị thực tế của Triệu quốc."
+    },
+    {
+     "label": "Tu vi",
+     "text": "Nguyên Anh hậu kỳ đỉnh phong, đang toàn lực đánh lên Hóa Thần kỳ (mục tiêu nâng Triệu quốc lên tu chân quốc cấp 4)."
+    },
+    {
+     "label": "Vai trò trong arc",
+     "text": "Ra tay giúp Đằng gia LẦN CUỐI — quỳ mượn 2 pháp luân (pháp bảo Hóa Thần cấp, 4 dao nghiêng + khe nứt không gian) từ \"sứ giả Thông Thiên tháp\"; cho Vương Lâm thời hạn ngầm. Tiết lộ then chốt: Đằng gia bị \"sứ giả đại nhân\" chỉ định làm \"chuột thí nghiệm\" — đó là lý do Đằng gia có tới 9 Nguyên Anh và Đằng Hóa Nguyên thăng hậu kỳ thần tốc."
+    },
+    {
+     "label": "Lập trường",
+     "text": "Bình thường không quan tâm việc Đằng gia, chỉ một lòng đánh Hóa Thần."
     }
    ],
    "portrait": "P"
@@ -3259,7 +3164,7 @@
    "roleFilter": "foe",
    "tag": "ĐỐI THỦ TẠM THỜI",
    "tagClass": "tag-foe",
-   "blurb": "Tu sĩ Kết Đan hậu kỳ đại viên mãn (chỉ cách Nguyên Anh một bước), tâm cơ sâu, kiểu người \"cầm được buông được\". Xuất hiện ở Tu Ma hải gần Kỳ Lân thành.",
+   "blurb": "Cố nhân/kẻ thù cũ của Vương Lâm từ Tu Ma hải; nay gia nhập Độc Ma cung.\nNguyên Anh sơ kỳ — đã Kết Anh nhờ \"Nguyên Anh quy tức\" (ám toán sư phụ + đại sư huynh, nuốt 2 Nguyên Anh).",
    "detail": [
     {
      "label": "Bản chất",
@@ -3284,6 +3189,18 @@
     {
      "label": "Mốc",
      "text": "Ch.182 (xuất hiện, giải cấm chế Vân Phi → kích hoạt đệ nhị ma đầu) - Ch.183 (kể mưu đồ, hẹn 7 ngày)."
+    },
+    {
+     "label": "Thân phận",
+     "text": "Cố nhân/kẻ thù cũ của Vương Lâm từ Tu Ma hải; nay gia nhập Độc Ma cung."
+    },
+    {
+     "label": "Tu vi",
+     "text": "Nguyên Anh sơ kỳ — đã Kết Anh nhờ \"Nguyên Anh quy tức\" (ám toán sư phụ + đại sư huynh, nuốt 2 Nguyên Anh)."
+    },
+    {
+     "label": "Vai trò trong arc",
+     "text": "Giả Kết Đan trung kỳ để lừa hai tu sĩ Kết Đan đi săn Bát Trảo thú (đoạt nội đan + nước dãi cho Hủ Thực tán). Gặp lại Vương Lâm, ôm hận thấu xương, định ám toán (Tiểu Cổ phóng tơ đen) nhưng bị Vương Lâm dễ dàng áp chế. Có thuyền pháp bảo tốc độ cao."
     }
    ],
    "portrait": "K"
@@ -3323,7 +3240,7 @@
    "roleFilter": "foe",
    "tag": "VỊ HÔN PHU LÝ MỘ UYỂN",
    "tagClass": "tag-foe",
-   "blurb": "Con của Ngoại viện Trưởng lão (Tôn trưởng lão) Vân Thiên tông; \"tiên phong đạo cốt\" bề ngoài nhưng giả thiện, tâm cơ.",
+   "blurb": "Con lão nhân áo xám Vân Thiên tông; vị hôn phu bị ép gả của Lý Mộ Uyển.\nBị Vương Lâm giết chỉ bằng một chữ \"Tử!\" — Cực Cảnh thần thức rung động, hắn co giật ngã chết tại chỗ (Ch.201).",
    "detail": [
     {
      "label": "Bản chất",
@@ -3340,6 +3257,14 @@
     {
      "label": "Mốc",
      "text": "Ch.195 (tin kết đạo lữ) - Ch.197 (tặng phi kiếm do thám)."
+    },
+    {
+     "label": "Thân phận",
+     "text": "Con lão nhân áo xám Vân Thiên tông; vị hôn phu bị ép gả của Lý Mộ Uyển."
+    },
+    {
+     "label": "Kết cục",
+     "text": "Bị Vương Lâm giết chỉ bằng một chữ \"Tử!\" — Cực Cảnh thần thức rung động, hắn co giật ngã chết tại chỗ (Ch.201)."
     }
    ],
    "portrait": "T"
@@ -3459,6 +3384,223 @@
     }
    ],
    "portrait": "Đ"
+  },
+  {
+   "name": "Trần Bách Lương",
+   "role": "foe",
+   "affiliation": "vanthientong",
+   "roleFilter": "foe",
+   "tag": "TRẦN BÁCH LƯƠNG",
+   "tagClass": "tag-foe",
+   "blurb": "Một trong năm lão tổ Nguyên Anh hậu kỳ Vân Thiên tông.\nTử Mặc Trùng (mây đen thôn phệ); \"Huyết thuẫn\" (máu + Nguyên Anh tinh khí hóa huyết châu nuốt công kích, ném vào khe không gian).",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Một trong năm lão tổ Nguyên Anh hậu kỳ Vân Thiên tông."
+    },
+    {
+     "label": "Thủ đoạn",
+     "text": "Tử Mặc Trùng (mây đen thôn phệ); \"Huyết thuẫn\" (máu + Nguyên Anh tinh khí hóa huyết châu nuốt công kích, ném vào khe không gian)."
+    },
+    {
+     "label": "Kết cục",
+     "text": "Là người đầu tiên phá giải được Cực Cảnh thần thức (ném vào khe không gian), nhưng cuối cùng bị Vương Lâm dùng Thiên Kiếp lực nghi binh + Cực Cảnh thần thức kích hạ → phun tiên huyết, CHẾT (Ch.202). Bốn lão tổ còn lại đầu hàng giao huyết hồn."
+    }
+   ]
+  },
+  {
+   "name": "Tống Thanh",
+   "role": "neutral",
+   "affiliation": "vanthientong",
+   "roleFilter": "neutral",
+   "tag": "TỐNG THANH",
+   "tagClass": "tag-neutral",
+   "blurb": "Tông chủ Vân Thiên tông (nội tông). Sau khi 5 lão tổ thất bại, quy phục Vương Lâm, giao huyết hồn đầu tiên trong đám Kết Đan kỳ trở lên.",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Tông chủ Vân Thiên tông (nội tông). Sau khi 5 lão tổ thất bại, quy phục Vương Lâm, giao huyết hồn đầu tiên trong đám Kết Đan kỳ trở lên."
+    }
+   ]
+  },
+  {
+   "name": "Liễu Phỉ",
+   "role": "neutral",
+   "affiliation": "vanthientong",
+   "roleFilter": "neutral",
+   "tag": "LIỄU PHỈ",
+   "tagClass": "tag-neutral",
+   "blurb": "Ngoại tông tông chủ Vân Thiên tông. Lớn tiếng đòi đoạt Nguyên Anh của người Kết Anh, nhưng bị Vương Lâm vô thanh vô tức bắt sống (nắm tóc lôi lên) → quy phục, giao huyết hồn.",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Ngoại tông tông chủ Vân Thiên tông. Lớn tiếng đòi đoạt Nguyên Anh của người Kết Anh, nhưng bị Vương Lâm vô thanh vô tức bắt sống (nắm tóc lôi lên) → quy phục, giao huyết hồn."
+    }
+   ]
+  },
+  {
+   "name": "Tư Mã Vân Nam",
+   "role": "neutral",
+   "affiliation": "khac",
+   "roleFilter": "neutral",
+   "tag": "TƯ MÃ VÂN NAM",
+   "tagClass": "tag-neutral",
+   "blurb": "Tông chủ Hạo Nhiên tông — đối thủ ngàn năm của Vân Thiên tông ở Sở quốc.\nDã tâm rất lớn; vui mừng thầm khi thấy Vân Thiên tông gặp kiếp nạn. Nhận ra Vương Lâm là \"cự nghiệt đến từ Tu Ma hải\" qua lời miêu tả của Từ Ly.",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Tông chủ Hạo Nhiên tông — đối thủ ngàn năm của Vân Thiên tông ở Sở quốc."
+    },
+    {
+     "label": "Tính cách",
+     "text": "Dã tâm rất lớn; vui mừng thầm khi thấy Vân Thiên tông gặp kiếp nạn. Nhận ra Vương Lâm là \"cự nghiệt đến từ Tu Ma hải\" qua lời miêu tả của Từ Ly."
+    }
+   ]
+  },
+  {
+   "name": "Đằng Tú Tú",
+   "role": "neutral",
+   "affiliation": "khac",
+   "roleFilter": "neutral",
+   "tag": "ĐẰNG TÚ TÚ",
+   "tagClass": "tag-neutral",
+   "blurb": "Con gái Đằng Tam (Đằng Hải); vợ Vương Trác; diện mạo rất giống mẹ (vợ phàm nhân của Đằng Tam).\nBị cha hi sinh tu vi truyền tống cứu thoát; bị chồng Vương Trác ruồng bỏ (\"Xéo!\") giữa cơn giằng xé ái-thù; cuối cùng bơ vơ không chốn đi — \"hai người đàn ông quan trọng nhất đời, một chết sống không rõ, một bỏ rơi nàng\". Vô tội nhưng chịu nạn \"vì mang huyết thống Đằng\".",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Con gái Đằng Tam (Đằng Hải); vợ Vương Trác; diện mạo rất giống mẹ (vợ phàm nhân của Đằng Tam)."
+    },
+    {
+     "label": "Bi kịch",
+     "text": "Bị cha hi sinh tu vi truyền tống cứu thoát; bị chồng Vương Trác ruồng bỏ (\"Xéo!\") giữa cơn giằng xé ái-thù; cuối cùng bơ vơ không chốn đi — \"hai người đàn ông quan trọng nhất đời, một chết sống không rõ, một bỏ rơi nàng\". Vô tội nhưng chịu nạn \"vì mang huyết thống Đằng\"."
+    }
+   ]
+  },
+  {
+   "name": "Đằng Tam (Đằng Hải)",
+   "role": "neutral",
+   "affiliation": "khac",
+   "roleFilter": "neutral",
+   "tag": "ĐẰNG TAM (ĐẰNG HẢI)",
+   "tagClass": "tag-neutral",
+   "blurb": "Hạch tâm tộc nhân thứ 3 của Đằng gia; em/cháu được Đằng Hóa Nguyên yêu quý nhất.\nVợ là con gái phàm nhân, bị lão tổ ép chia lìa (nàng đã hết tuổi thọ qua đời). Dồn tình yêu vợ vào con gái Đằng Tú Tú.",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Hạch tâm tộc nhân thứ 3 của Đằng gia; em/cháu được Đằng Hóa Nguyên yêu quý nhất."
+    },
+    {
+     "label": "Bi kịch tình nghĩa",
+     "text": "Vợ là con gái phàm nhân, bị lão tổ ép chia lìa (nàng đã hết tuổi thọ qua đời). Dồn tình yêu vợ vào con gái Đằng Tú Tú."
+    },
+    {
+     "label": "Kết cục",
+     "text": "Hi sinh phần lớn tu vi (Nguyên Anh tinh huyết) để truyền tống cứu Đằng Tú Tú + Vương Trác đi; rồi tự sát công kích Vương Lâm bằng phi kiếm Điệu Vân (khắc tên vợ, có giọt máu phàm của vợ — kiếm gãy khi hắn chết). Vương Lâm cảm nhận được \"tia ý niệm thương nhớ\", KHÔNG lấy hồn phách hắn (dù sẽ thành thượng đẳng ma đầu), nhưng vẫn để hắn chết vì \"mang họ Đằng\"."
+    }
+   ]
+  },
+  {
+   "name": "Đằng Cửu",
+   "role": "foe",
+   "affiliation": "khac",
+   "roleFilter": "foe",
+   "tag": "ĐẰNG CỬU",
+   "tagClass": "tag-foe",
+   "blurb": "Hạch tâm tộc nhân thứ 9 Đằng gia; tu ở linh huyệt trong cồn cát. Đã đổi chủ (người mang danh \"Đằng Cửu\") 6 lần.\nTuổi thơ cay đắng ở chi thứ → nhân cách méo mó, tâm lạnh như băng. Vì sức mạnh, đích thân giết ca ca (đối thủ cạnh tranh suất khiêu chiến); luyện bí thuật thôn phệ linh lực giảm thọ. Sát khí cực mạnh.",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Hạch tâm tộc nhân thứ 9 Đằng gia; tu ở linh huyệt trong cồn cát. Đã đổi chủ (người mang danh \"Đằng Cửu\") 6 lần."
+    },
+    {
+     "label": "Tính cách",
+     "text": "Tuổi thơ cay đắng ở chi thứ → nhân cách méo mó, tâm lạnh như băng. Vì sức mạnh, đích thân giết ca ca (đối thủ cạnh tranh suất khiêu chiến); luyện bí thuật thôn phệ linh lực giảm thọ. Sát khí cực mạnh."
+    },
+    {
+     "label": "Kết cục",
+     "text": "Bị Vương Lâm vây lưới Cực Cảnh thần thức, giết + \"lấy danh nghĩa thôn hồn\" thu hồn phách → MA ĐẦU THỨ TƯ của Vương Lâm (thượng đẳng, cả hung tính lẫn thực lực)."
+    }
+   ]
+  },
+  {
+   "name": "Đằng Nhất",
+   "role": "foe",
+   "affiliation": "khac",
+   "roleFilter": "foe",
+   "tag": "ĐẰNG NHẤT",
+   "tagClass": "tag-foe",
+   "blurb": "Hạch tâm tộc nhân thứ NHẤT — EM RUỘT Đằng Hóa Nguyên; 400 năm chưa ai dám khiêu chiến. Tu ở Hắc Nê đàm (đệ nhất hiểm địa Triệu quốc).\nThân như bộ xương khô da bọc xương, đã tẩu hỏa nhập ma khi luyện thần thông luyện thể cổ xưa (do sứ giả Thông Thiên tháp mang đến). Không dùng pháp thuật, chỉ đánh bằng nắm đấm; thân thể tái sinh bằng \"Ngưng!\" (kim quang); chịu được Cực Cảnh thần thức (chỉ mất một cánh tay).",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Hạch tâm tộc nhân thứ NHẤT — EM RUỘT Đằng Hóa Nguyên; 400 năm chưa ai dám khiêu chiến. Tu ở Hắc Nê đàm (đệ nhất hiểm địa Triệu quốc)."
+    },
+    {
+     "label": "Hình dạng & thủ đoạn",
+     "text": "Thân như bộ xương khô da bọc xương, đã tẩu hỏa nhập ma khi luyện thần thông luyện thể cổ xưa (do sứ giả Thông Thiên tháp mang đến). Không dùng pháp thuật, chỉ đánh bằng nắm đấm; thân thể tái sinh bằng \"Ngưng!\" (kim quang); chịu được Cực Cảnh thần thức (chỉ mất một cánh tay)."
+    },
+    {
+     "label": "Trận chiến",
+     "text": "Buộc Vương Lâm dùng tới thần thông cổ thần (đốt máu cổ thần) mới ép lui được. Bị tự bạo Thanh Đồng Cổ kính ép phun \"cục máu vàng\" (chứa 1 tia máu cổ thần) → hai bên giành nhau, mỗi người nửa cục; Đằng Nhất rút lui biến mất."
+    }
+   ]
+  },
+  {
+   "name": "Âm Dương lão nhân",
+   "role": "foe",
+   "affiliation": "khac",
+   "roleFilter": "foe",
+   "tag": "ÂM DƯƠNG LÃO NHÂN",
+   "tagClass": "tag-foe",
+   "blurb": "Đệ nhất thủy tổ Hợp Hoan tông (ma đạo Triệu quốc); Nguyên Anh hậu kỳ.\nQuyết không giao người Đằng gia, khởi động hộ sơn đại trận dùng linh lực mấy ngàn đệ tử. Vương Lâm giết hàng trăm đệ tử hộ trận bằng Cực Cảnh thần thức để phá trận. Tin Phác Nam Tử / Thông Thiên tháp sẽ cản Vương Lâm.",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Đệ nhất thủy tổ Hợp Hoan tông (ma đạo Triệu quốc); Nguyên Anh hậu kỳ."
+    },
+    {
+     "label": "Vai trò",
+     "text": "Quyết không giao người Đằng gia, khởi động hộ sơn đại trận dùng linh lực mấy ngàn đệ tử. Vương Lâm giết hàng trăm đệ tử hộ trận bằng Cực Cảnh thần thức để phá trận. Tin Phác Nam Tử / Thông Thiên tháp sẽ cản Vương Lâm."
+    }
+   ]
+  },
+  {
+   "name": "Hậu duệ Tứ thúc (nữ)",
+   "role": "friend",
+   "affiliation": "khac",
+   "roleFilter": "friend",
+   "tag": "HẬU DUỆ TỨ THÚC (NỮ)",
+   "tagClass": "tag-friend",
+   "blurb": "Con cháu của Vương Thiên Thổ (Tứ thúc của Vương Lâm — đã mất ở kinh thành Triệu quốc; con Vương Hổ cũng đã mất). Mang khí chí âm bẩm sinh (do mẹ mang thai bị đả thương), từ nhỏ yếu bệnh.\nVương Lâm chữa khỏi bệnh chí âm; tặng bình 72 viên đan dược (mỗi con cháu đời này 1 viên, nàng được 3 viên) + ngọc giản hộ mệnh có Cực Cảnh lạc ấn (dùng được 3 lần, cần huyết thống Vương gia mới mở) — báo ơn Tứ thúc năm xưa nhường suất tu tiên.",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Con cháu của Vương Thiên Thổ (Tứ thúc của Vương Lâm — đã mất ở kinh thành Triệu quốc; con Vương Hổ cũng đã mất). Mang khí chí âm bẩm sinh (do mẹ mang thai bị đả thương), từ nhỏ yếu bệnh."
+    },
+    {
+     "label": "Vai trò",
+     "text": "Vương Lâm chữa khỏi bệnh chí âm; tặng bình 72 viên đan dược (mỗi con cháu đời này 1 viên, nàng được 3 viên) + ngọc giản hộ mệnh có Cực Cảnh lạc ấn (dùng được 3 lần, cần huyết thống Vương gia mới mở) — báo ơn Tứ thúc năm xưa nhường suất tu tiên."
+    }
+   ]
+  },
+  {
+   "name": "Sứ giả Thông Thiên tháp (trung niên béo)",
+   "role": "foe",
+   "affiliation": "khac",
+   "roleFilter": "foe",
+   "tag": "SỨ GIẢ THÔNG THIÊN THÁP (TRUNG NIÊN BÉO)",
+   "tagClass": "tag-foe",
+   "blurb": "Cường giả bí ẩn tĩnh tọa ở trung tâm Thông Thiên tháp (Triệu quốc).\nThế lực thật sự sau lưng Phác Nam Tử và Đằng gia — chỉ định Đằng gia làm \"chuột thí nghiệm\" (cấp tài nguyên để có 9 Nguyên Anh + thần thông luyện thể cho Đằng Nhất). Khi Vương Lâm thi triển thần thông cổ thần, hắn kinh hãi nhận ra đó là \"thông thiên thuật của Cự Ma tộc\".",
+   "detail": [
+    {
+     "label": "Thân phận",
+     "text": "Cường giả bí ẩn tĩnh tọa ở trung tâm Thông Thiên tháp (Triệu quốc)."
+    },
+    {
+     "label": "Vai trò nền",
+     "text": "Thế lực thật sự sau lưng Phác Nam Tử và Đằng gia — chỉ định Đằng gia làm \"chuột thí nghiệm\" (cấp tài nguyên để có 9 Nguyên Anh + thần thông luyện thể cho Đằng Nhất). Khi Vương Lâm thi triển thần thông cổ thần, hắn kinh hãi nhận ra đó là \"thông thiên thuật của Cự Ma tộc\"."
+    }
+   ]
   }
  ]
 }
