@@ -2471,6 +2471,24 @@ async function initWiki() {
 }
 
 initWiki();
+
+/* ── cm2Tab + cm2TabScroll — GLOBAL (tab switching for all modals) ── */
+function cm2Tab(el, panelId){
+  var nav = el.parentElement;
+  nav.querySelectorAll('.cm2-tabn').forEach(function(t){ t.classList.remove('cm2-tabn-act'); });
+  el.classList.add('cm2-tabn-act');
+  var body = nav.parentElement;
+  if(body.classList && body.classList.contains('cm2-tabnav-wrap')) body = body.parentElement;
+  body.querySelectorAll('.cm2-tabp').forEach(function(p){ p.style.display = 'none'; });
+  var panel = document.getElementById(panelId);
+  if(panel) panel.style.display = '';
+}
+function cm2TabScroll(el){
+  var wrap = el.parentElement;
+  if(!wrap) return;
+  wrap.classList.toggle('at-end', el.scrollLeft + el.clientWidth >= el.scrollWidth - 4);
+}
+
 </script>
 </body>
 </html>
