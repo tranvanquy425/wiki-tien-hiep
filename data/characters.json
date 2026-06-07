@@ -1034,7 +1034,57 @@
           "text": "- Trung niên cường tráng, ánh mắt sáng ngời, ngôn ngữ phóng khoáng.\n- Là người trong Vương thị gia tộc, có liên hệ trực tiếp với Hằng Nhạc phái.\n- Có con trai ruột nhưng tự nhận \"đọc sách không xong, múa đao lộng kiếm không am hiểu\", dành danh ngạch cho Vương Lâm vì thấy Vương Lâm thông minh. (Ch.1)\n- Lý do thật: báo ơn Nhị nương — khi Tứ thúc còn bé mẹ chết sớm, được Nhị nương chiếu cố. (Ch.1)"
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — Vương Thiên Thổ (Tứ thúc); thành viên Vương thị gia tộc, có quan hệ với Hằng Nhạc phái",
+        "realm": "(không thấy đề cập — không tu tiên hoặc tu tiên thấp)",
+        "firstChapter": 1,
+        "appearance": "Trung niên cường tráng, ánh mắt sáng ngời, ngôn ngữ phóng khoáng",
+        "personality": [
+          "Nghĩa khí — nhường danh ngạch con ruột cho cháu",
+          "Mang ơn sâu với Nhị nương",
+          "Biết ơn và giữ chữ tín"
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 1,
+          "arc": "Triệu quốc",
+          "event": "Nhường danh ngạch tiến cử Hằng Nhạc của Hổ Tử (con ruột) cho Vương Lâm",
+          "desc": "Nghĩa cử lớn nhất — quyết định cả cuộc đời VL. Nhường vì mang ơn Nhị nương (mẫu thân VL) từ thuở nhỏ.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(không rõ — có thể phàm nhân hoặc tu sĩ cấp thấp)",
+          "chapter": 1,
+          "location": "Triệu quốc",
+          "gained": "Thành viên Vương thị gia tộc; không thấy đề cập tu tiên rõ",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "anthan",
+          "desc": "Tứ thúc — ân nhân vĩ đại nhất đời VL; nhường cơ hội tu tiên cho hắn"
+        },
+        {
+          "name": "Nhị nương",
+          "type": "banhuu",
+          "desc": "Chị dâu mang ơn từ nhỏ — cội nguồn của sự nhường danh ngạch"
+        },
+        {
+          "name": "Hổ Tử",
+          "type": "giađình",
+          "desc": "Con ruột — người mất danh ngạch vì sự nhường đó"
+        }
+      ]
     },
     {
       "name": "Đại bá (Vương Thiên Sơn) — Bá phụ",
@@ -1054,7 +1104,59 @@
           "text": "- Là người trước đây bức Vương Thiên Thủy ra khỏi gia tộc. (Ch.2)\n- Lúc Vương Lâm sắp vào Hằng Nhạc thì đến chúc mừng, mặt tươi cười nhưng quan hệ với Vương Thiên Thủy lạnh nhạt. (Ch.2)"
         }
       ],
-      "portrait": "Đ"
+      "portrait": "Đ",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — Vương Thiên Sơn (đại bá), anh cả Vương Thiên Thủy; cha Vương Trác",
+        "realm": "(không thấy đề cập — không tu tiên)",
+        "firstChapter": 2,
+        "appearance": "Cao ngạo, hẹp hòi; cười khẩy khi VL trượt trắc thí",
+        "personality": [
+          "Cao ngạo và hẹp hòi",
+          "Chiếm gia sản và bức em rời gia tộc",
+          "Hẹp lòng khi em con không thành đạt"
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 2,
+          "arc": "Triệu quốc",
+          "event": "Bức Vương Thiên Thủy (em) rời gia tộc — gốc rễ bi kịch Vương gia",
+          "desc": "Chiếm gia sản và bức em ra thôn nhỏ; hành động này là gốc rễ bất hạnh gia đình VL.",
+          "major": true
+        },
+        {
+          "chapter": 5,
+          "arc": "Triệu quốc",
+          "event": "Yến hội — cười khẩy khi VL trượt trắc thí",
+          "desc": "Cao ngạo thêm vì em họ thất bại; không giấu thái độ khinh thường.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(phàm nhân hoặc tu sĩ thấp)",
+          "chapter": 2,
+          "location": "Triệu quốc",
+          "gained": "Anh cả Vương thị gia tộc; không thấy đề cập tu vi cụ thể",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Bá phụ; kẻ gián tiếp gây ra bi kịch gia đình VL; VL không quên"
+        },
+        {
+          "name": "Vương Trác",
+          "type": "giađình",
+          "desc": "Con trai; thừa hưởng tính cao ngạo từ cha"
+        }
+      ]
     },
     {
       "name": "Tam tổ phụ — Ông cố tổ",
@@ -1587,7 +1689,59 @@
           "text": "- Quản phòng tạp vụ, \"bộ mặt chồn xấu xí\". Đệ tử ký danh đã 13 năm, làm phòng tạp vụ 6 năm. (Ch.15)\n- Ban đầu **bắt nạt** Vương Lâm: ép gánh đầy 10 vại nước mỗi ngày.\n- Sau khi nghe Tôn trưởng lão tìm Vương Lâm: lập tức **quay sang nịnh bợ**, tặng tiên phù về thăm nhà miễn phí. (Ch.15)"
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — đệ tử ký danh 13 năm, quản phòng tạp vụ 6 năm; biệt danh \"Hoàng Thử lang\"",
+        "realm": "Ngưng Khí kỳ (ký danh 13 năm, không rõ tầng cụ thể)",
+        "firstChapter": 11,
+        "appearance": "Bộ mặt chồn xấu xí",
+        "personality": [
+          "Bắt nạt kẻ yếu — ép gánh nước, ăn hối lộ tiên phù",
+          "Định giết Trương Hổ khi bị bắt bài",
+          "Kẻ điển hình bắt nạt trong phòng tạp vụ"
+        ],
+        "specialties": [
+          "Quản phòng tạp vụ; ăn hối lộ tiên phù"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 11,
+          "arc": "Hằng Nhạc phái",
+          "event": "Bắt nạt Vương Lâm — ép gánh đầy 10 vại nước mỗi ngày",
+          "desc": "Điển hình kẻ lợi dụng chức quyền nhỏ để ức hiếp; ghi dấu môi trường tạp vụ khắc nghiệt.",
+          "major": false
+        },
+        {
+          "chapter": 26,
+          "arc": "Hằng Nhạc phái",
+          "event": "Định giết Trương Hổ vì bị bắt bài — bị Trương Hổ phản kích giết",
+          "desc": "Muốn diệt miệng Trương Hổ nhưng tự chịu hậu quả; chết dưới tay nạn nhân.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí kỳ",
+          "chapter": 11,
+          "location": "Hằng Nhạc phái",
+          "gained": "Ký danh 13 năm không tiến được; mắc kẹt ở cấp thấp nhất",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Kẻ bắt nạt ban đầu; không trực tiếp đụng độ VL nhưng là một phần môi trường khắc nghiệt"
+        },
+        {
+          "name": "Trương Hổ",
+          "type": "kethu",
+          "desc": "Muốn giết TH để diệt khẩu; bị TH phản kích giết chết (Ch.26)"
+        }
+      ]
     },
     {
       "name": "Liễu Mi (柳眉)",
@@ -1809,7 +1963,46 @@
           "text": "Một trong ba trưởng lão Huyền Đạo Tông tới giao lưu.\n- Giải thích đệ tử Huyền Đạo Tông có mị lực trời sinh (không phải mị thuật), chê đệ tử Hằng Nhạc toàn ngũ hành linh căn lẫn lộn. (Ch.40)"
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Huyền Đạo Tông (Triệu quốc) — một trong ba trưởng lão dẫn đoàn giao lưu",
+        "realm": "Ngưng Khí hoặc Trúc Cơ kỳ (không thấy đề cập rõ)",
+        "firstChapter": 40,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Kiêu ngạo với Hằng Nhạc — chê toàn ngũ hành linh căn",
+          "Tự hào về mị lực trời sinh của đệ tử Huyền Đạo"
+        ],
+        "specialties": [
+          "Kiến thức về linh căn và mị lực tu tiên"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 40,
+          "arc": "Hằng Nhạc phái — trao đổi",
+          "event": "Giải thích mị lực trời sinh của đệ tử Huyền Đạo — chê đệ tử Hằng Nhạc",
+          "desc": "Phân biệt mị lực bẩm sinh khác mị thuật; bày tỏ thái độ kiêu ngạo với Hằng Nhạc.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(không rõ)",
+          "chapter": 40,
+          "location": "Huyền Đạo Tông",
+          "gained": "Trưởng lão đại diện trong đoàn giao lưu",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "dottu",
+          "desc": "Phía đối lập trong buổi giao lưu Huyền Đạo-Hằng Nhạc; không trực tiếp xung đột với VL"
+        }
+      ]
     },
     {
       "name": "Tôn Đại Trụ (孙大柱)",
@@ -5221,7 +5414,63 @@
           "text": "Kẻ đeo bám/ngoại tình với Từ Tư; bị Vương Lâm gài thần thức (phát tác nửa tháng sau). Vương Lâm dứt điểm cả Từ Tư lẫn Chu An (Ch.123) để trừ hậu hoạn thân phận Mã Lương, đồng thời giúp Chu Tử Hồng \"trả thù tình\". Khép lại tuyến ân oán đời tư của vỏ bọc Mã Lương."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Hỏa Phần quốc — hôn ước cũ của Mã Lương (tiểu sư muội Mã Lương từng mê)",
+        "realm": "Kết Đan kỳ (không thấy đề cập rõ hơn)",
+        "firstChapter": 113,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Nhạy cảm — cảm nhận sự khác lạ của \"Mã Lương\" sau khi bị đoạt xá",
+          "Quyết đoán — nhiều lần tìm cách giết \"Mã Lương\" (thực ra là VL)",
+          "Giấu tình cảm thật bên trong"
+        ],
+        "specialties": [
+          "Hắc châm xóa thần thức"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 113,
+          "arc": "Hỏa Phần quốc",
+          "event": "Cảm nhận khác lạ — nhiều lần dùng hắc châm xóa thần thức tìm cách giết \"Mã Lương\"",
+          "desc": "Phát hiện VL (đang chiếm xác Mã Lương) không phải người yêu cũ thực sự; nỗ lực diệt trừ nhưng không thành.",
+          "major": true
+        },
+        {
+          "chapter": 123,
+          "arc": "Hỏa Phần quốc",
+          "event": "Bị VL dứt điểm — giết cùng Chu An để trừ hậu hoạn thân phận Mã Lương",
+          "desc": "VL quyết định chấm dứt mối uy hiếp từ Từ Tư và Chu An; giết cả hai (Ch.123).",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 113,
+          "location": "Hỏa Phần quốc",
+          "gained": "Tiểu sư muội; thực lực không đủ để giết VL đang chiếm xác Mã Lương",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "VL chiếm xác Mã Lương — Từ Tư nhận ra bất thường và tìm cách giết; bị VL kết liễu (Ch.123)"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Hắc châm",
+          "cat": "baovat",
+          "status": "dalung",
+          "desc": "Dùng xóa thần thức — nhiều lần tấn công \"Mã Lương\" (VL); bị tước đoạt khi VL kết liễu TS",
+          "effect": "Vũ khí ẩn tấn công thần thức"
+        }
+      ]
     },
     {
       "name": "Hoắc Hồng Phi (霍鴻飛)",
@@ -5385,7 +5634,50 @@
           "text": "Lạc Hà Môn là một trong bốn thành viên Hỏa Phần minh (Ch.120); Thanh Huyền (Lạc Hà Môn) dẫn đại quân thiên di (Ch.119)."
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Lạc Hà Môn (Hỏa Phần quốc) — anh trai Lý Mộ Uyển",
+        "realm": "(không thấy đề cập rõ trong tiểu thuyết)",
+        "firstChapter": 113,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "(không thấy đề cập rõ tính cách trong tiểu thuyết)"
+        ],
+        "specialties": [
+          "Lạc Hà Môn tu sĩ"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 113,
+          "arc": "Hỏa Phần quốc",
+          "event": "Gặp Vương Lâm — liên quan qua em gái Lý Mộ Uyển",
+          "desc": "Vương Lâm gặp LKK trong bối cảnh Hỏa Phần quốc; Lạc Hà Môn là một trong bốn thành viên Hỏa Phần minh (Ch.120).",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(không thấy đề cập rõ)",
+          "chapter": 113,
+          "location": "Lạc Hà Môn, Hỏa Phần quốc",
+          "gained": "Tu sĩ Lạc Hà Môn; cảnh giới không thấy đề cập chi tiết",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Lý Mộ Uyển",
+          "type": "giađình",
+          "desc": "Em gái — mối liên hệ chính của LKK với hệ thống nhân vật"
+        },
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Gặp thoáng qua qua em gái LMU; không có xung đột trực tiếp trong đợt nghiên cứu"
+        }
+      ]
     },
     {
       "name": "Thác Sâm — Cổ Ma Đồ Ti (拓森 / 古魔屠絲)",
@@ -7993,6 +8285,47 @@
           "label": "Kết cục",
           "text": "Là người đầu tiên phá giải được Cực Cảnh thần thức (ném vào khe không gian), nhưng cuối cùng bị Vương Lâm dùng Thiên Kiếp lực nghi binh + Cực Cảnh thần thức kích hạ → phun tiên huyết, CHẾT (Ch.202). Bốn lão tổ còn lại đầu hàng giao huyết hồn."
         }
+      ],
+      "bio": {
+        "gender": "Nam",
+        "origin": "Vân Thiên tông — một trong năm lão tổ Nguyên Anh hậu kỳ",
+        "realm": "Nguyên Anh hậu kỳ",
+        "firstChapter": 195,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Sẵn sàng động thủ bảo vệ lợi ích tông môn",
+          "Thực dụng chiến đấu"
+        ],
+        "specialties": [
+          "Tử Mặc Trùng (mây đen thôn phệ)",
+          "Huyết thuẫn (máu + Nguyên Anh tinh khí hóa huyết châu nuốt công kích)",
+          "Nguyên Anh hậu kỳ chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 195,
+          "arc": "Vân Thiên tông",
+          "event": "Là một trong 5 lão tổ đối đầu VL sau khi VL Kết Anh",
+          "desc": "Cùng 4 lão tổ Nguyên Anh hậu kỳ khác đối mặt với VL vừa xuất quan — bị VL Cực Cảnh thần thức áp đảo.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh hậu kỳ",
+          "chapter": 195,
+          "location": "Vân Thiên tông",
+          "gained": "Một trong năm lão tổ mạnh nhất Vân Thiên tông",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Đối đầu VL khi hắn Kết Anh và khuất phục Vân Thiên tông; bị Cực Cảnh thần thức áp đảo"
+        }
       ]
     },
     {
@@ -8060,6 +8393,56 @@
         {
           "label": "Bi kịch",
           "text": "Bị cha hi sinh tu vi truyền tống cứu thoát; bị chồng Vương Trác ruồng bỏ (\"Xéo!\") giữa cơn giằng xé ái-thù; cuối cùng bơ vơ không chốn đi — \"hai người đàn ông quan trọng nhất đời, một chết sống không rõ, một bỏ rơi nàng\". Vô tội nhưng chịu nạn \"vì mang huyết thống Đằng\"."
+        }
+      ],
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Triệu quốc — con gái Đằng Tam (Đằng Hải); vợ Vương Trác",
+        "realm": "(không thấy đề cập rõ — tu sĩ Đằng gia)",
+        "firstChapter": 211,
+        "appearance": "Diện mạo rất giống mẹ (vợ phàm nhân của Đằng Tam)",
+        "personality": [
+          "Bơ vơ giữa hai người đàn ông quan trọng đều rời bỏ",
+          "Nạn nhân của xung đột ái-thù",
+          "Bi kịch thầm lặng"
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 211,
+          "arc": "Triệu quốc",
+          "event": "Được cha hi sinh tu vi truyền tống cứu thoát — bị chồng ruồng bỏ",
+          "desc": "Đằng Tam hi sinh tu vi truyền tống cứu nàng; Vương Trác (chồng) ruồng bỏ nàng giữa cơn giằng xé ái-thù (\"Xéo!\"); cuối cùng bơ vơ không chốn đi.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(không thấy đề cập rõ)",
+          "chapter": 211,
+          "location": "Triệu quốc",
+          "gained": "Hạch tâm tộc nhân Đằng gia; tu vi không thấy đề cập chi tiết",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Đằng Tam",
+          "type": "giađình",
+          "desc": "Cha — hi sinh tu vi để cứu nàng; chứa đựng toàn bộ tình yêu người vợ phàm nhân đã mất"
+        },
+        {
+          "name": "Vương Trác",
+          "type": "daolu",
+          "desc": "Chồng — ruồng bỏ trong cơn giằng xé ái-thù khi VL diệt tộc Đằng gia"
+        },
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Người diệt tộc Đằng gia — gián tiếp gây ra bi kịch của Đằng Tú Tú"
         }
       ]
     },
