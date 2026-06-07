@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07",
+  "updatedAt": "2026-06-07T15:49:54Z",
   "count": 135,
   "chars": [
     {
@@ -150,7 +150,7 @@
           },
           {
             "key": "phanthan-thandao",
-            "label": "Phân thân · Thần Đạo (Ch.260–nay)"
+            "label": "Phân thân Thần Đạo (Ch.260–nay)"
           }
         ]
       },
@@ -159,15 +159,15 @@
           "chapter": 1,
           "arc": "Giai đoạn Phàm Nhân",
           "event": "Lên thành — ký danh đệ tử Hằng Nhạc phái",
-          "desc": "Thiếu niên Triệu quốc (tên mụ Thiết Trụ), thiên tư tu tiên cực kém; theo tứ thúc lên thành ký danh đệ tử Hằng Nhạc phái; không có tiền đồ, địa vị thấp nhất trong môn phái.",
+          "desc": "Bối cảnh: VL xuất thân thường dân Triệu quốc, tên mụ Thiết Trụ, thiên tư tu tiên xếp hạng cuối; gia đình không có nguồn linh thạch hay gia tộc hậu thuẫn. Diễn biến: tứ thúc dẫn lên thành ký danh đệ tử ngoại môn Hằng Nhạc phái — tông phái nhỏ tứ cấp Triệu quốc; xếp vào địa vị thấp nhất, không tiền đồ rõ ràng. Hệ quả + ý nghĩa: hoàn cảnh khởi đầu tệ nhất là lý do VL phải tìm đường thoát khác (NTC Ch.8); toàn bộ chiến lược 'lấy thời gian bù thiên phú' sinh ra từ đây; và chính Hằng Nhạc phái xưa (Huyền Đạo tông về sau) sẽ là nơi VL quay về Hóa Thần ở Ch.260 — khép vòng lịch sử 260 chương.",
           "major": true,
           "track": ""
         },
         {
           "chapter": 8,
           "arc": "Giai đoạn Phàm Nhân",
-          "event": "Tìm thấy Nghịch Thiên châu — bước ngoặt toàn bộ hành trình",
-          "desc": "Bị đẩy vào dãy núi sau vụ tranh chấp; trong hang tìm được hạt châu đỏ thần bí từ thi thể con chim (sau gọi là Thạch Châu / Nghịch Thiên châu); Mộng Cảnh bên trong NTC có cố vấn Tư Đồ Nam chỉ đường — khởi đầu chiến lược lấy thời gian bù thiên phú.",
+          "event": "Tìm thấy Nghịch Thiên châu — bước ngoặt định hình toàn bộ hành trình",
+          "desc": "Bối cảnh: VL bị đẩy vào dãy núi sau vụ tranh chấp nội bộ; không có đường về an toàn, tình thế nguy hiểm. Diễn biến: trong hang núi tìm thấy hạt châu đỏ thần bí từ thi thể con chim — sau gọi là Thạch Châu / Nghịch Thiên châu; Mộng Cảnh bên trong NTC xuất hiện cố vấn Tư Đồ Nam chỉ hướng tu luyện. Hệ quả trực tiếp: gia tốc tu luyện đêm, che giấu thiên phú thật trước môn phái. Ý nghĩa toàn cục: NTC là nền tảng sống còn của mọi bước tiến — không gian trú ẩn · gia tốc tu luyện · hấp thu thiên kiếp · tích lũy ngũ hành linh · sau này sẽ nhận chủ khi đủ ngũ hành; thiếu NTC, VL không thể tồn tại qua bất kỳ giai đoạn nào.",
           "major": true,
           "track": ""
         },
@@ -190,8 +190,8 @@
         {
           "chapter": 127,
           "arc": "Giai đoạn Kết Đan",
-          "event": "Đột phá Kết Đan tại Toái Tinh Loạn",
-          "desc": "Dùng Cổ Thần quyết đoạt kim đan người khác thay Kết Đan truyền thống; mở đường vào cảnh giới Kết Đan.",
+          "event": "Đột phá Kết Đan tại Toái Tinh Loạn — rẽ sang con đường Cổ Thần",
+          "desc": "Bối cảnh: VL tại Toái Tinh Loạn trong Cổ Thần chi địa — vùng đất của Cổ Thần Đồ Ti; đây là ngưỡng mà tu tiên thông thường đòi hỏi kim đan tự kết. Diễn biến: VL áp dụng Cổ Thần quyết, đoạt kim đan của người khác thay vì tự Kết Đan — phương thức phi chính thống hoàn toàn; mở đường vào cảnh giới Kết Đan. Liên quan: đây là lần đầu VL hoàn toàn từ bỏ con đường tu tiên thông thường để đi theo Cổ Thần đạo — 'đoạt' thay vì 'tự tạo'. Hệ quả: nền tảng cho toàn bộ hệ thống 'đoạt cướp' về sau (Cổ Thần quyết, Thôn phệ, Thôn hồn); mở ra tiềm năng 'đoạt' bất kỳ thứ gì của đối thủ.",
           "major": true,
           "track": ""
         },
@@ -207,7 +207,7 @@
           "chapter": 161,
           "arc": "Giai đoạn Kết Đan",
           "event": "Đoạt Cổ Thần quyết — bước ngoặt lớn nhất Quyển 2",
-          "desc": "Vào sâu cơ thể Cổ Thần, hấp thu 94 băng tinh ký ức Cổ Thần Đồ Ti; đoạt Cổ Thần quyết (2 tầng cướp đoạt), trọng tổ thân thể gốc, sinh hồn thạch. Từ kẻ yếu thế chạy trốn thành kẻ có thể tự vệ trước Nguyên Anh sơ kỳ.",
+          "desc": "Bối cảnh: VL vào sâu cơ thể Cổ Thần Đồ Ti ở cửa 3 (Tịch Diệt giới) bằng thôn hồn — di chuyển qua khí hải, vào tử hải. Diễn biến: hấp thu 94 băng tinh truyền thừa ký ức Cổ Thần Đồ Ti — toàn bộ kiến thức và ký ức của vị Cổ Thần; đoạt Cổ Thần quyết (2 tầng: 'cướp đoạt' linh lực + 'hóa linh' tiêu hóa); trọng tổ thân thể gốc (khôi phục thân ban đầu, bỏ xác Mã Lương); sinh hồn thạch (kích hoạt thôn hồn chính thức). Vật phẩm thu được: Mặc gian thạch, Hỗn Nguyên khu thú quyển, Hoàng tuyền chi viêm, 20 cực phẩm linh thạch, 10 pháp khí. Liên quan: VL không còn là 'kẻ ăn cắp' Cổ Thần quyết mà chính thức là người thừa kế ký ức Cổ Thần — thực lực nhảy vọt vượt xa cảnh giới. Hệ quả: từ kẻ yếu thế chạy trốn thành kẻ có thể tự vệ trước Nguyên Anh sơ kỳ; toàn bộ các thần thông Cổ Thần về sau (thôn hồn/hồn thạch/phân thức) đều từ kho ký ức này mà ra.",
           "major": true,
           "track": ""
         },
@@ -231,7 +231,7 @@
           "chapter": 200,
           "arc": "Giai đoạn Nguyên Anh",
           "event": "Kết Anh — đột phá Nguyên Anh kỳ",
-          "desc": "Dùng Thuật Thần Đạo tách phân thân tu trong NTC (30 năm thực ≈ 180 năm gia tốc), rồi dung hợp bản tôn + phân thân khi Kết Anh; hút linh lực Đoạt Thiên Thất đỉnh; vượt cực cảnh thần thức + sợi thiên kiếp.",
+          "desc": "Bối cảnh: VL tu Kết Đan hậu kỳ nhưng thiên phú kém không thể tự Kết Anh thông thường; phải tìm cách vượt cực cảnh thiên kiếp. Diễn biến: dùng Thuật Thần Đạo tách phân thân tu trong không gian NTC (30 năm thực ≈ 180 năm gia tốc), phân thân tích lũy đủ năng lượng; dung hợp bản tôn + phân thân khi Kết Anh; đồng thời hút toàn bộ linh lực còn lại của Đoạt Thiên Thất đỉnh; vượt thiên kiếp cực cảnh (thiên kiếp chui vào người thay vì đánh từ ngoài). Hệ quả: đột phá Nguyên Anh với nền thực lực thực tế tương đương Nguyên Anh hậu kỳ; thiên kiếp không đánh nổi VL từ đây — trở thành người dẫn được thiên kiếp; mở đường chiến đấu với Hóa Thần sơ kỳ. Ý nghĩa: đây là thời điểm VL chính thức trở thành một thế lực đáng sợ trong tam cấp quốc trở lên — không còn phải ẩn mình sợ Nguyên Anh.",
           "major": true,
           "track": ""
         },
@@ -247,7 +247,7 @@
           "chapter": 210,
           "arc": "Giai đoạn Nguyên Anh",
           "event": "Diệt tộc Đằng gia — rửa thù 400 năm",
-          "desc": "Gọi hồn phách Đằng Lệ định vị toàn bộ huyết mạch; phong tỏa Đằng gia thành 16 trận kỳ; giết 6/9 hạch tâm; khổ chiến Đằng Nhất bằng Cổ Thần thần thông; giết Đằng Hóa Nguyên (Ch.222). Thù 400 năm kết thúc; tâm cảnh bước sang trang mới.",
+          "desc": "Bối cảnh: Đằng gia là thế lực đã hủy thân VL và truy sát gia đình từ ~400 năm trước — mối hận lớn nhất định hình toàn bộ hành trình của VL suốt Quyển 1-2. Diễn biến: gọi hồn phách Đằng Lệ định vị toàn bộ huyết mạch Đằng tộc; phong tỏa Đằng gia thành 16 trận kỳ; giết 6/9 hạch tâm; khổ chiến Đằng Nhất (cao nhân Nguyên Anh hậu kỳ) bằng Cổ Thần thần thông, dùng pháp bảo Cổ kính đồng tự bạo ép Đằng Nhất vào thế không thể thắng; truy đến tận cùng, giết Đằng Hóa Nguyên (Ch.222). Bối cảnh chiến trường: VL vừa hoàn thành Kết Anh nhưng cần toàn bộ sức mạnh + mưu kế mới thắng được Nguyên Anh hậu kỳ của Đằng Nhất; đây là chiến trận ý chí và chuẩn bị, không phải áp đảo thuần túy. Hệ quả + ý nghĩa: chương hận 400 năm kết thúc; sau đây tâm cảnh VL lần đầu không còn gánh nặng thù hận — cần bước sang trang mới hướng Hóa Thần; tuyến Đằng gia chính thức khép.",
           "major": true,
           "track": ""
         },
@@ -255,7 +255,7 @@
           "chapter": 225,
           "arc": "Giai đoạn Hóa phàm",
           "event": "20 năm ẩn cư Hóa phàm tại tứ cấp Tu Chân Quốc",
-          "desc": "Mở tiệm khắc tượng gỗ; sống bình dị với Đại Ngưu/Từ Đào/Thế tử; mượn 3 ý cảnh Hóa Thần (tuyệt tình/an nhàn/tuế nguyệt) từ lão nhân thần bí; gột rửa sát tâm.",
+          "desc": "Bối cảnh: để Hóa Thần, VL không thể chỉ tích lũy linh lực — triết lý 'Muốn Hóa Thần trước phải Hóa phàm'; phải sống như người thường, hiểu Sinh Tử từ góc nhìn phàm nhân. Diễn biến: mở tiệm khắc tượng gỗ (tượng thành pháp bảo) tại Liên Minh Tứ Phái; sống bình dị 20+ năm cùng gia đình Đại Ngưu / Từ Đào / Thế tử; gặp lão nhân thần bí (Anh Biến) — tặng mũ rơm + mượn 3 ý cảnh Hóa Thần từ Bạch Vân Tông (tuyệt tình / an nhàn / tuế nguyệt); gặp và đấu tâm kế Chu Vũ Thái (đối thủ Hóa Thần phức tạp nhất, cũng đang Hóa phàm); gột rửa 400 năm sát tâm tích tụ. Hệ quả: ngộ Sinh Tử theo từng lớp (Ch.240: luân hồi; Ch.247: hồi ức; Ch.257: lão Thủy Mặc Môn tự bạo; Ch.259: đốn ngộ cuối); giai đoạn nhân văn nhất của VL, hiếm hoi lần anh ta sống thật theo nhịp bình thường.",
           "major": true,
           "track": ""
         },
@@ -271,7 +271,7 @@
           "chapter": 240,
           "arc": "Giai đoạn Hóa phàm",
           "event": "Ngộ thiên đạo luân hồi — đứng trước ngưỡng Hóa Thần",
-          "desc": "Chứng kiến cha Đại Ngưu mất theo luân hồi, cảm nhận lực năm tháng gắn lên vạn vật; đạt cảnh ngộ đạo đủ điều kiện Hóa Thần.",
+          "desc": "Bối cảnh: cuối 20 năm Hóa phàm, VL chứng kiến cha Đại Ngưu già yếu và mất đi theo quy luật tự nhiên. Diễn biến: cảm nhận lực năm tháng in hằn lên từng sinh linh — không phải là cái chết, mà là dấu của thời gian đã sống; từ đó ngộ được thiên đạo luân hồi: mọi sinh tử đều trong vòng xoay lớn hơn bản thân chúng. Hệ quả + ý nghĩa: đây là ngưỡng cuối cùng trước Hóa Thần — nhờ 20 năm sống thật mới ngộ được điều này; tâm cảnh đạt yêu cầu. Tuy nhiên VL vẫn cần ngộ thêm 2 bước Sinh Tử nữa (Ch.247, Ch.257, Ch.259) trước khi hoàn toàn đủ điều kiện đột phá.",
           "major": true,
           "track": ""
         },
@@ -279,7 +279,7 @@
           "chapter": 241,
           "arc": "Giai đoạn Hóa Thần",
           "event": "Đại chiến Tuyết Vực — đoạt thổ linh & Vũ Đỉnh",
-          "desc": "Ẩn mình trong trận Tuyết Vực Quốc đánh diệt Liên Minh Tứ Phái; đoạt thổ linh (Nghịch Thiên châu đủ thủy/hỏa/thổ); đoạt Vũ Đỉnh; giết bà lão Hóa Thần trung kỳ bằng sợi tơ thiên kiếp lần đầu; Âu Chí xác định VL là đại thù tiềm tàng.",
+          "desc": "Bối cảnh: Tuyết Vực Quốc (ngũ cấp, Băng Tuyết quyết) tấn công Liên Minh Tứ Phái (tứ cấp) vì tranh Vũ Đỉnh — một trong tứ đại Tiên Môn — và Hồng Điệp (Thiên Tiên Ngũ Linh thể, thiên chi kiều nữ) chọn lãnh thổ Tứ Phái làm nền cho lễ Quán Đỉnh; Chu Tước quốc (lục cấp) chống lưng Tuyết Vực, điều động Âu Chí + Sứ giả. Diễn biến: Tứ Phái dùng 99 dã nhân + Cửu Nhân sát trận (thế thân Hồng Điệp) + Thương Long đại trận (Chu Vũ Thái, huyết mạch Thương Long); Âu Chí đoạt huyết mạch Thương Long → diệt Thương Long. VL ẩn mình dưới mũ rơm, ra tay trong hỗn loạn: đoạt THỔ linh (NTC thu vào, đủ thủy/hỏa/thổ linh, thiếu kim+mộc); đoạt Vũ Đỉnh từ túi trữ vật Chu Vũ Thái; giết bà lão Hóa Thần trung kỳ bằng sợi tơ thiên kiếp lần đầu tiên — dùng thực tế. Hệ quả: NTC tiến gần ngưỡng nhận chủ (5 quang đoàn ngũ hành xuất hiện có sức sống); sợi tơ thiên kiếp được xác nhận là vũ khí tuyệt đối với cường địch; Âu Chí xác định VL là người dẫn được thiên kiếp — đại thù tiềm tàng nguy hiểm nhất tương lai. VL trốn vào không gian NTC để thoát truy đuổi.",
           "major": true,
           "track": ""
         },
@@ -287,7 +287,7 @@
           "chapter": 247,
           "arc": "Giai đoạn Hóa Thần",
           "event": "Luyện Hắc ấn chữ Tử & ngộ Sinh Tử ý cảnh (bước 1)",
-          "desc": "Điêu khắc từng người đã giết suốt 400 năm, hồi ức toàn bộ nhân sinh; ngộ ý cảnh Sinh Tử lần đầu; đúc Hắc ấn chữ Tử dung nhập Nguyên Anh.",
+          "desc": "Điêu khắc từng người đã giết suốt 400 năm, hồi ức toàn bộ nhân sinh; ngộ ý cảnh Sinh Tử lần đầu (hiểu rằng mỗi sự chết là một dấu ấn trên đường đi của mình); đúc Hắc ấn chữ Tử từ 400 năm lệ khí·sát khí ngưng tụ, dung nhập Nguyên Anh.",
           "major": false,
           "track": ""
         },
@@ -295,7 +295,7 @@
           "chapter": 257,
           "arc": "Giai đoạn Hóa Thần",
           "event": "Chứng kiến lão Thủy Mặc Môn tự bạo — ngộ Sinh Tử bước 2",
-          "desc": "Lão Thủy Mặc Môn tự bạo hộ quốc Triệu; VL ngộ thêm: thấy bản chất đằng sau bề mặt; nhận ra quê hương là nơi sinh tử.",
+          "desc": "Lão Thủy Mặc Môn tự bạo hộ quốc Triệu khi Tứ Phái bị tấn công; VL ngộ bước 2: thấy bản chất đằng sau bề mặt sinh tử — hy sinh vì 'quê hương' là biểu hiện cao nhất của Sinh Tử ý cảnh; nhận bảo phiến 2 lông chim trước lúc lão ra đi; nhận ra quê hương Triệu quốc là nơi sinh tử của chính mình.",
           "major": false,
           "track": ""
         },
@@ -303,7 +303,7 @@
           "chapter": 259,
           "arc": "Giai đoạn Hóa Thần",
           "event": "Đốn ngộ ý cảnh Sinh Tử — đủ điều kiện Hóa Thần",
-          "desc": "Mặc Trí khai thị tại miếu cổ Triệu quốc về ý nghĩa Sinh/Tử; VL đại ngộ (bước 3): tâm cảnh từ \"còn 1 năm\" → đạt yêu cầu Hóa Thần ngay.",
+          "desc": "Bối cảnh: VL tìm đến miếu cổ tại Triệu quốc, gặp Mặc Trí — kỳ nhân Vong cảnh, người ngộ được biên giới giữa Sinh và Tử. Diễn biến: Mặc Trí khai thị về ý nghĩa Sinh/Tử — không phải chỉ chứng kiến mà phải CHỌN SỐNG; VL đại ngộ bước 3 cuối cùng: từ 'còn 1 năm' tới đạt yêu cầu Hóa Thần ngay lập tức. Hệ quả + ý nghĩa: 3 ngộ Sinh Tử (Ch.247 tự hồi ức; Ch.257 chứng kiến hy sinh; Ch.259 trực ngộ qua Mặc Trí) tích lũy thành ý cảnh hoàn chỉnh; giai đoạn Hóa phàm 25 năm kết thúc — cánh cửa Hóa Thần chính thức mở.",
           "major": true,
           "track": ""
         },
@@ -311,23 +311,23 @@
           "chapter": 260,
           "arc": "Giai đoạn Hóa Thần",
           "event": "Về Huyền Đạo tông — quyết định TÁCH bổn tôn/phân thân thay vì dung hợp",
-          "desc": "VL về động phủ cũ Hằng Nhạc phái xưa (nơi khởi đầu tu chân); bổn tôn (Kết Đan hậu kỳ·Cực Cảnh) chọn Đạo Cổ Thần; phân thân (gần hoàn mỹ·Nguyên Anh) chọn Thần Đạo; KHÔNG dung hợp mà tách riêng để mỗi thân đi con đường riêng. Arc Hóa Thần chính thức bắt đầu.",
+          "desc": "Bối cảnh: VL về động phủ cũ Hằng Nhạc phái xưa — nơi khởi đầu tu chân; đây là vòng khép lịch sử (Ch.1 = nơi bắt đầu, Ch.260 = nơi hóa thần). Diễn biến: bổn tôn (Kết Đan hậu kỳ·Cực Cảnh thần thức) chọn Đạo Cổ Thần — tái tu từ đầu theo con đường Cổ Thần đích thực, tán công xuống Ngưng Khí; phân thân (gần hoàn mỹ, Nguyên Anh trung kỳ+) chọn Thần Đạo — tiếp tục tiến thẳng lên Hóa Thần. VL quyết định KHÔNG dung hợp 2 thân mà để tách song song — 2 con đường, 2 đỉnh cao khác nhau. Hệ quả + ý nghĩa: mô hình tu tiên độc nhất không ai làm được; về địa điểm xuất phát Ch.1 để Hóa Thần Ch.260 là bố cục vĩnh cửu của arc Hóa phàm — vòng lịch sử hoàn chỉnh.",
           "major": true,
           "track": ""
         },
         {
           "chapter": 260,
-          "arc": "Đạo Cổ Thần",
+          "arc": "Đạo Cổ Thần (Bổn tôn)",
           "event": "Bổn tôn TÁN CÔNG — giải tan tu vi từ Kết Đan xuống Ngưng Khí tầng 1",
-          "desc": "Bổn tôn rỉ máu → vô số huyết châu → tu vi giảm Kết Đan hậu kỳ → sơ kỳ → kim đan vỡ → Trúc Cơ → Ngưng Khí tầng 14 → tầng 1; linh lực bị phân thân hút qua mi tâm. Cliffhanger Ch.260 — quá trình tán công nối Ch.261+.",
+          "desc": "Bối cảnh: bổn tôn (Kết Đan hậu kỳ, Cực Cảnh thần thức, hồn thạch) chọn con đường tái lập Cổ Thần đạo từ đầu — phải giải tan tu vi đã tích lũy hơn 400 năm. Diễn biến: bổn tôn rỉ máu ra → linh lực ngưng tụ thành vô số huyết châu; tu vi rớt từng bước — Kết Đan hậu kỳ → sơ kỳ → kim đan vỡ → Trúc Cơ → Ngưng Khí tầng 14 → tầng 1; toàn bộ linh lực bị phân thân hút qua mi tâm. Quá trình tán công chưa hoàn tất trong Ch.260 — nối Ch.261+. Hệ quả + ý nghĩa: bổn tôn trở về điểm xuất phát tuyệt đối (Ngưng Khí tầng 1) nhưng với ký ức Cổ Thần + hồn thạch + mọi kinh nghiệm của 400 năm vẫn còn; con đường tái tu Cổ Thần đạo bắt đầu — theo đúng đường của Đồ Ti Cổ Thần, không phải tu tiên thông thường.",
           "major": true,
           "track": "bonton"
         },
         {
           "chapter": 260,
-          "arc": "Thần Đạo",
+          "arc": "Thần Đạo (Phân thân)",
           "event": "Phân thân nhận toàn bộ linh lực bổn tôn — bắt đầu Hóa Thần theo Thần Đạo",
-          "desc": "Phân thân (sau Kết Anh đã hoàn mỹ, gần như = bổn tôn) hút toàn bộ linh lực qua mi tâm khi bổn tôn tán công; đi con đường Thần Đạo để Hóa Thần. Chi tiết cảnh giới đạt được sau Ch.260 cần xác minh từ Ch.261+.",
+          "desc": "Bối cảnh: phân thân (sau Kết Anh hoàn mỹ, Nguyên Anh trung kỳ) đã sẵn sàng Hóa Thần theo con đường Thần Đạo — khác hoàn toàn Cổ Thần đạo của bổn tôn. Diễn biến: khi bổn tôn tán công, phân thân hút toàn bộ linh lực qua mi tâm; tiếp nhận năng lượng khổng lồ + tiến hành Hóa Thần theo Thần Đạo. Chi tiết cảnh giới đạt được sau Ch.260 cần xác minh từ Ch.261+. Ý nghĩa: phân thân là 'mũi nhọn' tiến nhanh nhất — trong khi bổn tôn tái tu từ đầu, phân thân đứng ở đỉnh cao nhất.",
           "major": true,
           "track": "phanthan-thandao"
         }
@@ -392,24 +392,24 @@
         {
           "realm": "Hóa Thần (tách bổn tôn/phân thân)",
           "chapter": 260,
-          "location": "Huyền Đạo tông, Triệu quốc (Hằng Nhạc phái xưa)",
-          "gained": "VL tách thay vì dung hợp: phân thân Thần Đạo nhận toàn linh lực; bổn tôn chọn Đạo Cổ Thần tán công tái lập từ đầu. Mốc phân kỳ lịch đại",
-          "congphap": "Cổ Thần quyết / Thuật Thần Đạo",
+          "location": "Huyền Đạo tông — Triệu quốc (Hằng Nhạc phái xưa)",
+          "gained": "Quyết định phân hóa 2 thân thay vì dung hợp; bổn tôn tán công về Ngưng Khí tầng 1 chọn Đạo Cổ Thần; phân thân tiếp nhận toàn bộ linh lực → tiến hành Hóa Thần. Arc nối Ch.261+",
+          "congphap": "Cổ Thần quyết + Thuật Thần Đạo",
           "track": ""
         },
         {
-          "realm": "Ngưng Khí tầng 1 (đang tán công)",
+          "realm": "Ngưng Khí tầng 1 (tán công theo Cổ Thần đạo)",
           "chapter": 260,
-          "location": "Huyền Đạo tông, Triệu quốc",
-          "gained": "Bổn tôn tán công từ Kết Đan hậu kỳ → kim đan vỡ → Trúc Cơ → Ngưng Khí tầng 1; linh lực bị phân thân hút qua mi tâm; quá trình đang diễn ra, cliffhanger Ch.260+",
-          "congphap": "Cổ Thần quyết (Đạo Cổ Thần)",
+          "location": "Huyền Đạo tông — Triệu quốc",
+          "gained": "Bổn tôn chủ động giải tan tu vi từ Kết Đan hậu kỳ xuống Ngưng Khí tầng 1; bắt đầu tái tu Cổ Thần đạo từ điểm xuất phát. Arc tán công nối Ch.261+",
+          "congphap": "Cổ Thần quyết",
           "track": "bonton"
         },
         {
           "realm": "Hóa Thần · Thần Đạo (cần xác minh Ch.261+)",
           "chapter": 260,
-          "location": "Huyền Đạo tông, Triệu quốc",
-          "gained": "Phân thân nhận toàn linh lực bổn tôn qua mi tâm, đột phá Hóa Thần theo Thần Đạo; cảnh giới cụ thể sau Ch.260 và địa điểm tiếp theo cần xác minh từ Ch.261+",
+          "location": "Huyền Đạo tông — Triệu quốc",
+          "gained": "Phân thân nhận toàn bộ linh lực bổn tôn, tiến hành Hóa Thần theo Thần Đạo; cảnh giới cụ thể đạt được sau Ch.260 cần xác minh từ Ch.261+",
           "congphap": "Thuật Thần Đạo",
           "track": "phanthan-thandao"
         }
