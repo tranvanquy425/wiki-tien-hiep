@@ -607,7 +607,145 @@
           "text": "Cùng Vương Hạo về thăm nhà thì gặp Đằng Hóa Nguyên tàn sát toàn tộc Vương gia. Vương Trác (tầng 11 Ngưng Khí lúc đó) ghì Vương Hạo lại (\"còn sống mới báo thù\"), nhận ra mình chỉ là \"rác rưởi\" so với Vương Lâm. Cả hai được Khải Minh đạo nhân xin tha, bay về Huyền Đạo tông. Vương gia bị diệt môn. (Về sau Vương Trác thành rể Đằng gia — xung đột ái-thù ở arc Ch.211-220.)"
         }
       ],
-      "portrait": "V"
+      "portrait": "V",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — con đại bá Vương Thiên Sơn, đệ tử chỉ định của Đạo Hư thượng tiên, Huyền Thiên tông",
+        "realm": "Kết Đan hậu kỳ",
+        "firstChapter": 2,
+        "appearance": "16-17 tuổi (Ch.5), tướng mạo tuấn tú mày kiếm mắt sáng mặt như quan ngọc",
+        "personality": [
+          "Kiêu căng ngạo mạn cực độ",
+          "Thù dai — ghi vào sổ bất kỳ ai khinh thường",
+          "Biết giữ mình khi thế yếu"
+        ],
+        "specialties": [
+          "Luyện Khí tiến nhanh nhờ Đạo Hư chỉ điểm",
+          "Mưu mô xã giao trong môn phái"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 2,
+          "arc": "Hằng Nhạc phái",
+          "event": "Lên thành cùng Vương Lâm — châm chọc và khinh thường",
+          "desc": "Con đại bá lên thành ký danh đệ tử, liên tục nhạo báng Vương Lâm \"chắc chắn không qua trắc thí\".",
+          "major": false
+        },
+        {
+          "chapter": 5,
+          "arc": "Hằng Nhạc phái",
+          "event": "Trắc thí — được Đạo Hư thượng tiên nhận làm đệ tử chỉ định",
+          "desc": "Không qua trắc thí công khai, được nhận thẳng làm đệ tử tiên sư riêng; châm chọc VL sau khi VL trượt.",
+          "major": true
+        },
+        {
+          "chapter": 6,
+          "arc": "Triệu quốc",
+          "event": "Yến hội Vương gia — ép VL bẽ mặt trước họ hàng",
+          "desc": "Tại yến hội đại gia tộc, đả kích VL tàn nhẫn; câu kinh điển: \"thằng nhà quê, đời này hãy ở trong thôn làm thợ mộc đi\".",
+          "major": false
+        },
+        {
+          "chapter": 20,
+          "arc": "Hằng Nhạc phái",
+          "event": "Đạt Ngưng Khí tầng 1 — bịa chuyện giết đại xà",
+          "desc": "Bế quan 3 tháng, đêm trước vừa luyện thành Ngưng Khí tầng 1; bịa chuyện giết đại xà hái hoa tặng Trương sư tỷ, bị Chu sư tỷ bóc mẽ.",
+          "major": false
+        },
+        {
+          "chapter": 34,
+          "arc": "Huyền Thiên tông",
+          "event": "Thành \"tân nhân vương\" tỷ thí — đỉnh cao khi song hành VL",
+          "desc": "Đạt danh hiệu \"tân nhân vương\" trong tỷ thí toàn phái; vẫn tiếp tục nhạo báng VL \"phế vật\" ở hậu sơn.",
+          "major": false
+        },
+        {
+          "chapter": 41,
+          "arc": "Huyền Thiên tông",
+          "event": "Sai VL cho Ngô Công ăn trước đệ tử Huyền Đạo",
+          "desc": "Lợi dụng địa vị ép VL thực hiện việc hạ nhục trước đông người để khẳng định uy thế.",
+          "major": false
+        },
+        {
+          "chapter": 48,
+          "arc": "Huyền Thiên tông",
+          "event": "VL lộ thực lực — hoàn toàn chết lặng và xin bế quan",
+          "desc": "Khi VL lộ thực lực thật, kinh hoàng co mình sợ bị trả thù → xin bế quan tránh mặt. Chuyển biến: kẻ khinh miệt đắc ý → kẻ sợ hãi.",
+          "major": true
+        },
+        {
+          "chapter": 87,
+          "arc": "Triệu quốc",
+          "event": "Chứng kiến Đằng Hóa Nguyên diệt toàn tộc Vương gia",
+          "desc": "Về thăm nhà cùng Vương Hạo đúng lúc Đằng Hóa Nguyên tàn sát hơn trăm người; ghì Vương Hạo lại (\"còn sống mới báo thù\"); nhận ra mình là \"rác rưởi\" so với VL.",
+          "major": true
+        },
+        {
+          "chapter": 211,
+          "arc": "Arc Đằng gia",
+          "event": "Xung đột ái-thù — rể Đằng gia đứng trước diệt tộc",
+          "desc": "Là chồng Đằng Tú Tú (rể Đằng gia), xung đột nội tâm giữa tình vợ và thù 400 năm. Gặp VL, xác nhận kẻ thù chung là Đằng Hóa Nguyên; VL nói \"cha ngươi không nên mang họ Đằng\".",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan sơ kỳ",
+          "chapter": 0,
+          "location": "(không rõ địa điểm)",
+          "gained": "Gần 200 năm tu luyện từ Ngưng Khí mới đạt (không thấy đề cập rõ chương trong tiểu thuyết)",
+          "congphap": ""
+        },
+        {
+          "realm": "Kết Đan hậu kỳ",
+          "chapter": 0,
+          "location": "(không rõ địa điểm)",
+          "gained": "200 năm tiếp theo mới đạt hậu kỳ — hiếm thấy ở Triệu quốc (không thấy đề cập rõ chương)",
+          "congphap": ""
+        },
+        {
+          "realm": "Ngưng Khí",
+          "chapter": 5,
+          "location": "Hằng Nhạc phái, Triệu quốc",
+          "gained": "Được Đạo Hư thượng tiên nhận làm đệ tử, bắt đầu tu luyện với nền tảng tốt",
+          "congphap": ""
+        },
+        {
+          "realm": "Ngưng Khí tầng 11",
+          "chapter": 87,
+          "location": "Triệu quốc",
+          "gained": "Tầng 11 khi chứng kiến Vương gia bị diệt môn",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "dottu",
+          "desc": "Đường huynh cùng họ; suốt giai đoạn đầu khinh miệt và đả kích VL, về sau kiêng nể thực lực; cuối cùng nhận \"kẻ thù chung là Đằng Hóa Nguyên\""
+        },
+        {
+          "name": "Vương Hạo",
+          "type": "giađình",
+          "desc": "Anh em họ (con đại bá và con tam thúc); cùng chứng kiến Vương gia bị diệt môn (Ch.87)"
+        },
+        {
+          "name": "Đằng Tú Tú",
+          "type": "daolu",
+          "desc": "Vợ (rể Đằng gia) — nguồn xung đột ái-thù khi VL diệt tộc Đằng"
+        },
+        {
+          "name": "Đạo Hư thượng tiên",
+          "type": "anthan",
+          "desc": "Sư phụ chỉ định từ trắc thí Ch.5; nền tảng giúp VT luyện khí tiến nhanh"
+        },
+        {
+          "name": "Đằng Hóa Nguyên",
+          "type": "kethu",
+          "desc": "Ông vợ đồng thời là kẻ thù chung với Vương Lâm; xung đột tình-thù"
+        }
+      ]
     },
     {
       "name": "Vương Hạo (王浩)",
@@ -677,7 +815,123 @@
           "text": "Cùng Vương Trác về thăm nhà thì gặp Đằng Hóa Nguyên tàn sát toàn tộc Vương gia (con tam thúc, tầng 7 Ngưng Khí lúc đó); chứng kiến cha mẹ bị giết, gào khóc bất lực, suýt liều mạng, được Vương Trác ghì lại. Cả hai bay về Huyền Đạo tông."
         }
       ],
-      "portrait": "V"
+      "portrait": "V",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — con tam thúc (Vương lão Tam), anh em họ Vương Lâm; dược đồng tại Hằng Nhạc phái",
+        "realm": "Ngưng Khí tầng 7 (xác nhận Ch.87; chưa đạt tầng 1 đến Ch.30)",
+        "firstChapter": 5,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Nghĩa khí — người duy nhất trong họ Vương không hùa nhạo VL",
+          "Tự tin thẳng thắn",
+          "Biết điều, không liều lĩnh vô ích"
+        ],
+        "specialties": [
+          "Luyện đan (dược đồng)",
+          "Môi giới Giao Dịch Hội"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 5,
+          "arc": "Hằng Nhạc phái",
+          "event": "Trắc thí thất bại — làm dược đồng",
+          "desc": "Trượt đệ tử chính thức, được nhận làm dược đồng nhờ \"nịnh nọt tặng lễ\" (lời VT chế); tự tin: \"ta luyện đan là lợi thế\".",
+          "major": false
+        },
+        {
+          "chapter": 7,
+          "arc": "Triệu quốc",
+          "event": "Yến hội — bị cha ép im lặng không bênh VL",
+          "desc": "Muốn bênh vực VL nhưng bị phụ thân quát không cho; chỉ than nhẹ một tiếng — điều này nói lên thiện ý thực sự.",
+          "major": false
+        },
+        {
+          "chapter": 21,
+          "arc": "Hằng Nhạc phái",
+          "event": "Lén tặng linh đan cho Vương Lâm",
+          "desc": "Lén lút giúp đỡ VL không cần đáp trả; thiện ý cụ thể hóa thành hành động.",
+          "major": false
+        },
+        {
+          "chapter": 30,
+          "arc": "Hằng Nhạc phái",
+          "event": "Môi giới đưa VL vào Giao Dịch Hội",
+          "desc": "Mượn hơn 200 tấm tiên phù mua Hóa Hình Hóa Thanh Đan; bản thân vẫn chưa đạt Ngưng Khí tầng 1.",
+          "major": false
+        },
+        {
+          "chapter": 43,
+          "arc": "Hằng Nhạc phái",
+          "event": "Bị Lữ Vân Kiệt dụ tu Lô Hỏa Khai Đỉnh đại pháp",
+          "desc": "Đổi tạo hóa đan lấy tà công (biến người thành dược lô luyện nhân thọ đan); ước còn sống khoảng 1 năm; nhờ VL báo thù.",
+          "major": true
+        },
+        {
+          "chapter": 50,
+          "arc": "Hằng Nhạc phái",
+          "event": "Được Vương Lâm cứu khỏi lò luyện đan",
+          "desc": "VL phá lò, kéo từ quỷ môn quan về; được phong nội môn đệ tử, giao Đạo Hư dưỡng thương. Nạn nhân → nội môn đệ tử.",
+          "major": true
+        },
+        {
+          "chapter": 55,
+          "arc": "Hằng Nhạc phái",
+          "event": "Ở lại với cha — chia tay Vương Lâm",
+          "desc": "Chọn không đi theo VL, ở lại chiếu cố cha; tình bạn giữ nguyên dù xa cách.",
+          "major": false
+        },
+        {
+          "chapter": 87,
+          "arc": "Triệu quốc",
+          "event": "Chứng kiến Đằng Hóa Nguyên diệt toàn tộc Vương gia",
+          "desc": "Chứng kiến cha mẹ bị giết; tầng 7 Ngưng Khí, gào khóc bất lực, suýt liều mạng; được VT ghì lại và bay về Huyền Đạo tông.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí",
+          "chapter": 5,
+          "location": "Hằng Nhạc phái",
+          "gained": "Làm dược đồng, bắt đầu tu luyện; vẫn chưa đạt tầng 1 đến Ch.30",
+          "congphap": ""
+        },
+        {
+          "realm": "Ngưng Khí tầng 7",
+          "chapter": 87,
+          "location": "Triệu quốc",
+          "gained": "Tầng 7 khi chứng kiến Vương gia diệt môn",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Bạn thân từ nhỏ, anh em họ; người đầu tiên không hùa nhạo VL; lần đầu khiến VL ra tay can thiệp mạnh (Ch.50)"
+        },
+        {
+          "name": "Vương Trác",
+          "type": "giađình",
+          "desc": "Anh em họ cùng nhà; Vương Trác coi thường nhưng VH không tranh chấp"
+        },
+        {
+          "name": "Lữ Vân Kiệt",
+          "type": "kethu",
+          "desc": "Tam sư huynh đã dụ VH tu tà công — cội nguồn bi kịch Lô Hỏa Khai Đỉnh"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Lô Hỏa Khai Đỉnh đại pháp",
+          "cat": "congphap",
+          "status": "dalung",
+          "desc": "Ch.43 — bị Lữ Vân Kiệt ép tu tà công biến người thành dược lô; được VL phá giải và cứu (Ch.50)",
+          "effect": "Biến cơ thể thành lò luyện nhân thọ đan; ký sinh tàn phá sinh mệnh"
+        }
+      ]
     },
     {
       "name": "Vương Thiên Thủy — Phụ thân Vương Lâm",
@@ -1393,7 +1647,107 @@
           "text": "Một thực thể (tàn hồn / Nguyên Anh) cư ngụ trong **Nghịch Thiên châu**, xuất thân **quốc gia ma đạo** (tu chân quốc cấp cao). Là cố vấn/sư phụ ngầm xuyên suốt đợt: bày Đoạt Cơ Đại Pháp, Huyết Luyện thuật, Hoàng Tuyền thăng khiếu quyết; nhiều lần dùng tinh hoa Nguyên Anh giúp Vương Lâm **thuấn di** thoát hiểm; che giấu lời nguyền Đằng Hóa Nguyên.\n- Tính cách: kiêu ngạo, thích khơi gợi tò mò, lắm mồm, có lúc vòi vĩnh (\"muốn nhìn nữ nhân\"); nhưng kiến thức uyên bác (trận pháp, lời nguyền, ma đạo công pháp, cực âm chi địa, ba cảnh giới linh lực).\n- Hạn chế: chỉ còn Nguyên Anh, tổn hao thì suy yếu/ngủ say (ngủ hơn 1 năm sau Đoạt Cơ).\n- Câu khâm phục hiếm hoi với Vương Lâm sau vụ liều mạng giết Đằng Lệ: thừa nhận hắn \"đủ tư cách đứng trên Tu Chân Giới\". (Ch.72)\n- **Chuyển biến**: giọng kiêu ngạo dạy dỗ → lần đầu kính phục tâm tính Vương Lâm.\n- *Cần xác minh*: xuất hiện chính thức từ chương nào (hồ sơ Ch.1-60 chưa ghi — lỗ hổng cần bổ sung khi đọc lại Ch.41-60)."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Chu Tước quốc (Lục cấp Tu Chân quốc) — cường giả ma đạo; tàn hồn/Nguyên Anh cư ngụ trong Nghịch Thiên châu",
+        "realm": "Tàn hồn Nguyên Anh (sinh thời cường giả cấp cao, đang cạn dần tinh hoa)",
+        "firstChapter": 46,
+        "appearance": "(không thấy đề cập trong tiểu thuyết — tồn tại dưới dạng giọng nói trong Mộng Cảnh NTC)",
+        "personality": [
+          "Kiêu ngạo ngang ngược cực độ — khinh vạn vật",
+          "Tàn nhẫn và thực dụng theo kiểu ma đạo",
+          "Lắm mồm nhưng kiến thức uyên bác; dần lộ thiện cảm với VL"
+        ],
+        "specialties": [
+          "Trận pháp và lời nguyền ma đạo",
+          "Thuấn di (tốc độ tức thời)",
+          "Ma đạo công pháp và cực âm chi địa"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 46,
+          "arc": "Trong Nghịch Thiên châu",
+          "event": "Lần đầu cất tiếng — tiết lộ đã ngầm giúp VL 30 năm Mộng Cảnh",
+          "desc": "Sau 30 năm im lặng dùng tinh hoa Nguyên Anh củng cố nền tảng cho VL; tiết lộ mục đích thật: muốn VL mạnh để đoạt xá.",
+          "major": true
+        },
+        {
+          "chapter": 46,
+          "arc": "Trong Nghịch Thiên châu",
+          "event": "Giảng hệ thống phân cấp Tu Chân quốc + ma đạo tri thức",
+          "desc": "Tiết lộ cấu trúc thế giới (3→6 cấp Tu Chân quốc, Hóa Thần, Anh Biến); hứa \"đại ân đại đức khắc ghi cả đời\".",
+          "major": false
+        },
+        {
+          "chapter": 51,
+          "arc": "Trong NTC",
+          "event": "Dặn VL tu tới tầng 15 mới Trúc Cơ + hứa truyền Hoàng Tuyền Thăng Khiếu Quyết",
+          "desc": "Chỉ đường tu luyện tối ưu; dặn treo châu trước ngực để trò chuyện.",
+          "major": false
+        },
+        {
+          "chapter": 53,
+          "arc": "Tu chân giới",
+          "event": "Che giấu khí tức cho VL khi Phác Nam Tử tới",
+          "desc": "Hiếm khi nghiêm túc — chủ động bảo vệ VL trước cao thủ ngoại lai.",
+          "major": false
+        },
+        {
+          "chapter": 59,
+          "arc": "Tu chân giới",
+          "event": "Dùng tinh hoa Nguyên Anh cuối thuấn di đưa VL đuổi kịp Chu Bằng",
+          "desc": "Hy sinh tinh hoa quý báu (cảnh báo lãng phí = tiêu biến trước khi VL tới Anh Biến); đây là giúp đỡ quan trọng nhất.",
+          "major": true
+        },
+        {
+          "chapter": 60,
+          "arc": "Tu chân giới",
+          "event": "Mượn thân VL thi triển tuyệt kỹ âm hàn; truyền Khôi Lỗi thuật",
+          "desc": "Trọng thương Chu Bằng; cố ý thêm bước bịa \"mổ bụng lấy ngũ tạng\" vào Khôi Lỗi thuật để từng bước tiêm nhiễm tính ác ma đạo cho VL.",
+          "major": true
+        },
+        {
+          "chapter": 72,
+          "arc": "Tu chân giới",
+          "event": "Lần đầu thừa nhận VL \"đủ tư cách đứng trên Tu Chân Giới\"",
+          "desc": "Sau khi VL liều mạng giết Đằng Lệ — khoảnh khắc kiêu ngạo bậc sư phụ lần đầu thực sự kính phục đệ tử.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh (tàn hồn)",
+          "chapter": 0,
+          "location": "Chu Tước quốc",
+          "gained": "Sinh thời cường giả đỉnh cao; bị truy giết thân hủy, hồn phách trú vào NTC; tinh hoa Nguyên Anh đang cạn dần mỗi lần dùng thuấn di",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Cố vấn ngầm — sư phụ quyền mưu; vừa giúp đỡ vừa thao túng tâm tính; về sau thực sự kính phục VL (Ch.72)"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Tinh hoa Nguyên Anh (tàn hồn)",
+          "cat": "khanang",
+          "status": "dalung",
+          "desc": "Dùng dần qua nhiều lần thuấn di và củng cố nền tảng VL; mỗi lần dùng đều hao tổn",
+          "effect": "Thuấn di tức thời; bảo vệ và nâng đỡ VL từ xa"
+        },
+        {
+          "name": "Khôi Lỗi thuật",
+          "cat": "congphap",
+          "status": "datang",
+          "desc": "Ch.60 — truyền cho VL kèm bước bịa \"mổ bụng\" để tiêm nhiễm ma tính",
+          "effect": "Công pháp ma đạo; bước cốt lõi tiêm nhiễm con đường tà đạo cho VL"
+        }
+      ]
     },
     {
       "name": "A Ngốc — quái nhân da lam",
@@ -1555,6 +1909,131 @@
         {
           "label": "Quan hệ với Vương Lâm",
           "text": "Kẻ thù lớn nhất giai đoạn đầu của Vương Lâm — cội nguồn của mọi tai họa ập xuống gia đình VL (Tam thúc, Hổ Tử, Vương gia). VL lập thệ báo thù suốt hàng trăm năm và cuối cùng giết Đằng Hóa Nguyên (Ch.222)."
+        }
+      ],
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — lão tổ Đằng gia, gia tộc tu chân đệ nhất Triệu quốc",
+        "realm": "Nguyên Anh hậu kỳ",
+        "firstChapter": 77,
+        "appearance": "(không thấy đề cập cụ thể trong tiểu thuyết)",
+        "personality": [
+          "Nham hiểm thù dai — có thù ắt báo đến cùng",
+          "Cao cao tại thượng, khinh thường đối thủ",
+          "Giữ một góc tình cảm bí ẩn — 400 năm vẫn lau giữ bài vị Đằng Lệ"
+        ],
+        "specialties": [
+          "Nguyên Anh hậu kỳ — pháp bảo phong phú (hồn kỳ/Hồn Phiên, nội giáp vàng)",
+          "Lời nguyền trận pháp truy sát tầm xa",
+          "Mạng lưới đồng minh rộng (Phác Nam Tử, Sứ giả Thông Thiên tháp)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 77,
+          "arc": "Triệu quốc",
+          "event": "Gieo lời nguyền truy sát VL từ xa — lần đầu xuất hiện",
+          "desc": "Khi Đằng Lệ bị VL Đoạt Cơ, ĐHN (qua hóa thân) không tiếc hao tuổi thọ gieo lời nguyền đồ án hình thoi tím lên trán VL; lần theo tới rừng sương mù nhưng bị cản, trọng thương bỏ chạy.",
+          "major": true
+        },
+        {
+          "chapter": 87,
+          "arc": "Triệu quốc",
+          "event": "Tàn sát toàn bộ Vương gia — cha mẹ VL bị giết",
+          "desc": "Qua gương thiên toán của Khải Minh đạo nhân lần ra VL; không vào được Quyết Minh cốc; trực tiếp tàn sát hơn trăm người họ Vương; hút hồn phách vào Hồn Phiên để ép VL ra khỏi cốc.",
+          "major": true
+        },
+        {
+          "chapter": 89,
+          "arc": "Triệu quốc",
+          "event": "Gieo hình ảnh + lời nhắn vào tâm VL để ép hắn ra mặt",
+          "desc": "Tâm lý chiến — tra tấn VL bằng hình ảnh cha mẹ bị giết, thông qua hồn phách trong Hồn Phiên.",
+          "major": false
+        },
+        {
+          "chapter": 99,
+          "arc": "Triệu quốc",
+          "event": "Quyết chiến trước cả Triệu quốc — \"giết\" VL bằng 3 vạn tinh hồn",
+          "desc": "Bị huyễn thuật VL lừa hai lần; phản đòn bằng nội giáp vàng và huyết võng Nguyên Anh; thả hồn phách cha mẹ VL tra tấn; dùng 3 vạn tinh hồn tưởng kết liễu VL.",
+          "major": true
+        },
+        {
+          "chapter": 211,
+          "arc": "Arc Đằng gia",
+          "event": "Chứng kiến từng huyết mạch bị VL diệt sạch trước mắt",
+          "desc": "VL cố ý không giết ĐHN trước — giết sạch cả tộc để lão trơ mắt nhìn; 9 ngọc giản hạch tâm vỡ dần, lão lần đầu rơi nước mắt sau 400 năm.",
+          "major": true
+        },
+        {
+          "chapter": 222,
+          "arc": "Triệu quốc",
+          "event": "Bị VL giết — mối thù 400 năm khép lại",
+          "desc": "Cùng đường tuyên bố \"ân oán xóa bỏ\" nhưng vừa khởi ý cầu sinh lúc Phác Nam Tử tới; VL bắn xuyên my tâm một chiêu lấy mạng. Tiết lộ kẻ chỉ điểm 400 năm trước là Cao Khải Minh.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh sơ kỳ",
+          "chapter": 0,
+          "location": "(400 năm trước thời điểm truyện)",
+          "gained": "Cảnh giới ban đầu 400 năm trước; thanh niên bốc đồng ép VL tự bạo",
+          "congphap": ""
+        },
+        {
+          "realm": "Nguyên Anh hậu kỳ",
+          "chapter": 77,
+          "location": "Triệu quốc",
+          "gained": "Thăng tiến thần tốc nhờ sự trợ giúp của Phác Nam Tử và Sứ giả Thông Thiên tháp",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Kẻ thù truyền kiếp số một suốt 400 năm; cội nguồn mọi tai họa gia đình VL; bị VL giết Ch.222"
+        },
+        {
+          "name": "Đằng Lệ",
+          "type": "giađình",
+          "desc": "Cháu (Đằng Lệ là cháu); suốt 400 năm vẫn giữ bài vị — góc tình cảm bí ẩn duy nhất"
+        },
+        {
+          "name": "Phác Nam Tử",
+          "type": "banhuu",
+          "desc": "Đồng minh cung cấp sự trợ giúp giúp ĐHN thăng tiến từ sơ → hậu kỳ Nguyên Anh"
+        },
+        {
+          "name": "Sứ giả Thông Thiên tháp",
+          "type": "banhuu",
+          "desc": "Đồng minh tăng cường thực lực và mạng lưới truy sát VL"
+        },
+        {
+          "name": "Cao Khải Minh",
+          "type": "banhuu",
+          "desc": "Kẻ chỉ điểm 400 năm trước — tiết lộ bởi ĐHN trước khi chết (Ch.222)"
+        },
+        {
+          "name": "Vương Trác",
+          "type": "dottu",
+          "desc": "Rể (con cái ĐHN lấy Vương Trác); xung đột ái-thù phức tạp"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Hồn Phiên (hồn kỳ)",
+          "cat": "baovat",
+          "status": "mat",
+          "desc": "Pháp bảo chứa 3 vạn tinh hồn — dùng để tra tấn tâm lý VL và tấn công; bị VL đánh bại hoặc tịch thu (Ch.100+)",
+          "effect": "Giam giữ và điều khiển hồn phách; vũ khí tâm lý tàn nhẫn"
+        },
+        {
+          "name": "Nội giáp vàng",
+          "cat": "baovat",
+          "status": "mat",
+          "desc": "Phòng ngự pháp bảo đỡ phi kiếm VL trong quyết chiến (Ch.99-100); kết cục sau trận chiến không rõ",
+          "effect": "Phòng thủ cao cấp Nguyên Anh kỳ"
         }
       ]
     },
@@ -1835,7 +2314,159 @@
           "text": "Nữ chính phụ; tấm gương soi chiếu sự vô tình của Vương Lâm sau khi nhập ma đạo, đồng thời cho thấy hắn vẫn giữ một lằn ranh nhân tính — nhân vật xám, không ác thuần. Di sản tình cảm của nàng (lời dặn, ngọc giản) nhiều lần cứu mạng hắn lúc nguy cấp nhất."
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Lạc Hà môn, Hỏa Phần quốc — em gái Lý Kỳ Khánh; thiên tài luyện đan và trận pháp",
+        "realm": "Ngũ phẩm đan sư, Nguyên Anh kỳ (xác nhận Ch.200 khu vực)",
+        "firstChapter": 113,
+        "appearance": "(không thấy đề cập cụ thể trong tiểu thuyết)",
+        "personality": [
+          "Thông minh và tự thị thông minh",
+          "Kiên cường trong nghề nhưng nhạy cảm dễ tổn thương",
+          "Trọng ân nghĩa — một lòng si tình"
+        ],
+        "specialties": [
+          "Luyện đan ngũ phẩm — thông gần như mọi đan phương Lạc Hà môn",
+          "Trận pháp — Cửu Ly thi cốt/Cửu Ly Giao Long (cải biến từ Đấu Long trận)",
+          "Tự chế Thất Long đỉnh"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 113,
+          "arc": "Hỏa Phần quốc",
+          "event": "Gặp Vương Lâm thoáng qua lần đầu",
+          "desc": "Gặp gỡ sơ bộ tại Hỏa Phần quốc; chưa có liên kết sâu.",
+          "major": false
+        },
+        {
+          "chapter": 123,
+          "arc": "Tu Ma hải",
+          "event": "Được VL cứu khỏi Song Tu môn truy bức",
+          "desc": "Bị truy bức vì viên Thiên Ly đan; được VL cứu — giao bản mệnh tinh huyết lập trận; bắt đầu sống cùng hắn.",
+          "major": true
+        },
+        {
+          "chapter": 124,
+          "arc": "Tu Ma hải",
+          "event": "3-4 năm luyện đan và nâng cấp trận bên VL",
+          "desc": "Luyện vô số đan dược, phát triển trận pháp; chứng kiến VL tu luyện và chiến đấu; tình cảm nảy mầm một chiều.",
+          "major": false
+        },
+        {
+          "chapter": 127,
+          "arc": "Tu Ma hải",
+          "event": "Chứng kiến VL Kết Đan và thảm sát",
+          "desc": "Tận mắt thấy VL đột phá Kết Đan bằng Cổ Thần quyết và thực lực khủng khiếp; hiểu rõ con người thực sự của hắn — vẫn không thay lòng.",
+          "major": false
+        },
+        {
+          "chapter": 135,
+          "arc": "Tu Ma hải",
+          "event": "Khắc 18.974 ngọc giản tặng VL — giảm thọ 5 năm",
+          "desc": "Tặng toàn bộ trận pháp chứa trong ngọc giản dù biết tốn tuổi thọ; bao gồm ngọc giản Thanh Long phòng ngự.",
+          "major": true
+        },
+        {
+          "chapter": 137,
+          "arc": "Tu Ma hải",
+          "event": "Chia tay — được VL đưa về Lạc Hà môn/Hỏa Phần minh",
+          "desc": "VL trả tự do, lưu thần thức bảo hộ; chia tay trong khi nàng mang theo tình cảm không nói.",
+          "major": true
+        },
+        {
+          "chapter": 147,
+          "arc": "(vắng mặt)",
+          "event": "Lời dặn \"dịch tủy giao long\" được VL thực hiện",
+          "desc": "Lời nàng dặn tiếp tục ảnh hưởng đến hành trình VL dù không còn đồng hành.",
+          "major": false
+        },
+        {
+          "chapter": 149,
+          "arc": "(vắng mặt)",
+          "event": "Ngọc giản Thanh Long cứu mạng VL 2 lần",
+          "desc": "Ngọc giản nàng tặng vượt vùng sinh vật khe không gian + khóa 40 cơn lốc; nứt một vết sau đó.",
+          "major": false
+        },
+        {
+          "chapter": 181,
+          "arc": "Vân Thiên tông",
+          "event": "Tái xuất — 200 năm sau là ngũ phẩm đan sư khách khanh",
+          "desc": "Hơn 200 năm, từ Trúc Cơ trung kỳ lên ngũ phẩm đan sư; nhận ra VL qua bộ da giao long — \"Vương đại ca, 200 năm nay huynh đi đâu?\".",
+          "major": true
+        },
+        {
+          "chapter": 195,
+          "arc": "Vân Thiên tông",
+          "event": "Bị tông ép kết đạo lữ song tu với Tôn Trấn Vĩ",
+          "desc": "Áp lực từ tông môn buộc nàng phải kết giao khác; VL biết tin, tăng tốc chuẩn bị Kết Anh.",
+          "major": true
+        },
+        {
+          "chapter": 181,
+          "arc": "Vân Thiên tông",
+          "event": "Giúp VL Kết Anh — cung cấp đan dược + mở phong ấn đan lô",
+          "desc": "Cung cấp đan dược 200 năm tích lũy, giám định + mở phong ấn đan lô Kỳ Hoàng Môn, dùng Thất Long đỉnh cộng hưởng giải phong ấn.",
+          "major": true
+        },
+        {
+          "chapter": 201,
+          "arc": "Vân Thiên tông",
+          "event": "Đoàn tụ chính thức — VL công khai đón nàng trước toàn tông",
+          "desc": "\"Đến đây!\" — VL sau khi giết Tôn Trấn Vĩ đến đón trước mặt toàn tông; tình cảm chính thức xác lập sau 200 năm chờ đợi.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh kỳ",
+          "chapter": 0,
+          "location": "Vân Thiên tông (hơn 200 năm sau Ch.137)",
+          "gained": "200 năm tu luyện đạt ngũ phẩm đan sư và tương đương Nguyên Anh; thời gian xác nhận không rõ chương",
+          "congphap": ""
+        },
+        {
+          "realm": "Trúc Cơ trung kỳ",
+          "chapter": 113,
+          "location": "Hỏa Phần quốc",
+          "gained": "Thiên tài luyện đan nhưng yếu chiến đấu; đỉnh cao về đan pháp và trận pháp",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "daolu",
+          "desc": "Tuyến tình cảm xuyên suốt từ \"con tin được cứu\" → đồng hành → tình một chiều → cố nhân tái ngộ → đạo lữ (Ch.201); VL thực dụng nhưng giữ chữ tín và một lằn ranh nhân tính"
+        },
+        {
+          "name": "Lý Kỳ Khánh",
+          "type": "giađình",
+          "desc": "Anh trai — cùng xuất thân Lạc Hà môn; không thấy đề cập chi tiết tương tác sau Ch.113"
+        },
+        {
+          "name": "Tôn Trấn Vĩ",
+          "type": "kethu",
+          "desc": "Người Vân Thiên tông muốn ép LMU kết đạo lữ song tu (Ch.195); bị VL giết sau khi Kết Anh (Ch.201)"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Ngọc giản 18.974 chiếc (trận pháp)",
+          "cat": "baovat",
+          "status": "datang",
+          "desc": "Ch.135 — LMU tự khắc toàn bộ trận pháp chứa trong ngọc giản dù giảm thọ 5 năm; tặng VL khi chia tay",
+          "effect": "Kho trận pháp di động; ngọc giản Thanh Long riêng cứu mạng VL 2 lần (Ch.149-154)"
+        },
+        {
+          "name": "Thất Long đỉnh",
+          "cat": "baovat",
+          "status": "con",
+          "desc": "Tự chế từ 7 loại thần kim qua 200 năm; uy lực đủ uy hiếp cả tông môn",
+          "effect": "Đỉnh luyện đan đặc biệt — cộng hưởng với Đoạt Thiên đỉnh giải phong ấn Kỳ Hoàng Môn (Ch.181-200)"
+        }
+      ]
     },
     {
       "name": "Bát Cực Ma Quân (Đoan Mộc Cực · 八極魔君)",
@@ -2435,7 +3066,61 @@
           "text": "Nâng VL thành truyền nhân cấm chế Cổ Thần; mở mạch sức mạnh Cấm Phiên và đích đến thức hải Cổ Thần.\n\n---"
         }
       ],
-      "portrait": "C"
+      "portrait": "C",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Thượng cổ — Cổ Thần tối thượng tại Tu Chân Giới, đã ngủ hàng ngàn năm trong thân thể Thác Sâm",
+        "realm": "Cổ Thần (Tu vi tối thượng thượng cổ, không theo thang hiện đại)",
+        "firstChapter": 61,
+        "appearance": "(không thấy đề cập trong tiểu thuyết — tồn tại dưới dạng ký ức băng tinh / truyền thừa)",
+        "personality": [
+          "Ý chí bá đạo của bậc tối cường",
+          "Bản năng chiếm đoạt và thống trị",
+          "Vô tình với vạn vật hạ cấp"
+        ],
+        "specialties": [
+          "Cổ Thần quyết (2 tầng cướp đoạt)",
+          "Truyền thừa băng tinh 94 ký ức",
+          "Cổ Thần thần thông vô tận"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 61,
+          "arc": "Thời đại Cổ Thần",
+          "event": "Ngủ say trong thân Thác Sâm chờ phục tỉnh",
+          "desc": "Cổ Thần tối thượng bị phong ấn qua hàng ngàn năm; Thác Sâm là thân thể tạm cưu mang; băng tinh ký ức lưu giữ toàn bộ thần thông Cổ Thần.",
+          "major": true
+        },
+        {
+          "chapter": 161,
+          "arc": "Cổ Thần chi địa",
+          "event": "Bị Vương Lâm xâm nhập và đoạt toàn bộ truyền thừa",
+          "desc": "VL vào sâu cơ thể Cổ Thần, thôn phệ 94 băng tinh ký ức; đoạt Cổ Thần quyết hoàn chỉnh; Cổ Thần Đồ Ti thực chất bị tiêu hóa toàn bộ — ký ức và thần thông chuyển sang VL.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Cổ Thần",
+          "chapter": 0,
+          "location": "Tu Chân Giới thượng cổ",
+          "gained": "Thực thể tối thượng thời thượng cổ; tu vi không theo thang cảnh giới Tu Chân hiện đại",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Thác Sâm",
+          "type": "giađình",
+          "desc": "Thân thể cưu mang; Thác Sâm là vật chủ tạm thời cho đến khi bị VL phá vỡ"
+        },
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Kẻ xâm nhập thân thể và đoạt toàn bộ 94 băng tinh truyền thừa (Ch.161-167)"
+        }
+      ]
     },
     {
       "name": "Hứa Lập Quốc (許立國)",
