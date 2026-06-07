@@ -274,15 +274,28 @@ def _parse_timeline_block(lines):
         chapter_raw = parts[0].lstrip("Ch.").strip()
         try: ch = int(chapter_raw.split("-")[0].split("~")[-1].replace("(","").strip())
         except: ch = 0
-        major = len(parts) > 4 and parts[4].strip().lower() in ("major","true","1")
+        importance = "normal"
+        payoff = ""
+        setup = ""
         track = ""
-        for _p in parts:
-            if _p.lower().startswith("track:"):
-                track = _p[6:].strip()
-                break
-        items.append({"chapter": ch, "arc": parts[1], "event": parts[2],
-                      "desc": parts[3] if len(parts) > 3 else "", "major": major,
-                      "track": track})
+        for _p in parts[4:]:
+            low = _p.lower().strip()
+            if low in ("major", "normal", "minor"):
+                importance = low
+            elif low in ("true", "1"):
+                importance = "major"
+            elif low.startswith("track:"):
+                track = _p.strip()[6:].strip()
+            elif low.startswith("payoff:"):
+                payoff = _p.strip()
+            elif low.startswith("setup:"):
+                setup = _p.strip()
+        item = {"chapter": ch, "arc": parts[1], "event": parts[2],
+                "desc": parts[3] if len(parts) > 3 else "",
+                "importance": importance, "track": track}
+        if payoff: item["payoff"] = payoff
+        if setup: item["setup"] = setup
+        items.append(item)
     return items
 
 def _parse_cultivation_block(lines):
