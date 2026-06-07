@@ -653,6 +653,22 @@
 .cm2-cult-ch{font-size:10px;font-weight:700;color:#d4af6e;letter-spacing:.5px;background:rgba(212,175,110,.1);padding:2px 8px;border-radius:10px;border:1px solid rgba(212,175,110,.2);}
 .cm2-cult-loc{font-size:11.5px;color:#a8a090;margin-bottom:3px;}
 .cm2-cult-gained{font-size:12px;color:rgba(212,175,110,.7);font-style:italic;line-height:1.55;}
+/* ── Render v2.1 additions ── */
+.cm2-tl-arc-hdr{font-size:11px;font-weight:700;color:#d4af6e;letter-spacing:.6px;text-transform:uppercase;
+  margin:14px 0 8px -26px;padding:5px 10px 5px 26px;background:rgba(212,175,110,.08);
+  border-left:2px solid rgba(212,175,110,.45);border-radius:0 5px 5px 0;line-height:1.4;}
+.cm2-tl-arc-hdr:first-child{margin-top:2px;}
+.cm2-cult-group{margin-bottom:4px;}
+.cm2-cult-ghdr{font-size:13px;font-weight:700;color:#f0d89a;font-family:'Noto Serif Display',serif;
+  padding:6px 0 5px;border-bottom:1px solid rgba(212,175,110,.15);margin-bottom:6px;}
+.cm2-cult-sub{font-size:10px;font-weight:600;color:rgba(212,175,110,.65);background:rgba(212,175,110,.08);
+  border:1px solid rgba(212,175,110,.2);padding:1px 7px;border-radius:8px;}
+.cm2-cult-cp{font-size:11.5px;color:#a8a090;margin-bottom:3px;}
+.cm2-cult-cp a{color:#d4af6e;cursor:pointer;text-decoration:none;}
+.cm2-cult-cp a:hover{text-decoration:underline;}
+.cm2-rel-name.cm2-rel-link{cursor:pointer;color:#d4af6e;}
+.cm2-rel-name.cm2-rel-link:hover{text-decoration:underline;}
+.cm2-bs-hong{background:rgba(180,80,20,.18);color:#fb923c;border:1px solid rgba(180,80,20,.35);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:700;}
 </style>
 </head>
 <body>
@@ -2188,14 +2204,20 @@ function _renderCharHero(c){
   /* === TAB 2: KINH LỊCH NHÂN SINH === */
   let t2='';
   if(c.timeline&&c.timeline.length){
-    t2='<div class="cm2-timeline">'+[...c.timeline].sort((a,b)=>Number(a.chapter||0)-Number(b.chapter||0)).map(t=>
-      '<div class="cm2-tl-item'+(t.major?' cm2-tl-major':'')+'">'+
-      '<div class="cm2-tl-dot"></div>'+
-      (t.arc?'<div class="cm2-tl-arc">'+_esc(t.arc)+'</div>':'')+
-      (t.chapter!=null?'<div class="cm2-tl-ch">Ch.'+_esc(t.chapter)+'</div>':'')+
-      (t.event?'<div class="cm2-tl-event">'+_esc(t.event)+'</div>':'')+
-      (t.desc?'<div class="cm2-tl-desc">'+_safeText(t.desc)+'</div>':'')+
-      '</div>').join('')+'</div>';
+    const _tlS=[...c.timeline].sort((a,b)=>Number(a.chapter||0)-Number(b.chapter||0));
+    const _tlG=[];let _tlA=null,_tlC=null;
+    _tlS.forEach(t=>{const ak=t.arc||'';if(ak!==_tlA){_tlC={arc:ak,items:[]};_tlG.push(_tlC);_tlA=ak;}_tlC.items.push(t);});
+    t2='<div class="cm2-timeline">'+_tlG.map(g=>
+      (g.arc?'<div class="cm2-tl-arc-hdr">'+_esc(g.arc)+'</div>':'')+
+      g.items.map(t=>
+        '<div class="cm2-tl-item'+(t.major?' cm2-tl-major':'')+'">'+
+        '<div class="cm2-tl-dot"></div>'+
+        (t.chapter!=null?'<div class="cm2-tl-ch">Ch.'+_esc(t.chapter)+'</div>':'')+
+        (t.event?'<div class="cm2-tl-event">'+_esc(t.event)+'</div>':'')+
+        (t.desc?'<div class="cm2-tl-desc">'+_safeText(t.desc)+'</div>':'')+
+        '</div>'
+      ).join('')
+    ).join('')+'</div>';
   }else{t2=_renderDetailSecs(tm.kinhlich,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>timeline[]</code> hoặc section label chứa "mốc/arc/lịch sử".</p>';}
 
   /* === TAB 3: QUAN HỆ NHÂN MẠCH === */
@@ -2207,13 +2229,16 @@ function _renderCharHero(c){
     c.relations.forEach(r=>{if(!rm[r.type])rm[r.type]=[];rm[r.type].push(r);});
     t3=Object.keys(RGRP).filter(k=>rm[k]&&rm[k].length).map(k=>
       '<div class="cm2-rel-group"><div class="cm2-rel-gtitle">'+RGRP[k]+'</div>'+
-      rm[k].map(r=>
-        '<div class="cm2-rel-item"><div class="cm2-rel-av">👤</div><div>'+
-        '<div class="cm2-rel-name">'+_esc(r.name||'')+'</div>'+
+      rm[k].map(r=>{
+        const _rn=(r.name||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+        return '<div class="cm2-rel-item"><div class="cm2-rel-av">👤</div><div>'+
+        (r.name?'<div class="cm2-rel-name cm2-rel-link" onclick="openCharDetail(\''+ _rn +'\')">' :
+                '<div class="cm2-rel-name">')+_esc(r.name||'')+'</div>'+
         '<span class="cm2-rel-badge-t '+(RCL[k]||'cm2-rt-ban')+'">'+RGRP[k].split(' ').slice(1).join(' ')+'</span>'+
         (r.desc?'<div class="cm2-rel-desc">'+_safeText(r.desc)+'</div>':'')+
-        '</div></div>'
-      ).join('')+'</div>'
+        '</div></div>';
+      })
+.join('')+'</div>'
     ).join('')||'<p class="cm-empty">Chưa có dữ liệu.</p>';
   }else{t3=_renderDetailSecs(tm.nhanmach,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>relations[]</code> hoặc section label chứa "quan hệ/đạo lữ/gia đình".</p>';}
 
@@ -2222,29 +2247,40 @@ function _renderCharHero(c){
   let t4='';
   if(c.cultivation&&c.cultivation.length){
     const cvSorted=[...c.cultivation].sort((a,b)=>Number(a.chapter||0)-Number(b.chapter||0));
-    t4='<div class="cm2-cult-wrap">'+cvSorted.map(cv=>
-      '<div class="cm2-cult-item">'+
-        '<div class="cm2-cult-top">'+
-          '<span class="cm2-cult-realm">'+_esc(cv.realm||'')+'</span>'+
-          (cv.chapter?'<span class="cm2-cult-ch">Ch.'+_esc(String(cv.chapter))+'</span>':'')+
-        '</div>'+
-        (cv.location?'<div class="cm2-cult-loc">📍 '+_esc(cv.location)+'</div>':'')+
-        (cv.gained?'<div class="cm2-cult-gained">✦ '+_safeText(cv.gained)+'</div>':'')+
+    function _cBase(r){return(r||'').replace(/\s*(sơ kỳ|trung kỳ|hậu kỳ|đỉnh phong|viên mãn|cực kỳ|đỉnh|sơ|trung|hậu)\s*$/,'').trim();}
+    const cvGrps=[];let _cvB=null,_cvC=null;
+    cvSorted.forEach(cv=>{const b=_cBase(cv.realm);if(b!==_cvB){_cvC={base:b,items:[]};cvGrps.push(_cvC);_cvB=b;}_cvC.items.push(cv);});
+    t4='<div class="cm2-cult-wrap">'+cvGrps.map(g=>
+      '<div class="cm2-cult-group">'+
+      '<div class="cm2-cult-ghdr">'+_esc(g.base)+'</div>'+
+      g.items.map(cv=>{
+        const sfx=(cv.realm||'').slice(g.base.length).trim();
+        const safeN=n=>(n||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+        return '<div class="cm2-cult-item">'+
+          '<div class="cm2-cult-top">'+
+            (sfx?'<span class="cm2-cult-sub">'+_esc(sfx)+'</span>':'<span></span>')+
+            (cv.chapter?'<span class="cm2-cult-ch">Ch.'+_esc(String(cv.chapter))+'</span>':'')+
+          '</div>'+
+          (cv.location?'<div class="cm2-cult-loc">📍 '+_esc(cv.location)+'</div>':'')+
+          (cv.congphap?'<div class="cm2-cult-cp">📖 <a onclick="openArtifactDetail(\''+ safeN(cv.congphap) +'\')">' +_esc(cv.congphap)+'</a></div>':'')+
+          (cv.gained?'<div class="cm2-cult-gained">✦ '+_safeText(cv.gained)+'</div>':'')+
+          '</div>';
+      }).join('')+
       '</div>'
     ).join('')+'</div>';
   }else{
-    t4=_renderDetailSecs(tm.tuvi,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>cultivation[]</code> hoặc section label chứa “tu vi/công pháp/pháp bảo”.</p>';
+    t4=_renderDetailSecs(tm.tuvi,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>cultivation[]</code> hoặc section label chứa "tu vi/công pháp/pháp bảo".</p>';
   }
 
   /* === TAB 5: TÚI ĐỒ === */
   let t5='';
   if(c.inventory&&c.inventory.length){
     const CICON={baovat:'🔮',dandung:'💊',vatpham:'📦',thientai:'🌿'};
-    const SCL={con:'cm2-bs-con',mat:'cm2-bs-mat',dalung:'cm2-bs-dung',datang:'cm2-bs-dung',donghop:'cm2-bs-dung',bicuop:'cm2-bs-mat'};
-    const SLB={con:'Còn',mat:'Đã mất',dalung:'Đã dùng',datang:'Đã tặng',donghop:'Dung hợp',bicuop:'Bị cướp'};
+    const SCL={con:'cm2-bs-con',mat:'cm2-bs-mat',dalung:'cm2-bs-dung',datang:'cm2-bs-dung',donghop:'cm2-bs-dung',bicuop:'cm2-bs-mat',hong:'cm2-bs-hong'};
+    const SLB={con:'Còn',mat:'Đã mất',dalung:'Đã dùng',datang:'Đã tặng',donghop:'Dung hợp',bicuop:'Bị cướp',hong:'Hỏng nặng'};
     const invSorted=[...c.inventory].sort((a,b)=>Number(a.chapter||0)-Number(b.chapter||0));
     t5=invSorted.map(it=>
-      '<div class="cm2-bag-item'+(it.status&&it.status!=='con'?' cm2-bag-faded':'')+'">'+
+      '<div class="cm2-bag-item'+(it.status&&it.status!=='con'&&it.status!=='hong'?' cm2-bag-faded':'')+'">'+
       '<div class="cm2-bag-icon">'+(CICON[it.cat]||'📦')+'</div>'+
       '<div style="flex:1"><div class="cm2-bag-name">'+_esc(it.name||'')+'</div>'+
       '<div class="cm2-bag-meta">'+
