@@ -128,7 +128,7 @@
       "bio": {
         "gender": "Nam",
         "origin": "Triệu quốc — ký danh đệ tử Hằng Nhạc phái; thiếu niên thường dân, thiên tư tu tiên cực kém",
-        "realm": "Hóa Thần (đang đột phá — Ch.260+)",
+        "realm": "Hóa Thần (đột phá Ch.260 — Bổn tôn Đạo Cổ Thần đang tán công; Phân thân Thần Đạo sắp Hóa Thần)",
         "firstChapter": 1,
         "appearance": "Tóc bạc mây cuộn mắt đen (thân thể Cổ Thần trọng tổ); từng chiếm xác Mã Lương nhiều năm; thường ẩn dưới mũ rơm chặn thần thức",
         "personality": [
@@ -142,6 +142,16 @@
           "Cấm chế thuật thượng cổ (vòng tàn ảnh)",
           "Điêu khắc gỗ pháp bảo",
           "Thuật Thần Đạo phân thân"
+        ],
+        "tracks": [
+          {
+            "key": "bonton",
+            "label": "Bổn tôn · Đạo Cổ Thần (Ch.260–nay)"
+          },
+          {
+            "key": "phanthan-thandao",
+            "label": "Phân thân · Thần Đạo (Ch.260–nay)"
+          }
         ]
       },
       "timeline": [
@@ -150,133 +160,176 @@
           "arc": "Giai đoạn Phàm Nhân",
           "event": "Lên thành — ký danh đệ tử Hằng Nhạc phái",
           "desc": "Thiếu niên Triệu quốc (tên mụ Thiết Trụ), thiên tư tu tiên cực kém; theo tứ thúc lên thành ký danh đệ tử Hằng Nhạc phái; không có tiền đồ, địa vị thấp nhất trong môn phái.",
-          "major": true
+          "major": true,
+          "track": ""
         },
         {
           "chapter": 8,
           "arc": "Giai đoạn Phàm Nhân",
           "event": "Tìm thấy Nghịch Thiên châu — bước ngoặt toàn bộ hành trình",
           "desc": "Bị đẩy vào dãy núi sau vụ tranh chấp; trong hang tìm được hạt châu đỏ thần bí từ thi thể con chim (sau gọi là Thạch Châu / Nghịch Thiên châu); Mộng Cảnh bên trong NTC có cố vấn Tư Đồ Nam chỉ đường — khởi đầu chiến lược lấy thời gian bù thiên phú.",
-          "major": true
+          "major": true,
+          "track": ""
         },
         {
           "chapter": 40,
           "arc": "Giai đoạn Ngưng Khí",
           "event": "Tu Ngưng Khí nhờ Nghịch Thiên châu",
           "desc": "Mỗi đêm luyện trong Mộng Cảnh NTC gia tốc; Tư Đồ Nam chỉ hướng tu pháp; lén lút gom dược liệu; học Thông Phệ đại pháp từ Hằng Nhạc phái. Chương cụ thể không thấy đề cập rõ trong tiểu thuyết.",
-          "major": false
+          "major": false,
+          "track": ""
         },
         {
           "chapter": 80,
           "arc": "Giai đoạn Trúc Cơ",
           "event": "Đột phá Trúc Cơ — bước vào tu chân thực sự",
           "desc": "Tích lũy đủ linh lực qua NTC và Thông Phệ đại pháp đột phá Trúc Cơ; nền tảng vững hơn đồng cấp; bắt đầu va chạm thực sự với thế giới tu chân trong và ngoài môn phái. Chương cụ thể không thấy đề cập rõ trong tiểu thuyết.",
-          "major": false
+          "major": false,
+          "track": ""
         },
         {
           "chapter": 127,
           "arc": "Giai đoạn Kết Đan",
           "event": "Đột phá Kết Đan tại Toái Tinh Loạn",
           "desc": "Dùng Cổ Thần quyết đoạt kim đan người khác thay Kết Đan truyền thống; mở đường vào cảnh giới Kết Đan.",
-          "major": true
+          "major": true,
+          "track": ""
         },
         {
           "chapter": 157,
           "arc": "Giai đoạn Kết Đan",
           "event": "Kết Đan trung kỳ trong Cổ Thần chi địa",
           "desc": "Cảnh giới tăng qua thôn hồn + tích lũy linh lực trong khi thôn phệ truyền thừa Cổ Thần Đồ Ti.",
-          "major": false
+          "major": false,
+          "track": ""
         },
         {
           "chapter": 161,
           "arc": "Giai đoạn Kết Đan",
           "event": "Đoạt Cổ Thần quyết — bước ngoặt lớn nhất Quyển 2",
           "desc": "Vào sâu cơ thể Cổ Thần, hấp thu 94 băng tinh ký ức Cổ Thần Đồ Ti; đoạt Cổ Thần quyết (2 tầng cướp đoạt), trọng tổ thân thể gốc, sinh hồn thạch. Từ kẻ yếu thế chạy trốn thành kẻ có thể tự vệ trước Nguyên Anh sơ kỳ.",
-          "major": true
+          "major": true,
+          "track": ""
         },
         {
           "chapter": 178,
           "arc": "Giai đoạn Kết Đan",
           "event": "Kết Đan hậu kỳ — ổn định sau trọng tổ thân thể",
           "desc": "Tại Kỳ Lân thành, Tu Ma hải; thân thể Cổ Thần trọng tổ hoàn toàn (94 băng tinh), hồn thạch ổn định; thực lực vượt xa cảnh giới nhờ Cực cảnh thần thức.",
-          "major": false
+          "major": false,
+          "track": ""
         },
         {
           "chapter": 181,
           "arc": "Giai đoạn Nguyên Anh",
           "event": "Tái ngộ Lý Mộ Uyển tại Vân Thiên tông",
           "desc": "Gặp lại Lý Mộ Uyển sau 200 năm (ngũ phẩm đan sư); kìm nén thân tình vì huyết hải thâm cừu với Đằng gia; khi nghe tin LMU sắp kết đạo lữ → cảm xúc cực hạn thúc đẩy quyết tâm Kết Anh.",
-          "major": false
+          "major": false,
+          "track": ""
         },
         {
           "chapter": 200,
           "arc": "Giai đoạn Nguyên Anh",
           "event": "Kết Anh — đột phá Nguyên Anh kỳ",
           "desc": "Dùng Thuật Thần Đạo tách phân thân tu trong NTC (30 năm thực ≈ 180 năm gia tốc), rồi dung hợp bản tôn + phân thân khi Kết Anh; hút linh lực Đoạt Thiên Thất đỉnh; vượt cực cảnh thần thức + sợi thiên kiếp.",
-          "major": true
+          "major": true,
+          "track": ""
         },
         {
           "chapter": 201,
           "arc": "Giai đoạn Nguyên Anh",
           "event": "Khuất phục Vân Thiên tông & chính thức đón Lý Mộ Uyển",
           "desc": "Bắt toàn tông giao huyết hồn 500 năm; đón Lý Mộ Uyển làm đạo lữ chính thức.",
-          "major": false
+          "major": false,
+          "track": ""
         },
         {
           "chapter": 210,
           "arc": "Giai đoạn Nguyên Anh",
           "event": "Diệt tộc Đằng gia — rửa thù 400 năm",
           "desc": "Gọi hồn phách Đằng Lệ định vị toàn bộ huyết mạch; phong tỏa Đằng gia thành 16 trận kỳ; giết 6/9 hạch tâm; khổ chiến Đằng Nhất bằng Cổ Thần thần thông; giết Đằng Hóa Nguyên (Ch.222). Thù 400 năm kết thúc; tâm cảnh bước sang trang mới.",
-          "major": true
+          "major": true,
+          "track": ""
         },
         {
           "chapter": 225,
           "arc": "Giai đoạn Hóa phàm",
           "event": "20 năm ẩn cư Hóa phàm tại tứ cấp Tu Chân Quốc",
           "desc": "Mở tiệm khắc tượng gỗ; sống bình dị với Đại Ngưu/Từ Đào/Thế tử; mượn 3 ý cảnh Hóa Thần (tuyệt tình/an nhàn/tuế nguyệt) từ lão nhân thần bí; gột rửa sát tâm.",
-          "major": true
+          "major": true,
+          "track": ""
         },
         {
           "chapter": 226,
           "arc": "Giai đoạn Hóa phàm",
           "event": "Phân thân đột phá Nguyên Anh trung kỳ",
           "desc": "Phân thân cưỡi ngựa cảm thiên đạo lần đầu; đột phá tự nhiên Nguyên Anh trung kỳ trong trạng thái hóa phàm.",
-          "major": false
+          "major": false,
+          "track": ""
         },
         {
           "chapter": 240,
           "arc": "Giai đoạn Hóa phàm",
           "event": "Ngộ thiên đạo luân hồi — đứng trước ngưỡng Hóa Thần",
           "desc": "Chứng kiến cha Đại Ngưu mất theo luân hồi, cảm nhận lực năm tháng gắn lên vạn vật; đạt cảnh ngộ đạo đủ điều kiện Hóa Thần.",
-          "major": true
+          "major": true,
+          "track": ""
         },
         {
           "chapter": 241,
           "arc": "Giai đoạn Hóa Thần",
           "event": "Đại chiến Tuyết Vực — đoạt thổ linh & Vũ Đỉnh",
           "desc": "Ẩn mình trong trận Tuyết Vực Quốc đánh diệt Liên Minh Tứ Phái; đoạt thổ linh (Nghịch Thiên châu đủ thủy/hỏa/thổ); đoạt Vũ Đỉnh; giết bà lão Hóa Thần trung kỳ bằng sợi tơ thiên kiếp lần đầu; Âu Chí xác định VL là đại thù tiềm tàng.",
-          "major": true
+          "major": true,
+          "track": ""
         },
         {
           "chapter": 247,
           "arc": "Giai đoạn Hóa Thần",
           "event": "Luyện Hắc ấn chữ Tử & ngộ Sinh Tử ý cảnh (bước 1)",
           "desc": "Điêu khắc từng người đã giết suốt 400 năm, hồi ức toàn bộ nhân sinh; ngộ ý cảnh Sinh Tử lần đầu; đúc Hắc ấn chữ Tử dung nhập Nguyên Anh.",
-          "major": false
+          "major": false,
+          "track": ""
         },
         {
           "chapter": 257,
           "arc": "Giai đoạn Hóa Thần",
           "event": "Chứng kiến lão Thủy Mặc Môn tự bạo — ngộ Sinh Tử bước 2",
           "desc": "Lão Thủy Mặc Môn tự bạo hộ quốc Triệu; VL ngộ thêm: thấy bản chất đằng sau bề mặt; nhận ra quê hương là nơi sinh tử.",
-          "major": false
+          "major": false,
+          "track": ""
         },
         {
           "chapter": 259,
           "arc": "Giai đoạn Hóa Thần",
-          "event": "Đốn ngộ & tách bổn tôn/phân thân — bắt đầu Hóa Thần",
-          "desc": "Mặc Trí khai thị tại miếu cổ về chọn sống → VL đốn ngộ Sinh Tử (bước 3); tâm cảnh đủ Hóa Thần. Bổn tôn chọn Đạo Cổ Thần, tán công từ Kết Đan → Ngưng Khí tầng 1 để tái lập. Arc Hóa Thần nối Ch.261+.",
-          "major": true
+          "event": "Đốn ngộ ý cảnh Sinh Tử — đủ điều kiện Hóa Thần",
+          "desc": "Mặc Trí khai thị tại miếu cổ Triệu quốc về ý nghĩa Sinh/Tử; VL đại ngộ (bước 3): tâm cảnh từ \"còn 1 năm\" → đạt yêu cầu Hóa Thần ngay.",
+          "major": true,
+          "track": ""
+        },
+        {
+          "chapter": 260,
+          "arc": "Giai đoạn Hóa Thần",
+          "event": "Về Huyền Đạo tông — quyết định TÁCH bổn tôn/phân thân thay vì dung hợp",
+          "desc": "VL về động phủ cũ Hằng Nhạc phái xưa (nơi khởi đầu tu chân); bổn tôn (Kết Đan hậu kỳ·Cực Cảnh) chọn Đạo Cổ Thần; phân thân (gần hoàn mỹ·Nguyên Anh) chọn Thần Đạo; KHÔNG dung hợp mà tách riêng để mỗi thân đi con đường riêng. Arc Hóa Thần chính thức bắt đầu.",
+          "major": true,
+          "track": ""
+        },
+        {
+          "chapter": 260,
+          "arc": "Đạo Cổ Thần",
+          "event": "Bổn tôn TÁN CÔNG — giải tan tu vi từ Kết Đan xuống Ngưng Khí tầng 1",
+          "desc": "Bổn tôn rỉ máu → vô số huyết châu → tu vi giảm Kết Đan hậu kỳ → sơ kỳ → kim đan vỡ → Trúc Cơ → Ngưng Khí tầng 14 → tầng 1; linh lực bị phân thân hút qua mi tâm. Cliffhanger Ch.260 — quá trình tán công nối Ch.261+.",
+          "major": true,
+          "track": "bonton"
+        },
+        {
+          "chapter": 260,
+          "arc": "Thần Đạo",
+          "event": "Phân thân nhận toàn bộ linh lực bổn tôn — bắt đầu Hóa Thần theo Thần Đạo",
+          "desc": "Phân thân (sau Kết Anh đã hoàn mỹ, gần như = bổn tôn) hút toàn bộ linh lực qua mi tâm khi bổn tôn tán công; đi con đường Thần Đạo để Hóa Thần. Chi tiết cảnh giới đạt được sau Ch.260 cần xác minh từ Ch.261+.",
+          "major": true,
+          "track": "phanthan-thandao"
         }
       ],
       "cultivation": [
@@ -285,56 +338,80 @@
           "chapter": 1,
           "location": "Hằng Nhạc phái, Triệu quốc",
           "gained": "Bắt đầu tu luyện với thiên tư cực kém; dùng Nghịch Thiên châu Mộng Cảnh gia tốc + Tư Đồ Nam chỉ hướng",
-          "congphap": "Thông Phệ đại pháp"
+          "congphap": "Thông Phệ đại pháp",
+          "track": ""
         },
         {
           "realm": "Trúc Cơ",
           "chapter": 50,
           "location": "Hằng Nhạc phái, Triệu quốc",
           "gained": "Đột phá Trúc Cơ nhờ kiên trì luyện tập + NTC gia tốc; bước vào tu chân thực sự. Chương cụ thể không thấy đề cập trong tiểu thuyết",
-          "congphap": "Thông Phệ đại pháp"
+          "congphap": "Thông Phệ đại pháp",
+          "track": ""
         },
         {
           "realm": "Kết Đan",
           "chapter": 127,
           "location": "Toái Tinh Loạn, Cổ Thần chi địa",
           "gained": "Dùng Cổ Thần quyết đoạt kim đan người khác thay Kết Đan truyền thống; thu Nghịch Thiên châu như hệ hỏa",
-          "congphap": "Cổ Thần quyết"
+          "congphap": "Cổ Thần quyết",
+          "track": ""
         },
         {
           "realm": "Kết Đan trung kỳ",
           "chapter": 157,
           "location": "Cổ Thần chi địa",
           "gained": "Tích lũy qua thôn hồn và băng tinh truyền thừa Cổ Thần Đồ Ti",
-          "congphap": "Cổ Thần quyết"
+          "congphap": "Cổ Thần quyết",
+          "track": ""
         },
         {
           "realm": "Kết Đan hậu kỳ",
           "chapter": 178,
           "location": "Kỳ Lân thành, Tu Ma hải",
           "gained": "Thân thể trọng tổ hoàn toàn (94 băng tinh); Cực cảnh thần thức + hồn thạch ổn định; thực lực vượt xa cảnh giới",
-          "congphap": "Cổ Thần quyết"
+          "congphap": "Cổ Thần quyết",
+          "track": ""
         },
         {
           "realm": "Nguyên Anh kỳ",
           "chapter": 200,
           "location": "Vân Thiên tông, Sở quốc",
           "gained": "Kết Anh bằng Thuật Thần Đạo — phân thân tu 30 năm thực (≈180 năm trong NTC) rồi dung hợp; hút linh lực Đoạt Thiên Thất đỉnh; vượt cực cảnh thiên kiếp",
-          "congphap": "Thuật Thần Đạo"
+          "congphap": "Thuật Thần Đạo",
+          "track": ""
         },
         {
           "realm": "Nguyên Anh trung kỳ",
           "chapter": 226,
           "location": "Tứ cấp Tu Chân Quốc, đường Hóa phàm",
           "gained": "Phân thân cảm thiên đạo lần đầu khi cưỡi ngựa; đột phá tự nhiên; bản tôn vẫn ẩn ngủ bình cảnh",
-          "congphap": "Thuật Thần Đạo (phân thân)"
+          "congphap": "Thuật Thần Đạo (phân thân)",
+          "track": ""
         },
         {
-          "realm": "Hóa Thần",
+          "realm": "Hóa Thần (tách bổn tôn/phân thân)",
           "chapter": 260,
-          "location": "Huyền Đạo tông — Triệu quốc (Hằng Nhạc phái xưa)",
-          "gained": "Phân thân đột phá sau đốn ngộ Sinh Tử 3 bước; bổn tôn tán công về Ngưng Khí tầng 1 chọn Đạo Cổ Thần tái lập hoàn toàn. Arc nối Ch.261+",
-          "congphap": "Cổ Thần quyết (Đạo Cổ Thần)"
+          "location": "Huyền Đạo tông, Triệu quốc (Hằng Nhạc phái xưa)",
+          "gained": "VL tách thay vì dung hợp: phân thân Thần Đạo nhận toàn linh lực; bổn tôn chọn Đạo Cổ Thần tán công tái lập từ đầu. Mốc phân kỳ lịch đại",
+          "congphap": "Cổ Thần quyết / Thuật Thần Đạo",
+          "track": ""
+        },
+        {
+          "realm": "Ngưng Khí tầng 1 (đang tán công)",
+          "chapter": 260,
+          "location": "Huyền Đạo tông, Triệu quốc",
+          "gained": "Bổn tôn tán công từ Kết Đan hậu kỳ → kim đan vỡ → Trúc Cơ → Ngưng Khí tầng 1; linh lực bị phân thân hút qua mi tâm; quá trình đang diễn ra, cliffhanger Ch.260+",
+          "congphap": "Cổ Thần quyết (Đạo Cổ Thần)",
+          "track": "bonton"
+        },
+        {
+          "realm": "Hóa Thần · Thần Đạo (cần xác minh Ch.261+)",
+          "chapter": 260,
+          "location": "Huyền Đạo tông, Triệu quốc",
+          "gained": "Phân thân nhận toàn linh lực bổn tôn qua mi tâm, đột phá Hóa Thần theo Thần Đạo; cảnh giới cụ thể sau Ch.260 và địa điểm tiếp theo cần xác minh từ Ch.261+",
+          "congphap": "Thuật Thần Đạo",
+          "track": "phanthan-thandao"
         }
       ],
       "relations": [
