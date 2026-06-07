@@ -2005,7 +2005,7 @@ function _safeText(t) {
   }
   return lines.map(l => _esc(l)).join('<br>');
 }
-function _esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function _esc(s) { return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function _stripPath(s){
   if(!s)return s;
   // Xóa path nội bộ (Cot_truyen/... .md) -- dùng \S* tránh char-class escaping
@@ -2192,7 +2192,7 @@ function _renderCharHero(c){
       '<div class="cm2-tl-item'+(t.major?' cm2-tl-major':'')+'">'+
       '<div class="cm2-tl-dot"></div>'+
       (t.arc?'<div class="cm2-tl-arc">'+_esc(t.arc)+'</div>':'')+
-      (t.chapter?'<div class="cm2-tl-ch">'+_esc(t.chapter)+'</div>':'')+
+      (t.chapter!=null?'<div class="cm2-tl-ch">Ch.'+_esc(t.chapter)+'</div>':'')+
       (t.event?'<div class="cm2-tl-event">'+_esc(t.event)+'</div>':'')+
       (t.desc?'<div class="cm2-tl-desc">'+_safeText(t.desc)+'</div>':'')+
       '</div>').join('')+'</div>';
