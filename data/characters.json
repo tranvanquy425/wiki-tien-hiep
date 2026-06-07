@@ -5665,7 +5665,74 @@
           "text": "\"Người gác cổng\" cuối cùng của truyền thừa Cổ Thần; là nhân tố lật ngược thế cờ giúp nhân vật chính — kẻ yếu nhất — đoạt được phần thưởng lớn nhất arc.\n\n---"
         }
       ],
-      "portrait": "S"
+      "portrait": "S",
+      "bio": {
+        "gender": "Không rõ (thực thể cổ xưa; hóa nam tử mắt lục lăng)",
+        "origin": "Thần thức tử hải Cổ Thần chi địa — do Cổ Thần Đồ Ti dặn lại canh giữ truyền thừa ký ức trước khi chết",
+        "realm": "Đẳng cấp ngang Thác Sâm — vượt xa Hóa Thần thông thường",
+        "firstChapter": 172,
+        "appearance": "Sinh vật dài tới vạn trượng, đầu lớn, lân phiến đầy mình; hóa nam tử mắt lục lăng khi tiếp xúc",
+        "personality": [
+          "Căm ghét Thác Sâm tuyệt đối — thà giao truyền thừa cho VL còn hơn để Thác Sâm hoàn chỉnh",
+          "Tự nguyện hiến mình cho VL khi thấy đây là con đường tốt nhất",
+          "Trung thành với lời dặn của Cổ Thần Đồ Ti"
+        ],
+        "specialties": [
+          "Phân thân và hư ảo mâu ngang Diệt Thần Mâu",
+          "Điều khiển lôi cầu tử sắc",
+          "Tiếng huýt gió tấn công thần thức",
+          "Xà trận vây hãm"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 172,
+          "arc": "Tử hải Cổ Thần chi địa",
+          "event": "Trồi lên đối đầu Thác Sâm — vạch trần lai lịch",
+          "desc": "Trồi lên khi Thác Sâm xông vào; đối thoại vạch trần Thác Sâm là tia ma niệm tách từ Đồ Ti; tạo xà trận vây hãm.",
+          "major": true
+        },
+        {
+          "chapter": 173,
+          "arc": "Tử hải",
+          "event": "Hóa nam tử mắt lục lăng — phối hợp Lệ Bằng + nhóm 10 người phong ấn Thác Sâm",
+          "desc": "Chuyển dạng chiến đấu; liên minh 3 bên với VL và nhóm 10 người.",
+          "major": true
+        },
+        {
+          "chapter": 175,
+          "arc": "Tử hải",
+          "event": "Tự hiến mình — giao truyền thừa cho VL thay vì Thác Sâm",
+          "desc": "Lựa chọn quyết định: giao truyền thừa ký ức Đồ Ti cho VL vì căm ghét Thác Sâm hơn; đây là ân nhân quyết định của VL.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(Không theo thang hiện đại)",
+          "chapter": 172,
+          "location": "Tử hải Cổ Thần chi địa",
+          "gained": "Cổ xưa, ngang Thác Sâm; canh giữ tử hải từ khi Đồ Ti dặn lại",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Ân nhân quyết định — giao truyền thừa ký ức; VL nhận được toàn bộ 94 băng tinh nhờ sự trợ giúp này"
+        },
+        {
+          "name": "Thác Sâm",
+          "type": "kethu",
+          "desc": "Căm ghét tuyệt đối — Thác Sâm là kẻ chiếm đoạt; sinh vật thà hiến truyền thừa cho người khác còn hơn để TS hoàn chỉnh"
+        },
+        {
+          "name": "Cổ Thần Đồ Ti",
+          "type": "anthan",
+          "desc": "Chủ nhân xưa dặn lại canh giữ truyền thừa; trung thành tuyệt đối"
+        }
+      ]
     },
     {
       "name": "Mặc Vân Phi (墨雲菲)",
@@ -5905,7 +5972,68 @@
           "text": "`Cot_truyen/Q02_Ch161-180.md`, `He_thong/He_thong_Ch001-180.md`, `The_luc/The_luc_Ch001-180.md`, `Vuong_Lam_TONGHOP_Ch001-180.md`"
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Ma hải — sống lại/ma hóa trong huyết hải; kỳ tài giật dây hậu trường",
+        "realm": "Hóa Thần kỳ (ma hóa trong huyết hải — cảnh giới thực chất không rõ)",
+        "firstChapter": 162,
+        "appearance": "Ma hóa trong huyết hải; tự nhận \"ta không phải bị đoạt xá\"",
+        "personality": [
+          "Kỳ tài giật dây ngàn năm — bố trí thông đạo dòng xoáy từ ngàn năm trước",
+          "Tinh ranh đối trọng với VL",
+          "Thao túng gián tiếp qua nhiều lớp"
+        ],
+        "specialties": [
+          "Thông đạo dòng xoáy đặc biệt (ngàn năm trước bố trí)",
+          "Dụ dục niệm Cổ Thần + thần cốt dẫn dắt",
+          "Giật dây gián tiếp qua Lục Dục Ma Quân"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 162,
+          "arc": "Yêu Thần huyết hải / Cổ Thần chi địa",
+          "event": "Sống lại/ma hóa trong huyết hải",
+          "desc": "Tự nhận \"ta không phải bị đoạt xá\" — vai trò thực sự lộ dần trong arc Cổ Thần.",
+          "major": true
+        },
+        {
+          "chapter": 166,
+          "arc": "Cổ Thần chi địa",
+          "event": "Dâng băng tinh truyền thừa lên Đóa Mục — bị bóp nát coi là rác",
+          "desc": "Tiết lộ tri thức về Cổ Thần nhưng bị Đóa Mục coi thường; VL tận dụng kết quả này.",
+          "major": false
+        },
+        {
+          "chapter": 180,
+          "arc": "Tu Ma hải",
+          "event": "Kết arc Cổ Thần chi địa — vai trò giật dây kết thúc",
+          "desc": "Toàn bộ kế hoạch ngàn năm được thực thi hoặc thất bại; kết cục không thấy đề cập rõ sau Ch.180.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần kỳ (ma hóa)",
+          "chapter": 162,
+          "location": "Yêu Thần huyết hải",
+          "gained": "Sống lại trong huyết hải bằng cách ma hóa; cảnh giới thực chất không thấy đề cập rõ",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Đối trọng trí tuệ trong cuộc tranh đoạt Cổ Thần chi địa; kế hoạch ngàn năm của TMTN là trở ngại gián tiếp cho VL"
+        },
+        {
+          "name": "Lục Dục Ma Quân",
+          "type": "banhuu",
+          "desc": "Đệ tử — TMTN thao túng LDMQ từ hậu trường; đây là mối quan hệ cốt lõi làm lộ vai trò TMTN"
+        }
+      ]
     },
     {
       "name": "Chu Bằng (周鹏)",
@@ -6542,7 +6670,67 @@
           "text": "Đại diện kỷ luật môn phái; người \"đẩy\" Vương Lâm lên sân khấu lớn."
         }
       ],
-      "portrait": "Đ"
+      "portrait": "Đ",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — sư thúc, chưởng quản hình phạt; sư phụ của Vương Trác",
+        "realm": "Kết Đan kỳ (không thấy đề cập rõ cảnh giới; là trưởng bối ngang hàng sư tổ)",
+        "firstChapter": 41,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Thực dụng — ép VL ra trận cuối làm \"tốt thí\"",
+          "Công bằng khi trừng phạt kẻ sai (phạt LVK)",
+          "Về phe VL khi lợi ích phù hợp"
+        ],
+        "specialties": [
+          "Chưởng quản kỷ luật môn phái",
+          "Kết Đan kỳ chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 41,
+          "arc": "Hằng Nhạc phái",
+          "event": "Giao Vương Trác tiếp đãi đệ tử Huyền Đạo",
+          "desc": "Điều phối quan hệ ngoại giao giữa hai phái; đẩy VT vào vị trí đại diện.",
+          "major": false
+        },
+        {
+          "chapter": 48,
+          "arc": "Hằng Nhạc phái — tỷ thí",
+          "event": "Ép VL ra trận cuối — làm \"tốt thí\" cho Chu Bằng",
+          "desc": "Thực dụng ép VL ra sân khấu lớn; bị Tôn Đại Trụ phản đối nhưng vẫn ép.",
+          "major": true
+        },
+        {
+          "chapter": 49,
+          "arc": "Hằng Nhạc phái",
+          "event": "Ném bình ngọc cho VL + phạt Lữ Vân Kiệt diện bí mật",
+          "desc": "Thưởng VL bằng bình ngọc thu độc Ngô Công; trừng phạt LVK vì tội hại đồng môn.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 41,
+          "location": "Hằng Nhạc phái",
+          "gained": "Sư thúc chưởng quản hình phạt; bậc trên chưởng môn về kỷ luật",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Trưởng bối thực dụng; ép VL ra sân khấu nhưng cũng thưởng VL sau thành công; về phe VL"
+        },
+        {
+          "name": "Vương Trác",
+          "type": "anthan",
+          "desc": "Sư phụ của Vương Trác"
+        }
+      ]
     },
     {
       "name": "Thượng Quan trưởng lão (上官长老)",
@@ -6643,7 +6831,46 @@
           "text": "Bổ sung lực lượng tàn dư Hằng Nhạc; cho thấy phái chỉ còn 2 Trúc Cơ + 2 Kết Đan đi theo."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — trưởng lão Trúc Cơ kỳ; dáng mập",
+        "realm": "Trúc Cơ kỳ",
+        "firstChapter": 55,
+        "appearance": "Dáng mập",
+        "personality": [
+          "Trung thành với Hằng Nhạc",
+          "Bảo vệ đoàn khi di chuyển"
+        ],
+        "specialties": [
+          "Trúc Cơ kỳ chiến đấu; bảo vệ tứ phía"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 55,
+          "arc": "Hằng Nhạc phái rời đi",
+          "event": "Theo Hằng Nhạc rời phái — bảo vệ tứ phía cùng Thượng Quan",
+          "desc": "Cùng Thượng Quan bảo vệ tứ phía khi đoàn di chuyển bằng vòng sáng tới Tượng Xà sơn.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Trúc Cơ kỳ",
+          "chapter": 55,
+          "location": "Hằng Nhạc phái",
+          "gained": "Một trong hai trưởng lão Trúc Cơ di chuyển cùng tàn dư Hằng Nhạc",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Đồng hành trưởng bối theo Hằng Nhạc rời phái"
+        }
+      ]
     },
     {
       "name": "Hồng Kiểm lão giả / lão giả họ Mã (红脸老者/马姓)",
@@ -6671,7 +6898,60 @@
           "text": "Người phát hiện bản chất tà công; tiếng nói chấp nhận thực tại tàn khốc."
         }
       ],
-      "portrait": "H"
+      "portrait": "H",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — sư thúc, họ Mã (Hồng Kiểm)",
+        "realm": "Kết Đan kỳ (sư thúc ngang bậc Đạo Hư)",
+        "firstChapter": 50,
+        "appearance": "Mặt đỏ (Hồng Kiểm)",
+        "personality": [
+          "Tiếng nói chấp nhận thực tại tàn khốc",
+          "An ủi trưởng bối khi thất bại",
+          "Phát hiện nhanh tà công"
+        ],
+        "specialties": [
+          "Nhận dạng tà công (Lô Hỏa Khai Đỉnh)",
+          "Kết Đan kỳ kinh nghiệm"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 50,
+          "arc": "Hằng Nhạc phái",
+          "event": "Nhận ra tà công Lô Hỏa Khai Đỉnh trên người Vương Hạo",
+          "desc": "Phát hiện bản chất tà công; thông báo để VL và trưởng bối xử lý.",
+          "major": false
+        },
+        {
+          "chapter": 55,
+          "arc": "Hằng Nhạc phái rời đi",
+          "event": "Theo Hằng Nhạc rời phái — an ủi Hoàng Long",
+          "desc": "\"Mạnh được yếu thua, không tự trách\" — tiếng nói chấp nhận thực tại.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 50,
+          "location": "Hằng Nhạc phái",
+          "gained": "Sư thúc ngang bậc Đạo Hư; bậc trưởng bối cao nhất còn lại sau khi các Nguyên Anh mất",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Đồng phe trưởng bối; theo Hằng Nhạc rời phái"
+        },
+        {
+          "name": "Hoàng Long chân nhân",
+          "type": "banhuu",
+          "desc": "An ủi chưởng môn sau thất bại trước Phác Nam Tử"
+        }
+      ]
     },
     {
       "name": "Trương Đức Khôn (张德坤)",
@@ -6699,7 +6979,52 @@
           "text": "Thể hiện mâu thuẫn nội bộ đệ tử được trật tự mới (do Vương Lâm đứng đầu) hòa giải."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — đệ tử nòng cốt, tầng 6 Ngưng Khí",
+        "realm": "Ngưng Khí tầng 6",
+        "firstChapter": 56,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Có hiềm khích với Lữ Tung nhưng chấp nhận hòa giải",
+          "Tự trọng — ước hẹn tái đấu 10 năm",
+          "Tôn trọng thực lực"
+        ],
+        "specialties": [
+          "Ngưng Khí tầng 6 chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 56,
+          "arc": "Hằng Nhạc phái rời đi",
+          "event": "Theo Hằng Nhạc rời phái — hòa giải với Lữ Tung, đồng ý nhóm bốn đệ tử nòng cốt",
+          "desc": "Lữ Tung xin lỗi về ân oán tỷ chọn; TĐK đồng ý; xếp thứ ba (VL > LT > TĐK > HĐS).",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí tầng 6",
+          "chapter": 56,
+          "location": "Hằng Nhạc phái",
+          "gained": "Đệ tử nòng cốt thứ ba trong nhóm bốn người VL lãnh đạo",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Thuộc nhóm nòng cốt dưới quyền VL; xếp thứ ba trong hệ thứ bậc"
+        },
+        {
+          "name": "Lữ Tung",
+          "type": "banhuu",
+          "desc": "Tranh chấp cũ về vị trí đệ tử nòng cốt; hòa giải khi cùng rời phái"
+        }
+      ]
     },
     {
       "name": "Hoàng Đại Sơn (黄大山)",
