@@ -236,7 +236,7 @@ def merge_realms(items):    return merge_entities(items)
 
 _VALID_RTYPES = {"daolu", "giađình", "banhuu", "anthan", "dottu", "kethu"}
 _VALID_CATS_INV = {"baovat","dandung","vatpham","thientai","congphap","khanang","tienthuat","bua"}
-_VALID_INV_STATUS = {"con","mat","dalung","datang","donghop","bicuop"}
+_VALID_INV_STATUS = {"con","mat","dalung","datang","donghop","bicuop","hong"}
 
 def _parse_bio_block(lines):
     bio = {}
@@ -283,7 +283,8 @@ def _parse_cultivation_block(lines):
         except: ch = 0
         items.append({"realm": parts[0], "chapter": ch,
                       "location": parts[2] if len(parts) > 2 else "",
-                      "gained":   parts[3] if len(parts) > 3 else ""})
+                      "gained":   parts[3] if len(parts) > 3 else "",
+                      "congphap": parts[4] if len(parts) > 4 else ""})
     return sorted(items, key=lambda x: x["chapter"])
 
 def _parse_relations_block(lines):
