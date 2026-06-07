@@ -251,6 +251,15 @@ def _parse_bio_block(lines):
         elif k == "firstchapter":
             try: bio["firstChapter"] = int(v)
             except: bio["firstChapter"] = v
+        elif k == "tracks":
+            # Parse "key=Label (range) ; key2=Label2 (range2)"
+            tracks_list = []
+            for entry in v.split(";"):
+                entry = entry.strip()
+                if "=" in entry:
+                    key_part, _, label_part = entry.partition("=")
+                    tracks_list.append({"key": key_part.strip(), "label": label_part.strip()})
+            bio["tracks"] = tracks_list
         else:
             bio[k] = v
     return bio
@@ -266,8 +275,14 @@ def _parse_timeline_block(lines):
         try: ch = int(chapter_raw.split("-")[0].split("~")[-1].replace("(","").strip())
         except: ch = 0
         major = len(parts) > 4 and parts[4].strip().lower() in ("major","true","1")
+        track = ""
+        for _p in parts:
+            if _p.lower().startswith("track:"):
+                track = _p[6:].strip()
+                break
         items.append({"chapter": ch, "arc": parts[1], "event": parts[2],
-                      "desc": parts[3] if len(parts) > 3 else "", "major": major})
+                      "desc": parts[3] if len(parts) > 3 else "", "major": major,
+                      "track": track})
     return items
 
 def _parse_cultivation_block(lines):
@@ -281,10 +296,16 @@ def _parse_cultivation_block(lines):
         chapter_raw = re.sub(r"[(].*?[)]","",chapter_raw).split("-")[0].strip() or "0"
         try: ch = int(chapter_raw.replace('~','').strip())
         except: ch = 0
+        cul_track = ""
+        for _cp in parts:
+            if _cp.lower().startswith("track:"):
+                cul_track = _cp[6:].strip()
+                break
         items.append({"realm": parts[0], "chapter": ch,
                       "location": parts[2] if len(parts) > 2 else "",
                       "gained":   parts[3] if len(parts) > 3 else "",
-                      "congphap": parts[4] if len(parts) > 4 else ""})
+                      "congphap": next((p for p in parts[4:] if not p.lower().startswith("track:")), ""),
+                      "track": cul_track})
     return sorted(items, key=lambda x: x["chapter"])
 
 def _parse_relations_block(lines):
