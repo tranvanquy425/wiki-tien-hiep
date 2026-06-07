@@ -7696,7 +7696,48 @@
           "text": "Ch.195."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nữ (hai nhân vật — Trình Linh & Công Tôn Đồng)",
+        "origin": "Vân Thiên tông — hai nữ tu Đông uyển, là tình nhân (bách hợp)",
+        "realm": "Kết Đan kỳ (không thấy đề cập rõ hơn)",
+        "firstChapter": 195,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Công Tôn Đồng: lừa gạt người để lấy lợi ích cho Trình Linh",
+          "Trình Linh: nhận lợi ích từ hành động của CTS",
+          "Liên minh hai người vì tình cảm"
+        ],
+        "specialties": [
+          "Luyện đan (Trình Linh)",
+          "Lừa gạt thu lợi (Công Tôn Đồng)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 195,
+          "arc": "Vân Thiên tông",
+          "event": "Bị VL trừ khử — Hứa Lập Quốc đoạt 2 hồn phách",
+          "desc": "Bị VL giết; Hứa Lập Quốc đoạt 2 hồn phách bỏ vào kỳ hồn; vụ mất tích vô tình che giấu hành tung thật của VL trước toàn tông.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 195,
+          "location": "Vân Thiên tông",
+          "gained": "Đệ tử Đông uyển — tu vi đủ để lừa gạt người nhưng không đủ chống VL",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Bị VL giết diệt khẩu; cái chết vô tình che giấu hành tung VL"
+        }
+      ]
     },
     {
       "name": "Huynh muội bái sư (gặp phân thân VL)",
@@ -7720,7 +7761,47 @@
           "text": "Ch.188-189. (Chưa rõ tên + vai trò về sau.)"
         }
       ],
-      "portrait": "H"
+      "portrait": "H",
+      "bio": {
+        "gender": "Nữ (muội) + Nam (ca) — hai nhân vật",
+        "origin": "Tu Chân Giới — gặp phân thân VL trên đường đến Vân Thiên tông",
+        "realm": "Trúc Cơ hậu kỳ (người ca); tu vi người muội không rõ",
+        "firstChapter": 188,
+        "appearance": "Người muội — thiếu nữ tuổi đôi mươi xinh đẹp (\"hoa nhường nguyệt thẹn\"), tinh nghịch lắm lời; người ca — vạt áo thêu phi kiếm tím, trầm lặng",
+        "personality": [
+          "Người muội: tinh nghịch lắm lời, thích Kiếm Khí tông nhưng bị anh ép đến Vân Thiên tông",
+          "Người ca: thận trọng, ôm thù gia tộc giấu muội",
+          "Cặp anh em tương phản"
+        ],
+        "specialties": [
+          "(người ca) Kiếm Khí tông chiến đấu Trúc Cơ hậu kỳ"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 188,
+          "arc": "Tu Chân Giới",
+          "event": "Gặp phân thân VL trên đường — ghẹo nhưng bị thờ ơ",
+          "desc": "Người muội ghẹo phân thân VL dọc đường; VL thờ ơ hoàn toàn; chưa rõ tên và vai trò về sau.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Trúc Cơ hậu kỳ (ca)",
+          "chapter": 188,
+          "location": "Tu Chân Giới",
+          "gained": "Đệ tử Kiếm Khí tông",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Gặp phân thân VL thoáng qua; quan hệ chưa phát triển sau Ch.189"
+        }
+      ]
     },
     {
       "name": "Tôn Phàm",
@@ -7744,7 +7825,54 @@
           "text": "Ch.184."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Chân Giới — tu sĩ Trúc Cơ kỳ bình thường",
+        "realm": "Trúc Cơ kỳ → về sau đạt Nguyên Anh hậu kỳ (700 năm sau)",
+        "firstChapter": 184,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Nhút nhát bình thường",
+          "Được VL cứu mạng thoáng qua",
+          "Cả đời ám ảnh bởi ánh mắt sát khí của VL"
+        ],
+        "specialties": [
+          "Tu tiên bình thường; đạt Nguyên Anh hậu kỳ sau 700 năm"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 184,
+          "arc": "Tu Chân Giới",
+          "event": "Được VL cứu khỏi 2 dị thú (cỡ Kết Đan hậu kỳ) — VL lạnh lùng bỏ đi",
+          "desc": "VL đang đại khai sát giới nuốt kim đan; giết 2 dị thú cứu Tôn Phàm rồi thờ ơ bỏ đi; cái liếc mắt đầy sát khí ám ảnh TP suốt 700 năm.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh hậu kỳ",
+          "chapter": 0,
+          "location": "Tu Chân Giới",
+          "gained": "Đạt được sau 700 năm tu luyện; kể lại câu chuyện về VL năm xưa",
+          "congphap": ""
+        },
+        {
+          "realm": "Trúc Cơ kỳ",
+          "chapter": 184,
+          "location": "Tu Chân Giới",
+          "gained": "Tu sĩ bình thường khi được VL cứu",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Được VL cứu thoáng qua; ám ảnh ánh mắt sát khí suốt 700 năm — kể lại như giai thoại về VL"
+        }
+      ]
     },
     {
       "name": "Đệ nhị ma đầu (tiểu thú)",
@@ -8710,7 +8838,47 @@
           "text": "Ch.225-240 (xuyên suốt arc Hóa phàm)."
         }
       ],
-      "isFeatured": false
+      "isFeatured": false,
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tứ cấp Tu Chân Quốc — con trai thợ rèn; phàm nhân tri kỷ thời VL hóa phàm",
+        "realm": "(không thấy đề cập — phàm nhân)",
+        "firstChapter": 225,
+        "appearance": "11 tuổi khi gặp VL",
+        "personality": [
+          "Chân thành hào phóng — ngày nào mang rượu trái cây tặng",
+          "Cảm nhận sự phi phàm của VL dù là phàm nhân",
+          "Câu nói khôn ngoan vượt tuổi: \"Vương gia gia uống không phải rượu mà là lẽ đời\""
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết — phàm nhân thợ rèn)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 225,
+          "arc": "Tứ cấp Tu Chân Quốc — arc Hóa phàm",
+          "event": "Sợi dây nối VL với thế giới phàm suốt 20+ năm",
+          "desc": "Mê xem VL khắc tượng gỗ; học nghề rèn (miễn cưỡng); lớn lên cưới con gái chưởng môn tông phái; cùng cả gia đình tiễn VL rời đi.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Phàm nhân",
+          "chapter": 225,
+          "location": "Tứ cấp Tu Chân Quốc",
+          "gained": "Con trai thợ rèn; phàm nhân bình thường nhưng tâm hồn đặc biệt",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Tri kỷ thời hóa phàm — sợi dây nối VL với thế giới phàm suốt 20+ năm; câu nói \"uống lẽ đời\" cho thấy trực giác phi phàm"
+        }
+      ]
     },
     {
       "name": "Từ Đào (徐濤) — thân tín Nam Vương thế tử, môi giới tượng (phàm-tu nhỏ)",
@@ -9071,7 +9239,57 @@
           "text": "Ch.250-251"
         }
       ],
-      "portrait": ""
+      "portrait": "",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tứ cấp Tu Chân Quốc — Đại trưởng lão Hắc Hồn Phái; 1 trong 8 Hóa Thần hậu kỳ Tứ Phái",
+        "realm": "Hóa Thần hậu kỳ",
+        "firstChapter": 246,
+        "appearance": "Giả vẻ nhu nhược nhưng thực ra uy nghiêm trung niên",
+        "personality": [
+          "Giả yếu thực mạnh — ngụy trang tính cách",
+          "Đại diện Hắc Hồn Phái trong Liên Minh Tứ Phái",
+          "Thực dụng chiến đấu"
+        ],
+        "specialties": [
+          "Bút lông đen trấn phái chi bảo Hắc Hồn Phái — trời đất biến sắc khi xuất",
+          "Hóa Thần hậu kỳ chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 246,
+          "arc": "Tuyết Vực Quốc",
+          "event": "Tham gia Cửu Nhân sát trận — bị bảo phiến đánh trả, bế quan",
+          "desc": "Là 1 trong 8 Hóa Thần của Tứ Phái trong trận Cửu Nhân sát trận; bị bảo phiến phản kích và bế quan sau đó.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần hậu kỳ",
+          "chapter": 246,
+          "location": "Tứ cấp Tu Chân Quốc",
+          "gained": "Đại trưởng lão Hắc Hồn Phái; cực mạnh nhưng bị Hồng Điệp + VL liên thủ đánh bại",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Một trong 8 Hóa Thần Tứ Phái đối đầu VL trong arc Tuyết Vực; bị bảo phiến đánh trả"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Bút lông đen",
+          "cat": "baovat",
+          "status": "con",
+          "desc": "Trấn phái chi bảo Hắc Hồn Phái — trời đất biến sắc khi triển khai",
+          "effect": "Sức công phá cực lớn; vũ khí đặc trưng của Chú Vân"
+        }
+      ]
     },
     {
       "name": "Mặc Trí — kỳ nhân Vong cảnh",
@@ -9095,7 +9313,48 @@
           "text": "Ch.259"
         }
       ],
-      "portrait": ""
+      "portrait": "",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Chân Giới — kỳ nhân Vong cảnh; Súc Địa thành thốn",
+        "realm": "(không thấy đề cập rõ — nhưng ý cảnh Vong cảnh vượt bình thường)",
+        "firstChapter": 259,
+        "appearance": "Đại hán áo trắng",
+        "personality": [
+          "Trí nhớ chập chờn do Vong cảnh",
+          "Nhận ra tu vi VL dù VL đang giả phàm nhân",
+          "Lời nói thâm sâu khai thị"
+        ],
+        "specialties": [
+          "Vong cảnh — tâm chết quên hết chỉ còn Đạo",
+          "Súc Địa thành thốn (di chuyển tức thời)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 259,
+          "arc": "Tu Chân Giới (arc Hóa Thần)",
+          "event": "Khai thị Sinh Tử cho VL — VL đốn ngộ đột phá Hóa Thần",
+          "desc": "Câu khai thị: \"Lửa là sinh; Tử là chết, tâm chết cũng chết; mưa sinh từ trời, chết khi rơi đất, khoảng giữa là nhân sinh.\" VL ngộ sau đó đột phá.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(Không rõ)",
+          "chapter": 259,
+          "location": "Tu Chân Giới",
+          "gained": "Ý cảnh Vong cảnh — tu vi cụ thể không thấy đề cập; trí nhớ chập chờn do cảnh giới đặc biệt",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "anthan",
+          "desc": "Câu khai thị thoáng qua nhưng là chìa khóa VL đốn ngộ và đột phá Hóa Thần"
+        }
+      ]
     },
     {
       "name": "Trần Hoan — thiếu môn chủ Thủy Mặc Môn",
@@ -9119,7 +9378,52 @@
           "text": "Ch.257"
         }
       ],
-      "portrait": ""
+      "portrait": "",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Thủy Mặc Môn (Tuyết Vực Quốc) — thiếu môn chủ; Trúc Cơ đại viên mãn",
+        "realm": "Trúc Cơ đại viên mãn (sắp Kết Đan)",
+        "firstChapter": 257,
+        "appearance": "Thanh niên",
+        "personality": [
+          "Can đảm nghĩa khí — quỳ xin chết thay sư phụ",
+          "Mang thù diệt Tuyết Vực sau khi sư phụ tự bạo",
+          "Trung thành tuyệt đối"
+        ],
+        "specialties": [
+          "Trúc Cơ đại viên mãn; kế thừa Thủy Mặc Môn"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 257,
+          "arc": "Tuyết Vực Quốc — Băng Tuyết thần điện",
+          "event": "Quỳ xin chết thay sư phụ; thề diệt Tuyết Vực sau khi sư phụ tự bạo",
+          "desc": "Không thể ngăn sư phụ tự bạo; thề báo thù cho Thủy Mặc Môn và quê hương.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Trúc Cơ đại viên mãn",
+          "chapter": 257,
+          "location": "Thủy Mặc Môn",
+          "gained": "Thiếu môn chủ trẻ; gần Kết Đan; sẽ kế thừa môn phái sau khi sư phụ tự bạo",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Bàng quan — VL chứng kiến cái chết sư phụ Trần Hoan; gián tiếp là nguyên nhân cuộc chiến"
+        },
+        {
+          "name": "Lão nhân Hóa Thần Thủy Mặc Môn",
+          "type": "anthan",
+          "desc": "Sư phụ — tự bạo vì không muốn từ bỏ quê hương; cái chết là cảm hứng ngộ đạo cho VL"
+        }
+      ]
     },
     {
       "name": "Lão nhân Hóa Thần hậu kỳ Thủy Mặc Môn (sư phụ Trần Hoan)",
@@ -9143,7 +9447,61 @@
           "text": "Ch.257"
         }
       ],
-      "portrait": ""
+      "portrait": "",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Thủy Mặc Môn (Tuyết Vực Quốc) — Hóa Thần hậu kỳ; đang tán công sau chiến tranh",
+        "realm": "Hóa Thần hậu kỳ (đang tán công)",
+        "firstChapter": 257,
+        "appearance": "Lão nhân (không thấy đề cập chi tiết hơn)",
+        "personality": [
+          "Từ chối bỏ quê hương dù biết sẽ chết",
+          "Tự nguyện tự bạo hộ quốc",
+          "Hành động truyền cảm hứng ngộ đạo"
+        ],
+        "specialties": [
+          "Hóa Thần hậu kỳ tán công; bảo phiến 2 lông chim Thủy Mặc Môn"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 257,
+          "arc": "Tuyết Vực Quốc — Băng Tuyết thần điện",
+          "event": "Tặng bảo phiến 2 lông chim cho VL — tự bạo hộ quốc",
+          "desc": "Đang tán công không thể chiến đấu; từ chối rời quê hương; tặng bảo phiến cho VL rồi tự bạo tại Băng Tuyết thần điện. Cái chết là nguồn cảm hứng ngộ đạo VL.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần hậu kỳ (tán công)",
+          "chapter": 257,
+          "location": "Tuyết Vực Quốc",
+          "gained": "Cao thủ đỉnh cao Thủy Mặc Môn; đang tán công sau chiến tranh nên không thể chiến đấu bình thường",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Tặng bảo phiến rồi tự bạo — cái chết gián tiếp truyền cảm hứng VL ngộ đạo Sinh Tử"
+        },
+        {
+          "name": "Trần Hoan",
+          "type": "anthan",
+          "desc": "Đệ tử — thề báo thù sau khi sư phụ tự bạo"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Bảo phiến 2 lông chim",
+          "cat": "baovat",
+          "status": "datang",
+          "desc": "Pháp bảo trấn môn Thủy Mặc Môn — tặng VL trước khi tự bạo (Ch.257)",
+          "effect": "Phòng thủ và tấn công bằng lông chim; cùng loại với bảo phiến 7 lông của Thủ Đồ"
+        }
+      ]
     },
     {
       "name": "Sứ giả Chu Tước quốc (quái mình rắn thân người)",
