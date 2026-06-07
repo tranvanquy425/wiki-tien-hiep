@@ -2901,7 +2901,61 @@
           "text": "Cố nhân từ thời Hằng Nhạc/Huyền Đạo. Nay đại biểu **Huyền Đạo tông** vào Quyết Minh cốc — được Phác Nam Tử phá lệ cho vào (đệ tử Ngưng Khí kỳ duy nhất) nhờ **biệt tài thâu kỹ** + pháp bảo ẩn thân. Trộm 2 lệnh bài cho Huyền Đạo, bị lộ → bị truy giết → được Vương Lâm cứu (rồi đoạt lệnh bài). Nhận ra Vương Lâm, **kinh hãi tột độ** (xưa lấy hắn làm đối thủ, nay chênh lệch một trời một vực), tôn kính tuyệt đối, khai mọi điều hắn biết. (Ch.91-92)"
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Huyền Đạo Tông (Triệu quốc) — nổi tiếng chuyên chế tạo vật phẩm cổ quái; danh tiếng nhờ Phích Lịch đạn",
+        "realm": "Ngưng Khí kỳ (không thấy đề cập tầng chính xác)",
+        "firstChapter": 44,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Gian thương ma mãnh",
+          "Thích bày trò làm nhục người mua",
+          "Tính toán gài bẫy thần thức trong sản phẩm"
+        ],
+        "specialties": [
+          "Chế tạo vật phẩm cổ quái đặc biệt",
+          "Phích Lịch đạn (gài thần thức nổ từ xa)",
+          "Phi kiếm giả"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 44,
+          "arc": "Hằng Nhạc phái",
+          "event": "Rao bán Phích Lịch đạn và phi kiếm giả — bán cho cả VL lẫn Tôn Hạo",
+          "desc": "Bán \"Tử Ngọ Kim Tiễn\" (phi kiếm giả) và Phích Lịch đạn (gài thần thức nổ); VL nhận ra tay và dùng ngược lại.",
+          "major": false
+        },
+        {
+          "chapter": 47,
+          "arc": "Hằng Nhạc phái — tỷ thí",
+          "event": "Kích nổ Phích Lịch đạn ngay tay Tôn Hạo trong tỷ thí",
+          "desc": "Tôn Hạo bị đạn nổ ngay trong tay nhục nhã; VL giữ nguyên đạn của mình để dùng đúng lúc cần.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí kỳ",
+          "chapter": 44,
+          "location": "Huyền Đạo Tông",
+          "gained": "Đệ tử chuyên chế tạo; không thấy đề cập cảnh giới chính xác",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Bán Phích Lịch đạn gài bẫy nhưng VL nhận ra và dùng ngược lại; vô tình trao cho VL vũ khí tâm lý hữu ích"
+        },
+        {
+          "name": "Tôn Hạo",
+          "type": "kethu",
+          "desc": "Nạn nhân đạn nổ trong tỷ thí (Ch.47-48)"
+        }
+      ]
     },
     {
       "name": "Liễu Phong (柳枫)",
@@ -2937,7 +2991,79 @@
           "text": "Anh Liễu Mi, thiên tài Thủy linh căn Huyền Đạo. **Đã Trúc Cơ sơ kỳ** (nhờ Phác Nam Tử, hơn 1 năm trước), từng nghĩ mình đã vượt Vương Lâm. Gặp lại ở Quyết Minh cốc thì sợ hãi (Vương Lâm giết Mã sư huynh Trúc Cơ trung kỳ 1 chiêu, tu vi khó lường). Vẫn lặng lẽ lấy hắn làm mục tiêu vượt qua. (Ch.93)"
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — đệ tử Huyền Đạo Tông, đơn thủy linh căn; anh trai Liễu Mi",
+        "realm": "Trúc Cơ sơ kỳ (nhờ Phác Nam Tử; đã Trúc Cơ hơn 1 năm khi gặp lại VL)",
+        "firstChapter": 41,
+        "appearance": "Nam tử đơn thủy linh căn, được nữ đệ tử Hằng Nhạc ngưỡng mộ",
+        "personality": [
+          "Lịch sự nhắc nhở — không gây sự thô bạo",
+          "Tự phụ thiên tài nhưng biết rõ khoảng cách sau",
+          "Nể sợ VL trong im lặng"
+        ],
+        "specialties": [
+          "Thủy Mạc chiết xạ (màn nước phản đòn, cần tầng 8 mới phá)",
+          "Đơn thủy linh căn thiên phú"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 41,
+          "arc": "Hằng Nhạc phái",
+          "event": "Lịch sự e ngại việc giao con Ngô Công cho VL",
+          "desc": "Nhắc nhở nhẹ nhàng; không trực tiếp đối đầu.",
+          "major": false
+        },
+        {
+          "chapter": 47,
+          "arc": "Hằng Nhạc phái — tỷ thí",
+          "event": "Trận 1 tỷ thí — thắng bằng Thủy Mạc chiết xạ dù chỉ dùng 5 thành tu vi",
+          "desc": "Thiên tài thực sự trong phái; màn nước phản đòn cần tầng 8 Ngưng Khí mới phá; chiến thắng dễ dàng.",
+          "major": false
+        },
+        {
+          "chapter": 89,
+          "arc": "Quyết Minh cốc",
+          "event": "Vào Quyết Minh cốc — sợ hãi khi biết VL thực lực thật",
+          "desc": "Gặp lại VL đã lộ thực lực; nhận ra khoảng cách vô tận; không trực tiếp đối đầu.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí tầng 6",
+          "chapter": 41,
+          "location": "Huyền Đạo Tông",
+          "gained": "Thiên tài đơn thủy linh căn; dùng 5 thành tu vi vẫn thắng đối thủ",
+          "congphap": ""
+        },
+        {
+          "realm": "Trúc Cơ sơ kỳ",
+          "chapter": 89,
+          "location": "Huyền Đạo Tông",
+          "gained": "Đột phá nhờ Phác Nam Tử thi pháp trợ hơn 1 năm trước",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "dottu",
+          "desc": "Từng ngưỡng mộ bản thân vượt VL; sau nể sợ khi VL lộ thực lực thật (Ch.89)"
+        },
+        {
+          "name": "Liễu Mi",
+          "type": "giađình",
+          "desc": "Em gái — cùng xuất thân Huyền Đạo Tông với thiên phú đơn thủy linh căn"
+        },
+        {
+          "name": "Phác Nam Tử",
+          "type": "anthan",
+          "desc": "Lão tổ thi pháp trợ giúp đột phá Trúc Cơ"
+        }
+      ]
     },
     {
       "name": "Các Nguyên Anh lão tổ Triệu quốc (xuất hiện ngắn)",
@@ -4570,7 +4696,67 @@
           "text": "Ma đầu đầu tiên — cột mốc mở ra mảng \"tự chế ma đầu / đội quân ma đầu\" của Vương Lâm; vũ khí đắc lực kiêm điểm hài hước. (Một trong 4 ma đầu hiện có: Hứa Lập Quốc, đệ nhị ma đầu, ma đầu linh viên, Đằng Cửu.)"
         }
       ],
-      "portrait": "H"
+      "portrait": "H",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Thiên Cương Tông (tứ cấp tu chân quốc) — Nguyên Anh kỳ; sau trở thành ma đầu thứ nhất của Vương Lâm",
+        "realm": "Nguyên Anh kỳ (bị giáng xuống dạng nguyên thần ma đầu trong thiết phiến)",
+        "firstChapter": 111,
+        "appearance": "Hào quang ám hồng (ma đầu hình thức)",
+        "personality": [
+          "Hài hước nhiều mồm — mê chuyện ướt át dù đã là ma đầu",
+          "Ban đầu nuôi mộng phản chủ; về sau quy phục hoàn toàn",
+          "Điểm xả hơi hài hước giữa cao trào"
+        ],
+        "specialties": [
+          "Thôn hồn — cắn nuốt linh hồn/thần thức địch",
+          "Là Nguyên Anh kỳ cấp cao nhất trong các ma đầu VL"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 111,
+          "arc": "Tu Ma hải",
+          "event": "Bị VL bắt nguyên thần — ép thôn phệ dã thú, chế thành ma đầu",
+          "desc": "VL bắt nguyên thần HLQ (tu sĩ Thiên Cương Tông), ép dung hợp dã thú, giam trong thiết phiến; ma đầu thứ nhất ra đời.",
+          "major": true
+        },
+        {
+          "chapter": 121,
+          "arc": "Tu Ma hải",
+          "event": "Làm công cụ thôn hồn cho VL — cắn nuốt linh hồn địch",
+          "desc": "Hoạt động thực chiến tại Tu Ma hải và thảm sát Nam Đấu thành; khao khát tự do, bí mật kết đồng minh mưu phản.",
+          "major": false
+        },
+        {
+          "chapter": 141,
+          "arc": "Cổ Thần chi địa",
+          "event": "Lập công nhiều lần — dần từ bỏ mộng phản chủ",
+          "desc": "Cảm nhận uy áp thôn hồn của VL là khắc tinh tuyệt đối; quy phục từng bước.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh kỳ",
+          "chapter": 111,
+          "location": "Thiên Cương Tông",
+          "gained": "Cựu tu sĩ Nguyên Anh kỳ; bị bắt nguyên thần, nay tồn tại dạng ma đầu trong thiết phiến VL",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Chủ nhân nắm nguyên thần; từ \"thiên địch\" mưu phản → quy phục hoàn toàn; VL thôn hồn là khắc tinh tuyệt đối của HLQ"
+        },
+        {
+          "name": "Thi Âm Tông",
+          "type": "kethu",
+          "desc": "Thân thể cũ của HLQ ký trong thi khôi Thi Âm Tông; Thi Âm Tông truy sát VL vì chuyện này"
+        }
+      ]
     },
     {
       "name": "Mã Lương (馬良)",
@@ -5878,7 +6064,59 @@
           "text": "Hiện thân của lòng tham bất chấp trong môn phái; phép thử đạo nghĩa cho Vương Lâm."
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — tam sư huynh, sở trường luyện đan; 25 năm vẫn kẹt Ngưng Khí tầng 6",
+        "realm": "Ngưng Khí tầng 6 (25 năm không tiến được)",
+        "firstChapter": 43,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Tham vọng — sẵn sàng hại đồng môn để tiến cảnh giới",
+          "Nhẫn tâm với dược đồng mình dụ vào bẫy",
+          "Được chưởng môn yêu thích nhưng thực chất tàn nhẫn"
+        ],
+        "specialties": [
+          "Luyện đan — Lô Hỏa Khai Đỉnh đại pháp (biến dược đồng thành lò luyện nhân thọ đan)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 43,
+          "arc": "Hằng Nhạc phái",
+          "event": "Dụ Vương Hạo tu Lô Hỏa Khai Đỉnh đại pháp — biến dược đồng thành lò luyện đan",
+          "desc": "Đổi tạo hóa đan lấy việc VH tu tà công; không tiếc mạng đồng môn để luyện nhân thọ đan giúp tiến cảnh giới.",
+          "major": true
+        },
+        {
+          "chapter": 49,
+          "arc": "Hằng Nhạc phái",
+          "event": "Bị VL ép thả Vương Hạo — bị Đạo Hư phạt diện bí mật",
+          "desc": "VL phá lò cứu VH; LVK bị Đạo Hư (chưởng quản hình phạt) trừng trị diện bí mật; kết cục không rõ sau đó.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí tầng 6",
+          "chapter": 43,
+          "location": "Hằng Nhạc phái",
+          "gained": "25 năm vào môn vẫn kẹt tầng 6; sự tuyệt vọng khiến hắn chọn con đường tà pháp",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Hạo",
+          "type": "kethu",
+          "desc": "Dụ VH tu tà công làm lò luyện đan; nguyên nhân VL lần đầu ra tay mạnh trong môn phái"
+        },
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Kẻ phá lò cứu VH và ép hắn thả; ghi hận nhưng bị trừng trị bởi Đạo Hư trước"
+        }
+      ]
     },
     {
       "name": "Đạo Hư chân nhân (道虚真人)",
@@ -6266,7 +6504,81 @@
           "text": "Bị Vương Lâm giết chỉ bằng một chữ \"Tử!\" — Cực Cảnh thần thức rung động, hắn co giật ngã chết tại chỗ (Ch.201)."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Vân Thiên tông — con Tôn trưởng lão (lão nhân áo xám); vị hôn phu bị ép gả của Lý Mộ Uyển",
+        "realm": "Kết Đan kỳ (không thấy đề cập rõ hơn)",
+        "firstChapter": 195,
+        "appearance": "Tiên phong đạo cốt bề ngoài nhưng giả thiện, tâm cơ",
+        "personality": [
+          "Giả thiện — ngoài đạo cốt trong tâm cơ",
+          "Toan tính do thám qua phi kiếm gài ám khí",
+          "Không ngờ bị VL giết ngay sau Kết Anh"
+        ],
+        "specialties": [
+          "Kết Đan kỳ Vân Thiên tông",
+          "Phi kiếm Thanh Phong gắn ám khí do thám"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 195,
+          "arc": "Vân Thiên tông",
+          "event": "Vân Thiên tông phát thiếp báo hắn sẽ kết đạo lữ song tu với Lý Mộ Uyển",
+          "desc": "Tin này đẩy cảm xúc VL tới cực hạn, thúc hắn quyết định Kết Anh ngay.",
+          "major": true
+        },
+        {
+          "chapter": 197,
+          "arc": "Vân Thiên tông",
+          "event": "Tặng VL phi kiếm \"Thanh Phong\" gắn ám khí do thám",
+          "desc": "Muốn theo dõi VL để giám sát Lý Mộ Uyển; VL phát hiện và gài cấm chế vô hiệu hóa.",
+          "major": false
+        },
+        {
+          "chapter": 201,
+          "arc": "Vân Thiên tông",
+          "event": "Bị VL giết bằng một chữ \"Tử\" — Cực Cảnh thần thức",
+          "desc": "VL xuất quan sau Kết Anh, giết TTV trước toàn tông; cơ thể co giật ngã chết tại chỗ.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 195,
+          "location": "Vân Thiên tông",
+          "gained": "Cảnh giới không thấy đề cập rõ hơn; thực lực không đủ đối kháng VL vừa Kết Anh",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Vị hôn phu của LMU — bị VL giết ngay sau Kết Anh (Ch.201) trước toàn tông"
+        },
+        {
+          "name": "Lý Mộ Uyển",
+          "type": "dottu",
+          "desc": "Hôn phu bị ép gả — LMU không muốn kết đạo lữ với hắn"
+        },
+        {
+          "name": "Tôn trưởng lão (lão nhân áo xám)",
+          "type": "giađình",
+          "desc": "Cha — Ngoại viện Trưởng lão Vân Thiên tông"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Phi kiếm Thanh Phong",
+          "cat": "baovat",
+          "status": "mat",
+          "desc": "Tặng VL (Ch.197) gắn ám khí do thám để giám sát LMU; VL vô hiệu hóa; mất khi chết",
+          "effect": "Phi kiếm bình thường + ám khí thần thức theo dõi"
+        }
+      ]
     },
     {
       "name": "Âu Dương Tử",
@@ -6402,7 +6714,69 @@
           "text": "Vũ khí thứ hai sau Hứa Lập Quốc — cho thấy Vương Lâm ngày càng mạnh về mảng thôn hồn/du hồn; tạo bộ đôi ma đầu hài hước với Hứa Lập Quốc."
         }
       ],
-      "portrait": "Đ"
+      "portrait": "Đ",
+      "bio": {
+        "gender": "Không rõ (thực thể thần thức tổng hợp)",
+        "origin": "Hành Thổ chi địa — thần thức tiểu thú dung hợp hàng trăm hồn phách từ hồn kỳ; ma đầu thứ hai của Vương Lâm",
+        "realm": "Thần thức tiểu thú (không theo thang cảnh giới thông thường)",
+        "firstChapter": 151,
+        "appearance": "Tiểu thú hình dạng — phân thân hàng trăm con",
+        "personality": [
+          "Linh trí mạnh — mạnh hơn Hứa Lập Quốc ban đầu",
+          "Trung thành tuyệt đối — cảm nhận uy áp thôn hồn của VL",
+          "Không phản kháng"
+        ],
+        "specialties": [
+          "Công kích sóng âm và thần thức",
+          "Chỉ huy và chiếm quyền cơn lốc tiểu thú",
+          "Dung hợp đồng loại và phân thân",
+          "Sau này công kích thần thức hóa sét"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 151,
+          "arc": "Cổ Thần chi địa / Hành Thổ chi địa",
+          "event": "Ra đời — VL dùng Cực cảnh ép thần thức tiểu thú dung hợp hàng trăm hồn phách",
+          "desc": "Đệ nhị ma đầu ra đời từ nguồn vật liệu Hành Thổ chi địa; ngay lập tức phát huy vai trò chiến đấu.",
+          "major": true
+        },
+        {
+          "chapter": 151,
+          "arc": "Cổ Thần chi địa",
+          "event": "Chiếm quyền cơn lốc tiểu thú, chặn sóng âm địch, hỗ trợ đoạt bảo Mạnh Đà Tử",
+          "desc": "Điều 40+ cơn lốc theo VL; then chốt trong kế đoạt bảo và kết liễu Mạnh Đà Tử.",
+          "major": true
+        },
+        {
+          "chapter": 181,
+          "arc": "Tu Ma hải",
+          "event": "Bị Khâu Tứ Bình giải cấm chế Vân Phi — kích hoạt trong tình huống nguy hiểm",
+          "desc": "KTB giải cấm chế bảo vệ Đệ nhị ma đầu; kết quả là VL phải đối phó KTB.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Thần thức tiểu thú",
+          "chapter": 151,
+          "location": "Hành Thổ chi địa",
+          "gained": "Ra đời từ thần thức tiểu thú dung hợp hồn phách; không theo thang cảnh giới tu tiên thông thường",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Ma đầu thứ hai — nô bộc trung thành tuyệt đối; then chốt trong nhiều trận chiến"
+        },
+        {
+          "name": "Hứa Lập Quốc",
+          "type": "banhuu",
+          "desc": "Đệ nhất ma đầu của VL — cùng hệ thống nhưng khác bản chất (HLQ=nguyên thần Nguyên Anh; ĐNM=thần thức tiểu thú)"
+        }
+      ]
     },
     {
       "name": "Trần Bách Lương",
