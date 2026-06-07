@@ -7124,7 +7124,54 @@
           "text": "Tấm gương phản chiếu chủ đề \"tình thân níu chân người tu tiên\" — chiếu rọi động cơ cốt lõi của Vương Lâm."
         }
       ],
-      "portrait": "N"
+      "portrait": "N",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — nữ đệ tử tầng 3 Ngưng Khí; không thích ồn ào",
+        "realm": "Ngưng Khí tầng 3",
+        "firstChapter": 41,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Đồng cảm với kẻ có tình thân níu chân",
+          "Không thích ồn ào",
+          "Khâm phục thực lực thật sự"
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 41,
+          "arc": "Hằng Nhạc phái",
+          "event": "Trò chuyện với VL — thừa nhận \"cái không dứt được chính là tình thân\"",
+          "desc": "Đồng cảnh ngộ với VL về không thể dứt phàm trần vì cha mẹ; tuyến tình cảm mờ không phát triển.",
+          "major": false
+        },
+        {
+          "chapter": 48,
+          "arc": "Hằng Nhạc phái — tỷ thí",
+          "event": "Chứng kiến VL tỷ thí — khâm phục",
+          "desc": "Xem trận và bày tỏ ủng hộ VL.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí tầng 3",
+          "chapter": 41,
+          "location": "Hằng Nhạc phái",
+          "gained": "Luyện tới tầng 3 từ 3 năm trước; tiến độ chậm — bị nhiều đệ tử vượt qua",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Bạn đồng môn đồng cảm; tuyến tình cảm mờ không phát triển; phản chiếu chủ đề tình thân trong tu tiên"
+        }
+      ]
     },
     {
       "name": "Khâu Tứ Bình",
@@ -7272,7 +7319,64 @@
           "text": "Ch.190 (thu đồ) - Ch.197+ (bế quan tiêu hóa Thủy linh đan, hẹn dạy luyện đan sau)."
         }
       ],
-      "portrait": "C"
+      "portrait": "C",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Vân Thiên tông — đệ tử Nội tông, Kết Đan sơ kỳ; chuyên luyện đan không trọng tu vi",
+        "realm": "Kết Đan sơ kỳ",
+        "firstChapter": 190,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Chân thành hào phóng hiếm có",
+          "Đối xử tốt thật lòng không toan tính",
+          "Làm VL lung lay định kiến quan hệ sư đồ chỉ là lừa gạt"
+        ],
+        "specialties": [
+          "Luyện đan Kết Đan sơ kỳ — vài chục năm kinh nghiệm",
+          "Không trọng tu vi tiến nhanh"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 190,
+          "arc": "Vân Thiên tông",
+          "event": "Thu phân thân VL làm đệ tử đầu tiên trong đời",
+          "desc": "Chân thành tặng ngọc giản kinh nghiệm luyện đan mấy chục năm + đan phương + 3 viên bán phẩm linh đan; khiến VL (phân thân) nảy \"cảm giác lạ chưa từng gặp\".",
+          "major": true
+        },
+        {
+          "chapter": 197,
+          "arc": "Vân Thiên tông",
+          "event": "Bế quan tiêu hóa Thủy linh đan — hẹn dạy luyện đan sau",
+          "desc": "Tiêu thụ tài nguyên quý; hẹn sau bế quan sẽ dạy đệ tử mới.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan sơ kỳ",
+          "chapter": 190,
+          "location": "Vân Thiên tông",
+          "gained": "Cố ý không tiến tu vi nhanh; dồn toàn bộ tâm huyết cho luyện đan",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "anthan",
+          "desc": "Sư phụ của phân thân VL; thái độ chân thành làm VL lung lay định kiến về quan hệ sư đồ"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Ngọc giản kinh nghiệm luyện đan",
+          "cat": "vatpham",
+          "status": "datang",
+          "desc": "Vài chục năm ghi chép kinh nghiệm + đan phương — tặng cho đệ tử VL (phân thân) Ch.190",
+          "effect": "Kho tri thức luyện đan cá nhân đáng giá"
+        }
+      ]
     },
     {
       "name": "Tôn Trấn Vĩ",
@@ -7410,7 +7514,54 @@
           "text": "Ch.199-200."
         }
       ],
-      "portrait": "Â"
+      "portrait": "Â",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Vân Thiên tông — Đại đệ tử Nội tông, một trong 3 ngũ phẩm đan sư; tu vi Nguyên Anh sơ kỳ",
+        "realm": "Nguyên Anh sơ kỳ (cố ý không tiến — dồn hết cho luyện đan)",
+        "firstChapter": 199,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Mê luyện đan tới điên cuồng — mục tiêu cửu phẩm thần đan",
+          "Sáng tạo cực đoan — phương pháp Tế đan dùng du hồn luyện đan sư làm tế phẩm",
+          "Không trọng tu vi, chỉ trọng đan đạo"
+        ],
+        "specialties": [
+          "U Minh nhãn (do ăn U Minh đan thành công — 1/10 cơ hội)",
+          "Phương pháp Tế đan (cực đoan)",
+          "Đoạt Thiên Thất đỉnh luyện Lục Đạo linh đan"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 199,
+          "arc": "Vân Thiên tông",
+          "event": "Luyện đan đêm trăng tròn bằng Đoạt Thiên Thất đỉnh — luyện thành Lục Đạo linh đan",
+          "desc": "Buổi luyện đan đặc biệt là \"thiên thời\" để Lý Mộ Uyển giải phong ấn đan lô Kỳ Hoàng Môn cho VL Kết Anh.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh sơ kỳ",
+          "chapter": 199,
+          "location": "Vân Thiên tông",
+          "gained": "Cố ý không tiến tu vi; dồn toàn bộ tài nguyên và thời gian cho luyện đan",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Gián tiếp — buổi luyện đan tạo điều kiện cho LMU giải phong ấn và VL Kết Anh; không trực tiếp tương tác"
+        },
+        {
+          "name": "Lý Mộ Uyển",
+          "type": "banhuu",
+          "desc": "Đồng môn ngũ phẩm đan sư; cùng là 1 trong 3 đan sư cấp cao nhất Vân Thiên tông"
+        }
+      ]
     },
     {
       "name": "Trình Linh & Công Tôn Đồng",
@@ -7805,6 +7956,64 @@
           "label": "Trạng thái",
           "text": "CÒN SỐNG, rút lui — đại địch tiềm tàng vẫn truy Nghịch Thiên châu. (VL giữ thần thức Hóa Thần hậu kỳ nên sứ giả không dò ra VL suốt 9 ngày diệt Đằng gia.)"
         }
+      ],
+      "bio": {
+        "gender": "Nam",
+        "origin": "Thông Thiên tháp (Triệu quốc) — cường giả bí ẩn; thế lực thực sự sau lưng Phác Nam Tử và Đằng gia",
+        "realm": "Hóa Thần hậu kỳ hoặc cao hơn (không thấy đề cập rõ; ẩn giấu bên trong Thông Thiên tháp)",
+        "firstChapter": 87,
+        "appearance": "Trung niên béo (không thấy đề cập chi tiết trong tiểu thuyết)",
+        "personality": [
+          "Bí ẩn và toan tính lớn",
+          "Xem Đằng gia như \"chuột thí nghiệm\" thực dụng",
+          "Thoái lui khi thấy Thông Thiên thuật vượt tầm"
+        ],
+        "specialties": [
+          "Thông Thiên tháp kỳ bảo (cấp tài nguyên cho Đằng gia)",
+          "Ẩn giấu thần thức Hóa Thần hậu kỳ khi cần"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 87,
+          "arc": "Triệu quốc",
+          "event": "Nền — thế lực thực sự sau lưng Đằng gia và Phác Nam Tử",
+          "desc": "Cho Phác Nam Tử mượn pháp luân Hóa Thần cấp; chỉ định Đằng gia cung cấp 9 Nguyên Anh + thần thông luyện thể cho Đằng Nhất.",
+          "major": true
+        },
+        {
+          "chapter": 223,
+          "arc": "Triệu quốc",
+          "event": "Lộ diện — đòi VL giao NTC đổi mạng + ngôi đệ nhất Triệu quốc",
+          "desc": "Thấy VL dùng Thông Thiên thuật áp đảo Phác Nam Tử; lộ diện yêu cầu nhưng bị VL từ chối; thoái lui (vẫn sống, tiếp tục truy NTC).",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần hậu kỳ (ẩn)",
+          "chapter": 87,
+          "location": "Thông Thiên tháp",
+          "gained": "Cường giả bí ẩn; VL giữ thần thức Hóa Thần hậu kỳ nên sứ giả không dò ra VL suốt 9 ngày diệt Đằng gia",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Truy tìm Nghịch Thiên châu — đại địch tiềm tàng vẫn còn sống sau Ch.223"
+        },
+        {
+          "name": "Phác Nam Tử",
+          "type": "banhuu",
+          "desc": "Được sứ giả hỗ trợ pháp luân Hóa Thần cấp; PNT là công cụ"
+        },
+        {
+          "name": "Đằng gia",
+          "type": "banhuu",
+          "desc": "\"Chuột thí nghiệm\" — cấp tài nguyên để đổi lấy thực nghiệm trên Đằng Nhất"
+        }
       ]
     },
     {
@@ -8111,7 +8320,60 @@
           "text": "Ch.238-239."
         }
       ],
-      "isFeatured": false
+      "isFeatured": false,
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tứ cấp Tu Chân Quốc — đệ tử cuối và được sủng ái nhất của Chu Võ Thái; nhặt từ nhỏ lúc tranh đồ chơi đường",
+        "realm": "Trúc Cơ kỳ",
+        "firstChapter": 238,
+        "appearance": "Tiểu đạo sĩ áo đỏ",
+        "personality": [
+          "Kiêu ngạo ác độc — quen ỷ sư phụ",
+          "Không biết số phận bi kịch đang chờ",
+          "Vô tình về mối nguy hiểm từ chính sư phụ"
+        ],
+        "specialties": [
+          "Bản mạng la sát (pháp môn hồn)",
+          "Trúc Cơ kỳ chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 238,
+          "arc": "Tứ cấp Tu Chân Quốc",
+          "event": "Đuổi giết Từ Đào, định giết VL — bị Hứa Lập Quốc nuốt đầu lâu xương",
+          "desc": "Ỷ thế sư phụ Chu Võ Thái mà hung hăng; bị VL dạy bài học; hộc tiên huyết bỏ chạy, về mách sư phụ.",
+          "major": true
+        },
+        {
+          "chapter": 239,
+          "arc": "Tứ cấp Tu Chân Quốc",
+          "event": "VL gieo mầm nghi ngờ về vị trí \"bước cuối nhập Hóa Thần\" của Phúc nhi",
+          "desc": "VL ngầm chỉ ra Phúc nhi chính là kẻ CWT dự sẽ giết ở bước cuối nhập Hóa Thần — Phúc nhi không biết.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Trúc Cơ kỳ",
+          "chapter": 238,
+          "location": "Tứ cấp Tu Chân Quốc",
+          "gained": "Đệ tử cuối được sủng ái; bản mạng la sát hiếm gặp; đang được CWT đầu tư vì đây là \"vật tế\" cuối cùng để nhập Hóa Thần",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Chu Võ Thái",
+          "type": "anthan",
+          "desc": "Sư phụ sủng ái nhất — thực ra đang nuôi Phúc nhi làm vật tế bước cuối nhập Hóa Thần; bi kịch Phúc nhi không biết"
+        },
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "VL dạy bài học + gieo hạt giống nghi ngờ về số phận thật của Phúc nhi (Ch.238-239)"
+        }
+      ]
     },
     {
       "name": "Trung niên văn sĩ — Hóa Thần \"tuyệt tình ý cảnh\" (Bạch Vân tông)",
@@ -8267,7 +8529,63 @@
           "text": "Ch.246-258"
         }
       ],
-      "portrait": ""
+      "portrait": "",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Tuyết Vực — thiên chi kiều nữ, thiên tiên ngũ linh thể",
+        "realm": "Hóa Thần hậu kỳ (100 năm tu tiên, chưa đan dược)",
+        "firstChapter": 246,
+        "appearance": "(không thấy đề cập chi tiết — thiên chi kiều nữ Tuyết Vực)",
+        "personality": [
+          "Thiên tài tuyệt thế — thiên tiên ngũ linh thể độc nhất",
+          "Dẫn đầu chiến tranh diệt Liên Minh Tứ Phái",
+          "Chưa biết VL đã lấy Thổ linh"
+        ],
+        "specialties": [
+          "Ngũ linh (kim/mộc/thủy/hỏa/thổ) bảo hộ suốt đời",
+          "Hóa Thần hậu kỳ chiến đấu",
+          "Dẫn dắt Tuyết Vực Quốc trong đại chiến"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 246,
+          "arc": "Tuyết Vực Quốc",
+          "event": "Dẫn đầu chiến tranh diệt Liên Minh Tứ Phái",
+          "desc": "Đại chiến tranh VŨ ĐỈNH — Hồng Điệp chỉ huy Tuyết Vực Quốc đánh tan Liên Minh Tứ Phái.",
+          "major": true
+        },
+        {
+          "chapter": 252,
+          "arc": "Tuyết Vực Quốc",
+          "event": "VL đoạt Thổ linh — nàng chưa biết kẻ lấy là ai",
+          "desc": "VL bí mật đoạt Thổ linh (linh thứ 5 của ngũ linh thể) trong lúc hỗn chiến; Hồng Điệp còn 4 linh.",
+          "major": true
+        },
+        {
+          "chapter": 258,
+          "arc": "Tuyết Vực Quốc",
+          "event": "Kết arc — hậu chiến tranh Tứ Phái",
+          "desc": "Sau chiến thắng, hậu sự chiến tranh được giải quyết; VL rút lui.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần hậu kỳ",
+          "chapter": 246,
+          "location": "Tuyết Vực Quốc",
+          "gained": "Thiên tiên ngũ linh thể — 100 năm đạt Hóa Thần hậu kỳ chưa đan dược; thiên tư hiếm gặp nhất trong truyện",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "dottu",
+          "desc": "VL đoạt Thổ linh trong lúc hỗn chiến (Ch.252); mối thù tiềm tàng — nàng chưa biết kẻ lấy là VL"
+        }
+      ]
     },
     {
       "name": "Thủ Đồ — sư tỷ thế thân Hồng Điệp",
