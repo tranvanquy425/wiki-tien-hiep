@@ -279,7 +279,7 @@ def _parse_cultivation_block(lines):
         if len(parts) < 2: continue
         chapter_raw = parts[1].lstrip("Ch.").strip()
         chapter_raw = re.sub(r"[(].*?[)]","",chapter_raw).split("-")[0].strip() or "0"
-        try: ch = int(chapter_raw)
+        try: ch = int(chapter_raw.replace('~','').strip())
         except: ch = 0
         items.append({"realm": parts[0], "chapter": ch,
                       "location": parts[2] if len(parts) > 2 else "",
