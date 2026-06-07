@@ -1740,7 +1740,82 @@
           "text": "Người bạn đầu tiên và thật sự duy nhất trong giai đoạn ký danh đệ tử. VL giúp Trương Hổ khi bị ức hiếp; tình bạn này là hạt giống thiện lương trong tâm hồn VL giai đoạn đầu."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — ký danh đệ tử cùng phòng tạp vụ với Vương Lâm",
+        "realm": "(không thấy đề cập rõ cảnh giới cuối trong tiểu thuyết)",
+        "firstChapter": 15,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Thật thà nghĩa khí",
+          "Biết ơn và trung thành",
+          "Không bỏ bạn khi bạn gặp khó"
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 15,
+          "arc": "Hằng Nhạc phái",
+          "event": "Cùng phòng tạp vụ với VL — bạn đầu tiên thực sự",
+          "desc": "Ở chung phòng; khi VL về thăm nhà, VL để lại khoai lang cho hắn — chi tiết nhỏ cho thấy tình bạn thực sự.",
+          "major": false
+        },
+        {
+          "chapter": 26,
+          "arc": "Hằng Nhạc phái",
+          "event": "Bị Lưu sư huynh định gây sự — VL can thiệp",
+          "desc": "VL bảo vệ Trương Hổ khi bị ức hiếp; đây là lần VL chủ động giúp bạn vì tình nghĩa.",
+          "major": false
+        },
+        {
+          "chapter": 27,
+          "arc": "Hằng Nhạc phái",
+          "event": "Trương Hổ giết Lưu sư huynh rồi bỏ trốn — để lại cuộn giấy vàng",
+          "desc": "Trả thù kẻ ức hiếp; rời Hằng Nhạc phái sớm; để lại vật gì đó cho VL.",
+          "major": true
+        },
+        {
+          "chapter": 66,
+          "arc": "Tu Ma hải",
+          "event": "Tái xuất — bị Bạch Triển thu nhận, hạ độc khống chế sinh tử",
+          "desc": "Mười năm sau, bị Bạch Triển khống chế bằng độc; VL gặp lại trong tình cảnh này.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí",
+          "chapter": 15,
+          "location": "Hằng Nhạc phái",
+          "gained": "Ký danh đệ tử — cảnh giới ban đầu thấp; không thấy đề cập tiến triển rõ trong tiểu thuyết",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Người bạn đầu tiên và thực sự duy nhất trong giai đoạn ký danh đệ tử; hạt giống thiện lương trong tâm VL buổi đầu"
+        },
+        {
+          "name": "Bạch Triển",
+          "type": "kethu",
+          "desc": "Kẻ thu nhận rồi hạ độc khống chế Trương Hổ (Ch.66); quyền lực áp đặt lên bạn của VL"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Cuộn giấy vàng",
+          "cat": "vatpham",
+          "status": "datang",
+          "desc": "Ch.27 — để lại cho VL khi bỏ trốn sau khi giết Lưu sư huynh; nội dung không thấy đề cập chi tiết",
+          "effect": "Kỷ vật từ bạn bè; có thể chứa thông tin hoặc lời nhắn"
+        }
+      ]
     },
     {
       "name": "Bạch y thanh niên (gác chính viện)",
@@ -2787,7 +2862,84 @@
           "text": "Đối thủ then chốt trong tuyến diệt Đấu Tà phái; phép thử cho thực lực kết đan mới của Vương Lâm.\n\n---"
         }
       ],
-      "portrait": "G"
+      "portrait": "G",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Ma nội hải — chưởng môn Đấu Tà phái (Long sơn, Nam Đấu thành), thống lĩnh 13.562 đệ tử",
+        "realm": "Kết Đan trung kỳ đỉnh (tạm Nguyên Anh sơ kỳ qua Đấu Long đại trận mượn sức vạn đệ tử)",
+        "firstChapter": 132,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Gian xảo nhiều mưu — giả thua để dành đòn sát thủ",
+          "Cao ngạo — tin tưởng tuyệt đối vào Đấu Long đại trận",
+          "Không ngờ bị phá bằng cách giản đơn (giữ khoảng cách 90 trượng)"
+        ],
+        "specialties": [
+          "Đấu Long đại trận — mượn sức 13.562 đệ tử",
+          "Kiếm tu ẩn giấu — kiếm hoàn/kiếm đan",
+          "Điện võng và đầu hổ linh khí"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 132,
+          "arc": "Tu Ma hải — Đấu Tà phái",
+          "event": "Dùng Đấu Long đại trận tạm đạt Nguyên Anh sơ kỳ đối đầu VL",
+          "desc": "Kích hoạt trận mượn sức vạn đệ tử; tự tin tuyệt đối về pháp bảo trấn phái.",
+          "major": true
+        },
+        {
+          "chapter": 132,
+          "arc": "Tu Ma hải",
+          "event": "Bị VL tìm ra điểm yếu 90 trượng — giả thua dành đòn kiếm ẩn",
+          "desc": "Khi bị phá giải Đấu Long trận bằng khoảng cách 90 trượng; giả thua lập tức, dành đòn kiếm hoàn sát thủ cuối cùng.",
+          "major": true
+        },
+        {
+          "chapter": 132,
+          "arc": "Tu Ma hải",
+          "event": "Đòn kiếm hoàn thất bại — chết",
+          "desc": "Đòn cuối cùng bị đỡ bởi Giao Long giáp của VL; kết liễu sau khi bí kế tuyệt.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan trung kỳ đỉnh",
+          "chapter": 132,
+          "location": "Tu Ma hải",
+          "gained": "Thực lực thật; ẩn giấu tài kiếm tu",
+          "congphap": ""
+        },
+        {
+          "realm": "Nguyên Anh sơ kỳ (tạm)",
+          "chapter": 132,
+          "location": "Tu Ma hải",
+          "gained": "Qua Đấu Long đại trận mượn sức 13.562 đệ tử; chỉ tồn tại trong trận",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Đối thủ \"trí + trận\" — bị VL phá Đấu Long trận bằng khoảng cách 90 trượng; chết sau khi bí kế tuyệt (Ch.132)"
+        },
+        {
+          "name": "Thượng Quan Mặc",
+          "type": "dottu",
+          "desc": "Bị VL chiếm lấy vị trí chưởng môn Đấu Tà phái thông qua Thượng Quan Mặc làm bù nhìn"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Đấu Long đại trận",
+          "cat": "baovat",
+          "status": "mat",
+          "desc": "Pháp bảo trấn phái — mượn sức 13.562 đệ tử tạm đạt Nguyên Anh sơ kỳ; thất bại khi bị phá bằng khoảng cách 90 trượng",
+          "effect": "Khuếch đại sức mạnh tập thể; điểm yếu chí mạng là khoảng cách tối thiểu"
+        }
+      ]
     },
     {
       "name": "Thượng Quan Mặc (上官墨)",
@@ -3124,7 +3276,96 @@
           "text": "Từ \"cao thủ cấm chế Hóa Thần trung kỳ ngàn năm kinh nghiệm, kẻ điên thâm hiểm\" (Ch.141-160) → bị chính bố cục Cổ Thần chi địa nghiền nát + bị tiểu bối Kết Đan (Vương Lâm là thôn hồn) lợi dụng tới chết → ma hóa. Chuyển biến: foe đáng sợ → con cờ bị hi sinh."
         }
       ],
-      "portrait": "C"
+      "portrait": "C",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Ma nội hải — đại ma đầu nổi tiếng; ngàn năm trước là cường giả chủ lực đoàn thám hiểm Cổ Thần chi địa",
+        "realm": "Hóa Thần trung kỳ (cao nhất trong nhóm 7 người)",
+        "firstChapter": 145,
+        "appearance": "Ngoài tiên phong đạo cốt — phất trần, mão, nụ cười hiền từ; trong lòng lang dạ sói",
+        "personality": [
+          "Âm trầm thâm hiểm, cẩn thận tuyệt đối",
+          "Thà mất thời gian còn hơn liều mạng",
+          "Ngoài hiền trong độc — bề ngoài đánh lừa hoàn hảo"
+        ],
+        "specialties": [
+          "8 lá cờ trắng cấm chế ngũ cấp",
+          "Băng Phong tráo phòng thủ",
+          "Hóa Thần kỳ pháp bảo phong phú"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 145,
+          "arc": "Toái Tinh Loạn",
+          "event": "Tới Toái Tinh Loạn — định giết VL vô cớ nhưng bị ngăn",
+          "desc": "Muốn giết VL ngay khi gặp; bị Đoan Mộc Cực ngăn vì VL cần cho nhiệm vụ cửa 3.",
+          "major": false
+        },
+        {
+          "chapter": 146,
+          "arc": "Cổ Thần chi địa",
+          "event": "Phân công cửa 1 và 2 — bố trí kế hoạch",
+          "desc": "Kích hoạt cổ truyền tống trận; đoạt Băng Phong tráo đem theo; vào cửa 1 cùng nhóm nhỏ.",
+          "major": false
+        },
+        {
+          "chapter": 158,
+          "arc": "Cấm Sơn",
+          "event": "Đối thủ cấm chế ẩn danh của VL suốt 3 năm",
+          "desc": "Không biết \"thần bí nhân\" vô hình chặn đường là VL; bị lợi dụng làm \"kẻ dò đường\" cửa 2 rồi bị ép lao vào cửa tử.",
+          "major": true
+        },
+        {
+          "chapter": 162,
+          "arc": "Cổ Thần chi địa",
+          "event": "Đối đầu VL trong trận huyết hải — thất bại",
+          "desc": "Dùng 8 lá cờ trắng bố trí; mất 4 lá; cuối cùng bị VL phá cấm chế và loại khỏi trận địa (kết cục không sống).",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần trung kỳ",
+          "chapter": 145,
+          "location": "Tu Ma nội hải",
+          "gained": "Đỉnh cao nhất trong nhóm 7 người thám hiểm; ngàn năm tu luyện sau lần thám hiểm Cổ Thần đầu tiên",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Định giết VL ngay lần đầu gặp (Ch.145); bị VL lợi dụng làm kẻ dò đường rồi ép vào cửa tử; cuối cùng chết trong Cổ Thần chi địa"
+        },
+        {
+          "name": "Lục Dục Ma Quân",
+          "type": "banhuu",
+          "desc": "Đồng đội trong nhóm 7 người thám hiểm Cổ Thần chi địa"
+        },
+        {
+          "name": "Mạnh Đà Tử",
+          "type": "banhuu",
+          "desc": "Đồng đội cùng nhóm — Mạnh Đà Tử liều mạng hơn, Cổ Đế cẩn thận hơn"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "8 lá cờ trắng",
+          "cat": "baovat",
+          "status": "mat",
+          "desc": "Pháp bảo trấn phái tông phái ngũ cấp Tu Chân quốc — tạo thông đạo qua cấm chế; mất 4 lá trong Cổ Thần chi địa; cả 8 mất khi chết",
+          "effect": "Vô số biến hóa cấm chế; cực kỳ hiếm"
+        },
+        {
+          "name": "Băng Phong tráo",
+          "cat": "baovat",
+          "status": "mat",
+          "desc": "Đoạt từ tứ cấp tu chân quốc trước khi tới; dùng chống cửa 1 Cổ Thần; mất khi chết",
+          "effect": "Phòng thủ chống cấm chế cực âm"
+        }
+      ]
     },
     {
       "name": "Lục Dục Ma Quân — Từ Ly Thanh (六慾魔君 / 徐離青)",
@@ -3176,7 +3417,82 @@
           "text": "Từ \"ma quân lạnh lùng tự chủ, coi mạng người như công cụ\" → bị chính sư phụ biến thành công cụ phá phong ấn → cuốn vào huyết hải. Vật truyền thừa Cổ Thần thật (thủ cốt) hóa ra đã dung trong cơ thể đệ tử LDMQ từ ngàn năm trước."
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Ma nội hải — ma quân; đệ tử Thiên Ma tán nhân (người bố trí thông đạo dòng xoáy ngàn năm trước)",
+        "realm": "Hóa Thần trung kỳ (Lục Dục ma công đạt hóa cảnh)",
+        "firstChapter": 145,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Lạnh lùng như băng — coi mạng người như công cụ",
+          "Tàn nhẫn với cả người tùy tùng",
+          "Khôn ngoan hơn Mạnh Đà Tử — biết giữ thể diện và thỏa hiệp khi cần"
+        ],
+        "specialties": [
+          "Thi thuật — biến người sống/xác thành kiếm khí cấm chế",
+          "Lục Dục ma công",
+          "Thông đạo dòng xoáy (kế thừa từ sư phụ)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 145,
+          "arc": "Toái Tinh Loạn",
+          "event": "Tới Toái Tinh Loạn với thanh niên bị thi thuật — hứa bảo vệ VL",
+          "desc": "Dẫn đầu thanh niên vật tế; hứa bảo vệ VL nếu mở được cửa 3 (VL không tin lời hứa).",
+          "major": false
+        },
+        {
+          "chapter": 146,
+          "arc": "Cổ Thần chi địa",
+          "event": "Kích hoạt cổ truyền tống trận — nộp nhiều nhất (4 cực phẩm linh thạch)",
+          "desc": "Vào cửa 1 phân công; hi sinh thanh niên vật tế không chớp mắt.",
+          "major": false
+        },
+        {
+          "chapter": 158,
+          "arc": "Cấm Sơn",
+          "event": "Con rết Lục Dục ma công bố trí ở Cấm Sơn bị VL phá giải",
+          "desc": "Cấm chế thi thuật còn lại trong Cấm Sơn bị \"thần bí nhân\" (VL) xử lý từng bước.",
+          "major": false
+        },
+        {
+          "chapter": 159,
+          "arc": "Cổ Thần chi địa",
+          "event": "Thi thể thanh niên đứt cánh tay VL nhặt được — hạt đậu vàng bí ẩn",
+          "desc": "VL phát hiện hạt đậu vàng từ thi thể nạn nhân Lục Dục — foreshadowing vật phẩm quan trọng.",
+          "major": false
+        },
+        {
+          "chapter": 162,
+          "arc": "Cổ Thần chi địa",
+          "event": "Đối đầu và chết trong Cổ Thần chi địa",
+          "desc": "Cùng Cổ Đế đối mặt với VL; thất bại và chết.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần trung kỳ",
+          "chapter": 145,
+          "location": "Tu Ma nội hải",
+          "gained": "Đạt Hóa Thần trung kỳ nhờ Lục Dục ma công",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Hứa bảo vệ VL nhưng không đáng tin; cấm chế ma công bị VL phá giải; cuối cùng chết trong Cổ Thần chi địa"
+        },
+        {
+          "name": "Cổ Đế",
+          "type": "banhuu",
+          "desc": "Đồng đội trong nhóm 7 người thám hiểm — phong cách khác nhau nhưng cùng mục tiêu"
+        }
+      ]
     },
     {
       "name": "Mạnh Đà Tử (孟陀子)",
@@ -3228,7 +3544,91 @@
           "text": "Từ \"lão gù dùng độc, bị giết ở Ch.153-154 (Ch.141-160)\" → ma hóa sống lại thành yêu thần thuộc hạ Thác Sâm. (Lưu ý mâu thuẫn nguồn: file Ch.141-160 ghi Mạnh Đà Tử bị thú vương giết Ch.153-154; arc này các nhân vật nói hắn \"chết ở cửa 1 ngàn năm trước\" — có thể là Mạnh Đà Tử bản ngàn-năm-trước khác, hoặc bản dịch/trần thuật chồng lớp. CẦN XÁC MINH; tạm ghi cả hai.)"
         }
       ],
-      "portrait": "M"
+      "portrait": "M",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Ma nội hải — từng là chưởng môn môn phái tam cấp tu chân quốc",
+        "realm": "Hóa Thần trung kỳ thường trú (tạm đại viên mãn khi hi sinh Ly Thiên thiềm thừ + Tổ Ma chi tâm)",
+        "firstChapter": 145,
+        "appearance": "Lão gù người thấp bé, mặt mưng mủ đầy mụn (do tu Minh quyết độc)",
+        "personality": [
+          "Gian xảo ích kỷ — \"cùng chạy\" thực ra để phân tán mục tiêu",
+          "Tàn nhẫn với cả linh thú bạn ngàn năm",
+          "Biết tính toán thiệt hơn nhưng liều mạng hơn Cổ Đế"
+        ],
+        "specialties": [
+          "Minh quyết độc công (9 tầng)",
+          "Độc Vương đỉnh — luyện độc và tấn công",
+          "Ly Thiên thiềm thừ (linh cấp thượng phẩm)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 145,
+          "arc": "Toái Tinh Loạn",
+          "event": "Tới Toái Tinh Loạn cưỡi Ly Thiên thiềm thừ — khoe \"độc sát toàn bộ Cự Ma tộc truy sát\"",
+          "desc": "Xuất hiện với linh thú bạn ngàn năm; tự tin về thực lực độc công.",
+          "major": false
+        },
+        {
+          "chapter": 147,
+          "arc": "Cổ Thần chi địa",
+          "event": "Cảnh báo VL \"giao xà ký sinh 9 lớp\" rồi bỏ chạy phân tán hồng giao long",
+          "desc": "Lợi dụng VL phân tán mục tiêu hồng giao long; chạy về phía Hành Động thiên thạch.",
+          "major": false
+        },
+        {
+          "chapter": 150,
+          "arc": "Hành Động thiên thạch",
+          "event": "Hi sinh Ly Thiên thiềm thừ để tạm Hóa Thần đại viên mãn",
+          "desc": "Kích hoạt Tổ Ma chi tâm; hi sinh bạn ngàn năm khi đường cùng — kết liễu bởi VL dùng long cân ghìm chân để hồng giao long kết liễu.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần trung kỳ",
+          "chapter": 145,
+          "location": "Tu Ma nội hải",
+          "gained": "Đỉnh thường trú; từng chưởng môn một môn phái",
+          "congphap": ""
+        },
+        {
+          "realm": "Hóa Thần đại viên mãn (tạm)",
+          "chapter": 153,
+          "location": "Hành Động thiên thạch",
+          "gained": "Hi sinh Ly Thiên thiềm thừ + Tổ Ma chi tâm; chỉ tồn tại ngắn trước khi bị hồng giao long kết liễu",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Đồng đội giả trong chuyến thám hiểm; bị VL lợi dụng rồi cướp toàn bộ bảo vật; chết vì VL dùng long cân ghìm chân để hồng giao long kết liễu"
+        },
+        {
+          "name": "Ly Thiên thiềm thừ",
+          "type": "banhuu",
+          "desc": "Linh thú bạn ngàn năm — hi sinh khi đường cùng để tăng sức mạnh; cái chết của nó là mốc cảm xúc hiếm hoi"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Độc Vương đỉnh",
+          "cat": "baovat",
+          "status": "datang",
+          "desc": "Pháp bảo bổn mệnh — luyện độc và tấn công; nộp cho VL trước khi chết (hoặc VL thu sau khi chết)",
+          "effect": "Đỉnh đặc hóa luyện và tấn công bằng độc"
+        },
+        {
+          "name": "Tổ Ma chi tâm",
+          "cat": "baovat",
+          "status": "dalung",
+          "desc": "Chí bảo Cự Ma tộc; dùng để tạm đạt Hóa Thần đại viên mãn khi kết hợp hi sinh Ly Thiên thiềm thừ",
+          "effect": "Khuếch đại sức mạnh tạm thời lên đỉnh Hóa Thần"
+        }
+      ]
     },
     {
       "name": "Uông Thanh Việt (汪清越)",
@@ -4640,7 +5040,79 @@
           "text": "Giả Kết Đan trung kỳ để lừa hai tu sĩ Kết Đan đi săn Bát Trảo thú (đoạt nội đan + nước dãi cho Hủ Thực tán). Gặp lại Vương Lâm, ôm hận thấu xương, định ám toán (Tiểu Cổ phóng tơ đen) nhưng bị Vương Lâm dễ dàng áp chế. Có thuyền pháp bảo tốc độ cao."
         }
       ],
-      "portrait": "K"
+      "portrait": "K",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Ma hải — tu sĩ có mưu thâm; sau gia nhập Độc Ma cung",
+        "realm": "Nguyên Anh sơ kỳ (Kết Anh nhờ \"Nguyên Anh quy tức\" — đoạt Nguyên Anh sư phụ + đại sư huynh)",
+        "firstChapter": 182,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Tâm cơ sâu — kiểu người \"cầm được buông được\"",
+          "Thực dụng tuyệt đối — sẵn sàng mặc cả mạng mình",
+          "Ẩn tình sâu — yêu người đã chết, thề không tiếc tất cả để hồi sinh"
+        ],
+        "specialties": [
+          "Ám toán — giết sư phụ và đại sư huynh khi bế quan",
+          "Trống cổ triệu ma binh",
+          "Đá tím tròn dò và giải cấm chế"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 182,
+          "arc": "Tu Ma hải",
+          "event": "Xuất hiện — giải cấm chế Vân Phi để kích hoạt đệ nhị ma đầu của VL",
+          "desc": "Định đoạt đệ nhị ma đầu → bị VL áp chế bằng Cực Cảnh thần thức; mặc cả \"3 câu\" tiết lộ bí mật để khỏi bị giết.",
+          "major": true
+        },
+        {
+          "chapter": 182,
+          "arc": "Tu Ma hải",
+          "event": "Tiết lộ vụ Nguyên Anh Quy Tức + thượng cổ cấm chế động phủ",
+          "desc": "Kể mưu đồ ám toán sư phụ + đại sư huynh; hẹn VL 7 ngày mở cấm chế động phủ cổ đổi lấy mạng sống.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan hậu kỳ đại viên mãn",
+          "chapter": 0,
+          "location": "Tu Ma hải",
+          "gained": "Cảnh giới trước khi đoạt Nguyên Anh",
+          "congphap": ""
+        },
+        {
+          "realm": "Nguyên Anh sơ kỳ",
+          "chapter": 0,
+          "location": "Tu Ma hải",
+          "gained": "Kết Anh nhờ phương pháp \"Nguyên Anh quy tức\" — đoạt Nguyên Anh của sư phụ + đại sư huynh đang bế quan",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "dottu",
+          "desc": "Mặc cả 3 câu để thoát; hợp tác tạm thời (7 ngày); quan hệ phức tạp — đối đầu rồi hòa, không thực sự làm bạn"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Trống cổ",
+          "cat": "baovat",
+          "status": "con",
+          "desc": "Da thú vô danh; triệu ma binh giáp đen từ sương đen — sức mạnh tổng hợp",
+          "effect": "Triệu binh trận pháp; chiến đấu quy mô"
+        },
+        {
+          "name": "Đá tím tròn",
+          "cat": "baovat",
+          "status": "con",
+          "desc": "Dò và giải cấm chế — công cụ thám sát",
+          "effect": "Phá cấm chế và bảo vệ thần thức"
+        }
+      ]
     },
     {
       "name": "Chu Lâm",
