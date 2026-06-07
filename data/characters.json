@@ -1335,7 +1335,76 @@
           "text": "Nam tử áo lam, khoảng 40 tuổi, tiên phong đạo cốt, ánh mắt như điện. Lãnh đạo môn phái suy tàn.\n- Ch.34: lệnh toàn bộ đệ tử nội môn bế quan tập huấn 4 năm ở hậu sơn để chuẩn bị đại hội.\n- Ch.40: dùng Tử Nhạc Tiên Kiếm (chứa Long Hồn, hóa tử long) thị uy trước Huyền Đạo Tông; lo lắng vì phái không có hộ sơn linh thú và thua kém về linh căn đệ tử.\n- **Đánh giá**: hiện thân nỗi lo của một môn phái đang tụt hậu — uy thế bề ngoài nhưng nội lực hao mòn."
         }
       ],
-      "portrait": "H"
+      "portrait": "H",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — chưởng môn, người nắm giữ Tử Nhạc Tiên Kiếm do Lưu sư tổ giao",
+        "realm": "Kết Đan kỳ (cao nhất trong môn phái thời điểm truyện)",
+        "firstChapter": 40,
+        "appearance": "Nam tử áo lam ~40 tuổi, tiên phong đạo cốt, ánh mắt như điện",
+        "personality": [
+          "Vừa quý vừa dè chừng bí mật của VL",
+          "Lãnh đạo khéo léo môn phái đang suy tàn",
+          "Cân bằng giữa kinh ngạc và toan tính"
+        ],
+        "specialties": [
+          "Tử Nhạc Tiên Kiếm (long hồn)",
+          "Chủ trì trận pháp và luyện khí"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 40,
+          "arc": "Hằng Nhạc phái",
+          "event": "Hóa thành tử long thị uy bằng Tử Nhạc Tiên Kiếm",
+          "desc": "Ra oai với đệ tử và thế lực bên ngoài; cho thấy sức mạnh thực của chưởng môn.",
+          "major": false
+        },
+        {
+          "chapter": 47,
+          "arc": "Hằng Nhạc phái — tỷ thí",
+          "event": "Chỉ huy Hằng Nhạc trong tỷ thí — kinh ngạc khi VL lật thế cờ",
+          "desc": "Bảo vệ VL trước sát ý Âu Dương; đổi tên Dẫn Lực thuật thành \"Cầm Long thủ\"; thưởng linh đan toàn phái.",
+          "major": true
+        },
+        {
+          "chapter": 53,
+          "arc": "Hằng Nhạc phái",
+          "event": "Phá tan Hộ Sơn đại trận bởi Phác Nam Tử — dẫn dắt rời phái",
+          "desc": "Sau khi Phác Nam Tử phá trận và lão tổ Trú Ám Sơn bị giết; thu dẫn đệ tử rời phái khỏi Triệu quốc.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 40,
+          "location": "Hằng Nhạc phái",
+          "gained": "Chưởng môn — cao nhất trong phái thời điểm truyện; nhưng không đủ bảo vệ trước Nguyên Anh kỳ Phác Nam Tử",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Chưởng môn nâng đỡ VL; vừa quý trọng vừa dè chừng bí mật VL; bảo vệ VL trước đòn sát ý Âu Dương"
+        },
+        {
+          "name": "Phác Nam Tử",
+          "type": "kethu",
+          "desc": "Kẻ phá môn phái; Phác Nam Tử là mối nguy hiểm vượt tầm Hoàng Long đối kháng"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Tử Nhạc Tiên Kiếm",
+          "cat": "baovat",
+          "status": "con",
+          "desc": "Do Lưu sư tổ giao; chứa long hồn — hóa long uy khi thi triển",
+          "effect": "Pháp bảo trấn phái Hằng Nhạc; sức mạnh Kết Đan đỉnh phong"
+        }
+      ]
     },
     {
       "name": "Tôn Hạo (孙浩)",
@@ -1608,7 +1677,70 @@
           "text": "Nhị đại đệ tử mạt lưu của Hằng Nhạc, Ngưng Khí tầng 5, trưởng lão danh nghĩa. Tham lam, tâm địa hẹp; cả quá trình quan hệ với Vương Lâm là một chuỗi tính toán vụ lợi.\n- Ch.16-19: nhận Vương Lâm làm đệ tử chỉ để đoạt hồ lô nước linh khí và dùng Sưu Hồn Thuật moi bí mật.\n- Ch.19-20: thất bại (Vương Lâm không ngưng được linh khí), nản lòng, trục xuất khỏi chính viện.\n- Ch.34, 38: khi thấy Vương Lâm tự đạt tầng 3, **nhận làm đệ tử thật**, cấp lệnh bài tới Kiếm Linh Các.\n- **Chuyển biến**: kẻ lợi dụng (Ch.16) → bỏ rơi (Ch.20) → thu nhận thật khi thấy giá trị (Ch.38). Quan hệ luôn dựa trên lợi ích, chưa từng là tình sư đồ thật."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — nhị đại đệ tử mạt lưu, trưởng lão danh nghĩa",
+        "realm": "Ngưng Khí tầng 5",
+        "firstChapter": 15,
+        "appearance": "Lão già nếp nhăn nhiều, ánh mắt sáng ngời, vẻ mặt lãnh đạm",
+        "personality": [
+          "Tham lam cơ hội",
+          "Hèn — nịnh nọt thay đổi thái độ tùy thực lực",
+          "Định hại học trò khi cảm thấy bị uy hiếp"
+        ],
+        "specialties": [
+          "Ngưng Khí tầng 5 chiến đấu; chuyên khống chế người bằng Tam Thi Tuyến Trùng thảo"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 15,
+          "arc": "Hằng Nhạc phái",
+          "event": "Sư phụ danh nghĩa của VL — lợi dụng và bỏ mặc",
+          "desc": "Nhận VL làm đệ tử theo kiểu \"không có thiên tư thì làm tạp vụ\"; không dạy dỗ gì thực sự.",
+          "major": false
+        },
+        {
+          "chapter": 47,
+          "arc": "Hằng Nhạc phái",
+          "event": "VL lập công — đổi thái độ nịnh nọt \"hảo đồ nhi\"",
+          "desc": "Sau khi VL hạ Chu Bằng, lập tức đổi thái độ 180 độ sang nịnh nọt.",
+          "major": false
+        },
+        {
+          "chapter": 51,
+          "arc": "Hằng Nhạc phái",
+          "event": "Pha \"dược trà\" tẩm Tam Thi Tuyến Trùng thảo định khống chế VL",
+          "desc": "Định dùng tà phương khống chế VL sau khi nhận ra VL quá nguy hiểm nhưng có giá trị — bị VL phát hiện và giết.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí tầng 5",
+          "chapter": 15,
+          "location": "Hằng Nhạc phái",
+          "gained": "Nhị đại đệ tử mạt lưu; trưởng lão danh nghĩa — thực lực yếu nhất trong lớp trưởng lão",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Sư phụ danh nghĩa lợi dụng; định khống chế VL bằng tà thuật; bị VL giết diệt họa (Ch.51) — mốc VL lần đầu giết người trong môn phái"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Tam Thi Tuyến Trùng thảo",
+          "cat": "dandung",
+          "status": "dalung",
+          "desc": "Vật liệu luyện khôi lỗi dùng để pha vào \"dược trà\" khống chế người uống; bị VL phát hiện trước khi có tác dụng",
+          "effect": "Khống chế thần thức người uống — công cụ tà pháp"
+        }
+      ]
     },
     {
       "name": "Các trưởng lão Hằng Nhạc (xuất hiện Ch.10)",
@@ -2171,7 +2303,72 @@
           "text": "Thiếu chủ Đằng gia — kẻ thù đời đầu của Vương Lâm tại Triệu quốc. Hồn phách Đằng Lệ bị VL triệu gọi (Ch.201) để định vị huyết mạch Đằng gia phục vụ cuộc báo thù diệt tộc."
         }
       ],
-      "portrait": "Đ"
+      "portrait": "Đ",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — thiếu chủ Đằng gia, cháu Đằng Hóa Nguyên",
+        "realm": "Trúc Cơ hậu kỳ",
+        "firstChapter": 66,
+        "appearance": "Bạch y thanh niên ~30 tuổi, kiêu ngạo",
+        "personality": [
+          "Kiêu ngạo kiểu thiếu chủ gia tộc lớn",
+          "Bạn tri kỷ đáng giá tình nghĩa"
+        ],
+        "specialties": [
+          "Trúc Cơ hậu kỳ chiến đấu — nguyên bảo cự kiếm, lôi cầu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 66,
+          "arc": "Tu Ma hải",
+          "event": "Truy sát Trương Hổ và Vương Lâm theo lệnh",
+          "desc": "Nhận lời truy giết Trương Hổ và VL; đối đầu trực tiếp với VL; bị VL dùng Đoạt Cơ — hồn phách thoát thân, thân thể mất.",
+          "major": true
+        },
+        {
+          "chapter": 201,
+          "arc": "Arc Đằng gia",
+          "event": "Hồn phách bị VL triệu gọi để định vị huyết mạch Đằng gia",
+          "desc": "Hơn 200 năm sau, VL triệu hồn phách Đằng Lệ từ NTC để xác định toàn bộ huyết mạch Đằng gia phục vụ kế hoạch diệt tộc.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Trúc Cơ hậu kỳ",
+          "chapter": 66,
+          "location": "Tu Ma hải",
+          "gained": "Thiếu chủ Đằng gia khi đối đầu VL",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Bị VL Đoạt Cơ — thân thể mất, hồn phách bị giam trong NTC; 200 năm sau bị triệu gọi để lần ra huyết mạch Đằng gia"
+        },
+        {
+          "name": "Đằng Hóa Nguyên",
+          "type": "giađình",
+          "desc": "Ông nội — ĐHN vì cháu mà thề báo thù VL suốt 400 năm"
+        },
+        {
+          "name": "Trần Trung",
+          "type": "banhuu",
+          "desc": "Bạn tri kỷ (đại đệ tử Tức Mặc lão nhân)"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Nguyên bảo cự kiếm",
+          "cat": "baovat",
+          "status": "mat",
+          "desc": "Pháp bảo Trúc Cơ hậu kỳ — vũ khí chính; mất khi thân thể bị VL Đoạt Cơ",
+          "effect": "Kiếm tu chiến đấu tầm trung"
+        }
+      ]
     },
     {
       "name": "Đằng Hóa Nguyên",
@@ -2822,7 +3019,84 @@
           "text": "Phản diện/đối trọng mở arc mới; vừa là nguồn cơ hội (Lập Anh đan, Anh Biến đan) vừa là nguy hiểm lớn; mang hiểu nhầm Tử Chú thuật làm ngòi nổ."
         }
       ],
-      "portrait": "B"
+      "portrait": "B",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Ma nội hải — Bát Cực Ma Quân, thành chủ Thất Mai Thành; một trong 7 thành chủ Thất Mai chi địa",
+        "realm": "Hóa Thần kỳ (Nguyên Anh hậu kỳ/giả thần đỉnh phong)",
+        "firstChapter": 135,
+        "appearance": "Áo thanh bào thêu 7 đóa mai vàng nhụy đỏ — dấu hiệu thành chủ Thất Mai",
+        "personality": [
+          "Kiên nhẫn cực độ — chờ VL 3 năm không nản",
+          "Thực dụng lạnh lùng",
+          "Khôn ngoan — không giết bừa để tránh đắc tội tứ cấp tu chân quốc"
+        ],
+        "specialties": [
+          "Bát Trảo thần thức (hút chữ \"Tử\" Cực cảnh)",
+          "Chữ \"Biến\" tấn công Nguyên Anh",
+          "Thổ Hành Chu di chuyển"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 135,
+          "arc": "Tu Ma hải",
+          "event": "Nghe tin \"sát tinh Tử Chú thuật\" — bắt đầu truy tìm VL",
+          "desc": "Tin đồn VL dùng Tử Chú thuật để diệt Đấu Tà phái lan đến; ĐMC quyết định truy tìm để có được bí thuật.",
+          "major": true
+        },
+        {
+          "chapter": 136,
+          "arc": "Tu Ma hải",
+          "event": "Đuổi VL qua Tu Ma hải — bị phi kiếm rạch mặt",
+          "desc": "Lần đầu đối đầu trực tiếp; VL không đủ sức chính diện đối kháng, dùng phi kiếm rạch mặt rồi trốn.",
+          "major": false
+        },
+        {
+          "chapter": 139,
+          "arc": "Tuyên Vũ quốc",
+          "event": "Phong tỏa Tuyên Vũ quốc 3 năm cùng bổn thể + phân thân",
+          "desc": "Chờ VL cạn kiệt không gian ẩn náu; kiên nhẫn tuyệt đối — không vào Quyết Minh cốc vì có trận phong ấn.",
+          "major": true
+        },
+        {
+          "chapter": 143,
+          "arc": "Toái Tinh Loạn",
+          "event": "Dùng VL vào Cổ Thần chi địa — chặn cửa 3",
+          "desc": "Lừa VL rằng hắn có Tử Chú thuật; bố trí VL vào cửa 3 (cửa thần bí nhất) để làm bình phong; sau đó bị VL qua mặt.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần kỳ",
+          "chapter": 135,
+          "location": "Tu Ma nội hải",
+          "gained": "Thành chủ Thất Mai Thành — đỉnh của Tu Ma nội hải; 1000 năm trước từng suýt chết ở Cổ Thần chi địa",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Truy sát 3 năm vì tin VL có Tử Chú thuật; bị VL qua mặt nhiều lần; mối quan hệ đại địch cường đại nhất giai đoạn Tu Ma hải"
+        },
+        {
+          "name": "Triệu Truyện Lương",
+          "type": "banhuu",
+          "desc": "Đồng minh trong Thất Mai chi địa; gọi tên thật Đoan Mộc Cực (Ch.141)"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Bát Trảo thần thức",
+          "cat": "khanang",
+          "status": "con",
+          "desc": "Thần thức thực thể bát trảo — phòng ngự thức hải và hút cả chữ \"Tử\" của Cực cảnh VL",
+          "effect": "Phòng thủ thần thức bậc cao; chống lại mọi tấn công tâm linh"
+        }
+      ]
     },
     {
       "name": "Giải Đông Lai (解東來)",
@@ -4823,7 +5097,77 @@
           "text": "Thước đo phô diễn thực lực ẩn giấu của Vương Lâm; đồng thời là nạn nhân cụ thể hóa sự tàn nhẫn mới hình thành ở nhân vật chính."
         }
       ],
-      "portrait": "C"
+      "portrait": "C",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — đại đệ tử Huyền Đạo Tông, thiên tài tu chân giới Triệu quốc",
+        "realm": "Ngưng Khí tầng 13 (ẩn — bề ngoài tầng 10)",
+        "firstChapter": 47,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Cuồng ngạo coi thường đối thủ",
+          "Nhỏ nhen thù dai",
+          "Không chịu nhận thua thực sự"
+        ],
+        "specialties": [
+          "Ngưng Khí tầng 13 chiến đấu",
+          "Linh thú Thông Thiên cự mãng",
+          "Phong ấn ẩn tu vi"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 47,
+          "arc": "Hằng Nhạc phái — tỷ thí",
+          "event": "Ra trận cuối — đòi đấu cả phái; bị VL đánh bay 3 lần",
+          "desc": "Dùng Thông Thiên cự mãng áp đảo; bị VL Dẫn Lực thuật + Phích Lịch đạn đánh bay 3 lần liên tiếp kể cả khi gỡ phong ấn; dính bụi bẩn, cực kỳ ô nhục.",
+          "major": true
+        },
+        {
+          "chapter": 58,
+          "arc": "Triệu quốc",
+          "event": "Truy sát VL về tận nhà — bị VL + Tư Đồ Nam kết liễu",
+          "desc": "Vì thù tỷ thí, truy sát VL về nhà cha mẹ; bị VL dùng Khôi Lỗi thuật + Tư Đồ Nam mượn thân tấn công; trọng thương và chết.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí tầng 10 (giả)",
+          "chapter": 47,
+          "location": "Huyền Đạo Tông",
+          "gained": "Phong ấn che giấu thực lực",
+          "congphap": ""
+        },
+        {
+          "realm": "Ngưng Khí tầng 13 (thật)",
+          "chapter": 48,
+          "location": "Hằng Nhạc phái",
+          "gained": "Gỡ phong ấn khi tỷ thí — vẫn thua VL",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Bại dưới tay VL 3 lần liên tiếp (Ch.47-48); sau truy sát về nhà và bị VL + TĐN giết (Ch.60)"
+        },
+        {
+          "name": "Phác Nam Tử",
+          "type": "anthan",
+          "desc": "Thủy tổ Huyền Đạo tông — người đỡ đầu gián tiếp; Chu Bằng đại diện Huyền Đạo trong tỷ thí"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Thông Thiên cự mãng",
+          "cat": "baovat",
+          "status": "mat",
+          "desc": "Linh thú bổn mệnh — rắn lớn nuốt người bằng hấp lực; mất khi Chu Bằng chết",
+          "effect": "Linh thú tấn công quy mô; nuốt đối thủ bằng hấp lực khổng lồ"
+        }
+      ]
     },
     {
       "name": "Phác Nam Tử (朴南子)",
