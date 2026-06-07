@@ -955,7 +955,66 @@
           "text": "Phụ thân ruột của Vương Lâm — ân nghĩa sâu nặng nhất. Chính tình yêu thương con là động lực VL bước vào con đường tu tiên; VL luôn mang nỗi nhớ cha trong hành trình dài hàng trăm năm."
         }
       ],
-      "portrait": "V"
+      "portrait": "V",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — thợ mộc, con thứ vợ lẻ Vương thị gia tộc; bị anh cả bức rời gia tộc về thôn nhỏ",
+        "realm": "(không thấy đề cập — phàm nhân)",
+        "firstChapter": 1,
+        "appearance": "Hiền lành, thợ mộc",
+        "personality": [
+          "Yêu thương con tha thiết",
+          "Hiền lành không tranh đấu",
+          "Kỳ vọng con có tiền đồ"
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết — phàm nhân thợ mộc)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 1,
+          "arc": "Triệu quốc — thôn nhỏ",
+          "event": "Quỳ cảm tạ khi Tứ thúc nhường danh ngạch tu tiên cho VL",
+          "desc": "Hy vọng cả đời vào con; xúc động khi cơ hội đến.",
+          "major": true
+        },
+        {
+          "chapter": 6,
+          "arc": "Triệu quốc",
+          "event": "Yến hội Vương gia — bị anh em Vương Trác làm nhục",
+          "desc": "Bị chế nhạo vì không tiếp quản được gia tộc; im lặng chịu đựng vì yêu con.",
+          "major": false
+        },
+        {
+          "chapter": 87,
+          "arc": "Triệu quốc",
+          "event": "Bị Đằng Hóa Nguyên giết cùng toàn tộc Vương gia",
+          "desc": "Hồn phách bị Đằng Hóa Nguyên hút vào Hồn Phiên — bị VL thấy hình ảnh trong quyết chiến; sự hy sinh này là nguồn căm thù cháy bỏng.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Phàm nhân",
+          "chapter": 1,
+          "location": "Triệu quốc",
+          "gained": "Thợ mộc bình thường; không tu tiên",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "giađình",
+          "desc": "Phụ thân ruột — ân nghĩa sâu nặng nhất; chính tình yêu cha là động lực cốt lõi của VL suốt hành trình"
+        },
+        {
+          "name": "Nhị nương",
+          "type": "giađình",
+          "desc": "Vợ — mẫu thân Vương Lâm"
+        }
+      ]
     },
     {
       "name": "Tứ thúc — Chú thứ tư, ân nhân",
@@ -2136,7 +2195,59 @@
           "text": "Mẫu thân của Vương Lâm — người VL yêu thương và nhớ nhung suốt hành trình hàng trăm năm tu tiên. Là một trong những neo đậu tình cảm cốt lõi của VL."
         }
       ],
-      "portrait": "N"
+      "portrait": "N",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Triệu quốc — mẫu thân Vương Lâm (không rõ tên thật; gọi là \"Nhị tẩu\")",
+        "realm": "(không thấy đề cập — phàm nhân)",
+        "firstChapter": 1,
+        "appearance": "Hiền hậu",
+        "personality": [
+          "Hiền hậu yêu con",
+          "Cội nguồn ân nghĩa khiến Tứ thúc nhường danh ngạch",
+          "Yêu thương thầm lặng"
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết — phàm nhân)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 1,
+          "arc": "Triệu quốc",
+          "event": "Gián tiếp tạo ân nghĩa khiến Tứ thúc nhường danh ngạch",
+          "desc": "Năm xưa từng chăm sóc Tứ thúc khi mẹ hắn mất sớm — ân nghĩa này là lý do Tứ thúc nhường danh ngạch cho VL.",
+          "major": true
+        },
+        {
+          "chapter": 87,
+          "arc": "Triệu quốc",
+          "event": "Bị Đằng Hóa Nguyên giết cùng toàn tộc Vương gia",
+          "desc": "Hồn phách bị hút vào Hồn Phiên; hình ảnh bị tra tấn trong quyết chiến là nguồn thúc đẩy VL đến cùng.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Phàm nhân",
+          "chapter": 1,
+          "location": "Triệu quốc",
+          "gained": "Phàm nhân bình thường; không tu tiên",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "giađình",
+          "desc": "Mẫu thân ruột — neo đậu tình cảm cốt lõi của VL suốt hành trình hàng trăm năm"
+        },
+        {
+          "name": "Vương Thiên Thủy",
+          "type": "giađình",
+          "desc": "Phu quân — thợ mộc Triệu quốc"
+        }
+      ]
     },
     {
       "name": "Tam thúc (Vương lão Tam) — Cha Vương Hạo",
@@ -7845,6 +7956,66 @@
           "label": "Kết cục",
           "text": "Hi sinh phần lớn tu vi (Nguyên Anh tinh huyết) để truyền tống cứu Đằng Tú Tú + Vương Trác đi; rồi tự sát công kích Vương Lâm bằng phi kiếm Điệu Vân (khắc tên vợ, có giọt máu phàm của vợ — kiếm gãy khi hắn chết). Vương Lâm cảm nhận được \"tia ý niệm thương nhớ\", KHÔNG lấy hồn phách hắn (dù sẽ thành thượng đẳng ma đầu), nhưng vẫn để hắn chết vì \"mang họ Đằng\"."
         }
+      ],
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — hạch tâm tộc nhân thứ 3 Đằng gia; được Đằng Hóa Nguyên yêu quý nhất",
+        "realm": "Nguyên Anh kỳ (tinh huyết đủ để hi sinh truyền tống cứu người)",
+        "firstChapter": 211,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Giữ tình cảm với vợ phàm nhân dù bị ép chia lìa",
+          "Truyền tình yêu vợ vào con gái Đằng Tú Tú",
+          "Hi sinh bản thân vì gia đình"
+        ],
+        "specialties": [
+          "Nguyên Anh kỳ tu vi",
+          "Phi kiếm Điệu Vân (khắc tên vợ)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 211,
+          "arc": "Triệu quốc — Arc Đằng gia",
+          "event": "Hi sinh tu vi truyền tống cứu Đằng Tú Tú + Vương Trác rồi tự sát tấn công VL",
+          "desc": "Hi sinh phần lớn tu vi Nguyên Anh tinh huyết truyền tống con gái và rể đi; công kích VL bằng phi kiếm Điệu Vân (có máu phàm nhân của vợ) trước khi ngã xuống.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh kỳ",
+          "chapter": 211,
+          "location": "Triệu quốc",
+          "gained": "Hạch tâm tộc nhân đứng thứ 3 Đằng gia; được ĐHN yêu quý nhất",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Bị VL giết trong kế hoạch diệt tộc Đằng gia; hi sinh cuối cùng là cứu con gái"
+        },
+        {
+          "name": "Đằng Hóa Nguyên",
+          "type": "giađình",
+          "desc": "Anh/chú được yêu quý bởi ĐHN; mối quan hệ tình nghĩa nhất trong Đằng gia"
+        },
+        {
+          "name": "Đằng Tú Tú",
+          "type": "giađình",
+          "desc": "Con gái — dồn toàn bộ tình yêu vợ vào nàng"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Phi kiếm Điệu Vân",
+          "cat": "baovat",
+          "status": "dalung",
+          "desc": "Khắc tên vợ, có giọt máu phàm nhân của vợ — dùng trong đòn hi sinh cuối cùng chống VL",
+          "effect": "Vũ khí mang ký ức người vợ phàm nhân đã khuất"
+        }
       ]
     },
     {
@@ -7868,6 +8039,47 @@
           "label": "Kết cục",
           "text": "Bị Vương Lâm vây lưới Cực Cảnh thần thức, giết + \"lấy danh nghĩa thôn hồn\" thu hồn phách → MA ĐẦU THỨ TƯ của Vương Lâm (thượng đẳng, cả hung tính lẫn thực lực)."
         }
+      ],
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — hạch tâm tộc nhân thứ 9 Đằng gia; tu ở linh huyệt cồn cát; danh vị \"Đằng Cửu\" đã đổi chủ 6 lần",
+        "realm": "Nguyên Anh kỳ (thượng đẳng — VL thu làm ma đầu thứ tư)",
+        "firstChapter": 211,
+        "appearance": "Thân như bộ xương khô (do luyện bí thuật thôn phệ linh lực giảm thọ)",
+        "personality": [
+          "Nhân cách méo mó vì tuổi thơ cay đắng",
+          "Tâm lạnh như băng — giết ca ca để đoạt suất khiêu chiến",
+          "Vì sức mạnh không từ thủ đoạn"
+        ],
+        "specialties": [
+          "Bí thuật thôn phệ linh lực",
+          "Nguyên Anh kỳ chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 211,
+          "arc": "Triệu quốc",
+          "event": "Bị VL vây Cực Cảnh thần thức + giết — thu hồn phách làm ma đầu thứ tư",
+          "desc": "VL tiêu diệt Đằng Cửu trong kế hoạch diệt tộc Đằng gia; thu hồn phách bằng \"danh nghĩa thôn hồn\" → ma đầu thứ tư thượng đẳng.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh kỳ",
+          "chapter": 211,
+          "location": "Triệu quốc — cồn cát",
+          "gained": "Tu ở linh huyệt; bí thuật thôn phệ linh lực giảm thọ đổi lấy sức mạnh",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Bị VL giết và thu làm ma đầu thứ tư (Nguyên Anh kỳ thượng đẳng — mạnh nhất trong các ma đầu VL)"
+        }
       ]
     },
     {
@@ -7890,6 +8102,59 @@
         {
           "label": "Trận chiến",
           "text": "Buộc Vương Lâm dùng tới thần thông cổ thần (đốt máu cổ thần) mới ép lui được. Bị tự bạo Thanh Đồng Cổ kính ép phun \"cục máu vàng\" (chứa 1 tia máu cổ thần) → hai bên giành nhau, mỗi người nửa cục; Đằng Nhất rút lui biến mất."
+        }
+      ],
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — hạch tâm tộc nhân thứ nhất Đằng gia; em ruột Đằng Hóa Nguyên; tu ở Hắc Nê đàm (đệ nhất hiểm địa Triệu quốc)",
+        "realm": "Nguyên Anh kỳ (đã tẩu hỏa nhập ma — thần thông luyện thể cổ xưa do sứ giả Thông Thiên tháp mang đến)",
+        "firstChapter": 211,
+        "appearance": "Thân như bộ xương khô da bọc xương (hậu quả luyện thần thông luyện thể)",
+        "personality": [
+          "Không dùng pháp thuật — chỉ đánh bằng nắm đấm",
+          "400 năm không ai dám khiêu chiến",
+          "Sức mạnh thân thể ở mức không thể đoán"
+        ],
+        "specialties": [
+          "Thần thông luyện thể cổ xưa (sức đấm phá không gian)",
+          "Đã tẩu hỏa nhập ma — tinh thần bất ổn"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 211,
+          "arc": "Triệu quốc",
+          "event": "Đối đầu VL — buộc VL dùng thần thông cổ thần đốt máu",
+          "desc": "VL phải đốt máu Cổ Thần mới ép lui được Đằng Nhất; trận chiến tốn kém nhất trong arc diệt Đằng gia.",
+          "major": true
+        },
+        {
+          "chapter": 220,
+          "arc": "Triệu quốc",
+          "event": "Bị Thanh Đồng Cổ kính tự bạo ép phun \"cục máu vàng\" — bị VL giết",
+          "desc": "Tự bạo ép phun 1 tia máu Cổ Thần; VL giành được rồi kết liễu Đằng Nhất.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh kỳ (luyện thể tẩu hỏa nhập ma)",
+          "chapter": 211,
+          "location": "Hắc Nê đàm",
+          "gained": "Em ruột ĐHN; sức mạnh từ thần thông luyện thể cổ xưa do sứ giả Thông Thiên tháp cung cấp; 400 năm chưa ai địch",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Đối thủ mạnh nhất trong Đằng gia; bị VL giết sau trận chiến tốn kém nhất arc diệt tộc"
+        },
+        {
+          "name": "Đằng Hóa Nguyên",
+          "type": "giađình",
+          "desc": "Anh ruột; ĐHN yêu thương/kính trọng; là tộc nhân số một"
         }
       ]
     },
@@ -8501,7 +8766,48 @@
           "text": "Ch.241"
         }
       ],
-      "portrait": ""
+      "portrait": "",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Thiên Vận tinh (tinh cầu tu chân khác) — lão đạo tóc bạc tu vi cực cao",
+        "realm": "Vượt xa Hóa Thần (không thể đoán)",
+        "firstChapter": 241,
+        "appearance": "Lão đạo tóc bạc; cưỡi tảng đá như sao băng",
+        "personality": [
+          "Bí ẩn — xuất hiện một lần rồi biến mất",
+          "Đại lượng — kéo VL ra khỏi luân hồi và để lại tri thức",
+          "Vô cầu danh lợi"
+        ],
+        "specialties": [
+          "Kéo thần niệm từ luân hồi vô tận",
+          "Để lại bộ tinh đồ Thiên Vận tinh trong đầu VL"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 241,
+          "arc": "Tu Chân Giới",
+          "event": "Cứu thần niệm VL khỏi thiên đạo luân hồi — để lại tinh đồ Thiên Vận tinh",
+          "desc": "Kéo thần niệm VL trở về từ thiên đạo luân hồi vô tận sau khi VL ngộ Sinh Tử; mời làm ký danh đệ tử; để lại bộ tinh đồ Thiên Vận tinh trong đầu VL như quà.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(Vượt Hóa Thần — không xác định)",
+          "chapter": 241,
+          "location": "Thiên Vận tinh",
+          "gained": "Tu vi không thể đoán; xuất hiện thoáng qua nhưng quyền năng cứu VL từ luân hồi thiên đạo",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "anthan",
+          "desc": "Cứu VL từ thiên đạo luân hồi; để lại tinh đồ Thiên Vận tinh — ân nhân quan trọng giai đoạn ngộ Sinh Tử"
+        }
+      ]
     },
     {
       "name": "Hồng Điệp (Hồng Diệp) — thiên tiên ngũ linh thể Tuyết Vực",
@@ -8613,7 +8919,61 @@
           "text": "Ch.249-251"
         }
       ],
-      "portrait": ""
+      "portrait": "",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Tuyết Vực — sư tỷ tự nguyện thế thân Hồng Điệp ra trận ứng kiếp",
+        "realm": "Hóa Thần kỳ (kém xa Hồng Điệp)",
+        "firstChapter": 251,
+        "appearance": "Áo trắng lạnh lùng",
+        "personality": [
+          "Tự nguyện hi sinh vì muội muội Hồng Điệp",
+          "Dũng cảm đối mặt kiếp nạn biết sẽ chết"
+        ],
+        "specialties": [
+          "Hóa Thần kỳ chiến đấu",
+          "Bảo phiến 7 lông chim"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 251,
+          "arc": "Tuyết Vực Quốc",
+          "event": "Thế thân Hồng Điệp ra trận ứng kiếp — bị Cửu Nhân sát trận giết",
+          "desc": "Tự nguyện mặc áo trắng giống Hồng Điệp ra trận; bị Cửu Nhân sát trận đồng loạt tấn công và chết.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần kỳ",
+          "chapter": 251,
+          "location": "Tuyết Vực Quốc",
+          "gained": "Kém xa Hồng Điệp; hi sinh thay muội muội",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Hồng Điệp",
+          "type": "giađình",
+          "desc": "Muội muội — tự nguyện hi sinh thay Hồng Điệp"
+        },
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "VL trong arc diệt Liên Minh Tứ Phái; cái chết của Thủ Đồ là một mốc trong chiến tranh Tuyết Vực"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Bảo phiến 7 lông chim",
+          "cat": "baovat",
+          "status": "bicuop",
+          "desc": "7 lông chim pháp bảo; tiêu 5 lông trong trận; 2 lông còn lại bị VL thu sau khi chết",
+          "effect": "Phòng thủ và tấn công qua lông chim pháp bảo"
+        }
+      ]
     },
     {
       "name": "Âu Chí — đại diện Chu Tước quốc, hấp thu thiên kiếp",
@@ -8637,7 +8997,53 @@
           "text": "Ch.253-255"
         }
       ],
-      "portrait": ""
+      "portrait": "",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Chu Tước quốc — tu sĩ; đại diện Chu Tước quốc trong arc Tuyết Vực/Hóa Thần",
+        "realm": "Hóa Thần hậu kỳ",
+        "firstChapter": 253,
+        "appearance": "Mặt vàng bệnh tật (giả)",
+        "personality": [
+          "Thực dụng tuyệt đối — bỏ mặc Hồng Điệp để đuổi theo thiên kiếp VL",
+          "Tham lam về thiên kiếp (thần công hấp thu)"
+        ],
+        "specialties": [
+          "Thần công hấp thu thiên kiếp — cực kỳ hiếm",
+          "Hóa Thần hậu kỳ chiến đấu",
+          "Đoạt huyết mạch Thương Long"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 253,
+          "arc": "Tuyết Vực Quốc",
+          "event": "Bỏ mặc Hồng Điệp — đuổi thiên kiếp của VL",
+          "desc": "Khi phát hiện VL có thể dẫn thiên kiếp (mà Âu Chí có thể hấp thu), lập tức bỏ mặc Hồng Điệp để đuổi theo thiên kiếp VL; đoạt huyết mạch Thương Long.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Hóa Thần hậu kỳ",
+          "chapter": 253,
+          "location": "Chu Tước quốc",
+          "gained": "Tu sĩ đại diện Chu Tước quốc; thần công hấp thu thiên kiếp cực hiếm",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Truy đuổi VL để hấp thu thiên kiếp (Ch.253-255); mối thù tiềm tàng"
+        },
+        {
+          "name": "Hồng Điệp",
+          "type": "banhuu",
+          "desc": "Bỏ mặc trong lúc nguy cấp để đuổi thiên kiếp VL — phản bội đồng minh"
+        }
+      ]
     },
     {
       "name": "Chú Vân — Đại trưởng lão Hắc Hồn Phái",
