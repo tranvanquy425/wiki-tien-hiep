@@ -2170,7 +2170,47 @@
           "text": "Trong buổi họp quyết định có nhận Vương Lâm hay không sau vụ tự sát:\n\n- **Mã trưởng lão** — mặt hồng, **phản đối** nhận Vương Lâm: \"Sinh tử của phàm nhân cùng người tu đạo chúng ta có quan hệ gì?\"\n- **Lý trưởng lão** — mặt đầy nếp nhăn, **đề xuất nhận** Vương Lâm làm ký danh đệ tử để tránh hậu họa truyền thông. Được chưởng môn ủy quyền toàn quyền xử lý. (Ch.10)\n- **Cẩm bào lão giả** — uống trà điềm tĩnh, nêu vấn đề Hằng Nhạc đang xuống dốc nên phải \"lấy lòng phàm nhân\".\n- **Trung niên nhân (lạnh như băng)** — đề xuất sau này dùng **Hóa Thần Thuật** để chỉ điểm các đứa trẻ không đậu, làm chúng quên đi ý niệm tu tiên, tránh việc tự sát."
         }
       ],
-      "portrait": "C"
+      "portrait": "C",
+      "bio": {
+        "gender": "Không rõ (nhóm)",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — hội đồng trưởng lão",
+        "realm": "Trúc Cơ kỳ (đại đa số)",
+        "firstChapter": 10,
+        "appearance": "Mã trưởng lão (mặt hồng); Lý trưởng lão (nhiều nếp nhăn)",
+        "personality": [
+          "Mã trưởng lão: thực dụng phản đối nhận VL",
+          "Lý trưởng lão: dung hòa đề xuất nhận làm ký danh",
+          "Lựa chọn theo lợi ích môn phái"
+        ],
+        "specialties": [
+          "(không thấy đề cập)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 10,
+          "arc": "Hằng Nhạc phái",
+          "event": "Họp quyết định số phận Vương Lâm sau vụ tự sát",
+          "desc": "Mã TL phản đối; Lý TL đề xuất nhận làm ký danh để quan sát; cuối cùng VL được nhận. Quyết định thay đổi cả cuộc đời VL.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Trúc Cơ kỳ",
+          "chapter": 10,
+          "location": "Hằng Nhạc phái",
+          "gained": "Trưởng lão Trúc Cơ — đa số không xuất chiến trực tiếp trong đợt nghiên cứu",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Quyết định nhận VL làm ký danh đệ tử — thay đổi cuộc đời hắn"
+        }
+      ]
     },
     {
       "name": "Đạo Hư thượng tiên — Sư phụ Vương Trác (chưa lộ diện)",
@@ -2246,7 +2286,46 @@
           "text": "- Chưa xuất hiện trực tiếp. Đã ủy quyền cho Lý trưởng lão xử lý vụ Vương Lâm. Cũng là người phê duyệt việc Tôn Đại Trụ thu Vương Lâm làm đệ tử thật. (Ch.10, 17)"
         }
       ],
-      "portrait": "C"
+      "portrait": "C",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — chưởng môn; chưa xuất hiện trực tiếp",
+        "realm": "Kết Đan kỳ (chưởng môn)",
+        "firstChapter": 10,
+        "appearance": "(chưa xuất hiện trực tiếp)",
+        "personality": [
+          "Quản lý bằng ủy quyền",
+          "Phê duyệt quyết định quan trọng của hội đồng"
+        ],
+        "specialties": [
+          "(không thấy đề cập)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 10,
+          "arc": "Hằng Nhạc phái",
+          "event": "Ủy quyền cho Lý trưởng lão xử lý vụ Vương Lâm — phê duyệt nhận làm đệ tử",
+          "desc": "Quyết định gián tiếp ảnh hưởng đến toàn bộ hành trình VL.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 10,
+          "location": "Hằng Nhạc phái",
+          "gained": "Chưởng môn — cảnh giới cao nhất nội tông lúc bấy giờ",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Người có quyền quyết định cuối cùng về việc nhận VL vào phái"
+        }
+      ]
     },
     {
       "name": "Trương sư tỷ (đan phòng)",
@@ -2262,7 +2341,47 @@
           "text": "- Đệ tử nội môn (mặc hồng y). Bị Vương Trác tán tỉnh, được tặng \"hoa hái trên núi có đại xà thủ hộ\" — chuyện bịa của Vương Trác. (Ch.20)\n- Chưa rõ tu vi."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — đệ tử nội môn mặc hồng y, làm ở đan phòng",
+        "realm": "Ngưng Khí kỳ (đệ tử nội môn)",
+        "firstChapter": 20,
+        "appearance": "Đệ tử nội môn mặc hồng y",
+        "personality": [
+          "Bị Vương Trác tán tỉnh",
+          "Nhẹ dạ tin lời khoe khoang",
+          "Nhân vật phụ trong trường đoạn VT bịa chuyện"
+        ],
+        "specialties": [
+          "Làm ở đan phòng Hằng Nhạc"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 20,
+          "arc": "Hằng Nhạc phái",
+          "event": "Đối tượng tán tỉnh của Vương Trác — bị Chu sư tỷ bóc mẽ",
+          "desc": "Vương Trác tặng \"hoa hái trên núi đại xà thủ hộ\" (chuyện bịa) để tỏ ra anh hùng trước nàng; bị Chu sư tỷ vạch trần.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí kỳ",
+          "chapter": 20,
+          "location": "Hằng Nhạc phái",
+          "gained": "Đệ tử nội môn đan phòng",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Trác",
+          "type": "dottu",
+          "desc": "Đối tượng bị VT tán tỉnh bằng chuyện bịa giết đại xà"
+        }
+      ]
     },
     {
       "name": "Chu sư tỷ — Đệ tử đan phòng",
@@ -2338,7 +2457,45 @@
           "text": "- Mi dài, mắt đẹp tựa nho thủy tinh, có hai núm đồng tiền trên mặt.\n- Mấy tháng trước đã tham gia và **vượt qua trắc thí thiên tư** (cùng dịp với Vương Lâm — nhưng nàng đậu, Vương Lâm rớt).\n- Khi gặp Vương Lâm trở lại ở đan phòng, châm chọc: \"Ngươi là Vương Lâm, cái tên ký danh đệ tử nhờ tự sát mà được nhận, dựa vào a dua nịnh hót trở thành đệ tử của Tôn sư thúc!\" (Ch.20)"
         }
       ],
-      "portrait": "C"
+      "portrait": "C",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — đã vượt trắc thí thiên tư cùng đợt với VL (mấy tháng trước)",
+        "realm": "Ngưng Khí tầng 3 (luyện tới tầng 3 từ 3 năm trước — nhầm với Nữ tử họ Chu; hoặc là người khác)",
+        "firstChapter": 11,
+        "appearance": "Mi dài, mắt đẹp tựa nho thủy tinh, có hai núm đồng tiền trên mặt",
+        "personality": [
+          "(không thấy đề cập rõ tính cách)"
+        ],
+        "specialties": [
+          "(không thấy đề cập)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 11,
+          "arc": "Hằng Nhạc phái",
+          "event": "Xuất hiện ngắn trong khu phòng tạp vụ — đồng môn ký danh",
+          "desc": "Một trong số ít đồng môn gặp VL trong thời kỳ ký danh; không có xung đột hay liên kết sâu.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí kỳ",
+          "chapter": 11,
+          "location": "Hằng Nhạc phái",
+          "gained": "Đệ tử ký danh mới vào phái",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Đồng môn ký danh gặp thoáng qua"
+        }
+      ]
     },
     {
       "name": "Trương Hổ — Ký danh đệ tử, bạn đầu tiên của Vương Lâm",
@@ -2457,7 +2614,47 @@
           "text": "- Khoanh chân ngồi trong hốc đại thụ canh chính viện. Châm biếm Vương Lâm bằng giọng cay nghiệt: \"Rác rưởi sư phụ thu một rác rưởi đệ tử cũng là xứng đáng\". (Ch.15, 17)"
         }
       ],
-      "portrait": "B"
+      "portrait": "B",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — đệ tử gác chính viện",
+        "realm": "Ngưng Khí kỳ (đủ để gác cổng chính viện)",
+        "firstChapter": 13,
+        "appearance": "Khoanh chân ngồi trong hốc đại thụ, bạch y",
+        "personality": [
+          "Chua ngoa châm biếm",
+          "\"Rác rưởi sư phụ thu rác rưởi đệ tử\" — điển hình không khí khinh miệt trong phái",
+          "Thị thế lực"
+        ],
+        "specialties": [
+          "(không thấy đề cập)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 13,
+          "arc": "Hằng Nhạc phái",
+          "event": "Châm biếm VL khi hắn đến với Tôn Đại Trụ",
+          "desc": "\"Rác rưởi sư phụ thu một rác rưởi đệ tử cũng là xứng nhau\" — minh họa môi trường khinh miệt tại Hằng Nhạc.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí kỳ",
+          "chapter": 13,
+          "location": "Hằng Nhạc phái",
+          "gained": "Đệ tử gác cổng chính viện",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Châm biếm VL bằng lời chua ngoa khi hắn đến gặp Tôn Đại Trụ"
+        }
+      ]
     },
     {
       "name": "Mã trưởng lão / Lý trưởng lão — Hội đồng trưởng lão",
@@ -2473,7 +2670,47 @@
           "text": "Ch.10, trong cuộc họp định đoạt số phận Vương Lâm: Mã trưởng lão (mặt hồng) phản đối nhận; Lý trưởng lão (nhiều nếp nhăn) đề xuất nhận làm ký danh để tránh hậu họa, được chưởng môn ủy quyền. Tiêu biểu cho hai phái cứng/mềm trong môn phái đang xuống dốc."
         }
       ],
-      "portrait": "M"
+      "portrait": "M",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — Mã trưởng lão (mặt hồng) và Lý trưởng lão (nhiều nếp nhăn) trong hội đồng",
+        "realm": "Trúc Cơ kỳ (không thấy đề cập rõ)",
+        "firstChapter": 10,
+        "appearance": "Mã TL: mặt hồng; Lý TL: nhiều nếp nhăn",
+        "personality": [
+          "Mã TL: thực dụng phản đối",
+          "Lý TL: ôn hòa dung hòa",
+          "Đại diện hai quan điểm trong hội đồng"
+        ],
+        "specialties": [
+          "(không thấy đề cập)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 10,
+          "arc": "Hằng Nhạc phái",
+          "event": "Họp quyết định vụ Vương Lâm — Mã TL phản đối, Lý TL đề xuất nhận làm ký danh",
+          "desc": "Hai quan điểm đối lập quyết định số phận VL; cuối cùng quan điểm Lý TL thắng.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Trúc Cơ kỳ",
+          "chapter": 10,
+          "location": "Hằng Nhạc phái",
+          "gained": "Trưởng lão hội đồng Hằng Nhạc",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Hai trưởng lão tham gia quyết định nhận VL làm ký danh; gián tiếp định hình hành trình VL"
+        }
+      ]
     },
     {
       "name": "Nam tử trung niên bí ẩn — Huyền Đạo Tông",
@@ -2489,7 +2726,47 @@
           "text": "Đứng phía sau cùng đoàn Huyền Đạo nhưng **được các đệ tử lộ rõ kính ý** — chi tiết Vương Lâm để ý. Thân phận chưa rõ.\n- **Đánh giá**: Nhĩ Căn cài một điểm nghi vấn; nhân vật này có thể quan trọng hơn vẻ ngoài."
         }
       ],
-      "portrait": "N"
+      "portrait": "N",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Huyền Đạo Tông (Triệu quốc) — đứng phía sau đoàn giao lưu nhưng được đệ tử kính nể",
+        "realm": "(không rõ — thân phận chưa được lộ)",
+        "firstChapter": 40,
+        "appearance": "Nam tử trung niên; đứng phía sau nhưng được đệ tử lộ rõ kính ý",
+        "personality": [
+          "Bí ẩn — chi tiết Vương Lâm để ý",
+          "Có thể là foreshadowing nhân vật quan trọng",
+          "Thân phận chưa rõ trong phạm vi nghiên cứu"
+        ],
+        "specialties": [
+          "(không thấy đề cập)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 40,
+          "arc": "Hằng Nhạc phái — giao lưu",
+          "event": "Được đệ tử Huyền Đạo kính nể rõ ràng — VL để ý chi tiết này",
+          "desc": "Chi tiết nhỏ nhưng có thể là foreshadowing nhân vật quan trọng chưa lộ diện đầy đủ.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(không rõ)",
+          "chapter": 40,
+          "location": "Huyền Đạo Tông",
+          "gained": "Thân phận bí ẩn; cao hơn các trưởng lão đi kèm",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Chi tiết VL để ý nhưng chưa có tương tác trực tiếp; thân phận chưa rõ"
+        }
+      ]
     },
     {
       "name": "Nhị nương — Mẫu thân Vương Lâm",
@@ -2581,7 +2858,52 @@
           "text": "Cha Vương Hạo. Trước hùa theo đại bá xa lánh nhà Vương Lâm; mừng khi Vương Hạo được nhận làm dược đồng. (Ch.5)"
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — cha Vương Hạo; anh thứ ba Vương Thiên Thủy",
+        "realm": "(không thấy đề cập — phàm nhân)",
+        "firstChapter": 5,
+        "appearance": "(không thấy đề cập)",
+        "personality": [
+          "Trước hùa theo đại bá xa lánh nhà VL",
+          "Mừng khi Vương Hạo được nhận làm dược đồng",
+          "Thực dụng theo thế lực"
+        ],
+        "specialties": [
+          "(không thấy đề cập — phàm nhân)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 5,
+          "arc": "Triệu quốc",
+          "event": "Hùa theo đại bá xa lánh nhà Vương Lâm — sau mừng khi Vương Hạo được nhận dược đồng",
+          "desc": "Thái độ thay đổi tùy thế lực; con trai VH thành dược đồng là cải thiện vị thế.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Phàm nhân",
+          "chapter": 5,
+          "location": "Triệu quốc",
+          "gained": "Anh thứ ba; không tu tiên",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "giađình",
+          "desc": "Chú thứ ba; không có quan hệ đặc biệt tốt/xấu với VL"
+        },
+        {
+          "name": "Vương Hạo",
+          "type": "giađình",
+          "desc": "Cha của Vương Hạo (con tam thúc)"
+        }
+      ]
     },
     {
       "name": "Hổ Tử — Con trai Tứ thúc",
@@ -2597,7 +2919,47 @@
           "text": "Người lẽ ra được tiến cử Hằng Nhạc, nhưng Tứ thúc thấy con không có duyên tu tiên nên nhường cho Vương Lâm. Bị Vương Trác lấy ra sỉ nhục. Chưa xuất hiện trực tiếp Ch.1-40. (Ch.1, 6)"
         }
       ],
-      "portrait": "H"
+      "portrait": "H",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — con trai Tứ thúc; người lẽ ra được tiến cử Hằng Nhạc",
+        "realm": "(không thấy đề cập — phàm nhân hoặc tu tiên thấp)",
+        "firstChapter": 1,
+        "appearance": "(không thấy đề cập)",
+        "personality": [
+          "Không có duyên tu tiên (theo đánh giá của Tứ thúc)",
+          "Bị Vương Trác lấy ra sỉ nhục",
+          "Nạn nhân của sự so sánh"
+        ],
+        "specialties": [
+          "(không thấy đề cập)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 1,
+          "arc": "Triệu quốc",
+          "event": "Bị Tứ thúc nhường danh ngạch cho Vương Lâm",
+          "desc": "Tứ thúc thấy con không có duyên tu tiên; nhường cơ hội cho cháu VL. Hổ Tử mất cơ hội tu tiên vì cha nhường.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(không thấy đề cập)",
+          "chapter": 1,
+          "location": "Triệu quốc",
+          "gained": "Phàm nhân hoặc tu sĩ cấp thấp; không có duyên tu tiên",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Tứ thúc",
+          "type": "giađình",
+          "desc": "Cha — nhường danh ngạch tu tiên của con cho Vương Lâm"
+        }
+      ]
     },
     {
       "name": "Tư Đồ Nam (司徒南)",
@@ -3409,7 +3771,48 @@
           "text": "- **Liễu Tam**: đại tiêu đầu, luyện Khai Sơn chưởng lô hỏa thuần thanh; hào sảng.\n- **Dương Sâm**: tiêu sư trẻ, cưỡi ngựa giỏi, thân thiện với Vương Lâm.\n- **Vương tiên sinh**: trung niên thư sinh xem tướng, bị Tư Đồ Nam dọa phun máu.\n- Đều bị **Hóa Thần thuật** xóa trí nhớ (Ch.69)."
         }
       ],
-      "portrait": "N"
+      "portrait": "N",
+      "bio": {
+        "gender": "Không rõ (nhóm)",
+        "origin": "Triệu quốc — Uy Vũ tiêu cục; Liễu Tam (đại tiêu đầu) và Dương Sâm (tiêu sư trẻ)",
+        "realm": "Phàm nhân (không tu tiên)",
+        "firstChapter": 3,
+        "appearance": "Liễu Tam: hào sảng; Dương Sâm: trẻ, cưỡi ngựa giỏi",
+        "personality": [
+          "Liễu Tam: hào sảng nghĩa khí",
+          "Dương Sâm: thân thiện trẻ trung",
+          "Người phàm bình thường"
+        ],
+        "specialties": [
+          "Liễu Tam: Khai Sơn chưởng lô hỏa thuần thanh",
+          "Dương Sâm: cưỡi ngựa"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 3,
+          "arc": "Triệu quốc",
+          "event": "Đưa VL lên thành — bối cảnh phàm nhân đầu truyện",
+          "desc": "Đoàn tiêu cục đưa VL và gia đình lên thành; cho thấy khởi điểm phàm nhân bình thường của VL.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Phàm nhân",
+          "chapter": 3,
+          "location": "Triệu quốc",
+          "gained": "Người bình thường không tu tiên",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Đưa VL lên thành lúc đầu truyện; mốc đầu tiên hành trình VL rời thôn làng"
+        }
+      ]
     },
     {
       "name": "Nhân vật Huyền Đạo tái xuất (Ch.62)",
@@ -3425,7 +3828,46 @@
           "text": "- **Lịch Hải**: tam sư huynh, Ngưng Khí tầng 12.\n- **Từ Phi** (nữ tử họ Từ): xuất thân Hằng Nhạc, **từng thầm mến Vương Trác**; thiên tài Huyền Đạo (4 năm từ tầng 4 lên tầng 7). Vương Lâm tha mạng cả ba khi nghe nàng \"họ Từ\".\n- Nhắc tới **Liễu Phong** (thiên tài, sắp tầng 13) và **Liễu Mi** (tầng 12)."
         }
       ],
-      "portrait": "N"
+      "portrait": "N",
+      "bio": {
+        "gender": "Không rõ (nhóm — Lịch Hải + Từ Phi)",
+        "origin": "Huyền Đạo Tông (Triệu quốc) — Lịch Hải (tam sư huynh, Ngưng Khí tầng 12) và Từ Phi (nữ từng mến Vương Trác)",
+        "realm": "Ngưng Khí tầng 12 (Lịch Hải); Huyền Đạo thiên tài 40+ năm (Từ Phi)",
+        "firstChapter": 62,
+        "appearance": "(không thấy đề cập chi tiết)",
+        "personality": [
+          "Lịch Hải: cường giả Ngưng Khí đỉnh",
+          "Từ Phi: thiên tài Huyền Đạo; từng mến Vương Trác"
+        ],
+        "specialties": [
+          "(không thấy đề cập)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 62,
+          "arc": "Triệu quốc khu vực",
+          "event": "Tái xuất ngắn trong arc Ch.62",
+          "desc": "Lịch Hải và Từ Phi tái xuất thoáng qua; Từ Phi từng thầm mến Vương Trác nhưng vai trò không phát triển.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí tầng 12 (Lịch Hải)",
+          "chapter": 62,
+          "location": "Huyền Đạo Tông",
+          "gained": "Đệ tử nòng cốt Huyền Đạo",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Phía đối lập Huyền Đạo; không có xung đột trực tiếp đáng kể trong Ch.62"
+        }
+      ]
     },
     {
       "name": "La Sát — thi khôi phản chủ trong người Dạ Tự Tại",
@@ -3441,7 +3883,53 @@
           "text": "Thi khôi đẳng cấp cao nhất (**Phi Thiên La Sát**) mà Dạ Tự Tại tế luyện, nay **đã sinh ý thức và đang cắn nuốt ngược chủ nhân**. Giọng khàn như sắt cọ. Theo \"ước định\" với Thi Âm tông: sau khi nuốt xong Dạ Tự Tại sẽ giữ lại ý thức hắn, giúp lô đỉnh hắn chỉ định lên Kết Đan để đoạt xá. Chỉ cần hấp thu chút linh khí Vực Ngoại là hoàn tất bước cắn nuốt cuối. (Ch.81-82, 86)"
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Không rõ (thi khôi đã sinh ý thức)",
+        "origin": "Thi Âm tông — thi khôi Phi Thiên La Sát do Dạ Tự Tại tế luyện; nay đã sinh ý thức và phản chủ",
+        "realm": "Phi Thiên La Sát đẳng cấp cao nhất (đã sinh ý thức)",
+        "firstChapter": 66,
+        "appearance": "Giọng khàn như sắt cọ nhau",
+        "personality": [
+          "Đã phản chủ Dạ Tự Tại — cắn nuốt ngược",
+          "Hung bạo khi đã sinh ý thức",
+          "Không còn phục tùng người luyện ra"
+        ],
+        "specialties": [
+          "Phi Thiên La Sát thần thông",
+          "Cắn nuốt ngược chủ nhân"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 66,
+          "arc": "Trong người Dạ Tự Tại",
+          "event": "Phản chủ — đang cắn nuốt ngược Dạ Tự Tại",
+          "desc": "Thi khôi Phi Thiên La Sát tế luyện bởi Ngô Vũ (thầy của DTT) đã sinh ý thức; nay DTV phải dùng nó làm vệ sĩ thay vì công cụ tấn công.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Phi Thiên La Sát (sinh ý thức)",
+          "chapter": 66,
+          "location": "Trong người Dạ Tự Tại",
+          "gained": "Thi khôi đẳng cấp cao nhất; phản chủ sau khi sinh ý thức",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Dạ Tự Tại",
+          "type": "kethu",
+          "desc": "Chủ nhân hiện tại — nhưng La Sát đang cắn nuốt ngược; DVT phải dùng nó làm vệ sĩ"
+        },
+        {
+          "name": "Ngô Vũ",
+          "type": "anthan",
+          "desc": "Người tế luyện ra La Sát"
+        }
+      ]
     },
     {
       "name": "Lâm Dịch — sứ giả Tu chân Liên minh tại Triệu quốc",
