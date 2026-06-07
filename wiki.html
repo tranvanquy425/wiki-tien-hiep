@@ -2007,11 +2007,11 @@ function _safeText(t) {
 }
 function _esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function _stripPath(s){
-  // Strip internal file paths/identifiers from display strings
-  if(!s)return '';
-  return s.replace(/(Cot_truyen|He_thong|The_luc|Nhan_vat|TONGHOP|NHAP_?)\/?[^\s<>"'\]*/gi,'')
-          .replace(/\w+[\w-]*\.md/g,'')
-          .replace(/\s{2,}/g,' ').trim();
+  if(!s)return s;
+  // Xóa path nội bộ (Cot_truyen/... .md) -- dùng \S* tránh char-class escaping
+  return s.replace(/(Cot_truyen|He_thong|The_luc|Nhan_vat|TONGHOP|NHAP_)\S*/gi,'')
+          .replace(/\S+\.md/g,'')
+          .replace(/ {2,}/g,' ').trim();
 }
 
 // Render mảng detail (hỗ trợ cả phẳng cũ lẫn 2-tầng mới: group/phase/popup)
