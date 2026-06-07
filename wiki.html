@@ -684,6 +684,13 @@
 .cm2-tl-rbev-normal{font-size:12.5px;font-weight:500;color:#e8dcc2;margin-bottom:3px;line-height:1.4;}
 .cm2-tl-rbev-minor{font-size:11.5px;color:rgba(232,220,194,.55);line-height:1.4;}
 .cm2-tl-rbdesc{font-size:11.5px;color:#a8a090;line-height:1.58;margin-top:3px;}
+/* ── Timeline payoff/setup link badges ── */
+.cm2-tl-link{cursor:pointer;display:inline-flex;align-items:center;gap:2px;font-size:10px;
+  font-weight:600;padding:1px 6px;border-radius:8px;margin-left:5px;vertical-align:middle;
+  border:0.5px solid;transition:opacity .1s;}
+.cm2-tl-link:hover{opacity:.7;}
+.cm2-tl-lnk-payoff{background:rgba(100,185,100,.1);color:rgba(70,155,70,.9);border-color:rgba(100,185,100,.3);}
+.cm2-tl-lnk-setup{background:rgba(90,150,210,.1);color:rgba(60,120,195,.9);border-color:rgba(90,150,210,.3);}
 </style>
 </head>
 <body>
@@ -2228,15 +2235,19 @@ function _renderCharHero(c){
     t2='<div class="cm2-tl-ribbons">'+_tlS.map(t=>{
       const imp=t.importance||(t.major?'major':'normal');
       const cfg=_IMP[imp]||_IMP.normal;
-      return '<div class="cm2-tl-ribbon">'+
+      const _tlBadge=(ch,cls,icon)=>'<span class="cm2-tl-link '+cls+'" onclick="_tlJump(\'' +ch+ '\')" title="'+icon+' Ch.'+ch+'">'+icon+' Ch.'+ch+'</span>';
+      return '<div class="cm2-tl-ribbon" data-ch="'+_esc(String(t.chapter!=null?t.chapter:''))+'">'+
         '<div class="cm2-tl-rb '+cfg.rb+'"></div>'+
         '<div class="cm2-tl-rbody">'+
           (t.chapter!=null?'<div class="'+cfg.ch+'">Ch.'+_esc(String(t.chapter))+'</div>':'')+
-          '<div class="'+cfg.ev+'">'+_esc(t.event||'')+'</div>'+
+          '<div class="'+cfg.ev+'">'+_esc(t.event||'')+
+            (t.payoff!=null?_tlBadge(t.payoff,'cm2-tl-lnk-payoff','🌱'):'')+
+            (t.setup!=null?_tlBadge(t.setup,'cm2-tl-lnk-setup','🔗'):'')+
+          '</div>'+
           (t.desc?'<div class="cm2-tl-rbdesc">'+_safeText(t.desc)+'</div>':'')+
         '</div></div>';
     }).join('')+'</div>';
-  }else{t2=_renderDetailSecs(tm.kinhlich,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>timeline[]</code> hoặc section label chứa "mốc/arc/lịch sử".</p>';}
+  }else{t2=_renderDetailSecs(tm.kinhlich,'_openPopup')||'<p class="cm-empty">Chưa có kinh lịch.</p>';}
 
   /* === TAB 3: QUAN HỆ NHÂN MẠCH === */
   let t3='';
@@ -2258,7 +2269,7 @@ function _renderCharHero(c){
       })
 .join('')+'</div>'
     ).join('')||'<p class="cm-empty">Chưa có dữ liệu.</p>';
-  }else{t3=_renderDetailSecs(tm.nhanmach,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>relations[]</code> hoặc section label chứa "quan hệ/đạo lữ/gia đình".</p>';}
+  }else{t3=_renderDetailSecs(tm.nhanmach,'_openPopup')||'<p class="cm-empty">Chưa có nhân mạch.</p>';}
 
   /* === TAB 4: TU VI & LỰC CHIẾN === */
   /* cultivation[] — structured mốc đột phá; fallback detail[] */
@@ -2287,7 +2298,7 @@ function _renderCharHero(c){
       '</div>'
     ).join('')+'</div>';
   }else{
-    t4=_renderDetailSecs(tm.tuvi,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>cultivation[]</code> hoặc section label chứa "tu vi/công pháp/pháp bảo".</p>';
+    t4=_renderDetailSecs(tm.tuvi,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu tu vi.</p>';
   }
 
   /* === TAB 5: TÚI ĐỒ === */
@@ -2309,7 +2320,7 @@ function _renderCharHero(c){
       (it.effect?'<div class="cm2-bag-eff">⟡ '+_safeText(it.effect)+'</div>':'')+
       '</div></div>'
     ).join('');
-  }else{t5=_renderDetailSecs(tm.tuiddo,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>inventory[]</code> hoặc section label chứa "túi đồ/bảo vật/đan dược".</p>';}
+  }else{t5=_renderDetailSecs(tm.tuiddo,'_openPopup')||'<p class="cm-empty">Chưa có túi đồ.</p>';}
 
   /* === BUILD TABS === */
   const TABS5=[
@@ -2643,6 +2654,15 @@ function cm2TabScroll(el){
   wrap.classList.toggle('at-end', el.scrollLeft + el.clientWidth >= el.scrollWidth - 4);
 }
 
+
+function _tlJump(ch){
+  const el=document.querySelector('.cm2-tl-ribbon[data-ch="'+ch+'"]');
+  if(!el)return;
+  el.scrollIntoView({behavior:'smooth',block:'nearest'});
+  const old=el.style.outline;
+  el.style.outline='1.5px solid rgba(212,175,110,.5)';
+  setTimeout(()=>{el.style.outline=old;},2000);
+}
 </script>
 </body>
 </html>
