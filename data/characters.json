@@ -2753,6 +2753,87 @@
           "label": "Mô tả",
           "text": "Tán tu **Kết Đan kỳ**, sư phụ của Bạch Triển (đệ tử thứ 6), Trần Trung (đại đệ tử) và Đằng Lệ-tri-kỷ. Có bí kíp khống chế đệ tử, cảm nhận được khi đệ tử chết → sẽ điều tra. Mối đe dọa tiềm tàng. (Ch.69, 72)"
         }
+      ],
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — tán tu Nguyên Anh kỳ; chuyên luyện cổ thi khôi lỗi bằng Ám Quang quyết",
+        "realm": "Nguyên Anh sơ → trung kỳ",
+        "firstChapter": 66,
+        "appearance": "Người mập như núi thịt (bình thường) → trung niên cường kiện (khi thi triển toàn lực)",
+        "personality": [
+          "Cảnh giác — cảm nhận được khi đệ tử chết, sẽ điều tra",
+          "Không liều lĩnh — định bỏ chạy né VL khi nguy"
+        ],
+        "specialties": [
+          "Ám Quang quyết — luyện cổ thi khôi lỗi",
+          "Khống chế đệ tử từ xa",
+          "4 con rối cổ thi cấp cao"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 66,
+          "arc": "Triệu quốc",
+          "event": "Mối thù cũ — sư phụ kẻ VL giết 400 năm trước (khi cứu Trương Hổ)",
+          "desc": "Bạch Triển (đệ tử lão bị VL giết) khiến lão sẽ điều tra; mối đe dọa tiềm tàng treo lơ lửng.",
+          "major": true
+        },
+        {
+          "chapter": 86,
+          "arc": "Triệu quốc",
+          "event": "Định bỏ chạy né VL — bị Cực Cảnh thần thức giết",
+          "desc": "VL tìm lão trả mối thù Trương Hổ; lão không kịp thoát; bị Cực Cảnh thần thức kết liễu; VL đoạt 4 con rối + ngọc giản phương pháp luyện rối.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh sơ kỳ",
+          "chapter": 66,
+          "location": "Triệu quốc",
+          "gained": "Tán tu cường đại; chuyên luyện cổ thi khôi lỗi",
+          "congphap": ""
+        },
+        {
+          "realm": "Nguyên Anh trung kỳ",
+          "chapter": 86,
+          "location": "Triệu quốc",
+          "gained": "Tiến thêm sau 400 năm nhưng vẫn không địch nổi VL Cực Cảnh thần thức",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Kẻ thù vì VL giết đệ tử Bạch Triển; về sau bị VL giết và cướp 4 con rối cổ thi"
+        },
+        {
+          "name": "Bạch Triển",
+          "type": "anthan",
+          "desc": "Đệ tử thứ 6 — bị VL giết khi hắn khống chế Trương Hổ (Ch.66)"
+        },
+        {
+          "name": "Trần Trung",
+          "type": "anthan",
+          "desc": "Đại đệ tử; bạn tri kỷ của Đằng Lệ"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "4 con rối cổ thi",
+          "cat": "baovat",
+          "status": "bicuop",
+          "desc": "Pháp bảo tấn công và do thám Nguyên Anh kỳ — bị VL cướp sau khi giết lão",
+          "effect": "Chiến đấu từ xa bằng cổ thi khôi lỗi"
+        },
+        {
+          "name": "Ngọc giản Ám Quang quyết",
+          "cat": "congphap",
+          "status": "bicuop",
+          "desc": "Phương pháp luyện cổ thi khôi lỗi — bị VL cướp",
+          "effect": "Bí pháp độc đáo Nguyên Anh kỳ về khôi lỗi"
+        }
       ]
     },
     {
@@ -3940,7 +4021,47 @@
           "text": "Phông nền cho không khí chiến trường Tuyên Vũ và sự chênh lệch ngầm giữa Vương Lâm với hệ thống đại quân.\n\n---"
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tà Ma Tông — Nguyên Anh kỳ, đội trưởng tiểu đội 8 trong chiến dịch xâm lược Tuyên Vũ quốc",
+        "realm": "Nguyên Anh kỳ",
+        "firstChapter": 121,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Kiêu ngạo khinh người",
+          "Bất mãn vì bị phân nhiệm vụ \"vô vị\"",
+          "Suy đoán nhanh khi thấy bất thường"
+        ],
+        "specialties": [
+          "Nguyên Anh kỳ chiến đấu Tà Ma Tông"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 121,
+          "arc": "Tuyên Vũ quốc",
+          "event": "Chứng kiến VL giết bảy Trúc Cơ trong chớp mắt — nghi ẩn tu vi",
+          "desc": "Nghi VL giấu thực lực thật; là người đầu tiên trên chiến trường nghi ngờ; chưa chết trong đợt.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh kỳ",
+          "chapter": 121,
+          "location": "Tà Ma Tông",
+          "gained": "Đội trưởng tiểu đội 8 chiến dịch xâm lược Tuyên Vũ quốc",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "dottu",
+          "desc": "Cấp trên danh nghĩa mà VL coi thường; người đầu tiên nghi ngờ thực lực thật của VL trên chiến trường"
+        }
+      ]
     },
     {
       "name": "Tang Mộc Nhai (桑墨崖)",
@@ -6453,7 +6574,48 @@
           "text": "\"Giám định viên\" cấp Trúc Cơ xác nhận thực lực và bí ẩn của Vương Lâm trong giới hạn cho phép."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — một trong mười trưởng lão Trúc Cơ kỳ (thường bế quan)",
+        "realm": "Trúc Cơ kỳ",
+        "firstChapter": 50,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Công tâm — định giá đúng tiềm năng VL mà không thiên vị",
+          "Thận trọng — thường bế quan",
+          "Thiện chí với đệ tử có tiềm năng"
+        ],
+        "specialties": [
+          "Trúc Cơ kỳ thần thức đánh giá tu vi thực chất",
+          "Kinh nghiệm dẫn đường tu tiên"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 50,
+          "arc": "Hằng Nhạc phái",
+          "event": "Ẩn trong nội điện — xác nhận tu vi ~tầng 14 và tiềm năng Trúc Cơ của VL",
+          "desc": "Nghe Hoàng Long chất vấn VL; nhận ra Dẫn Lực thuật là trụ cột tiên pháp luyện lâu sinh diệu dụng; xác nhận tu vi VL ~tầng 14; tiên đoán tương lai có thể Trúc Cơ.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Trúc Cơ kỳ",
+          "chapter": 50,
+          "location": "Hằng Nhạc phái",
+          "gained": "Trưởng lão thường bế quan; đủ tiêu chuẩn đánh giá tu vi Trúc Cơ tiềm năng",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Trưởng bối định giá đúng tiềm năng; thiện chí; xác nhận tu vi thật của VL"
+        }
+      ]
     },
     {
       "name": "Tống Dục (宋育)",
@@ -6569,7 +6731,47 @@
           "text": "Nhân vật \"đời thường\" làm dịu không khí và củng cố vị thế thủ lĩnh của Vương Lâm."
         }
       ],
-      "portrait": "H"
+      "portrait": "H",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — đệ tử nòng cốt dáng mập",
+        "realm": "Ngưng Khí tầng 5",
+        "firstChapter": 56,
+        "appearance": "Dáng mập",
+        "personality": [
+          "Xởi lởi trung thành",
+          "Chủ động nhận VL làm đại sư huynh",
+          "Đời thường làm dịu không khí"
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 56,
+          "arc": "Hằng Nhạc phái",
+          "event": "Chủ động nhận VL làm đại sư huynh — xếp cuối nhóm bốn đệ tử nòng cốt",
+          "desc": "\"Trong đám đệ tử chỉ Vương Lâm lợi hại nhất\"; trung thành ngay từ khi VL lộ thực lực thật.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí tầng 5",
+          "chapter": 56,
+          "location": "Hằng Nhạc phái",
+          "gained": "Đệ tử nòng cốt; thực lực trung bình",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Đàn em trung thành; chủ động nhận VL làm đại sư huynh (Ch.56)"
+        }
+      ]
     },
     {
       "name": "Nữ tử họ Chu (周姓女子)",
@@ -7411,7 +7613,71 @@
           "text": "Ch.227 (gạ tu sĩ, theo dõi) → Ch.233-234 (tái xuất 7 năm sau, lộ thân Anh Biến) → Ch.235-236 (dẫn mượn ý cảnh) → Ch.237 (lộ nghề làm giả lệnh bài)."
         }
       ],
-      "isFeatured": false
+      "isFeatured": false,
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Chân Giới — cao thủ Anh Biến kỳ ngụy trang thành lão ăn mày; chưa lộ tên thật",
+        "realm": "Anh Biến kỳ (vượt Hóa Thần)",
+        "firstChapter": 227,
+        "appearance": "Lão ăn mày tóc bù xù, áo xám, mặt chỗ xanh chỗ đỏ — ngụy trang hoàn hảo",
+        "personality": [
+          "Gian xảo hài hước",
+          "Mê mỹ nữ và thích khoe",
+          "Thực chất Anh Biến kỳ ẩn sau bề ngoài ăn mày"
+        ],
+        "specialties": [
+          "Điên cuồng ý cảnh (ý cảnh Hóa Thần đồng hóa mọi linh lực)",
+          "Kim Tử — người khổng lồ kim giáp phá không gian/đại trận",
+          "Kim sí đại bàng hóa thân",
+          "Làm giả lệnh bài tông môn đủ loại"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 227,
+          "arc": "Tu Chân Giới (arc Hóa Thần)",
+          "event": "Phát hiện VL hóa phàm thành công — gạ gẫm và theo dõi",
+          "desc": "VL là tu sĩ đầu tiên lão thấy hóa phàm thành công trong 6 năm; tò mò và theo dõi bí mật.",
+          "major": true
+        },
+        {
+          "chapter": 233,
+          "arc": "Tu Chân Giới",
+          "event": "Tái xuất sau 7 năm — lộ thân Anh Biến kỳ thật",
+          "desc": "Bỏ ngụy trang lộ tu vi thật; VL kinh ngạc.",
+          "major": true
+        },
+        {
+          "chapter": 235,
+          "arc": "Bạch Vân tông",
+          "event": "Dẫn VL đi \"thích tông\" — mượn 3 ý cảnh Hóa Thần",
+          "desc": "Dẫn VL vào Bạch Vân tông mượn 3 ý cảnh (tuyệt tình/an nhàn/tuế nguyệt) làm chất liệu đột phá Hóa Thần.",
+          "major": true
+        },
+        {
+          "chapter": 237,
+          "arc": "Tu Chân Giới",
+          "event": "Lộ nghề làm giả lệnh bài tông môn",
+          "desc": "Bị lộ nghề làm giả mọi loại lệnh bài — từ Tổ linh bài đến chưởng môn lệnh; \"danh tiếng không nhỏ\" trong Tu Chân Giới.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Anh Biến kỳ",
+          "chapter": 233,
+          "location": "Tu Chân Giới",
+          "gained": "Vượt Hóa Thần; ẩn giấu hoàn hảo suốt nhiều năm; \"Điên cuồng ý cảnh\" là nền tảng đột phá Hóa Thần năm xưa",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Phát hiện VL hóa phàm thành công; dẫn VL mượn ý cảnh đột phá Hóa Thần; vai trò hỗ trợ chủ chốt giai đoạn arc Hóa Thần"
+        }
+      ]
     },
     {
       "name": "Chu Võ Thái (朱武泰) — tu sĩ tai to, đối thủ cạnh tranh Hóa Thần",
@@ -7443,7 +7709,56 @@
           "text": "Ch.236-238 (gián tiếp, bức Nam Vương phủ) → Ch.239 (đối thoại trực tiếp + đấu tâm kế, tự xưng Chu Võ Thái)."
         }
       ],
-      "isFeatured": false
+      "isFeatured": false,
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tứ cấp Tu Chân Quốc — liên minh 4 phái; chủ một đạo quan ở ngoại thành phía Đông kinh đô",
+        "realm": "Nguyên Anh hậu kỳ đỉnh phong — cận kề Hóa Thần (cùng cảnh giới VL tại thời điểm gặp)",
+        "firstChapter": 236,
+        "appearance": "Mặt to mắt nhỏ, hai tai rất lớn, uy nghiêm",
+        "personality": [
+          "Mưu tính — đấu tâm kế thay vì động thủ",
+          "Nhận ra đối thủ cùng đường Hóa Thần",
+          "Toan tính gài bẫy VL qua đệ tử Phúc nhi"
+        ],
+        "specialties": [
+          "Hóa phàm đặc biệt qua TÌNH THẦY-TRÒ",
+          "Địa vị cao liên minh 4 phái",
+          "Đấu tâm kế cấp cao"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 236,
+          "arc": "Tuyết Vực Quốc",
+          "event": "Bức Nam Vương thế tử trốn hoàng cung — đòi vũ đỉnh",
+          "desc": "Gián tiếp gây sức ép lên cuộc đấu các phe xung quanh vũ đỉnh; trút giận lên tùy tùng Từ Đào.",
+          "major": false
+        },
+        {
+          "chapter": 239,
+          "arc": "Tu Chân Giới",
+          "event": "Đối thoại trực tiếp với VL + đấu tâm kế",
+          "desc": "Nhận ra tượng văn sĩ/lão bà Bạch Vân tông biết VL cùng cảnh giới; gài bẫy VL qua đệ tử Phúc nhi; tự xưng Chu Võ Thái.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh hậu kỳ đỉnh phong",
+          "chapter": 239,
+          "location": "Tứ cấp Tu Chân Quốc",
+          "gained": "Cận kề Hóa Thần; cùng cảnh giới VL tại thời điểm gặp; đang tranh tốc độ đột phá",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Kình địch cùng đường Hóa Thần; đấu tâm kế qua Phúc nhi; chưa động thủ trực diện nhưng thành thù tiềm tàng lớn"
+        }
+      ]
     },
     {
       "name": "Tiểu đạo sĩ \"Phúc nhi\" (福兒) — đệ tử Chu Võ Thái, định mệnh bi kịch",
