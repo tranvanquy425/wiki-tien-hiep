@@ -1464,15 +1464,18 @@ function renderHomeSponsorCard() {
     </div>`;
 }
 
+function _safe(fn, name) {
+  try { fn(); } catch(e) { console.warn('renderAll.' + name + ':', e.message); }
+}
 function renderAll() {
-  renderProgress();
-  renderEntryGrid();
-  renderHomeSponsorCard();
-  renderCotTruyen();
-  renderNhanVat();
-  renderTheLuc();
-  renderCanhGioi();
-  renderPhapBao();
+  _safe(renderProgress, 'progress');
+  _safe(renderEntryGrid, 'entryGrid');
+  _safe(renderHomeSponsorCard, 'sponsor');
+  _safe(renderCotTruyen, 'cotTruyen');
+  _safe(renderNhanVat, 'nhanVat');
+  _safe(renderTheLuc, 'theLuc');
+  _safe(renderCanhGioi, 'canhGioi');
+  _safe(renderPhapBao, 'phapBao');
 
   // Inject partner cards
   const cards = buildPartnerCards();
@@ -1953,12 +1956,13 @@ let REALM_LIST = [], ARTIFACT_LIST = [], FACTION_LIST = [];
 let VOLUME_LIST = [];
 function _normCharName(s){ return (s||'').toLowerCase().replace(/[()\[\]]/g,'').replace(/\s+/g,' ').trim(); }
 let _detailVer = 'v1'; // updated from meta.updatedDate after applyWikiData
+// Cache key daily: bust khi ngày đổi (dùng cho file chính)
+const _TODAY = new Date().toISOString().slice(0,10).replace(/-/g,'');
 async function _fetchJSON(path, bustCache){
   try {
-    // bustCache=true → fresh (dùng cho tien-nghich.json); mặc định → dùng _detailVer (cache CDN OK)
-    const url = bustCache ? path + '?v=' + Date.now() : path + '?v=' + _detailVer;
-    const opts = bustCache ? {cache:'no-store'} : {};
-    const r = await fetch(url, opts);
+    // bustCache=true → dùng TODAY (daily bust, có cache CDN); false → dùng _detailVer (stable)
+    const url = path + '?v=' + (bustCache ? _TODAY : _detailVer);
+    const r = await fetch(url); // không dùng cache:'no-store' — để CDN/browser cache
     if(!r.ok) return null;
     return await r.json();
   }
@@ -2523,7 +2527,7 @@ async function initWiki() {
   if (SERIES_SLUG === 'tien-nghich') staticPaths.push('wiki_data.json');
   for (const path of staticPaths) {
     try {
-      const r = await fetch(path + '?v=' + Date.now(), { cache: 'no-store' });
+      const r = await fetch(path + '?v=' + _TODAY); // daily cache key — cho CDN cache
       if (r.ok) {
         const data = await r.json();
         if (data && data.ok) {
@@ -2548,7 +2552,7 @@ async function initWiki() {
   // ƯU TIÊN 2 (dự phòng): gọi Wiki Sync v5 kèm ?series=
   if (WIKI_SYNC_URL) {
     try {
-      document.getElementById('progressText').textContent = 'ĐANG ĐỒNG BỘ DỮ LIỆU TỪ DRIVE...';
+      document.getElementById('progressText').textContent = 'ĐANG ĐỒNG BỘ DỮ LIỆU...';
       const data = await fetchJSONP(api('getWikiData'));
       applyWikiData(data);
     } catch(e) {
