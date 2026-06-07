@@ -2865,7 +2865,75 @@
           "text": "Tu sĩ dáng tiên phong đạo cốt, sở hữu **gương cổ thiên toán** (cảm trớ chú + huyết mạch để định vị người). Bị Đằng Hóa Nguyên dùng (đổi lại đoạt lệnh bài Vực Ngoại từ Vô Phong cốc) để tìm Vương Lâm & gia tộc. Có **lương tâm**: nhiều lần khuyên Đằng Hóa Nguyên \"oan có đầu nợ có chủ, đừng động phàm nhân\"; cuối cùng **cứu tứ thúc Vương Lâm** và **xin tha Vương Trác + Vương Hạo** (lý do: Phác Nam Tử Huyền Đạo sẽ truy hỏi). (Ch.87)"
         }
       ],
-      "isFeatured": false
+      "isFeatured": false,
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — tổ sư Phiêu Miểu Tông; sở hữu gương cổ thiên toán định vị huyết mạch",
+        "realm": "Kết Đan kỳ (không thấy đề cập rõ hơn)",
+        "firstChapter": 87,
+        "appearance": "Tiên phong đạo cốt",
+        "personality": [
+          "Cả đời tin tưởng thiên đạo — thiên mệnh gắn với gương thiên toán",
+          "Biết mệnh tự sát để cứu tông môn",
+          "Tự trách về sai lầm 400 năm trước"
+        ],
+        "specialties": [
+          "Gương đồng thiên toán (bói và định vị qua huyết mạch + trớ chú)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 87,
+          "arc": "Triệu quốc",
+          "event": "Bị Đằng Hóa Nguyên dùng — bói ra chỗ ở nhà họ Vương 400 năm trước",
+          "desc": "Nhận lời ĐHN (đổi đoạt lệnh bài Vực Ngoại từ Vô Phong cốc) dùng thuật bói tìm ra nhà họ Vương → mắt xích khiến Đằng gia diệt môn nhà VL.",
+          "major": true
+        },
+        {
+          "chapter": 87,
+          "arc": "Triệu quốc",
+          "event": "Bói qua gương thiên toán lần ra VL ở Quyết Minh cốc — nhưng cốc có trận phong ấn",
+          "desc": "Giúp ĐHN định vị VL tại Quyết Minh cốc; trận phong ấn ngăn không vào được.",
+          "major": false
+        },
+        {
+          "chapter": 222,
+          "arc": "Triệu quốc",
+          "event": "Tính được mệnh mình — tự sát phút cuối để cứu tông môn",
+          "desc": "Biết rõ chỉ còn 10 ngày; tự vỗ trán tự sát để kiếp nạn không đổ lên Phiêu Miểu Tông; \"hiểu ra\" việc bói thiên mệnh dẫn đến hậu quả hôm nay.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 87,
+          "location": "Triệu quốc",
+          "gained": "Tổ sư Phiêu Miểu Tông; không thấy đề cập cảnh giới chính xác hơn",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Mắt xích khiến Đằng gia diệt môn nhà VL 400 năm trước; ĐHN tiết lộ tên KKM trước khi chết (Ch.222)"
+        },
+        {
+          "name": "Đằng Hóa Nguyên",
+          "type": "banhuu",
+          "desc": "Đã dùng KKM bói định vị nhà họ Vương; sau lộ bí mật tên KKM cho VL trước khi chết"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Gương đồng thiên toán",
+          "cat": "baovat",
+          "status": "mat",
+          "desc": "Bói và định vị qua huyết mạch + trớ chú; công cụ suốt cuộc đời; mất khi tự sát",
+          "effect": "Định vị huyết mạch chính xác; cảm ứng trớ chú trên thân người"
+        }
+      ]
     },
     {
       "name": "Lý Sơn (李山)",
@@ -3904,7 +3972,48 @@
           "text": "Nguồn thông tin nền về Đấu Tà phái, Thi Cốc, Nam Đấu thành và Luyện Khí tông.\n\n---"
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Tu Ma hải — đệ tử Đấu Tà phái; sở hữu song ma chi nhãn",
+        "realm": "Kết Đan kỳ (không thấy đề cập rõ hơn)",
+        "firstChapter": 124,
+        "appearance": "Song ma chi nhãn — đôi mắt đặc biệt",
+        "personality": [
+          "Tàn độc — dùng cốt độc giết cả sư huynh để đoạt cơ duyên",
+          "Không có nguyên tắc — sư phụ đồng lõa"
+        ],
+        "specialties": [
+          "Song ma chi nhãn",
+          "16 loại cốt độc",
+          "Đấu Tà phái chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 124,
+          "arc": "Tu Ma hải",
+          "event": "Bị VL cướp thú cốt và bắt hồn vào Diện Hồn kỳ",
+          "desc": "Gặp VL; bị cướp thú cốt và bắt hồn — trở thành nguồn thông tin về Đấu Tà phái, Thi Cốc, Nam Đấu thành và Luyện Khí tông.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 124,
+          "location": "Tu Ma hải",
+          "gained": "Đệ tử Đấu Tà phái; tàn độc dùng độc giết sư huynh cùng đoạt cơ duyên",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Nạn nhân sớm ở Tu Ma hải — bị cướp thú cốt và bắt hồn; nguồn thông tin bị VL khai thác"
+        }
+      ]
     },
     {
       "name": "Trâu Bân (鄒斌)",
@@ -3936,7 +4045,63 @@
           "text": "*(bổ sung mốc Ch.141)*\n\n- Dẫn VL vào thạch phủ xem Thần Đạo thuật; không phát hiện VL trộm túi trữ vật thi hài thần bí do Thủy Kính môn che thần thức."
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Chiến Thần Điện (Hỏa Phần quốc) — Nguyên Anh lão tổ; 300 năm trước du ngoạn Tu Ma hải ở cảnh giới Nguyên Anh sơ kỳ",
+        "realm": "Nguyên Anh kỳ (xác nhận lão tổ Chiến Thần Điện)",
+        "firstChapter": 137,
+        "appearance": "Mặt đỏ, mắt to ánh lửa",
+        "personality": [
+          "Thận trọng — điều kiện duy nhất \"đừng lôi Chiến Thần Điện vào\"",
+          "Trực tiếp thực dụng",
+          "Có kinh nghiệm về Tu Ma hải"
+        ],
+        "specialties": [
+          "Nguyên Anh kỳ chiến đấu",
+          "Kiến thức về Thất Mai chi địa",
+          "Thủy Kính môn thần thức"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 137,
+          "arc": "Hỏa Phần quốc",
+          "event": "Nhận ra Bát Cực Ma Quân qua dấu hiệu 7 đóa mai vàng",
+          "desc": "Chứng kiến Đoan Mộc Cực xuất hiện; nhận ra thân phận ngay.",
+          "major": false
+        },
+        {
+          "chapter": 140,
+          "arc": "Hỏa Phần quốc — Chiến Thần Điện",
+          "event": "Dẫn VL vào Thủy Kính môn xem Thần Đạo thuật",
+          "desc": "Hé lộ lai lịch Bát Cực Ma Quân; đặt điều kiện không lôi Chiến Thần Điện vào; VL vô tình trộm túi trữ vật thi hài thần bí trong lúc xem.",
+          "major": true
+        },
+        {
+          "chapter": 141,
+          "arc": "Chiến Thần Điện",
+          "event": "Dẫn VL vào thạch phủ — không phát hiện VL trộm túi trữ vật",
+          "desc": "Thủy Kính môn che thần thức; VL lấy được túi trữ vật của thực thể thần bí.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh kỳ",
+          "chapter": 137,
+          "location": "Hỏa Phần quốc",
+          "gained": "Lão tổ Chiến Thần Điện; 300 năm trước còn Nguyên Anh sơ kỳ",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Cung cấp thông tin Bát Cực Ma Quân và dẫn vào Chiến Thần Điện; VL vô tình trộm túi trữ vật gây hậu quả"
+        }
+      ]
     },
     {
       "name": "Cổ Đế — Cổ Lam (古帝 / 古藍)",
@@ -5901,7 +6066,66 @@
           "text": "Đại diện cho khí tiết \"thua nhưng không hàng\" của Hằng Nhạc; trao Vương Lâm pháp bảo cứu mạng (hạt giống dùng lại về sau)."
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — một trong hai sư tổ Kết Đan kỳ; trụ cột thực sự của phái sau Nguyên Anh lão tổ mất",
+        "realm": "Kết Đan kỳ",
+        "firstChapter": 53,
+        "appearance": "Hạc phát đồng nhan (tóc trắng mặt hồng)",
+        "personality": [
+          "Khí tiết \"thua nhưng không hàng\"",
+          "Quý trọng VL là tương lai Trúc Cơ",
+          "Quyết đoán dẫn tàn dư rút lui khi cần"
+        ],
+        "specialties": [
+          "Kết Đan kỳ chiến đấu",
+          "Trấn Hộ Sơn đại trận",
+          "Lãnh đạo rút lui và tái tổ chức"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 53,
+          "arc": "Hằng Nhạc phái",
+          "event": "Cùng lão phụ nhân trấn Hộ Sơn đại trận chống Phác Nam Tử — trọng thương",
+          "desc": "Hai sư tổ Kết Đan hợp lực giữ trận; bị Phác Nam Tử đánh trọng thương khi trận vỡ; buộc giao sơn môn.",
+          "major": true
+        },
+        {
+          "chapter": 55,
+          "arc": "Hằng Nhạc phái rời đi",
+          "event": "Dẫn tàn dư Hằng Nhạc rút lui — trao VL pháp bảo cứu mạng",
+          "desc": "Rút lui có tổ chức; trao cho VL pháp bảo hỗ trợ hành trình.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 53,
+          "location": "Hằng Nhạc phái",
+          "gained": "Một trong hai sư tổ cao nhất còn lại của phái; bị Nguyên Anh kỳ Phác Nam Tử đè bẹp hoàn toàn",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Trưởng bối quý trọng VL là tương lai Trúc Cơ; trao pháp bảo cứu mạng khi rời phái"
+        },
+        {
+          "name": "Lão phụ nhân họ Vương",
+          "type": "banhuu",
+          "desc": "Đồng sư tổ Kết Đan — cùng trấn trận và dẫn tàn dư rút lui"
+        },
+        {
+          "name": "Phác Nam Tử",
+          "type": "kethu",
+          "desc": "Kẻ phá trận và trọng thương cả hai sư tổ; vượt tầm đối kháng"
+        }
+      ]
     },
     {
       "name": "Lão phụ nhân họ Vương (王姓老妇人) — \"Vương sư tổ\"",
@@ -5933,7 +6157,60 @@
           "text": "Cùng Lưu Văn Cử giữ ngọn lửa phục hưng Hằng Nhạc — neo số phận môn phái cho các đợt sau."
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — sư tổ Kết Đan kỳ, trụ cột còn lại của phái",
+        "realm": "Kết Đan kỳ",
+        "firstChapter": 53,
+        "appearance": "Nhiều nếp nhăn, thần sắc âm trầm",
+        "personality": [
+          "Cứng rắn — từ chối tự mở trận cho Phác Nam Tử dù bị ép",
+          "Nghiêm khắc nhưng lo cho an nguy đệ tử",
+          "Thề rửa nhục môn phái"
+        ],
+        "specialties": [
+          "Kết Đan kỳ chiến đấu",
+          "Trấn Hộ Sơn đại trận"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 53,
+          "arc": "Hằng Nhạc phái",
+          "event": "Cùng Lưu Văn Cử trấn đại trận, từ chối mở trận — bị thương khi trận vỡ",
+          "desc": "Cứng rắn từ chối tự mở Hộ Sơn trận cho Phác Nam Tử dù bị ép; bị thương khi trận vỡ; thề \"đem mối nhục rửa sạch\".",
+          "major": true
+        },
+        {
+          "chapter": 55,
+          "arc": "Hằng Nhạc phái rời đi",
+          "event": "Đồng bế quan điều dưỡng — dẫn đệ tử rời phái",
+          "desc": "Rút lui cùng Lưu Văn Cử; thời gian bế quan sau đó không rõ.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Kết Đan kỳ",
+          "chapter": 53,
+          "location": "Hằng Nhạc phái",
+          "gained": "Sư tổ Kết Đan kỳ còn lại; bị Nguyên Anh kỳ Phác Nam Tử đè bẹp",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Trưởng bối nghiêm khắc lo cho VL; cùng thề phục hưng Hằng Nhạc"
+        },
+        {
+          "name": "Lưu Văn Cử",
+          "type": "banhuu",
+          "desc": "Đồng sư tổ Kết Đan — cùng trấn trận và dẫn tàn dư rút lui"
+        }
+      ]
     },
     {
       "name": "Lữ Tung (吕嵩)",
@@ -7037,7 +7314,72 @@
           "text": "Ch.223 (xuất hiện, đuổi VL) → Ch.224 (chỉ điểm, rời đi bằng Tinh La Bàn)."
         }
       ],
-      "isFeatured": false
+      "isFeatured": false,
+      "bio": {
+        "gender": "Nam",
+        "origin": "Ngũ Hành tinh (tinh cầu tu chân khác) — tu sĩ tướng mạo tà dị lưu lạc tới tinh cầu Chu Tước",
+        "realm": "Anh Biến sơ kỳ (chỉ 3 thành; sợ Thiên Kiếp kéo tụt mất tư cách dùng Tinh La Bàn)",
+        "firstChapter": 221,
+        "appearance": "Tướng mạo tà dị — từ Ngũ Hành tinh, ngoại hình khác hẳn tu sĩ bản địa",
+        "personality": [
+          "Thực dụng — từ địch sang ân nhân khi lợi ích thay đổi",
+          "Nhìn xa — mời VL tới Ngũ Hành tinh khi đủ tư cách",
+          "Cô đơn — Cực Cảnh ngũ sắc là di vật người bạn tốt đã chết"
+        ],
+        "specialties": [
+          "Tinh La Bàn mở hắc động di chuyển giữa tinh cầu",
+          "Cực Cảnh ngũ sắc (chứa 1 tia Cực Cảnh bên trong)",
+          "Thần thức khổng lồ vượt Hóa Thần"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 221,
+          "arc": "Tu Ma hải",
+          "event": "Truy đuổi VL đòi túi trữ vật — đánh lén ánh sáng năm màu",
+          "desc": "Ban đầu là chủ nhân túi trữ vật mà VL vô tình lấy được; truy đuổi rồi đánh lén VL.",
+          "major": true
+        },
+        {
+          "chapter": 221,
+          "arc": "Tu Ma hải",
+          "event": "Chỉ điểm VL con đường đột phá Cực Cảnh thần thức",
+          "desc": "Tiết lộ cần \"tu tinh chi tinh\" (trấn quốc chi bảo của Lục cấp Tu Chân Quốc); mời VL khi đủ tư cách rời tinh cầu thì tới Ngũ Hành tinh.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Anh Biến sơ kỳ (3 thành)",
+          "chapter": 221,
+          "location": "Tinh cầu Chu Tước",
+          "gained": "Vốn rất cao nhưng hao tổn; sợ Thiên Kiếp kéo tụt; hiện chỉ khôi phục 3 thành",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Từ địch (đòi túi trữ vật) → ân nhân chỉ đường Cực Cảnh; gieo hạt giống dài hạn (Ngũ Hành tinh)"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "Tinh La Bàn",
+          "cat": "baovat",
+          "status": "con",
+          "desc": "La bàn đen mở hắc động di chuyển giữa tinh cầu; cần Anh Biến cảnh giới duy trì",
+          "effect": "Di chuyển liên tinh cầu; công cụ thiết yếu cho lữ hành tinh cầu"
+        },
+        {
+          "name": "Cực Cảnh ngũ sắc",
+          "cat": "baovat",
+          "status": "con",
+          "desc": "Quả cầu năm màu di vật người bạn tốt đã chết — bên trong ẩn 1 tia Cực Cảnh",
+          "effect": "Đỉnh cảnh tấn công chứa tia Cực Cảnh duy nhất"
+        }
+      ]
     },
     {
       "name": "Lão nhân thần bí — cao thủ Anh Biến giả ăn mày",
