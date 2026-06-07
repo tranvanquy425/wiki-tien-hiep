@@ -701,6 +701,9 @@
 .cm2-tl-link:hover{opacity:.7;}
 .cm2-tl-lnk-payoff{background:rgba(100,185,100,.1);color:rgba(70,155,70,.9);border-color:rgba(100,185,100,.3);}
 .cm2-tl-lnk-setup{background:rgba(90,150,210,.1);color:rgba(60,120,195,.9);border-color:rgba(90,150,210,.3);}
+/* ── Timeline bridge: đoạn nối mờ giữa các thẻ mốc ── */
+.cm2-tl-bridge{padding:2px 8px 0 18px;font-size:10.5px;color:rgba(232,220,194,.28);font-style:italic;line-height:1.5;position:relative;}
+.cm2-tl-bridge::before{content:'';position:absolute;left:5px;top:2px;bottom:0;width:2px;background:rgba(212,175,110,.12);border-radius:1px;}
 </style>
 </head>
 <body>
@@ -2260,7 +2263,8 @@ function _renderCharHero(c){
           const tk=tracks.find(x=>x.key===t.track);
           tkLbl='<div class="cm2-tl-track-lbl" style="background:'+pal.bg+';color:'+pal.t+';border:0.5px solid '+pal.bd+'">'+_esc(tk?tk.label:t.track)+'</div>';
         }
-        return '<div class="cm2-tl-ribbon" data-ch="'+_esc(String(t.chapter!=null?t.chapter:''))+'">'+
+        return (t.bridge?'<div class="cm2-tl-bridge">'+_safeText(t.bridge)+'</div>':'')+
+          '<div class="cm2-tl-ribbon" data-ch="'+_esc(String(t.chapter!=null?t.chapter:''))+'">'+
           '<div class="cm2-tl-rb '+cfg.rb+'"></div>'+
           '<div class="cm2-tl-rbody">'+tkLbl+
             (t.chapter!=null?'<div class="'+cfg.ch+'">Ch.'+_esc(String(t.chapter))+'</div>':'')+
@@ -2763,10 +2767,10 @@ window._TEST_TRACK_DATA = {
   },
   timeline:[
     {chapter:1,  event:'Vào Hằng Nhạc phái học nghệ', importance:'major', desc:'Thiếu niên Triệu quốc bước vào con đường tu tiên.'},
-    {chapter:7,  event:'Nhặt được Nghịch Thiên châu tại phong nhẫn', importance:'major', payoff:131, desc:'Bảo vật định hình toàn bộ hành trình.'},
-    {chapter:81, event:'Đột phá Trúc Cơ', importance:'major', desc:'Lần đầu vượt ngưỡng phân nước Luyện Khí → Trúc Cơ.'},
-    {chapter:131,event:'Kết Đan — Nghịch Thiên châu kích hoạt', importance:'major', setup:7, desc:'Ba không gian bên trong châu đồng thời kích hoạt.'},
-    {chapter:258,event:'Rời Hằng Nhạc phái — lang thang đại giới', importance:'normal', desc:'Khởi đầu giai đoạn mới, không còn ràng buộc tông môn.'},
+    {chapter:7,  event:'Nhặt được Nghịch Thiên châu tại phong nhẫn', importance:'major', payoff:131, bridge:'Trượt bài thi nhập môn Hằng Nhạc phái; cha bị sỉ nhục khi so với Vương Trác; VL tự quay lại một mình, trượt chân rơi xuống hang có lực hút bí ẩn và tìm thấy châu trong xác chim chết.', desc:'Bảo vật định hình toàn bộ hành trình.'},
+    {chapter:81, event:'Đột phá Trúc Cơ', importance:'major', bridge:'Hơn 70 chương tu luyện kín trong không gian Nghịch Thiên châu — học Thôn Phệ đại pháp, tích lũy linh khí và căn cơ vượt trội người thường; trải qua nhiều va chạm với môn phái và tông môn lân cận.', desc:'Lần đầu vượt ngưỡng phân nước Luyện Khí → Trúc Cơ.'},
+    {chapter:131,event:'Kết Đan — Nghịch Thiên châu kích hoạt', importance:'major', setup:7, bridge:'Ch.81-130: hành trình Trúc Cơ đầy biến cố — cắt đứt quan hệ Hằng Nhạc phái, tham gia Phi Vũ tông, trải qua Thông Thiên địa đạo và đánh bại nhiều cao thủ vượt cấp để tích lũy đủ điều kiện Kết Đan.', desc:'Ba không gian bên trong châu đồng thời kích hoạt.'},
+    {chapter:258,event:'Rời Hằng Nhạc phái — lang thang đại giới', importance:'normal', bridge:'Ch.131-257: giai đoạn Nguyên Anh dài nhất — chinh chiến khắp Phi Vũ tông, Tinh Hải, Địa Phủ; nền tảng Hóa Thần dần hình thành qua mỗi trận đấu sống còn.', desc:'Khởi đầu giai đoạn mới, không còn ràng buộc tông môn.'},
     {chapter:261,event:'Tách thành Bổn tôn — vào Cổ Thần đường', importance:'major', track:'bonton', desc:'Bổn tôn theo con đường Cổ Thần (tu tiên bình thường).'},
     {chapter:263,event:'Phân thân nhập Thần Đạo giới', importance:'major', track:'phanthan-td', desc:'Phân thân theo con đường Thần Đạo — tu luyện hoàn toàn khác biệt.'},
     {chapter:265,event:'Bổn tôn đột phá Hóa Thần sơ kỳ', importance:'normal', track:'bonton'},
