@@ -684,6 +684,16 @@
 .cm2-tl-rbev-normal{font-size:12.5px;font-weight:500;color:#e8dcc2;margin-bottom:3px;line-height:1.4;}
 .cm2-tl-rbev-minor{font-size:11.5px;color:rgba(232,220,194,.55);line-height:1.4;}
 .cm2-tl-rbdesc{font-size:11.5px;color:#a8a090;line-height:1.58;margin-top:3px;}
+/* ── Multi-track (đa nhánh Bổn tôn / Phân thân) ── */
+.cm2-track-bar{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:11px;}
+.cm2-track-btn{padding:3px 12px;border-radius:20px;font-size:11px;font-weight:600;cursor:pointer;
+  background:rgba(255,255,255,.05);color:rgba(232,220,194,.45);border:1px solid rgba(255,255,255,.07);
+  transition:all .15s;}
+.cm2-track-btn:hover:not(.on){color:rgba(232,220,194,.75);}
+.cm2-track-btn.on{background:rgba(212,175,110,.12);color:#d4af6e;border-color:rgba(212,175,110,.3);}
+.cm2-track-panel{display:none;} .cm2-track-panel.show{display:block;}
+.cm2-tl-track-lbl{display:inline-block;font-size:9px;font-weight:600;padding:1px 5px;
+  border-radius:6px;margin-bottom:3px;letter-spacing:.3px;}
 /* ── Timeline payoff/setup link badges ── */
 .cm2-tl-link{cursor:pointer;display:inline-flex;align-items:center;gap:2px;font-size:10px;
   font-weight:600;padding:1px 6px;border-radius:8px;margin-left:5px;vertical-align:middle;
@@ -2232,21 +2242,53 @@ function _renderCharHero(c){
       normal:{rb:'cm2-tlrb-normal',ch:'cm2-tl-rbch-normal',ev:'cm2-tl-rbev-normal'},
       minor: {rb:'cm2-tlrb-minor', ch:'cm2-tl-rbch-minor', ev:'cm2-tl-rbev-minor'},
     };
-    t2='<div class="cm2-tl-ribbons">'+_tlS.map(t=>{
-      const imp=t.importance||(t.major?'major':'normal');
-      const cfg=_IMP[imp]||_IMP.normal;
-      const _tlBadge=(ch,cls,icon)=>'<span class="cm2-tl-link '+cls+'" onclick="_tlJump(\'' +ch+ '\')" title="'+icon+' Ch.'+ch+'">'+icon+' Ch.'+ch+'</span>';
-      return '<div class="cm2-tl-ribbon" data-ch="'+_esc(String(t.chapter!=null?t.chapter:''))+'">'+
-        '<div class="cm2-tl-rb '+cfg.rb+'"></div>'+
-        '<div class="cm2-tl-rbody">'+
-          (t.chapter!=null?'<div class="'+cfg.ch+'">Ch.'+_esc(String(t.chapter))+'</div>':'')+
-          '<div class="'+cfg.ev+'">'+_esc(t.event||'')+
-            (t.payoff!=null?_tlBadge(t.payoff,'cm2-tl-lnk-payoff','🌱'):'')+
-            (t.setup!=null?_tlBadge(t.setup,'cm2-tl-lnk-setup','🔗'):'')+
-          '</div>'+
-          (t.desc?'<div class="cm2-tl-rbdesc">'+_safeText(t.desc)+'</div>':'')+
-        '</div></div>';
-    }).join('')+'</div>';
+    const _TK_PAL=[
+      {t:'#d4af6e',bg:'rgba(212,175,110,.12)',bd:'rgba(212,175,110,.3)'},
+      {t:'#7dd3fc',bg:'rgba(14,90,140,.18)',  bd:'rgba(14,90,140,.35)'},
+      {t:'#86efac',bg:'rgba(45,106,79,.15)',  bd:'rgba(45,106,79,.3)'},
+      {t:'#c4a0f0',bg:'rgba(100,50,180,.15)',bd:'rgba(100,50,180,.3)'},
+    ];
+    const _tlBadge=(ch,cls,icon)=>'<span class="cm2-tl-link '+cls+'" onclick="_tlJump(\'' +ch+ '\')" title="'+icon+' Ch.'+ch+'">'+icon+' Ch.'+ch+'</span>';
+    const _drawRibbons=(items,tkKey,tkIdx,tracks)=>{
+      if(!items.length) return '<p class="cm-empty">Chưa có kinh lịch.</p>';
+      return '<div class="cm2-tl-ribbons">'+items.map(t=>{
+        const imp=t.importance||(t.major?'major':'normal');
+        const cfg=_IMP[imp]||_IMP.normal;
+        let tkLbl='';
+        if(tkKey&&tkKey!=='__root__'&&t.track&&tkIdx&&tkIdx[t.track]!==undefined){
+          const pal=_TK_PAL[tkIdx[t.track]%_TK_PAL.length];
+          const tk=tracks.find(x=>x.key===t.track);
+          tkLbl='<div class="cm2-tl-track-lbl" style="background:'+pal.bg+';color:'+pal.t+';border:0.5px solid '+pal.bd+'">'+_esc(tk?tk.label:t.track)+'</div>';
+        }
+        return '<div class="cm2-tl-ribbon" data-ch="'+_esc(String(t.chapter!=null?t.chapter:''))+'">'+
+          '<div class="cm2-tl-rb '+cfg.rb+'"></div>'+
+          '<div class="cm2-tl-rbody">'+tkLbl+
+            (t.chapter!=null?'<div class="'+cfg.ch+'">Ch.'+_esc(String(t.chapter))+'</div>':'')+
+            '<div class="'+cfg.ev+'">'+_esc(t.event||'')+
+              (t.payoff!=null?_tlBadge(t.payoff,'cm2-tl-lnk-payoff','🌱'):'')+
+              (t.setup!=null?_tlBadge(t.setup,'cm2-tl-lnk-setup','🔗'):'')+
+            '</div>'+
+            (t.desc?'<div class="cm2-tl-rbdesc">'+_safeText(t.desc)+'</div>':'')+
+          '</div></div>';
+      }).join('')+'</div>';
+    };
+    const _bTracks=c.bio&&c.bio.tracks&&c.bio.tracks.length?c.bio.tracks:null;
+    if(_bTracks){
+      const _tkIdx={};_bTracks.forEach((tk,i)=>{_tkIdx[tk.key]=i;});
+      const _pid='tk'+Math.random().toString(36).slice(2,7);
+      const _allTk=[{key:'__root__',label:'Chung'},..._bTracks];
+      const _bar='<div class="cm2-track-bar">'+_allTk.map((tk,i)=>
+        '<div class="cm2-track-btn'+(i===0?' on':'')+'" onclick="cm2TrackSw(this,\''+_pid+'\',\''+tk.key+'\')">' +_esc(tk.label)+'</div>'
+      ).join('')+'</div>';
+      const _panels=_allTk.map((tk,i)=>{
+        const its=tk.key==='__root__'?_tlS.filter(x=>!x.track):_tlS.filter(x=>!x.track||x.track===tk.key);
+        return '<div class="cm2-track-panel'+(i===0?' show':'')+'" data-pid="'+_pid+'" data-tk="'+tk.key+'">'+
+          _drawRibbons(its,tk.key,_tkIdx,_bTracks)+'</div>';
+      }).join('');
+      t2=_bar+_panels;
+    }else{
+      t2=_drawRibbons(_tlS,null,null,null);
+    }
   }else{t2=_renderDetailSecs(tm.kinhlich,'_openPopup')||'<p class="cm-empty">Chưa có kinh lịch.</p>';}
 
   /* === TAB 3: QUAN HỆ NHÂN MẠCH === */
@@ -2277,26 +2319,58 @@ function _renderCharHero(c){
   if(c.cultivation&&c.cultivation.length){
     const cvSorted=[...c.cultivation].sort((a,b)=>Number(a.chapter||0)-Number(b.chapter||0));
     function _cBase(r){return(r||'').replace(/\s*(sơ kỳ|trung kỳ|hậu kỳ|đỉnh phong|viên mãn|cực kỳ|đỉnh|sơ|trung|hậu)\s*$/,'').trim();}
-    const cvGrps=[];let _cvB=null,_cvC=null;
-    cvSorted.forEach(cv=>{const b=_cBase(cv.realm);if(b!==_cvB){_cvC={base:b,items:[]};cvGrps.push(_cvC);_cvB=b;}_cvC.items.push(cv);});
-    t4='<div class="cm2-cult-wrap">'+cvGrps.map(g=>
-      '<div class="cm2-cult-group">'+
-      '<div class="cm2-cult-ghdr">'+_esc(g.base)+'</div>'+
-      g.items.map(cv=>{
-        const sfx=(cv.realm||'').slice(g.base.length).trim();
-        const safeN=n=>(n||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'");
-        return '<div class="cm2-cult-item">'+
-          '<div class="cm2-cult-top">'+
-            (sfx?'<span class="cm2-cult-sub">'+_esc(sfx)+'</span>':'<span></span>')+
-            (cv.chapter?'<span class="cm2-cult-ch">Ch.'+_esc(String(cv.chapter))+'</span>':'')+
-          '</div>'+
-          (cv.location?'<div class="cm2-cult-loc">📍 '+_esc(cv.location)+'</div>':'')+
-          (cv.congphap?'<div class="cm2-cult-cp">📖 <a onclick="openArtifactDetail(\''+ safeN(cv.congphap) +'\')">' +_esc(cv.congphap)+'</a></div>':'')+
-          (cv.gained?'<div class="cm2-cult-gained">✦ '+_safeText(cv.gained)+'</div>':'')+
-          '</div>';
-      }).join('')+
-      '</div>'
-    ).join('')+'</div>';
+    const _tk4Pal=[
+      {t:'#d4af6e',bg:'rgba(212,175,110,.12)',bd:'rgba(212,175,110,.3)'},
+      {t:'#7dd3fc',bg:'rgba(14,90,140,.18)',  bd:'rgba(14,90,140,.35)'},
+      {t:'#86efac',bg:'rgba(45,106,79,.15)',  bd:'rgba(45,106,79,.3)'},
+      {t:'#c4a0f0',bg:'rgba(100,50,180,.15)',bd:'rgba(100,50,180,.3)'},
+    ];
+    const _drawCult=(items,tkKey,tkIdx,tracks)=>{
+      if(!items.length) return '<p class="cm-empty">Chưa có dữ liệu tu vi.</p>';
+      const grps=[];let _b=null,_g=null;
+      items.forEach(cv=>{const b=_cBase(cv.realm);if(b!==_b){_g={base:b,items:[]};grps.push(_g);_b=b;}_g.items.push(cv);});
+      return '<div class="cm2-cult-wrap">'+grps.map(g=>
+        '<div class="cm2-cult-group">'+
+        '<div class="cm2-cult-ghdr">'+_esc(g.base)+'</div>'+
+        g.items.map(cv=>{
+          const sfx=(cv.realm||'').slice(g.base.length).trim();
+          const safeN=n=>(n||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+          let tkLbl4='';
+          if(tkKey&&tkKey!=='__root__'&&cv.track&&tkIdx&&tkIdx[cv.track]!==undefined){
+            const pal=_tk4Pal[tkIdx[cv.track]%_tk4Pal.length];
+            const tk=tracks.find(x=>x.key===cv.track);
+            tkLbl4='<div class="cm2-tl-track-lbl" style="background:'+pal.bg+';color:'+pal.t+';border:0.5px solid '+pal.bd+'">'+_esc(tk?tk.label:cv.track)+'</div>';
+          }
+          return '<div class="cm2-cult-item">'+tkLbl4+
+            '<div class="cm2-cult-top">'+
+              (sfx?'<span class="cm2-cult-sub">'+_esc(sfx)+'</span>':'<span></span>')+
+              (cv.chapter?'<span class="cm2-cult-ch">Ch.'+_esc(String(cv.chapter))+'</span>':'')+
+            '</div>'+
+            (cv.location?'<div class="cm2-cult-loc">📍 '+_esc(cv.location)+'</div>':'')+
+            (cv.congphap?'<div class="cm2-cult-cp">📖 <a onclick="openArtifactDetail(\''+ safeN(cv.congphap) +'\')">' +_esc(cv.congphap)+'</a></div>':'')+
+            (cv.gained?'<div class="cm2-cult-gained">✦ '+_safeText(cv.gained)+'</div>':'')+
+            '</div>';
+        }).join('')+
+        '</div>'
+      ).join('')+'</div>';
+    };
+    const _bTracks4=c.bio&&c.bio.tracks&&c.bio.tracks.length?c.bio.tracks:null;
+    if(_bTracks4){
+      const _tkIdx4={};_bTracks4.forEach((tk,i)=>{_tkIdx4[tk.key]=i;});
+      const _pid4='tv'+Math.random().toString(36).slice(2,7);
+      const _allTk4=[{key:'__root__',label:'Chung'},..._bTracks4];
+      const _bar4='<div class="cm2-track-bar">'+_allTk4.map((tk,i)=>
+        '<div class="cm2-track-btn'+(i===0?' on':'')+'" onclick="cm2TrackSw(this,\''+_pid4+'\',\''+tk.key+'\')">' +_esc(tk.label)+'</div>'
+      ).join('')+'</div>';
+      const _panels4=_allTk4.map((tk,i)=>{
+        const its=tk.key==='__root__'?cvSorted.filter(x=>!x.track):cvSorted.filter(x=>!x.track||x.track===tk.key);
+        return '<div class="cm2-track-panel'+(i===0?' show':'')+'" data-pid="'+_pid4+'" data-tk="'+tk.key+'">'+
+          _drawCult(its,tk.key,_tkIdx4,_bTracks4)+'</div>';
+      }).join('');
+      t4=_bar4+_panels4;
+    }else{
+      t4=_drawCult(cvSorted,null,null,null);
+    }
   }else{
     t4=_renderDetailSecs(tm.tuvi,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu tu vi.</p>';
   }
@@ -2663,6 +2737,65 @@ function _tlJump(ch){
   el.style.outline='1.5px solid rgba(212,175,110,.5)';
   setTimeout(()=>{el.style.outline=old;},2000);
 }
+
+/* ── cm2TrackSw: switch track sub-tab ── */
+function cm2TrackSw(btn,pid,tk){
+  btn.closest('.cm2-track-bar').querySelectorAll('.cm2-track-btn').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  document.querySelectorAll('.cm2-track-panel[data-pid="'+pid+'"]').forEach(p=>p.classList.remove('show'));
+  var t=document.querySelector('.cm2-track-panel[data-pid="'+pid+'"][data-tk="'+tk+'"]');
+  if(t) t.classList.add('show');
+}
+
+/* ── TEST DATA: Vương Lâm đa nhánh (W3 sẽ replace bằng data thật) ── */
+/* Để test: mở console và gọi openCharDetail('Vương Lâm') sau khi trang tải xong.
+   Hoặc thêm 1 entry test vào CHAR_DETAIL map nếu chưa có. */
+window._TEST_TRACK_DATA = {
+  name:'Vương Lâm', phe:'hangnhac', vaitro:'main', tag:'Nhân vật chính',
+  blurb:'Nhân vật chính. Test đa nhánh.',
+  bio:{gender:'Nam',origin:'Triệu quốc, Hằng Nhạc phái',realm:'Hóa Thần (Bổn tôn)',
+    firstChapter:1,personality:['Cẩn thận','Lạnh lùng','Kiên định'],
+    specialties:['Thần Thức mạnh','Tu luyện cô độc'],
+    tracks:[
+      {key:'bonton',      label:'Bổn tôn',             start:261, end:null},
+      {key:'phanthan-td', label:'Phân thân Thần Đạo',  start:263, end:null}
+    ]
+  },
+  timeline:[
+    {chapter:1,  event:'Vào Hằng Nhạc phái học nghệ', importance:'major', desc:'Thiếu niên Triệu quốc bước vào con đường tu tiên.'},
+    {chapter:7,  event:'Nhặt được Nghịch Thiên châu tại phong nhẫn', importance:'major', payoff:131, desc:'Bảo vật định hình toàn bộ hành trình.'},
+    {chapter:81, event:'Đột phá Trúc Cơ', importance:'major', desc:'Lần đầu vượt ngưỡng phân nước Luyện Khí → Trúc Cơ.'},
+    {chapter:131,event:'Kết Đan — Nghịch Thiên châu kích hoạt', importance:'major', setup:7, desc:'Ba không gian bên trong châu đồng thời kích hoạt.'},
+    {chapter:258,event:'Rời Hằng Nhạc phái — lang thang đại giới', importance:'normal', desc:'Khởi đầu giai đoạn mới, không còn ràng buộc tông môn.'},
+    {chapter:261,event:'Tách thành Bổn tôn — vào Cổ Thần đường', importance:'major', track:'bonton', desc:'Bổn tôn theo con đường Cổ Thần (tu tiên bình thường).'},
+    {chapter:263,event:'Phân thân nhập Thần Đạo giới', importance:'major', track:'phanthan-td', desc:'Phân thân theo con đường Thần Đạo — tu luyện hoàn toàn khác biệt.'},
+    {chapter:265,event:'Bổn tôn đột phá Hóa Thần sơ kỳ', importance:'normal', track:'bonton'},
+    {chapter:268,event:'Phân thân đạt Thần phẩm sơ giai', importance:'normal', track:'phanthan-td'},
+    {chapter:271,event:'Bổn tôn vào Cổ Thần mật cảnh', importance:'normal', track:'bonton', desc:'Tìm kiếm Cổ Thần kỹ thuật bí ẩn.'},
+  ],
+  cultivation:[
+    {realm:'Ngưng Khí', chapter:25, location:'Hằng Nhạc phái', gained:'Học Thôn Phệ đại pháp'},
+    {realm:'Trúc Cơ',   chapter:81, location:'Hằng Nhạc nội môn', gained:'Trúc Cơ đan + 3 không gian bổ trợ'},
+    {realm:'Kết Đan',   chapter:131,location:'Mộng Cảnh',         gained:'Nghịch Thiên châu kích hoạt'},
+    {realm:'Hóa Thần sơ kỳ', chapter:265, location:'Cổ Thần đường', track:'bonton',      gained:'Cổ Thần kỹ thuật bổ trợ'},
+    {realm:'Thần phẩm sơ giai',chapter:268,location:'Thần Đạo giới', track:'phanthan-td', gained:'Thần Đạo thuật cơ sở'},
+  ],
+  relations:[
+    {name:'Lý Mộ Uyển', type:'daolu',    desc:'Đạo lữ từ Ch.181, đan sư ngũ phẩm.'},
+    {name:'Tư Đồ Nam',  type:'anthan',   desc:'Thực thể sống bên trong Nghịch Thiên châu, hướng dẫn tu luyện ban đầu.'},
+  ],
+  inventory:[
+    {name:'Nghịch Thiên châu', cat:'baovat', status:'con', desc:'Thần Bí Hạt Châu nhặt tại phong nhẫn Ch.7. Chứa 3 không gian bổ trợ tu luyện.', effect:'Gia tốc tu luyện x10, chứa Mộng Cảnh và không gian phụ'},
+  ]
+};
+/* Đặt vào CHAR_DETAIL map khi trang đã load để openCharDetail('Vương Lâm') dùng được */
+document.addEventListener('DOMContentLoaded',()=>{
+  if(typeof CHAR_DETAIL!=='undefined') CHAR_DETAIL['vương lâm']=window._TEST_TRACK_DATA;
+  if(typeof CHAR_LIST!=='undefined' && !CHAR_LIST.find(x=>x.name==='Vương Lâm')){
+    CHAR_LIST.push(window._TEST_TRACK_DATA);
+    if(typeof _buildCharIndex==='function') _buildCharIndex();
+  }
+});
 </script>
 </body>
 </html>
