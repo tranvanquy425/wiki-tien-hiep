@@ -1912,7 +1912,11 @@ function applyWikiData(data) {
   // Nhận dạng bộ (Wiki Sync v5 trả 'ten'; total từ meta.totalChapters)
   if (data.ten)  SERIES.ten = data.ten;
   if (data.meta && data.meta.totalChapters) SERIES.tongChuong = data.meta.totalChapters;
-  if (data.meta)      Object.assign(WIKI_DATA.meta, data.meta);
+  if (data.meta) {
+    Object.assign(WIKI_DATA.meta, data.meta);
+    // Set cache version từ updatedDate — detail files cached cho đến ngày thay data
+    if (data.meta.updatedDate) _detailVer = data.meta.updatedDate.replace(/-/g,'');
+  }
   if (data.cotTruyen) {
     if (data.cotTruyen.chapters && data.cotTruyen.chapters.length > 0)
       WIKI_DATA.cotTruyen.chapters = data.cotTruyen.chapters;
@@ -1948,8 +1952,16 @@ let REALM_DETAIL = {}, ARTIFACT_DETAIL = {}, FACTION_DETAIL = {};
 let REALM_LIST = [], ARTIFACT_LIST = [], FACTION_LIST = [];
 let VOLUME_LIST = [];
 function _normCharName(s){ return (s||'').toLowerCase().replace(/[()\[\]]/g,'').replace(/\s+/g,' ').trim(); }
-async function _fetchJSON(path){
-  try { const r = await fetch(path + '?v=' + Date.now(), { cache:'no-store' }); if(!r.ok) return null; return await r.json(); }
+let _detailVer = 'v1'; // updated from meta.updatedDate after applyWikiData
+async function _fetchJSON(path, bustCache){
+  try {
+    // bustCache=true → fresh (dùng cho tien-nghich.json); mặc định → dùng _detailVer (cache CDN OK)
+    const url = bustCache ? path + '?v=' + Date.now() : path + '?v=' + _detailVer;
+    const opts = bustCache ? {cache:'no-store'} : {};
+    const r = await fetch(url, opts);
+    if(!r.ok) return null;
+    return await r.json();
+  }
   catch(e){ return null; }
 }
 async function loadCharDetail() {
@@ -2515,12 +2527,18 @@ async function initWiki() {
       if (r.ok) {
         const data = await r.json();
         if (data && data.ok) {
-          applyWikiData(data);
-          await loadCharDetail();
+          applyWikiData(data);          // sets _detailVer from meta.updatedDate
           applySeriesIdentity();
-          renderAll();
-          initGlobalSearch();
+          renderAll();                  // render NGAY với WIKI_DATA (char fallback)
+          initGlobalSearch();           // build search index từ data hiện có
           hashChanged();
+          // Load char detail DEFERRED — không block render chính
+          loadCharDetail().then(function(){
+            renderNhanVat();            // cập nhật thẻ nhân vật đầy đủ
+            renderCanhGioi();           // cập nhật cảnh giới
+            renderPhapBao();            // cập nhật pháp bảo
+            initGlobalSearch();         // rebuild search với data đầy đủ
+          }).catch(function(){});
           return; // Xong — không gọi Apps Script
         }
       }
@@ -2538,11 +2556,14 @@ async function initWiki() {
     }
   }
 
-  await loadCharDetail();
   applySeriesIdentity();
-  renderAll();
+  renderAll();                   // render với data đang có
   initGlobalSearch();
   hashChanged();
+  // Deferred detail (fallback branch)
+  loadCharDetail().then(function(){
+    renderNhanVat(); renderCanhGioi(); renderPhapBao(); initGlobalSearch();
+  }).catch(function(){});
 }
 
 initWiki();
