@@ -1176,7 +1176,52 @@
           "text": "- Tóc bạc trắng. Lúc Vương Thiên Thủy bị bức ra gia tộc, **âm thầm giúp đỡ** (không công khai). Vương Lâm được cha dặn phải nhớ ơn. (Ch.2)"
         }
       ],
-      "portrait": "T"
+      "portrait": "T",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — ông cố tổ Vương thị gia tộc; vai vế cao nhất Vương gia",
+        "realm": "(không thấy đề cập — phàm nhân hoặc tu sĩ cấp thấp)",
+        "firstChapter": 2,
+        "appearance": "Tóc bạc trắng",
+        "personality": [
+          "Âm thầm giúp người yếu thế",
+          "Không công khai nhưng không bỏ mặc",
+          "Ký ức VL nhớ ơn theo lời cha dặn"
+        ],
+        "specialties": [
+          "(không thấy đề cập)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 2,
+          "arc": "Triệu quốc",
+          "event": "Âm thầm giúp Vương Thiên Thủy khi bị bức khỏi gia tộc",
+          "desc": "Không công khai nhưng tạo điều kiện bí mật; Vương Lâm được cha dặn phải nhớ ơn.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(không thấy đề cập)",
+          "chapter": 2,
+          "location": "Triệu quốc",
+          "gained": "Vai vế cao nhất Vương gia; cảnh giới không thấy đề cập",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "anthan",
+          "desc": "Ân nhân gián tiếp — âm thầm giúp cha VL; VL nhớ ơn theo lời dặn của phụ thân"
+        },
+        {
+          "name": "Vương Thiên Thủy",
+          "type": "anthan",
+          "desc": "Âm thầm giúp đỡ khi bị bức khỏi gia tộc"
+        }
+      ]
     },
     {
       "name": "Trương Cuồng (张狂)",
@@ -2145,7 +2190,47 @@
           "text": "- Người chỉ định **Vương Trác** vào Hằng Nhạc qua kênh nội bộ, không qua trắc thí công khai. Cũng là người đã \"cảm thấy hứng thú với Vương thị gia tộc\" → cấp cho gia tộc 3 danh ngạch. (Ch.2)\n- Chưa xuất hiện trực tiếp."
         }
       ],
-      "portrait": "Đ"
+      "portrait": "Đ",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — quan tâm đến Vương thị gia tộc; sư phụ chỉ định Vương Trác",
+        "realm": "(không thấy đề cập rõ — chưa xuất hiện trực tiếp trong phạm vi nghiên cứu)",
+        "firstChapter": 2,
+        "appearance": "(chưa lộ diện trực tiếp trong tiểu thuyết)",
+        "personality": [
+          "Có ý định riêng với Vương thị gia tộc",
+          "Hỗ trợ Vương Trác tiến nhanh nhờ Tạo Hóa Đan",
+          "Quan tâm nhưng có toan tính"
+        ],
+        "specialties": [
+          "(không thấy đề cập rõ)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 2,
+          "arc": "Hằng Nhạc phái",
+          "event": "Chỉ định Vương Trác vào Hằng Nhạc — cấp 3 danh ngạch",
+          "desc": "Quan tâm Vương thị gia tộc; chỉ định VT vào Hằng Nhạc qua kênh nội bộ không qua trắc thí công khai.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(không thấy đề cập rõ — chưa lộ diện)",
+          "chapter": 2,
+          "location": "Hằng Nhạc phái",
+          "gained": "Thượng tiên Hằng Nhạc; chưa xuất hiện trực tiếp trong phạm vi nghiên cứu",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Trác",
+          "type": "anthan",
+          "desc": "Sư phụ chỉ định; hỗ trợ Vương Trác xin Tạo Hóa Đan tu luyện nhanh"
+        }
+      ]
     },
     {
       "name": "Chưởng môn Hằng Nhạc",
@@ -2197,7 +2282,47 @@
           "text": "- Tóc dài đen tuyền, lông mi rậm, đôi mắt đen sáng trong, xinh đẹp. (Ch.20)\n- Nhà nhiều thế hệ làm trung y — biết rõ loại hoa Vương Trác đem tới là hoa rừng bình thường. Bóc mẽ Vương Trác. (Ch.20)"
         }
       ],
-      "portrait": "C"
+      "portrait": "C",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — đệ tử đan phòng; nhà nhiều thế hệ làm trung y",
+        "realm": "Ngưng Khí kỳ (đệ tử nội môn đan phòng)",
+        "firstChapter": 20,
+        "appearance": "Tóc dài đen tuyền, lông mi rậm, đôi mắt đen sáng trong, xinh đẹp",
+        "personality": [
+          "Thẳng thắn — vạch trần sự thật không ngần ngại",
+          "Kiến thức thực vật học từ gia truyền trung y",
+          "Không a dua theo số đông"
+        ],
+        "specialties": [
+          "Kiến thức thực vật/dược học từ gia truyền trung y"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 20,
+          "arc": "Hằng Nhạc phái — đan phòng",
+          "event": "Bóc mẽ chuyện Vương Trác bịa \"giết đại xà hái hoa\"",
+          "desc": "Nhận ra hoa VT đem tới chỉ là hoa rừng bình thường dựa trên kiến thức thực vật học; không ngần ngại nói thật.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí kỳ",
+          "chapter": 20,
+          "location": "Hằng Nhạc phái",
+          "gained": "Đệ tử đan phòng nội môn",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Trác",
+          "type": "dottu",
+          "desc": "Bóc mẽ sự giả dối của VT trước mặt đám đông"
+        }
+      ]
     },
     {
       "name": "Cô gái có hai núm đồng tiền",
@@ -2632,7 +2757,48 @@
           "text": "Sinh vật hình người da lam, toàn thân ký hiệu cổ quái, dán **9 tấm phù vàng** (mỗi lần kéo một tấm xuống lại hồi phục thân thể & tăng gấp đôi thực lực). Thực chất là **thân thể (thi thể) cũ của lão tổ Ngô Vũ**, sinh thần trí dưới tác dụng âm khí; trong người có \"lực hủy thiên diệt địa\" khiến Ngô Vũ đoạt xá thất bại.\n- Không nói được tiếng người (chỉ vài âm \"Kính\", \"Cực\"; \"oa lạp oa lạp\"); giao tiếp bằng cử chỉ/vẽ tranh.\n- Biết quyền pháp \"**Kính**\"; rành đường trong thành đổ nát; tốt bụng (tặng Vương Lâm pháp bảo huyễn thuật).\n- **Chuyển biến**: đối thủ giao đấu → kết giao → đồng hành Vương Lâm vào Thi Âm tông."
         }
       ],
-      "portrait": "A"
+      "portrait": "A",
+      "bio": {
+        "gender": "Không rõ",
+        "origin": "(không rõ — sinh vật hình người da lam với ký hiệu cổ quái)",
+        "realm": "Tương đương Kết Đan kỳ hoặc cao hơn (không thấy đề cập rõ)",
+        "firstChapter": 62,
+        "appearance": "Hình người da lam, toàn thân ký hiệu cổ quái; dán 9 tấm phù vàng — mỗi tấm kéo xuống hồi phục thân thể và tăng gấp đôi thực lực",
+        "personality": [
+          "Chiến đấu bản năng",
+          "Hồi phục liên tục qua phù vàng",
+          "Không thể thương lượng"
+        ],
+        "specialties": [
+          "9 tấm phù vàng hồi phục + khuếch đại sức mạnh",
+          "Thân thể phi thường"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 62,
+          "arc": "Hằng Nhạc phái khu vực",
+          "event": "Đối đầu VL — bị VL phá dần 9 tấm phù vàng",
+          "desc": "VL phải đối phó chiến thuật phá 9 phù vàng từng cái một; trận chiến minh họa cơ chế phú vàng cổ quái.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(Không rõ — sinh vật đặc biệt)",
+          "chapter": 62,
+          "location": "(không rõ xuất thân)",
+          "gained": "Sinh vật hình người với hệ thống 9 phù vàng tự hồi phục và tăng sức mạnh gấp đôi",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Đối thủ; bị VL phá từng phú vàng để tiêu diệt"
+        }
+      ]
     },
     {
       "name": "Ngô Vũ — lão tổ Thi Âm tông (Nguyên Anh thể)",
@@ -2648,7 +2814,45 @@
           "text": "Một trong các lão tổ **Thi Âm tông**. 300 năm trước tới thành đổ nát đột phá Nguyên Anh thất bại, thi khôi của lão nhân lúc đó phản bội. Lão phải để **Nguyên Anh ly thể**, trốn trong pho tượng (pho tượng che giấu hơi thở). Nay chỉ còn Nguyên Anh thể nhỏ bé suy yếu.\n- Nhờ Vương Lâm về Thi Âm tông cầu cứu **sư huynh Dạ Tự Tại**; đổi lại mở **truyền tống trận**, nhận Vương Lâm làm \"đệ tử\", hứa cho dùng **Địa Âm chi địa** của tông.\n- Lấy Nguyên Anh ra thề không lừa dối.\n- *Cần xác minh*: kết cục (Vương Lâm có cứu được không, Dạ Tự Tại sẽ làm gì)."
         }
       ],
-      "portrait": "N"
+      "portrait": "N",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Thi Âm tông (Triệu quốc) — một trong các lão tổ",
+        "realm": "Nguyên Anh kỳ thể (thi khôi phản bội — không còn nhục thân bình thường)",
+        "firstChapter": 66,
+        "appearance": "Thi khôi Phi Thiên La Sát (thân xác đặc biệt)",
+        "personality": [
+          "Thực dụng — để La Sát (thi khôi phản bội) làm vệ sĩ đổi lấy cơ hội tiếp tục tu luyện"
+        ],
+        "specialties": [
+          "Thi khôi Phi Thiên La Sát phản bội — phải dùng làm vệ sĩ"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 66,
+          "arc": "Thi Âm tông, Triệu quốc",
+          "event": "300 năm trước đột phá Nguyên Anh thất bại — thi khôi phản bội",
+          "desc": "Thất bại đột phá Nguyên Anh ở thành đổ nát; thi khôi phản bội, lão phải bắt làm vệ sĩ để tiếp tục tu luyện.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh kỳ (thể đặc biệt)",
+          "chapter": 66,
+          "location": "Thi Âm tông",
+          "gained": "Lão tổ Thi Âm tông; nhục thân đặc biệt sau thất bại đột phá",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Dạ Tự Tại",
+          "type": "giađình",
+          "desc": "Sư huynh — cùng Thi Âm tông Triệu quốc"
+        }
+      ]
     },
     {
       "name": "Dạ Tự Tại (夜自在)",
@@ -2765,7 +2969,58 @@
           "text": "Bạch y trung niên, Ngưng Khí tầng 15 đại viên mãn, **đệ tử thứ sáu của Tức Mặc lão nhân**. Hút máu người luyện huyết châu tăng tu vi; khống chế Trương Hổ làm nô lệ 10 năm. Sở hữu thanh phi kiếm xanh biếc (đan bảo thuấn di) + vỏ kiếm cổ. Bị Vương Lâm giết bằng ngọc phù 9 phù văn (Ch.68); pháp bảo rơi vào tay Vương Lâm."
         }
       ],
-      "portrait": "B"
+      "portrait": "B",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hằng Nhạc phái (Triệu quốc) — đệ tử thứ sáu của Tức Mặc lão nhân; bạch y trung niên",
+        "realm": "Ngưng Khí tầng 15 đại viên mãn",
+        "firstChapter": 66,
+        "appearance": "Bạch y trung niên",
+        "personality": [
+          "Tàn nhẫn — hút máu người luyện huyết châu tăng tu vi",
+          "Khống chế người dùng huyết châu",
+          "Bị giết bởi Vương Lâm"
+        ],
+        "specialties": [
+          "Hút máu người luyện huyết châu",
+          "Ngưng Khí tầng 15 đại viên mãn chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 66,
+          "arc": "Tu Ma hải khu vực",
+          "event": "Khống chế Trương Hổ bằng độc + huyết châu — bị VL giết",
+          "desc": "Hút máu Trương Hổ (bạn VL) khống chế; VL tìm đến giải cứu Trương Hổ bằng cách giết Bạch Triển.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Ngưng Khí tầng 15 đại viên mãn",
+          "chapter": 66,
+          "location": "Tu Ma hải",
+          "gained": "Đệ tử thứ 6 Tức Mặc lão nhân; đỉnh Ngưng Khí chưa đột phá",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Bị VL giết khi giải cứu Trương Hổ; cái chết báo tin cho Tức Mặc lão nhân điều tra"
+        },
+        {
+          "name": "Trương Hổ",
+          "type": "kethu",
+          "desc": "Nạn nhân bị khống chế bằng huyết châu"
+        },
+        {
+          "name": "Tức Mặc lão nhân",
+          "type": "anthan",
+          "desc": "Sư phụ — mất đệ tử thứ 6, sẽ điều tra"
+        }
+      ]
     },
     {
       "name": "Đằng Lệ — thiếu chủ Đằng gia",
@@ -3202,7 +3457,53 @@
           "text": "Sứ giả liên minh giám sát Triệu quốc, ở **Thông Thiên Tháp**; thân hình béo tròn, tươi cười nhưng thâm sâu. Tu vi rất cao (toàn bộ Nguyên Anh kỳ Triệu quốc phải khom người trước hắn). Kiến thức uyên bác: nhận ra ngay pháp bảo **Thiên Huyễn** (Huyễn thành), **Lam Băng Thiểm** (Hoàng Tuyền Tông), Hồn Phiên các cấp. Không can thiệp tranh đoạt, nhưng **cố ý để Đằng Hóa Nguyên \"diễn\"** với Vương Lâm để xem trò vui. Cuối đợt **định lao vào thông đạo Vực Ngoại tranh Nghịch Thiên châu** (thất thanh \"Là...!\") nhưng bị đẩy ngược, rồi bị Cự Ma tộc đe dọa, tức tối bỏ đi. (Ch.83, 97, 99, 100)"
         }
       ],
-      "portrait": "L"
+      "portrait": "L",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Triệu quốc — sứ giả Tu Chân Liên Minh giám sát Triệu quốc; đóng ở Thông Thiên Tháp",
+        "realm": "Tu vi rất cao (toàn bộ Nguyên Anh Triệu quốc không địch nổi)",
+        "firstChapter": 99,
+        "appearance": "Thân hình béo tròn, tươi cười nhưng thâm sâu",
+        "personality": [
+          "Tươi cười bề ngoài nhưng thâm sâu toan tính",
+          "Quyền lực thực sự sau lưng Triệu quốc",
+          "Phê bình Hồn Phiên của Đằng Hóa Nguyên \"chưa đủ\""
+        ],
+        "specialties": [
+          "Thông Thiên Tháp kỳ bảo",
+          "Tu vi vượt xa Nguyên Anh kỳ Triệu quốc"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 99,
+          "arc": "Triệu quốc",
+          "event": "Chứng kiến quyết chiến VL-Đằng Hóa Nguyên — phê bình Hồn Phiên \"chưa đủ\"",
+          "desc": "Đứng ở Thông Thiên Tháp quan sát; lộ nhận xét chê bai pháp bảo ĐHN; thế lực ngầm Triệu quốc.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(Vượt xa Nguyên Anh kỳ)",
+          "chapter": 99,
+          "location": "Thông Thiên Tháp, Triệu quốc",
+          "gained": "Sứ giả Tu Chân Liên Minh; tu vi toàn bộ Nguyên Anh Triệu quốc không địch nổi",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "dottu",
+          "desc": "Quan sát VL từ xa trong Thông Thiên Tháp; chưa trực tiếp đối đầu trong phạm vi nghiên cứu"
+        },
+        {
+          "name": "Đằng Hóa Nguyên",
+          "type": "banhuu",
+          "desc": "Quan sát và đánh giá hành động của ĐHN; phê bình pháp bảo \"chưa đủ\""
+        }
+      ]
     },
     {
       "name": "Người khổng lồ Cự Ma tộc — chủng tộc Vực Ngoại",
@@ -5362,7 +5663,52 @@
           "text": "Đệ tử Chiến Thần Điện, Hỏa Phần quốc; tính **nhát gan**, mê tiểu sư muội (Từ Tư). Ở Vực Ngoại đuổi theo \"hạt châu tự bay\" (Nghịch Thiên châu) thì bị vết nứt không gian nuốt, sau bị Hứa Hạo & Cát Dương giết (Ch.103). **Thân thể trở thành vỏ đoạt xá của Vương Lâm** — từ đây \"Mã Lương\" chính là Vương Lâm cải trang. Vai trò: cung cấp thân phận & vỏ bọc cho nhân vật chính tại Hỏa Phần quốc.\n\n---"
         }
       ],
-      "portrait": "M"
+      "portrait": "M",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hỏa Phần quốc — đệ tử Chiến Thần Điện; nhát gan, mê tiểu sư muội Từ Tư",
+        "realm": "Trúc Cơ kỳ hoặc thấp hơn (không thấy đề cập rõ)",
+        "firstChapter": 113,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Nhát gan",
+          "Mê tiểu sư muội",
+          "Đuổi theo \"hạt châu tự bay\" rồi bị VL đoạt xá"
+        ],
+        "specialties": [
+          "(không thấy đề cập trong tiểu thuyết)"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 113,
+          "arc": "Vực Ngoại / Hỏa Phần quốc",
+          "event": "Đuổi theo Nghịch Thiên châu — bị Vương Lâm đoạt xá",
+          "desc": "Thân thể bị VL chiếm; VL dùng thân xác Mã Lương làm vỏ bọc hành động tại Hỏa Phần quốc.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "(không thấy đề cập rõ)",
+          "chapter": 113,
+          "location": "Hỏa Phần quốc",
+          "gained": "Đệ tử Chiến Thần Điện; bị VL đoạt xá thân thể",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Thân thể bị VL đoạt xá — VL dùng làm vỏ bọc tại Hỏa Phần quốc"
+        },
+        {
+          "name": "Từ Tư",
+          "type": "daolu",
+          "desc": "Tiểu sư muội Mã Lương từng mê — hôn ước sau này bị VL (trong xác Mã Lương) gây ra bi kịch"
+        }
+      ]
     },
     {
       "name": "Phượng Loan (鳳鸞)",
@@ -5378,7 +5724,52 @@
           "text": "**Nguyên Anh sơ kỳ**, sư phụ của Chu Tử Hồng. Ban đầu tìm Vương Lâm (thân Mã Lương) đòi trả bản mệnh tinh huyết của đệ tử, hứa bỏ qua chuyện đoạt xá (Ch.113). Đến Ch.120 **nhận Vương Lâm làm đệ tử ký danh** để cứu hắn khỏi tay Chu Cẩn → trở thành chỗ dựa lớn của Vương Lâm trong Hỏa Phần minh. Đạo lữ của Dương Sâm.\n\n---"
         }
       ],
-      "portrait": "P"
+      "portrait": "P",
+      "bio": {
+        "gender": "Nữ",
+        "origin": "Hỏa Phần quốc — Nguyên Anh sơ kỳ; sư phụ Chu Tử Hồng",
+        "realm": "Nguyên Anh sơ kỳ",
+        "firstChapter": 113,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Bảo vệ đệ tử — tìm VL đòi trả bản mệnh tinh huyết con",
+          "Thực dụng — chấp nhận mặc cả khi không địch lại VL",
+          "Biết giới hạn"
+        ],
+        "specialties": [
+          "Nguyên Anh sơ kỳ chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 113,
+          "arc": "Hỏa Phần quốc",
+          "event": "Tìm VL đòi trả tinh huyết Chu Tử Hồng — đổi phần bản đồ",
+          "desc": "Ban đầu muốn đòi bản mệnh tinh huyết con gái (đang bị VL khống chế); chấp nhận mặc cả vì không địch lại; đổi phần bản đồ cho VL đổi lấy tự do của CTC.",
+          "major": true
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh sơ kỳ",
+          "chapter": 113,
+          "location": "Hỏa Phần quốc",
+          "gained": "Sư phụ và mẹ của Chu Tử Hồng",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "kethu",
+          "desc": "Đối thủ — tìm VL đòi tự do cho con; mặc cả trao bản đồ để giải cứu con"
+        },
+        {
+          "name": "Chu Tử Hồng",
+          "type": "giađình",
+          "desc": "Con gái và đệ tử — VL giữ bản mệnh tinh huyết của CTC để ép phục"
+        }
+      ]
     },
     {
       "name": "Dương Sâm (楊森)",
@@ -5394,7 +5785,51 @@
           "text": "**Nguyên Anh trung kỳ đỉnh phong**, đạo lữ của Phượng Loan, một trong các cường giả tứ đại tông phái. Tặng Vương Lâm **một ngọc phù cấp Nguyên Anh** (Ch.120) — bảo mệnh quý giá cho nhân vật chính bước vào chiến dịch xâm lược Tuyên Vũ quốc.\n\n---"
         }
       ],
-      "portrait": "D"
+      "portrait": "D",
+      "bio": {
+        "gender": "Nam",
+        "origin": "Hỏa Phần quốc — Nguyên Anh trung kỳ đỉnh phong; đạo lữ Phượng Loan; một trong cường giả tứ đại tông phái",
+        "realm": "Nguyên Anh trung kỳ đỉnh phong",
+        "firstChapter": 113,
+        "appearance": "(không thấy đề cập trong tiểu thuyết)",
+        "personality": [
+          "Nhìn xa — tặng ngọc phù cho VL khi nhận ra tiềm năng",
+          "Thực dụng — không đối đầu khi biết thua"
+        ],
+        "specialties": [
+          "Nguyên Anh trung kỳ chiến đấu"
+        ]
+      },
+      "timeline": [
+        {
+          "chapter": 113,
+          "arc": "Hỏa Phần quốc",
+          "event": "Tặng VL một ngọc phù cấp Nguyên Anh",
+          "desc": "Nhận ra VL có tiềm năng vượt bậc; chọn gây thiện cảm thay vì đối đầu; tặng ngọc phù như cầu nối.",
+          "major": false
+        }
+      ],
+      "cultivation": [
+        {
+          "realm": "Nguyên Anh trung kỳ đỉnh phong",
+          "chapter": 113,
+          "location": "Hỏa Phần quốc",
+          "gained": "Cường giả tứ đại tông phái; đạo lữ Phượng Loan",
+          "congphap": ""
+        }
+      ],
+      "relations": [
+        {
+          "name": "Vương Lâm",
+          "type": "banhuu",
+          "desc": "Tặng ngọc phù Nguyên Anh kỳ — xây thiện cảm với kẻ có tiềm năng vượt bậc"
+        },
+        {
+          "name": "Phượng Loan",
+          "type": "daolu",
+          "desc": "Đạo lữ — cùng hành động trong arc Hỏa Phần quốc"
+        }
+      ]
     },
     {
       "name": "Từ Tư (徐絲)",
