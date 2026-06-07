@@ -669,6 +669,21 @@
 .cm2-rel-name.cm2-rel-link{cursor:pointer;color:#d4af6e;}
 .cm2-rel-name.cm2-rel-link:hover{text-decoration:underline;}
 .cm2-bs-hong{background:rgba(180,80,20,.18);color:#fb923c;border:1px solid rgba(180,80,20,.35);padding:1px 7px;border-radius:10px;font-size:10px;font-weight:700;}
+/* ── Timeline ribbon v2.2 (thay arc-hdr) ── */
+.cm2-tl-ribbons{display:flex;flex-direction:column;gap:6px;margin-top:4px;}
+.cm2-tl-ribbon{display:flex;gap:0;border-radius:8px;overflow:hidden;border:1px solid rgba(255,255,255,.06);}
+.cm2-tl-rb{width:4px;flex-shrink:0;}
+.cm2-tlrb-major{background:#d4af6e;}
+.cm2-tlrb-normal{background:rgba(90,150,210,.6);}
+.cm2-tlrb-minor{background:rgba(160,160,160,.3);}
+.cm2-tl-rbody{flex:1;padding:8px 12px;background:rgba(255,255,255,.03);}
+.cm2-tl-rbch-major{font-size:10px;font-weight:700;color:#d4af6e;letter-spacing:.4px;margin-bottom:3px;}
+.cm2-tl-rbch-normal{font-size:10px;font-weight:600;color:rgba(90,150,210,.85);letter-spacing:.4px;margin-bottom:3px;}
+.cm2-tl-rbch-minor{font-size:10px;color:rgba(232,220,194,.35);letter-spacing:.4px;margin-bottom:2px;}
+.cm2-tl-rbev-major{font-size:13px;font-weight:600;color:#f0d89a;margin-bottom:4px;line-height:1.4;}
+.cm2-tl-rbev-normal{font-size:12.5px;font-weight:500;color:#e8dcc2;margin-bottom:3px;line-height:1.4;}
+.cm2-tl-rbev-minor{font-size:11.5px;color:rgba(232,220,194,.55);line-height:1.4;}
+.cm2-tl-rbdesc{font-size:11.5px;color:#a8a090;line-height:1.58;margin-top:3px;}
 </style>
 </head>
 <body>
@@ -2205,19 +2220,22 @@ function _renderCharHero(c){
   let t2='';
   if(c.timeline&&c.timeline.length){
     const _tlS=[...c.timeline].sort((a,b)=>Number(a.chapter||0)-Number(b.chapter||0));
-    const _tlG=[];let _tlA=null,_tlC=null;
-    _tlS.forEach(t=>{const ak=t.arc||'';if(ak!==_tlA){_tlC={arc:ak,items:[]};_tlG.push(_tlC);_tlA=ak;}_tlC.items.push(t);});
-    t2='<div class="cm2-timeline">'+_tlG.map(g=>
-      (g.arc?'<div class="cm2-tl-arc-hdr">'+_esc(g.arc)+'</div>':'')+
-      g.items.map(t=>
-        '<div class="cm2-tl-item'+(t.major?' cm2-tl-major':'')+'">'+
-        '<div class="cm2-tl-dot"></div>'+
-        (t.chapter!=null?'<div class="cm2-tl-ch">Ch.'+_esc(t.chapter)+'</div>':'')+
-        (t.event?'<div class="cm2-tl-event">'+_esc(t.event)+'</div>':'')+
-        (t.desc?'<div class="cm2-tl-desc">'+_safeText(t.desc)+'</div>':'')+
-        '</div>'
-      ).join('')
-    ).join('')+'</div>';
+    const _IMP={
+      major:{rb:'cm2-tlrb-major',ch:'cm2-tl-rbch-major',ev:'cm2-tl-rbev-major'},
+      normal:{rb:'cm2-tlrb-normal',ch:'cm2-tl-rbch-normal',ev:'cm2-tl-rbev-normal'},
+      minor: {rb:'cm2-tlrb-minor', ch:'cm2-tl-rbch-minor', ev:'cm2-tl-rbev-minor'},
+    };
+    t2='<div class="cm2-tl-ribbons">'+_tlS.map(t=>{
+      const imp=t.importance||(t.major?'major':'normal');
+      const cfg=_IMP[imp]||_IMP.normal;
+      return '<div class="cm2-tl-ribbon">'+
+        '<div class="cm2-tl-rb '+cfg.rb+'"></div>'+
+        '<div class="cm2-tl-rbody">'+
+          (t.chapter!=null?'<div class="'+cfg.ch+'">Ch.'+_esc(String(t.chapter))+'</div>':'')+
+          '<div class="'+cfg.ev+'">'+_esc(t.event||'')+'</div>'+
+          (t.desc?'<div class="cm2-tl-rbdesc">'+_safeText(t.desc)+'</div>':'')+
+        '</div></div>';
+    }).join('')+'</div>';
   }else{t2=_renderDetailSecs(tm.kinhlich,'_openPopup')||'<p class="cm-empty">Chưa có dữ liệu. W3 bổ sung <code>timeline[]</code> hoặc section label chứa "mốc/arc/lịch sử".</p>';}
 
   /* === TAB 3: QUAN HỆ NHÂN MẠCH === */
