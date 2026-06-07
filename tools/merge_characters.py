@@ -227,3 +227,124 @@ def merge_realms(items):    return merge_entities(items)
 # merge_factions() đã có ở trên; merge_characters() giữ riêng (có _completeness role/aff).
 # KHUYẾN NGHỊ pipeline: characters -> merge_characters(); artifacts -> merge_artifacts();
 #   realms -> merge_realms(); factions -> merge_factions(). Tất cả khóa đều lowercase.
+
+
+# ============ PARSE @BLOCKS STRUCTURED (W3, 2026-06-07 — KHUNG HIỂN THỊ CHUẨN v2) ============
+# Đọc 5 khối @bio/@timeline/@cultivation/@relations/@inventory trong text nhân vật.
+# Injected vào entry JSON dưới đúng key (bio, timeline, cultivation, relations, inventory).
+# Pipeline gọi inject_at_blocks(entry, char_text) ngay sau khi tạo entry nhân vật.
+
+_VALID_RTYPES = {"daolu", "giađình", "banhuu", "anthan", "dottu", "kethu"}
+_VALID_CATS_INV = {"baovat","dandung","vatpham","thientai","congphap","khanang","tienthuat","bua"}
+_VALID_INV_STATUS = {"con","mat","dalung","datang","donghop","bicuop"}
+
+def _parse_bio_block(lines):
+    bio = {}
+    for ln in lines:
+        ln = ln.strip()
+        if not ln or ":" not in ln: continue
+        k, _, v = ln.partition(":")
+        k, v = k.strip().lower(), v.strip()
+        if not k or not v: continue
+        if k in ("personality", "specialties"):
+            bio[k] = [x.strip() for x in v.split("|") if x.strip()]
+        elif k == "firstchapter":
+            try: bio["firstChapter"] = int(v)
+            except: bio["firstChapter"] = v
+        else:
+            bio[k] = v
+    return bio
+
+def _parse_timeline_block(lines):
+    items = []
+    for ln in lines:
+        ln = ln.strip()
+        if not ln: continue
+        parts = [p.strip() for p in ln.split("|")]
+        if len(parts) < 3: continue
+        chapter_raw = parts[0].lstrip("Ch.").strip()
+        try: ch = int(chapter_raw.split("-")[0].split("~")[-1].replace("(","").strip())
+        except: ch = 0
+        major = len(parts) > 4 and parts[4].strip().lower() in ("major","true","1")
+        items.append({"chapter": ch, "arc": parts[1], "event": parts[2],
+                      "desc": parts[3] if len(parts) > 3 else "", "major": major})
+    return items
+
+def _parse_cultivation_block(lines):
+    items = []
+    for ln in lines:
+        ln = ln.strip()
+        if not ln: continue
+        parts = [p.strip() for p in ln.split("|")]
+        if len(parts) < 2: continue
+        chapter_raw = parts[1].lstrip("Ch.").strip()
+        chapter_raw = re.sub(r"[(].*?[)]","",chapter_raw).split("-")[0].strip() or "0"
+        try: ch = int(chapter_raw)
+        except: ch = 0
+        items.append({"realm": parts[0], "chapter": ch,
+                      "location": parts[2] if len(parts) > 2 else "",
+                      "gained":   parts[3] if len(parts) > 3 else ""})
+    return sorted(items, key=lambda x: x["chapter"])
+
+def _parse_relations_block(lines):
+    items = []
+    for ln in lines:
+        ln = ln.strip()
+        if not ln: continue
+        parts = [p.strip() for p in ln.split("|")]
+        if len(parts) < 2: continue
+        rtype = parts[1].lower()
+        if rtype not in _VALID_RTYPES: rtype = "banhuu"
+        items.append({"name": parts[0], "type": rtype,
+                      "desc": parts[2] if len(parts) > 2 else ""})
+    return items
+
+def _parse_inventory_block(lines):
+    items = []
+    for ln in lines:
+        ln = ln.strip()
+        if not ln: continue
+        parts = [p.strip() for p in ln.split("|")]
+        if len(parts) < 3: continue
+        cat    = parts[1].lower() if len(parts) > 1 else "vatpham"
+        status = parts[2].lower() if len(parts) > 2 else "con"
+        if cat    not in _VALID_CATS_INV:  cat    = "vatpham"
+        if status not in _VALID_INV_STATUS: status = "con"
+        items.append({"name": parts[0], "cat": cat, "status": status,
+                      "desc":   parts[3] if len(parts) > 3 else "",
+                      "effect": parts[4] if len(parts) > 4 else ""})
+    return items
+
+_AT_PARSERS = {
+    "bio":         _parse_bio_block,
+    "timeline":    _parse_timeline_block,
+    "cultivation": _parse_cultivation_block,
+    "relations":   _parse_relations_block,
+    "inventory":   _parse_inventory_block,
+}
+
+def parse_at_blocks(text):
+    """Trích xuất tất cả @tag...@end blocks từ text nhân vật. Trả dict {tag: data}."""
+    result = {}
+    pattern = re.compile(
+        r"@(bio|timeline|cultivation|relations|inventory)\b([\s\S]*?)@end",
+        re.IGNORECASE
+    )
+    for m in pattern.finditer(text):
+        tag   = m.group(1).lower()
+        body  = m.group(2)
+        lines = body.strip().splitlines()
+        parser = _AT_PARSERS.get(tag)
+        if parser:
+            parsed = parser(lines)
+            if parsed:
+                result[tag] = parsed
+    return result
+
+def inject_at_blocks(entry, text):
+    """Parse @blocks từ text rồi inject vào entry dict (bio/timeline/cultivation/relations/inventory)."""
+    blocks = parse_at_blocks(text)
+    for k, v in blocks.items():
+        if v:
+            entry[k] = v
+    return entry
